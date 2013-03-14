@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 
+require 'rubygems'
+require 'json'
 
-## generates mock billing data files 
+## generates mock billing data files
 # log format
-# timestamp (in ms), user_id, resource_id, zone_id, cost
+# timestamp (in ms), customer_id, resource_id, zone_id, cost
 
 ## multi threaded version... ruby doesn't have native threads, so threading has no effect
 ## execute with jruby to see true threading
@@ -14,21 +16,31 @@ days=10
 entries=100000
 # end config
 
-#domains = %w[facebook.com  yahoo.com   google.com   zynga.com    wikipedia.org   sf.craigslist.org   twitter.com    amazon.com    flickr.com    cnn.com      usatoday.com      npr.org    foxnews.com      comedycentral.com   youtube.com   hulu.com   bbc.co.uk  nytimes.com   sfgate.com   funnyordie.com]
 
 # overwrite this function to customize log generation
 def generate_log(timestamp)
 
-  user_id = rand(1000000) + 1
-  resource_id = rand(20) + 1
+  customer_id = rand(1000000) + 1
+  resource_id = rand(10) + 1
   zone_id = rand(10) + 1
 
-  #cost is in hudreds of cents, could be zero
+  #cost is in cents, could be zero
   cost = rand(200) - 20
   cost = 0 if cost < 0
 
-  logline = "#{timestamp},#{user_id},#{resource_id},#{zone_id},#{cost}"
+  logline = "#{timestamp},#{customer_id},#{resource_id},#{zone_id},#{cost}"
   #puts logline
+
+  #json
+  #dict = {"timestamp" =>  timestamp,
+    #"customer_id" =>  customer_id,
+    #"resource_id" => resource_id,
+    #"zone_id" => zone_id,
+    #"cost" => cost
+  #}
+  #logline = JSON::generate(dict)
+
+
   logline
 end
 
@@ -43,8 +55,8 @@ threads = []
 0.upto(days-1) do |day|
 
   threads << Thread.new(day) do |myday|
-    start_ts = Time.local(2010, 1, 1) + myday * 24 * 3600
-    end_ts = Time.local(2010, 1, 1 , 23, 59, 59) + myday * 24 * 3600
+    start_ts = Time.local(2012, 1, 1) + myday * 24 * 3600
+    end_ts = Time.local(2012, 1, 1 , 23, 59, 59) + myday * 24 * 3600
     filename = start_ts.strftime("%Y-%m-%d") + ".log"
     puts "writing #{filename}"
     last_ts = start_ts

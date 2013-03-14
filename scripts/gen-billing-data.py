@@ -2,33 +2,41 @@
 
 ## generates mock billing data files
 ## log format
-##   timestamp (in ms), user_id, resource_id, zone_id, cost
+##   timestamp (in ms), customer_id, resource_id, zone_id, cost
 
 ## timestamp converstions testing site : http://www.epochconverter.com/
 
 
 ## ----- config
 days=10
-entries_per_day=10000
+entries_per_day=100000
 ## --- end config
 
 
 import os
 import datetime as dt
 import random
+import json
 
 # overwrite this function to customize log generation
 def generate_log(timestamp):
-  user_id = random.randint(1,1000000)
-  resource_id = random.randint(1,20)
+  customer_id = random.randint(1,1000000)
+  resource_id = random.randint(1,10)
   zone_id = random.randint(1,10)
 
-  #cost is in hudreds of cents, could be zero
+  #cost is in cents, could be zero
   cost = random.randint(1,200) - 20
   if (cost < 0):
     cost = 0
 
-  logline = "%s, %s, %s, %s, %s" % (timestamp, user_id, resource_id, zone_id, cost)
+  #csv
+  logline = "%s, %s, %s, %s, %s" % (timestamp, customer_id, resource_id, zone_id, cost)
+
+  #json
+  #dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'zone_id': zone_id,  'cost':cost}
+  #logline = json.dumps(dict)
+
+
   #print logline
   return logline
 
@@ -43,7 +51,7 @@ if __name__ == '__main__':
   epoch = dt.datetime(1970,1,1)
 
   year_start = dt.datetime(2012, 1, 1)
-  for day in range(1, days+1):
+  for day in range(0, days):
     day_delta = dt.timedelta(days=day)
     start_ts = year_start + day_delta
     end_ts = dt.datetime(start_ts.year, start_ts.month, start_ts.day, 23, 59, 59)
