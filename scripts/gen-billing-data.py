@@ -2,7 +2,7 @@
 
 ## generates mock billing data files
 ## log format
-##   timestamp (in ms), customer_id, resource_id, zone_id, cost
+##   timestamp (in ms), customer_id, resource_id, qty, cost
 
 ## timestamp converstions testing site : http://www.epochconverter.com/
 
@@ -22,7 +22,7 @@ import json
 def generate_log(timestamp):
   customer_id = random.randint(1,1000000)
   resource_id = random.randint(1,10)
-  zone_id = random.randint(1,10)
+  qty = random.randint(0,100)
 
   #cost is in cents, could be zero
   cost = random.randint(1,200) - 20
@@ -30,10 +30,10 @@ def generate_log(timestamp):
     cost = 0
 
   #csv
-  logline = "%s, %s, %s, %s, %s" % (timestamp, customer_id, resource_id, zone_id, cost)
+  logline = "%s, %s, %s, %s, %s" % (timestamp, customer_id, resource_id, qty, cost)
 
   #json
-  #dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'zone_id': zone_id,  'cost':cost}
+  #dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'qty': qty,  'cost':cost}
   #logline = json.dumps(dict)
 
 

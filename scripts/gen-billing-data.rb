@@ -5,7 +5,7 @@ require 'json'
 
 ## generates mock billing data files
 # log format
-# timestamp (in ms), customer_id, resource_id, zone_id, cost
+# timestamp (in ms), customer_id, resource_id, qty, cost
 
 ## multi threaded version... ruby doesn't have native threads, so threading has no effect
 ## execute with jruby to see true threading
@@ -22,20 +22,20 @@ def generate_log(timestamp)
 
   customer_id = rand(1000000) + 1
   resource_id = rand(10) + 1
-  zone_id = rand(10) + 1
+  qty = rand(100)
 
   #cost is in cents, could be zero
   cost = rand(200) - 20
   cost = 0 if cost < 0
 
-  logline = "#{timestamp},#{customer_id},#{resource_id},#{zone_id},#{cost}"
+  logline = "#{timestamp}, #{customer_id}, #{resource_id}, #{qty}, #{cost}"
   #puts logline
 
   #json
   #dict = {"timestamp" =>  timestamp,
     #"customer_id" =>  customer_id,
     #"resource_id" => resource_id,
-    #"zone_id" => zone_id,
+    #"qty" => zone_id,
     #"cost" => cost
   #}
   #logline = JSON::generate(dict)
