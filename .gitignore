@@ -4,3 +4,4 @@
 *.gz
 */bin
 *.class
+*.jar
