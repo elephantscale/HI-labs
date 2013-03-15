@@ -1,0 +1,10 @@
+{"cost": 155, "timestamp": 1325376000000, "customer_id": 1, "qty": 12, "resource_id": 1}
+{"cost": 0, "timestamp": 1325376000864, "customer_id": 2, "qty": 89, "resource_id": 4}
+{"cost": 55, "timestamp": 1325376001728, "customer_id": 1, "qty": 13, "resource_id": 8}
+{"cost": 97, "timestamp": 1325376002592, "customer_id": 2, "qty": 9, "resource_id": 9}
+{"cost": 40, "timestamp": 1325376003456, "customer_id": 3, "qty": 40, "resource_id": 10}
+{"cost": 163, "timestamp": 1325376004320, "customer_id": 4, "qty": 28, "resource_id": 2}
+{"cost": 71, "timestamp": 1325376005184, "customer_id": 5, "qty": 33, "resource_id": 9}
+{"cost": 143, "timestamp": 1325376006048, "customer_id": 5, "qty": 73, "resource_id": 2}
+{"cost": 77, "timestamp": 1325376006912, "customer_id": 6, "qty": 90, "resource_id": 4}
+{"cost": 85, "timestamp": 1325376007776, "customer_id": 6, "qty": 43, "resource_id": 9}
