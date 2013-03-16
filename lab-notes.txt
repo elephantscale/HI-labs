@@ -19,31 +19,6 @@ lets copy sample data into HDFS
   $ hadoop dfs -put data/billing-data/sample.txt   billing/in/
 
 
-first lab : calculate customer total
-project dir : /mr-billing
-you can open the project in eclipse
-
-edit the file : /mr-bililng/src/hi/mr/BillingTotal.java
-complete the TODO items
-
-compile the code:
-  $ cd mr-billing
-  $ ../compile.sh
-this should create a jar file called 'a.jar'
-
-we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in/sample.txt   billing/out
-
-Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out/part-r-00000
-or
-Browse HDFS file system at
-  http://namenode:50070
-  http://localhost:50070
-
-
-Once the sample data is working, lets try this on more data
-
 Generating more data: run python script or ruby script
   $ cd scripts
   $ ruby gen-billing-data.rb
@@ -55,9 +30,13 @@ this will generate a bunch of log files in the current dir
 copy the files into hdfs:
   $ hadoop dfs -put *.log   billing/in/
 
-run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in   billing/out2
-note 1 : we are supplying an input dir (not a single file)
-note 2 : specified a different output dir
 
-=================
+Browsing HDFS File System using UI
+---
+go to : http://<namenode>:50070
+        http://localhost:50070
+
+Click on 'Browse File System'
+Navigate  to    'user'  --> '<your username>'
+  eg:   /user/sujee
+This is your 'home directory' in HDFS.

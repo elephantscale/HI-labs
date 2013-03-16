@@ -31,7 +31,7 @@ def generate_log(timestamp)
   logline = "#{timestamp}, #{customer_id}, #{resource_id}, #{qty}, #{cost}"
   #puts logline
 
-  #json
+  ## generate JSON format
   #dict = {"timestamp" =>  timestamp,
     #"customer_id" =>  customer_id,
     #"resource_id" => resource_id,

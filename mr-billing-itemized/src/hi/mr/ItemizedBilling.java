@@ -16,11 +16,11 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class BillingTotal2 extends Configured implements Tool
+public class ItemizedBilling extends Configured implements Tool
 {
     public static void main(String[] args) throws Exception
     {
-        int res = ToolRunner.run(new Configuration(), new BillingTotal2(), args);
+        int res = ToolRunner.run(new Configuration(), new ItemizedBilling(), args);
         System.exit(res);
     }
 
@@ -39,7 +39,7 @@ public class BillingTotal2 extends Configured implements Tool
         Configuration conf = getConf();
 
         Job job = new Job(conf, getClass().getName());
-        job.setJarByClass(BillingTotal2.class);
+        job.setJarByClass(ItemizedBilling.class);
         job.setMapperClass(MyMapper.class);
         job.setReducerClass(MyReducer.class);
         job.setMapOutputValueClass(IntWritable.class);
@@ -72,9 +72,9 @@ public class BillingTotal2 extends Configured implements Tool
                 int cost = Integer.parseInt(costStr);
 
                 // TODO
-//                Text keyOutCustomer = new Text (?)
+//                Text keyOutCustomerResource = new Text (customer + "_" + resource)
 //                IntWritable valueOutCost = new IntWritable(?);
-                // context.write(keyOutCustomer, valueOutCost);
+                // context.write(keyOutCustomerResource, valueOutCost);
 
             } catch (Exception e)
             {

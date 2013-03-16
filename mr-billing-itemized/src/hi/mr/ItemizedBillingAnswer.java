@@ -17,11 +17,11 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 // calculates billing by customer & resource
-public class BillingTotal2Answer extends Configured implements Tool
+public class ItemizedBillingAnswer extends Configured implements Tool
 {
     public static void main(String[] args) throws Exception
     {
-        int res = ToolRunner.run(new Configuration(), new BillingTotal2Answer(), args);
+        int res = ToolRunner.run(new Configuration(), new ItemizedBillingAnswer(), args);
         System.exit(res);
     }
 
@@ -40,7 +40,7 @@ public class BillingTotal2Answer extends Configured implements Tool
         Configuration conf = getConf();
 
         Job job = new Job(conf, getClass().getName());
-        job.setJarByClass(BillingTotal2Answer.class);
+        job.setJarByClass(ItemizedBillingAnswer.class);
         job.setMapperClass(MyMapper.class);
         job.setReducerClass(MyReducer.class);
         job.setMapOutputValueClass(IntWritable.class);
