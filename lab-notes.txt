@@ -40,3 +40,14 @@ Click on 'Browse File System'
 Navigate  to    'user'  --> '<your username>'
   eg:   /user/sujee
 This is your 'home directory' in HDFS.
+
+
+Compiling the source code
+------
+to compile a project
+    $ cd <project dir>
+    $ ../compile.sh
+
+for example:
+    $ cd mr-billing
+    $ ../compile.sh
