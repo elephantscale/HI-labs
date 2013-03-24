@@ -1,21 +1,16 @@
-Lab : calculate customer total
-project dir : mr-billing
-you can also open the project in eclipse
+Pig Lab : calculate customer total
+project dir : pig-billing
 
-STEP 1) edit the file : mr-bililng/src/hi/mr/BillingTotal.java
+Note that this is the same lab as the mr-billing example.
+
+STEP 1) Edit the file pig-billing.pig
 STEP 2) complete the TODO items
-Answer : mr-bililng/src/hi/mr/BillingTotalAnswer.java
+Answer : mr-bililng/src/pig-billing-answer.pig
 
-STEP 3) compile the code:
-  $ cd mr-billing
-  $ ../compile.sh
-this should create a jar file called 'a.jar'
+STEP 3) Run the pig file using pig:
+  $ pig ./pig_billing.pig
 
 STEP 4)
-we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in/sample.txt   billing/out
-
-STEP 5)
 Once the mr job is done, inspect the output file:
   $ hadoop  dfs -cat billing/out/part-r-00000
 or
@@ -30,7 +25,7 @@ See ../lab-notes.txt  on how to generate more data and copy it into hdfs
 
 STEP 7)
 run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in   billing/out2
+  $ pig ./pig_billing.pig   billing/in   billing/out2
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 
