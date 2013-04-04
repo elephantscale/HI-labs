@@ -1,11 +1,11 @@
 Pig Lab : calculate customer total
 project dir : pig-billing
 
-Note that this is the same lab as the mr-billing example.
+Note that this is the same lab as the pig-billing example.
 
 STEP 1) Edit the file pig-billing.pig
 STEP 2) complete the TODO items
-Answer : mr-bililng/src/pig-billing-answer.pig
+Answer : pig-billing/src/pig-billing-answer.pig
 
 STEP 3) Run the pig file using pig:
   $ pig ./pig_billing.pig
