@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="HADOOP_HOME/hadoop-core-0.20.2-cdh3u0.jar"/>
+	<classpathentry kind="var" path="HADOOP_HOME/hadoop-tools-0.20.2-cdh3u0.jar"/>
+	<classpathentry kind="var" path="PIG_HOME/pig-0.8.0-cdh3u0-core.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
