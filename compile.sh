@@ -5,7 +5,7 @@ mkdir -p $build_dir
 rm -rf $build_dir/*
 
 
-javac -d $build_dir  -sourcepath src -classpath lib/*:../lib/*  $(find src -name "*.java")
+javac -d $build_dir  -sourcepath src -classpath lib/*:../lib/*:../lib/mrunit/*  $(find src -name "*.java")
 
 
 rm  -f a.jar
