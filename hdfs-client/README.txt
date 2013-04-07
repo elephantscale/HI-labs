@@ -13,7 +13,9 @@ this should create a jar file called 'a.jar'
 
 STEP 4)
 we will run this jar file
-  $ java -jar a.jar  hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs://localhost/hdfs-client/sample.txt
+note that this is a Java client, not a MR program
+also note that the first argument is the local file path, while the second one is the HDFS path
+  $ java -jar a.jar  hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs-client/sample.txt
 
 STEP 5)
 Once the mr job is done, inspect the output file:

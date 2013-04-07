@@ -13,9 +13,14 @@ import org.apache.hadoop.fs.Path;
 
 public class HdfsClient {
 	public static void main(String argv[]) {
+		argv = new String[2];
+		argv[0] = "data/hdfs-data/sample.txt";
+		argv[1] = "hdfs-client/sample.txt";
 		HdfsClient instance = new HdfsClient();
 		String fromLocalFile = argv[0];
 		String toHdfsFile = argv[1];
+		
+		
 		try {
 			instance.copyToHdfs(fromLocalFile, toHdfsFile);
 		} catch (IOException ex) {
