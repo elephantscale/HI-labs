@@ -15,7 +15,7 @@ STEP 4)
 we will run this jar file
 note that this is a Java client, not a MR program
 also note that the first argument is the local file path, while the second one is the HDFS path
-  $ java -jar a.jar  hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs-client/sample.txt
+$ java -classpath hdfs-client/a.jar:lib/*:/usr/lib/hadoop/*  hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs-client/sample.txt  
 
 STEP 5)
 Once the mr job is done, inspect the output file:
