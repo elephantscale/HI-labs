@@ -1,10 +1,10 @@
-Lab : calculate customer total
-project dir : mr-billing
+Lab : copy a file from local storage to HDFS
+project dir : hdfs-client
 you can also open the project in eclipse
 
-STEP 1) edit the file : mr-bililng/src/hi/mr/BillingTotal.java
+STEP 1) edit the file : hdfs-client/src/hi/hdfs/HdfsClient.java
 STEP 2) complete the TODO items
-Answer : mr-bililng/src/hi/mr/BillingTotalAnswer.java
+Answer : hdfs-client/src/hi/hdfs/HdfsClientAnswer.java
 
 STEP 3) compile the code:
   $ cd mr-billing
@@ -13,7 +13,7 @@ this should create a jar file called 'a.jar'
 
 STEP 4)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in/sample.txt   billing/out
+  $ java -jar a.jar  hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs://localhost/hdfs-client/sample.txt
 
 STEP 5)
 Once the mr job is done, inspect the output file:

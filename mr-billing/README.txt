@@ -2,9 +2,9 @@ Lab : calculate customer total
 project dir : mr-billing
 you can also open the project in eclipse
 
-STEP 1) edit the file : mr-bililng/src/hi/mr/BillingTotal.java
+STEP 1) edit the file : mr-billng/src/hi/mr/BillingTotal.java
 STEP 2) complete the TODO items
-Answer : mr-bililng/src/hi/mr/BillingTotalAnswer.java
+Answer : mr-billng/src/hi/mr/BillingTotalAnswer.java
 
 STEP 3) compile the code:
   $ cd mr-billing

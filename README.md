@@ -23,7 +23,7 @@ To import all projects in bulk, select the 'root dir'
 
 STEP 2)
 Create a Java Classpath variable
-    Eclipse --> Preferences --> Java --> Build Path --> Classpath Variables
+    Window --> Preferences --> Java --> Build Path --> Classpath Variables
 create a new variable
     HADOOP_JARS = point it to 'HadoopIlluminatedSource/lib' folder
 

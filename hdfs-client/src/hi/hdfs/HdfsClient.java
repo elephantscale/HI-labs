@@ -1,105 +1,51 @@
 package hi.hdfs;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Arrays;
+import java.io.InputStream;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
-import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
-import org.apache.hadoop.util.Tool;
-import org.apache.hadoop.util.ToolRunner;
 
-public class HdfsClient extends Configured implements Tool
-{
-    public static void main(String[] args) throws Exception
-    {
-        int res = ToolRunner.run(new Configuration(), new HdfsClient(), args);
-        System.exit(res);
-    }
+public class HdfsClient {
+	public static void main(String argv[]) {
+		HdfsClient instance = new HdfsClient();
+		String fromLocalFile = argv[0];
+		String toHdfsFile = argv[1];
+		try {
+			instance.copyToHdfs(fromLocalFile, toHdfsFile);
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+	}
 
-    @Override
-    public int run(String[] args) throws Exception
-    {
+	private void copyToHdfs(String fromLocalFile, String toHdfsFile)
+			throws IOException {
+		Configuration configuration = new Configuration();
+		FileSystem fileSystem = FileSystem.get(configuration);
+		// Check if the file already exists
+		Path path = new Path(toHdfsFile);
+		if (fileSystem.exists(path)) {
+			System.out.println("File " + toHdfsFile + " already exists");
+			return;
+		}
+		// Create a new file and write data to it.
+		FSDataOutputStream out = fileSystem.create(path);
+		InputStream in = new BufferedInputStream(new FileInputStream(new File(
+				fromLocalFile)));
 
-        if (args.length != 2)
-        {
-            System.out.println("usage : need <input path>  <output path>");
-            return 1;
-        }
-        Path inputPath = new Path(args[0]);
-        Path outputPath = new Path(args[1]);
-
-        Configuration conf = getConf();
-
-        Job job = new Job(conf, getClass().getName());
-        job.setJarByClass(HdfsClient.class);
-        job.setMapperClass(MyMapper.class);
-        job.setReducerClass(MyReducer.class);
-        job.setMapOutputValueClass(IntWritable.class);
-        job.setMapOutputKeyClass(Text.class);
-        job.setInputFormatClass(TextInputFormat.class);
-        job.setOutputFormatClass(TextOutputFormat.class);
-        TextInputFormat.setInputPaths(job, inputPath);
-        TextOutputFormat.setOutputPath(job, outputPath);
-
-        return job.waitForCompletion(true) ? 0 : 1;
-    }
-
-    static class MyMapper extends Mapper<Object, Text, Text, IntWritable>
-    {
-
-
-        @Override
-        public void map(Object key, Text record, Context context) throws IOException
-        {
-//            System.out.println (record);
-            try
-            {
-                String [] tokens = record.toString().split(",");
-//                System.out.println (Arrays.toString(tokens));
-
-                String timestampStr = tokens[0].trim();
-                String customerIdStr = tokens[1].trim();
-                String costStr = tokens[4].trim();
-                int cost = Integer.parseInt(costStr);
-
-                // TODO
-//                Text keyOutCustomer = new Text (?)
-//                IntWritable valueOutCost = new IntWritable(?);
-                // context.write(keyOutCustomer, valueOutCost);
-
-            } catch (Exception e)
-            {
-                System.out.println("*** exception:");
-                e.printStackTrace();
-            }
-        }
-
-    }
-
-    public static class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable>
-    {
-
-        public void reduce(Text key, Iterable<IntWritable> results, Context context) throws IOException,
-                InterruptedException
-        {
-            int total = 0;
-            for (IntWritable cost : results)
-            {
-                // TODO
-                // add up all the costs
-            }
-            context.write(key, new IntWritable(total));
-
-        }
-
-    }
-
+		byte[] buffer = new byte[1024];
+		int numBytes = 0;
+		while ((numBytes = in.read(buffer)) > 0) {
+			out.write(buffer, 0, numBytes);
+		}
+		// Close all the file streams and file system
+		in.close();
+		out.close();
+		fileSystem.close();
+	}
 }
