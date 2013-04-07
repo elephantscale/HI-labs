@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="HADOOP_JARS/hadoop-core-1.0.3.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/hbase/hbase-0.94.0.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/hbase/zookeeper-3.4.3.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/log4j-1.2.15.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/commons-configuration-1.6.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/commons-lang-2.5.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/protobuf-java-2.4.0a.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

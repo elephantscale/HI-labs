@@ -91,3 +91,11 @@ output may look similar to:
      2 row(s) in 0.0420 seconds
 
 Note the timestamps, Hbase inserts timestamps automatically (we can over-ride this)
+
+
+STEP 10) count number of rows in a table
+issue 'count' command in hbase shell
+    hbase(main):024:0> count 'test'
+
+output might look like:
+    2 row(s) in 0.0380 seconds
