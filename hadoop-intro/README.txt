@@ -15,7 +15,7 @@ TaskTracker daemons.
 
 Step 1) View running java processes; look for hadoop daemons
 $ ps -eaf | grep java
-hduser   11930     1  0 Mar05 pts/2    00:07:32 
+hduser   11930     1  0 Mar05 pts/2    00:07:32
 /usr/lib/jvm/java-6-oracle/bin/java -Dproc_namenode -Xmx1000m ...
 ... and so on ...
 
