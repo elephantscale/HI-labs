@@ -1,10 +1,7 @@
 package hi.hdfs;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;
@@ -12,23 +9,15 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
 public class HdfsClient {
-	public static void main(String argv[]) {
-		HdfsClient instance = new HdfsClient();
-		String fromLocalFile = argv[0];
-		String toHdfsFile = argv[1];
-		try {
-			instance.copyToHdfs(fromLocalFile, toHdfsFile);
-		} catch (IOException ex) {
-			ex.printStackTrace();
+	public static void main(String[] args) throws Exception {
+		if (args.length != 2) {
+			System.out.println("Usage: hi.hdfs.HdfsClient <local_input_path> <hdfs_output_path>");
+			System.exit(1);
 		}
-	}
+		String fromLocalFile = args[0];
+		String toHdfsFile = args[1];
 
-	private void copyToHdfs(String fromLocalFile, String toHdfsFile)
-			throws IOException {
 		Configuration conf = new Configuration();
-		conf.addResource(new Path("/usr/lib/hadoop/conf/core-site.xml"));
-		conf.addResource(new Path("/usr/lib/hadoop/conf/hdfs-site.xml"));
-		conf.addResource(new Path("/usr/lib/hadoop/conf/mapred-site.xml"));
 		FileSystem fileSystem = FileSystem.get(conf);
 		// Check if the file already exists
 		Path path = new Path(toHdfsFile);
@@ -38,13 +27,13 @@ public class HdfsClient {
 		}
 		// Create a new file and write data to it.
 		FSDataOutputStream out = fileSystem.create(path);
-		InputStream in = new BufferedInputStream(new FileInputStream(new File(
-				fromLocalFile)));
+		BufferedReader in = new BufferedReader(new FileReader(fromLocalFile));
 
-		byte[] buffer = new byte[1024];
-		int numBytes = 0;
-		while ((numBytes = in.read(buffer)) > 0) {
-			out.write(buffer, 0, numBytes);
+		String line;
+		while ((line = in.readLine()) != null) {
+			// TODO - write this line out
+			out.write(line.getBytes());
+			// TODO - ignore lines starting with hash (#)
 		}
 		// Close all the file streams and file system
 		in.close();
