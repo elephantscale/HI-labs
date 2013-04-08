@@ -31,9 +31,11 @@ public class HdfsClient {
 
 		String line;
 		while ((line = in.readLine()) != null) {
-			// TODO - write this line out
-			out.write(line.getBytes());
 			// TODO - ignore lines starting with hash (#)
+			
+			// TODO - write this line out
+			
+			// TODO - do not forget the newline after each output line
 		}
 		// Close all the file streams and file system
 		in.close();
