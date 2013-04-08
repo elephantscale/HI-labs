@@ -25,8 +25,11 @@ public class HdfsClient {
 
 	private void copyToHdfs(String fromLocalFile, String toHdfsFile)
 			throws IOException {
-		Configuration configuration = new Configuration();
-		FileSystem fileSystem = FileSystem.get(configuration);
+		Configuration conf = new Configuration();
+		conf.addResource(new Path("/usr/lib/hadoop/conf/core-site.xml"));
+		conf.addResource(new Path("/usr/lib/hadoop/conf/hdfs-site.xml"));
+		conf.addResource(new Path("/usr/lib/hadoop/conf/mapred-site.xml"));
+		FileSystem fileSystem = FileSystem.get(conf);
 		// Check if the file already exists
 		Path path = new Path(toHdfsFile);
 		if (fileSystem.exists(path)) {
