@@ -13,14 +13,19 @@ this should create a jar file called 'a.jar'
 
 STEP 4)
 we will run this jar file
-note that this is a Java client, not a MR program
-also note that the first argument is the local file path, while the second one is the HDFS path
-$ hadoop jar hdfs-client/a.jar   hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   hdfs-data/out/sample-out.txt
+note that the first argument is the local file path, while the second one is the HDFS path
+$ hadoop jar hdfs-client/a.jar   hi.hdfs.HdfsClient   data/hdfs-data/sample.txt   <user-name>/hdfs-data/out/sample-out.txt
   
 
 STEP 5)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat hdfs-client/out/sample.txt
+  $ hadoop  dfs -cat <user-name>/hdfs-client/out/sample.txt
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/hdfs-client/out' dir
 (see ../lab-notes.txt for detailed instructions)
+
+STEP 6) 
+Extra credit: exclude non-numeric entries. 
+This is a standard step of cleaning bad data
+
+
