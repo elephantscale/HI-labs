@@ -31,9 +31,7 @@ public class HdfsClientWriteAnswer {
 
 		String line;
 		while ((line = in.readLine()) != null) {
-			// TODO - ignore lines starting with hash (#)
 			if (line.startsWith("#")) continue;
-			// TODO - write this line out
 			out.write(line.getBytes());
 			out.write("\n".getBytes());
 		}
