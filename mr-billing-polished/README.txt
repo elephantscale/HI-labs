@@ -15,13 +15,13 @@ this should create a jar file called 'a.jar'
 
 STEP 3)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingPolished   billing/in   billing/out
+  $ hadoop jar a.jar  hi.mr.BillingPolished   <your name>/billing/in   <your name>/billing/out
 
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 STEP 4)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out/part-r-00000
+  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 (see ../lab-notes.txt for detailed instructions)

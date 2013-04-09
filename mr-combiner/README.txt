@@ -11,8 +11,8 @@ this should create a jar file called 'a.jar'
 
 STEP 2)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.Combiner   billing/in   billing/out
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+  $ hadoop jar a.jar  hi.mr.Combiner   <your name>/billing/in   <your name>/billing/out
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 STEP 3)
 Once the mr job is done, inspect the console output.  Specially the following counters:
@@ -44,8 +44,8 @@ this should create a jar file called 'a.jar'
 
 STEP 7)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.Combiner   billing/in   billing/out
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+  $ hadoop jar a.jar  hi.mr.Combiner   <your name>/billing/in   <your name>/billing/out
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 
 STEP 8)

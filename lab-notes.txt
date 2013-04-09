@@ -2,33 +2,38 @@ Lab notes for mapreduce labs
 ----------
 
 create user home dir in HDFS
-  $ hadoop dfs -mkdir /user/<your login>
-  $ hadoop dfs -mkdir /user/sujee
+  $ hadoop dfs -mkdir <your name>
+  $ hadoop dfs -mkdir sujee
 
 create hdfs directory to store logs
-  $ hadoop dfs -mkdir billing/in
-this will create a dir in /user/<yourname>/billing/in
+  $ hadoop dfs -mkdir <your name>/billing/in
+e.g :   $hadoop dfs -mkdir sujee/billing/in
+this will create a dir in /user/<login>/<yourname>/billing/in
 
 
 get code from github : https://github.com/markkerzner/HadoopIlluminatedSource
 using git :
   $ git clone https://github.com/markkerzner/HadoopIlluminatedSource.git
+or
+    $ wget 'https://github.com/markkerzner/HadoopIlluminatedSource/archive/master.zip'
+    $ unzip master.zip
 
 
 lets copy sample data into HDFS
-  $ hadoop dfs -put data/billing-data/sample.txt   billing/in/
+  $ hadoop dfs -put data/billing-data/sample.txt   <your name>/billing/in/
 
 
 Generating more data: run python script or ruby script
-  $ cd scripts
-  $ ruby gen-billing-data.rb
+  $ mkdir logs
+  $ cd logs
+  $ ruby ../scripts/gen-billing-data.rb
   or
-  $ python gen-billing-data.py
+  $ python ../scripts/gen-billing-data.py
 
 this will generate a bunch of log files in the current dir
 
 copy the files into hdfs:
-  $ hadoop dfs -put *.log   billing/in/
+  $ hadoop dfs -put *.log   <your name>/billing/in/
 
 
 Browsing HDFS File System using UI

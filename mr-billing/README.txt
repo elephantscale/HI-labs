@@ -6,18 +6,21 @@ STEP 1) edit the file : mr-billng/src/hi/mr/BillingTotal.java
 STEP 2) complete the TODO items
 Answer : mr-billng/src/hi/mr/BillingTotalAnswer.java
 
+
 STEP 3) compile the code:
   $ cd mr-billing
   $ ../compile.sh
 this should create a jar file called 'a.jar'
 
+(before going further, make sure you completed 'hdfs-intro' lab; and copied all the logs into HDFS)
+
 STEP 4)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in/sample.txt   billing/out
+  $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in/sample.txt   <your name>/billing/out
 
 STEP 5)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out/part-r-00000
+  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 (see ../lab-notes.txt for detailed instructions)
@@ -30,7 +33,7 @@ See ../lab-notes.txt  on how to generate more data and copy it into hdfs
 
 STEP 7)
 run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.BillingTotal   billing/in   billing/out2
+  $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in   <your name>/billing/out2
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 
