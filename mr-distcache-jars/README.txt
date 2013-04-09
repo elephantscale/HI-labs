@@ -45,13 +45,14 @@ un comment the json generation part around line 35
 
 
 STEP 2) generate json records
-  $ cd scripts
+  $ mkdir json
+  $ cd json
 
 if using ruby
-  $ ruby gen-billing-data.rb
+  $ ruby ../scripts/gen-billing-data.rb
 
 if using python
-  $ python  gen-billing-data.py
+  $ python  ../scripts/gen-billing-data.py
 
 inspect the files generated
   $ less 2012-01-01.log
@@ -62,9 +63,9 @@ each line should be a valid json
 STEP 3)
 copy the json files into HDFS
 lets create a seperate dir for the json records
-  $ hadoop dfs -mkdir billing/in-json
-  $ cd <project_dir> / scripts
-  $ hadoop dfs -put *.log   billing/in-json
+  $ hadoop dfs -mkdir <your name>/billing/in-json
+  $ cd <project_dir>
+  $ hadoop dfs -put   json/*.log   <your name>/billing/in-json
 
 
 STEP 4)
@@ -80,23 +81,23 @@ this should create a jar file called 'a.jar'
 STEP 6)
 we will run this jar file
   $ cd mr-distcache-1
-  $ hadoop jar a.jar  hi.mr.BillingJSON   billing/in-json   billing/out
+  $ hadoop jar a.jar  hi.mr.BillingJSON   <your name>/billing/in-json   <your name>/billing/out
 
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 The above will fail.  Because the GSON library we are using in our map reduce is missing.
 
 STEP 7)
 lets run it with GSON lib
   $ cd mr-distcache-1
-  $ hadoop jar a.jar  hi.mr.BillingJSON   -libjars ../lib/gson-1.6.jar   billing/in-json   billing/out
+  $ hadoop jar a.jar  hi.mr.BillingJSON   -libjars ../lib/gson-1.6.jar   <your name>/billing/in-json   <your name>/billing/out
 
 did mr job complete successfully?
   inspect program output in terminal
 
 STEP 8)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out/part-r-00000
+  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 (see ../lab-notes.txt for detailed instructions)

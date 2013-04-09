@@ -17,8 +17,8 @@ this should create a jar file called 'a.jar'
 
 STEP 4)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingLookup   billing/in/sample.txt   billing/out
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+  $ hadoop jar a.jar  hi.mr.BillingLookup   <your name>/billing/in/sample.txt   <your name>/billing/out
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 QUESTION : Did the job succeed?
 QUESTION : Which phase failed, map or reduce?
@@ -32,15 +32,15 @@ This is b/c we are referring to the 'resource.properties' file in our mr program
 
 
 STEP 5)  We are going to run the same code, this time, we are going to use distributed cache to make resource.properties file available
-  $ hadoop jar a.jar  hi.mr.BillingLookup -files resource.properties  billing/in/sample.txt   billing/out2
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+  $ hadoop jar a.jar  hi.mr.BillingLookup -files resource.properties  <your name>/billing/in/sample.txt   <your name>/billing/out2
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 QUESTION : Did the job succeed this time?
 
 
 STEP 5)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out2/part-r-00000
+  $ hadoop  dfs -cat <your name>/billing/out2/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out2' dir
 (see ../lab-notes.txt for detailed instructions)
@@ -73,7 +73,7 @@ See ../lab-notes.txt  on how to generate more data and copy it into hdfs
 
 STEP 8)
 run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.BillingLookup -files resource.properties  billing/in   billing/out3
+  $ hadoop jar a.jar  hi.mr.BillingLookup -files resource.properties  <your name>/billing/in   <your name>/billing/out3
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 

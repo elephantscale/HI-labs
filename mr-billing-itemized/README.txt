@@ -14,13 +14,13 @@ this should create a jar file called 'a.jar'
 
 STEP 4)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.ItemizedBilling   billing/in/sample.txt   billing/out
+  $ hadoop jar a.jar  hi.mr.ItemizedBilling   <your name>/billing/in/sample.txt   <your name>/billing/out
 
-Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  billing/out-5)
+Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 STEP 5)
 Once the mr job is done, inspect the output file:
-  $ hadoop  dfs -cat billing/out/part-r-00000
+  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system  navigate to '/user/<your user name>/billing/out'  dir
 (see ../lab-notes.txt for detailed instructions)
@@ -33,13 +33,13 @@ See ../lab-notes.txt  on how to generate more data and copy it into hdfs
 
 STEP 7)
 run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.ItemizedBilling   billing/in   billing/out2
+  $ hadoop jar a.jar  hi.mr.ItemizedBilling   <your name>/billing/in   <your name>/billing/out2
 
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 
 STEP 8)
-inpect the output (billing/out2  dir) from HDFS UI
+inpect the output (<your name>/billing/out2  dir) from HDFS UI
 (see ../lab-notes.txt for detailed instructions)
 
 STEP 9)
