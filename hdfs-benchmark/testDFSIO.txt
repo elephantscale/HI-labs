@@ -1,0 +1,15 @@
+TESTDFSIO  is a benchmark that writes / reads files  to/from HDFS.
+It uses mapreduce to do this in parallel.
+This benchmark is part of Hadoop; it is pretty easy to run.
+
+Hadoop 1 :
+    $ hadoop jar HH/hadoop-tests*.jar TestDFSIO -write -nrFiles 10 -fileSize 1000
+
+
+Hadoop 2:
+    $ hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
+
+Interpretting results:
+----
+
+

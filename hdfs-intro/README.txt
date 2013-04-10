@@ -61,9 +61,11 @@ STEP 5) Check that python or ruby is running on your system
 
 STEP 6) Run the python (or ruby) scripts provided to generate some output.
     $ cd HadoopIlluminatedSource  (project root dir)
-    $ python scripts/gen-billing-data.py
+    $ mkdir logs
+    $ cd logs 
+    $ python ../scripts/gen-billing-data.py
 OR
-    $ ruby scripts/gen-billing-data.rb
+    $ ruby ../scripts/gen-billing-data.rb
 
 This will generate a bunch of log files in the current dir
 
