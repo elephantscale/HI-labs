@@ -8,3 +8,5 @@ total_by_customer = FOREACH billing_data_grouped GENERATE group as custid, SUM(b
 
 top = ORDER billing_data_grouped BY total DESC;
 STORE top INTO '<your name>/billing/out';
+
+top10 = LIMIT top 10;
