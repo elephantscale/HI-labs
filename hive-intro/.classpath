@@ -3,5 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="HADOOP_JARS/hadoop-core-1.0.3.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/UserAgentUtils-1.8.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/hive/hive-exec-0.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,7 +4,7 @@ package hi.hive;
  *
  * @author mark
  */
-import nl.bitwalker.useragentutils.UserAgent;
+import eu.bitwalker.useragentutils.UserAgent;
 import org.apache.hadoop.hive.ql.exec.UDF;
 import org.apache.hadoop.io.Text;
 
