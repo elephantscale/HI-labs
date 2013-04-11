@@ -1,0 +1,13 @@
+-- FOR EACH lab
+billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
+DUMP billing_data;
+
+-- ## TODO : lets extract custid and price
+-- A = FOREACH billing_data GENERATE custid, price;
+-- DESCRIBE A;
+-- DUMP A;
+
+-- ## TODO : do some manipulation of data
+-- B = FOREACH billing_data GENERATE custid, price*2;
+-- DESCRIBE B;
+-- DUMP B;
