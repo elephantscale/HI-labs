@@ -1,4 +1,4 @@
-package com.shmsoft.webloganalyzer;
+package hi.hive;
 
 /**
  *
