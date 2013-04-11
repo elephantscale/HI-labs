@@ -14,7 +14,7 @@ STEP 2) copy 'bad_recods.txt' file into HDFS
 
 STEP 3) edit the file : mr-counters/src/hi/mr/Counter.java
 STEP 4) complete the TODO items
-Answer : mr-counters/src/hi/mr/Counter.java
+Answer : mr-counters/src/hi/mr/CounterAnswer.java
 
 STEP 5) compile the code:
   $ cd mr-counters

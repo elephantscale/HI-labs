@@ -2,8 +2,9 @@ Lab notes for mapreduce labs
 ----------
 
 create user home dir in HDFS
-  $ hadoop dfs -mkdir <your name>
-  $ hadoop dfs -mkdir sujee
+      $ hadoop dfs -mkdir <your name>
+e.g   $ hadoop dfs -mkdir sujee
+this might create a dir in HFDS in /user/sujee   or /user/<login>/sujee
 
 create hdfs directory to store logs
   $ hadoop dfs -mkdir <your name>/billing/in

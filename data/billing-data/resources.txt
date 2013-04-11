@@ -1,0 +1,7 @@
+# Resource Mappings
+1=CPU
+2=Memory
+3=Disk_IO
+4=Bandwidth
+5=Virtual_Machines
+6=Snapshot_Backups
