@@ -3,7 +3,7 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 DUMP billing_data;
 
 -- ## TODO : filter only resource_id = 1
--- A = FILTER billing_data BY resourceid = 1;
+-- A = FILTER billing_data BY resourceid == 1;
 -- DESCRIBE A;
 -- DUMP A;
 

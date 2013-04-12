@@ -4,7 +4,7 @@
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resource_id:chararray,qty:int,cost:int);
 DUMP billing_data;
 
-resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage(',') AS (resource_id:int, resource_name, chararray);
+resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage(',') AS (resource_id:int, resource_name:chararray);
 DUMP resource_data;
 
 -- ## TODO : join by resource_id
