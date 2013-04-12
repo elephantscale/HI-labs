@@ -8,14 +8,16 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 
 /**
- * before running this, create 'users' table
+ * before running this, create '<yourname>_users' table
+ * (replace <yourname> with your username)
  * in hbase shell:
- *      create 'users', 'info'
+ *      create '<yourname>_users', 'info'
  */
 public class UserInsert
 {
 
-    static String tableName = "users";
+    // TODO : update the table name with your username
+    static String tableName = "<your_name>_users";
     static String familyName = "info";
 
     public static void main(String[] args) throws Exception

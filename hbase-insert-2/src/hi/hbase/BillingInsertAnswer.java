@@ -14,12 +14,13 @@ import org.apache.hadoop.hbase.util.Bytes;
 /**
  * before running this program, create 'billing' table
  * in hbase shell:
- *      create 'billing', 'info'
+ *      create '<your name>_billing', 'info'
  */
 public class BillingInsertAnswer
 {
 
-    static String tableName = "billing";
+    // TODO : replace <yourname> with your username
+    static String tableName = "<your name>_billing";
     static String familyName = "info";
 
     public static void main(String[] args) throws Exception

@@ -12,7 +12,8 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 public class UserQuery
 {
-    static String tableName = "users";
+    // TODO : substitute your username to <yourname> for the table name
+    static String tableName = "<your name>_users";
     static String familyName = "info";
 
     public static void main(String[] args) throws Exception
