@@ -45,3 +45,11 @@ hive -f scripts/load_table_resource_log.q
 hive -f scripts/invoices_resources.q
 Note the output: for easy verification, 
 the input data is created to invoice each customer the same amount 
+============================================================
+LAB 3: UDF
+============================================================
+STEP1)
+Analyze log data found in data/hive-data/apache-weblog.log
+Compile the UDH based on hi.hive.GetBrowser.java
+Load this UDF into have and extract browser information from each log line
+(This lab does not give specific instructions, but relies on the student to implement the steps)
