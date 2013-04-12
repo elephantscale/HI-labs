@@ -30,7 +30,7 @@ def generate_log(timestamp):
     cost = 0
 
   #csv
-  logline = "%s, %s, %s, %s, %s" % (timestamp, customer_id, resource_id, qty, cost)
+  logline = "%s,%s,%s,%s,%s" % (timestamp, customer_id, resource_id, qty, cost)
 
   ## generate JSON format
   #dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'qty': qty,  'cost':cost}

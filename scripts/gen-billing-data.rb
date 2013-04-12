@@ -28,7 +28,7 @@ def generate_log(timestamp)
   cost = rand(200) - 20
   cost = 0 if cost < 0
 
-  logline = "#{timestamp}, #{customer_id}, #{resource_id}, #{qty}, #{cost}"
+  logline = "#{timestamp},#{customer_id},#{resource_id},#{qty},#{cost}"
   #puts logline
 
   ## generate JSON format
