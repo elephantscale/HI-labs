@@ -16,12 +16,20 @@ STEP 3) generate billing data (CSV) if needed
 this should generate bunch of log files in current dir
 
 
-STEP 4)
+STEP 4) create '<your name>_billing' table in Hbase.  Replace <your name> with your username
+start hbase shell
+    $ hbase shell
+
+    hbase > create '<your name>_billing', 'info'
+    hbase > exit
+
+
+STEP 5)
 We will load one of the log files into hbase
     $ sh ./insert.sh   2012-01-01.log
 
 
-STEP 5) query for a particular customer
+STEP 6) query for a particular customer
     $ sh ./scan.sh  <customer id>
 e.g.   $ sh ./scan.sh   10
 

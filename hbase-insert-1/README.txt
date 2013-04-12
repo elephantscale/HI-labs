@@ -13,8 +13,14 @@ STEP 3) compile the code:
     $ ../compile.sh
 this should create a jar file called 'a.jar'
 
+STEP 4) create a users table on hbase
+invoke hbase shell
+    $ hbase shell
+in hbase shell, create a '<your name>_users' table.  Replace <your name> with your username.
+    hbase >  create 'users', 'info'
 
-STEP 4) insert data into hbase
+
+STEP 5) insert data into hbase
 run the executable insert.sh
     $ ./insert.sh
 or
@@ -24,7 +30,7 @@ at the end of the run you should see something like:
     inserted 100 users  in 6 ms
 
 
-STEP 5) verify 'users' table is populated
+STEP 6) verify 'users' table is populated
 start hbase shell
     $ hbase shell
 
@@ -44,7 +50,7 @@ ROW                           COLUMN+CELL
 
 
 
-STEP 6) now that we have users table populated, lets run some query
+STEP 7) now that we have users table populated, lets run some query
 run the file 'query.sh'
     $ ./query.sh
 or

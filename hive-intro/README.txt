@@ -64,6 +64,7 @@ replace <your name> with your username
 
 STEP 2) use Hive to create the table
     $ hive -f scripts/create_table_billing_data_ext.q
+    $ ~/hive_shell.sh -f scripts/create_table_billing_data_ext.q
 
 STEP 3) launch Hive shell, and inspect the table just created
     $ hive
