@@ -38,26 +38,10 @@ hive -f scripts/create_table_resource_log.q
 hive -e 'describe resource_log'
 
 STEP 2)
-Analyze script scripts/load_table_resource_log.q, adjust it with your username
+Analyze script scripts/create_table_resource_log.q, adjust it with your username
 Execute HFDS instructions in this script, then run the script
+hive -f scripts/create_table_resource_log.q
 hive -f scripts/load_table_resource_log.q
 hive -f scripts/invoices_resources.q
 Note the output: for easy verification, 
 the input data is created to invoice each customer the same amount 
-============================================================
-LAB 3:
-============================================================
-STEP 1) 
-STEP 2) 
-
-============================================================
-LAB 4:
-============================================================
-STEP 1) 
-STEP 2) 
-
-============================================================
-LAB 5:
-============================================================
-STEP 1) 
-STEP 2) 
