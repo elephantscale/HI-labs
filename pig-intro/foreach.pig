@@ -3,11 +3,11 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 DUMP billing_data;
 
 -- ## TODO : lets extract custid and price
--- A = FOREACH billing_data GENERATE custid, price;
+-- A = FOREACH billing_data GENERATE custid, cost;
 -- DESCRIBE A;
 -- DUMP A;
 
 -- ## TODO : do some manipulation of data
--- B = FOREACH billing_data GENERATE custid, price*2;
+-- B = FOREACH billing_data GENERATE custid, cost*2;
 -- DESCRIBE B;
 -- DUMP B;

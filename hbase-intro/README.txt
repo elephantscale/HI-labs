@@ -49,7 +49,8 @@ try detailed status  command
 
 STEP 6) creating TABLE using hbase shell
 we are going to create a table named 'test' with one family named 'd'
-    hbase(main):006:0> create 'test', 'd'
+    hbase(main):006:0> create '<your name>_test', 'd'
+e.g  :   create 'sujee_test', 'd'
     0 row(s) in 1.1120 seconds
 
 Use the list command to verify the table exists
