@@ -27,7 +27,7 @@ Hint: use a UDF
 Answer: hi.hive.CountWords.java
 
 ============================================================
-LAB 2:
+LAB 2: Customer invoicing
 ============================================================
 STEP 1) 
 Analyze script scripts/create_table_resource_log.q, adjust it with your username
