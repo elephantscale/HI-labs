@@ -72,9 +72,10 @@ public class Counter extends Configured implements Tool
                 if (tokens.length != 5)
                 {
                     // TODO : increment counter
-//                    context.getCounter(Counters.BAD_RECORDS).increment(?);
+                    context.getCounter(Counters.BAD_RECORDS).increment(1);
 
                     // TODO : what do we do now?  continue or return?
+                    return;
                 }
 
                 String timestampStr = tokens[0].trim();
@@ -94,6 +95,7 @@ public class Counter extends Configured implements Tool
 //                e.printStackTrace();
 
                 // TODO increment counter
+                context.getCounter(Counters.BAD_RECORDS).increment(1);
             }
         }
 
