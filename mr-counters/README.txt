@@ -10,7 +10,7 @@ what kind of bad records do you?
 
 STEP 2) copy 'bad_recods.txt' file into HDFS
   $ cd <top of project dir>
-  $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in
+  $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in/
 
 STEP 3) edit the file : mr-counters/src/hi/mr/Counter.java
 STEP 4) complete the TODO items
