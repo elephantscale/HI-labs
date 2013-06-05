@@ -57,7 +57,7 @@ Load this UDF into have and extract browser information from each log line
 ============================================================
 LAB 4: Billing Data
 ============================================================
-This will create a an external table for our billing data
+This will create an external table for our billing data
 
 STEP 1) inspect file scripts/create_table_billing_data_ext.q
 replace <your name> with your username
