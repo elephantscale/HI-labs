@@ -1,10 +1,4 @@
-Hadoop Illuminated Exercise 2:
-
-Introduction:
-
-Welcome to Exercise 2!  In the first lab you learned how to ensure the
-five hadoop daemons are running on your pseudo-distributed development
-system, and examine the
+hdfs-into lab
 
 Lab Objectives:
 
@@ -17,14 +11,14 @@ $ hadoop fs -ls
 
 If you do have some data, you will see something like this
 
-$ hadoop fs -ls
+$ hadoop dfs -ls
 Found 1 items
 drwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 /user/um
 
 Otherwise if you have no files you will see nothing.
 
 Step 2) View files in root filestystem
-$ hadoop fs -ls /
+$ hadoop dfs -ls /
 Found 4 items
 drwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 /app
 drwxr-xr-x   - hduser supergroup          0 2013-02-09 21:37 /hbase
@@ -42,7 +36,7 @@ This directory may be located in /user/um/<your name>
 
 STEP 4) Copying files to HDFS
 We will copy this README file into HDFS
-    $ cd  HadoopIlluminatedSource
+    $ cd  hadoop-labs
     $ hadoop dfs -put hdfs-intro/README.txt  <user name>/
     $ hadoop dfs -ls  <user name>
 
@@ -90,7 +84,15 @@ BONUS LAB:
 Step 9) copy the files back to your local directory
     $ hadoop dfs -get <your name>/billing/in ./billing_data2
 
+Step 10) BIG bonus lab, generate a lot of data, fill the HDFS,
+then take out one node and see what happens
 
+Use teragen to generate some data
+
+(run it from /usr/lib/hadoop)
+
+.1 T
+hadoop jar hadoop-examples-*.jar teragen 1000000000 <directory-for-the-data>
 
 
 
