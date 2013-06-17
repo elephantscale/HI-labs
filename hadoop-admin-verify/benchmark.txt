@@ -1,0 +1,38 @@
+
+Benchmark : TestDFSIO
+---------------------
+TESTDFSIO  is a benchmark that writes / reads files  to/from HDFS.
+It uses mapreduce to do this in parallel.
+This benchmark is part of Hadoop; it is pretty easy to run.
+
+(HH = hadoop_home  dir)
+
+Hadoop 1 :
+
+    write test:
+        $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
+
+    read test:
+        $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
+
+
+Hadoop 2:
+    $ HH/bin/hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
+
+
+Interpretting results:
+----
+At the end of run TestDFSIO will print out stats like the following
+     fs.TestDFSIO: ----- TestDFSIO ----- : write
+     fs.TestDFSIO:            Date & time: Mon Jun 17 22:08:29 UTC 2013
+     fs.TestDFSIO:        Number of files: 10
+     fs.TestDFSIO: Total MBytes processed: 1000
+     fs.TestDFSIO:      Throughput mb/sec: 15.201726916177678
+     fs.TestDFSIO: Average IO rate mb/sec: 16.754920959472656
+     fs.TestDFSIO:  IO rate std deviation: 6.348449064660557
+     fs.TestDFSIO:     Test exec time sec: 109.847
+
+
+
+Benchmark : Terasort
+---------------------
