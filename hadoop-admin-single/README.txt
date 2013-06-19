@@ -6,6 +6,7 @@ Lab goal : install and configure hadoop on a single node
 
 -- step 1)
 Login into the linux node.  Instructor will provide credentials
+Username: ec2-user
 
 
 -- step 2)
