@@ -1,0 +1,56 @@
+Hadoop Administration - multi Node install
+---
+
+Lab goal : install and configure a hadoop cluster
+
+Be sure to complete 'first-steps.txt'
+
+
+
+
+-- step )
+intall JDK on all nodes
+    $ sh ~/cluster-cmd.sh -h hosts.slaves   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
+
+
+-- step )
+verify java is installed on localhost
+    $ java -version
+
+you should see output similar to the following
+    java version "1.6.0_45"
+    Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
+    Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
+
+
+-- step )
+verify java is installed on all nodes
+    $  ~/cluster-cmd.sh  -h ~/hosts.all   java -version
+we should see the output from all nodes!
+
+
+-- step )
+install hadoop rpm on localhost
+    $ sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm
+
+now lets install on all slaves
+    $  ~/cluster-cmd.sh  -h hosts.workers  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
+
+
+-- step )
+set up hadoop data dir
+working directory is  '/media/ephemeral0/hadoop-data'  directory in EC2 instances
+    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir /media/ephemeral0/hadoop-data"
+
+
+-- step )
+set up hdfs dirs
+    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /media/ephemeral0/hadoop-data/dfs"
+    $  ~/cluster-cmd.sh  -h hosts.all  "sudo chown hdfs:hadoop /media/ephemeral0/hadoop-data/dfs"
+
+
+-- step )
+set up mapred dirs
+    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /media/ephemeral0/hadoop-data/mapred"
+    $  ~/cluster-cmd.sh  -h hosts.all  "sudo chown mapred:hadoop /media/ephemeral0/hadoop-data/mapred"
+
