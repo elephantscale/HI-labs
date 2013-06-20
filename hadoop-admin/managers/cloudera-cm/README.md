@@ -3,6 +3,7 @@ This lab teaches the use of Cloudera Manager (CM)
 1. Use the instance provided by the instructor. Log in.
 
 2. Install CM.
+
 wget http://archive.cloudera.com/cm4/installer/latest/cloudera-manager-installer.bin
 chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
