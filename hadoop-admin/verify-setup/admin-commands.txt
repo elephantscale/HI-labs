@@ -5,6 +5,15 @@ VERSION
     $   HH/bin/hadoop version
 
 
+COPY FILES
+-----
+copy file into HDFS
+    $   HH/bin/hadoop dfs -put  ~/README.txt   /
+
+verify
+    $   HH/bin/hadoop dfs  -lsr  /
+
+
 DFSAdmin command line
 --------------------
 
