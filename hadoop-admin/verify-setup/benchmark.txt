@@ -1,6 +1,6 @@
-
+=====================
 Benchmark : TestDFSIO
----------------------
+=====================
 TESTDFSIO  is a benchmark that writes / reads files  to/from HDFS.
 It uses mapreduce to do this in parallel.
 This benchmark is part of Hadoop; it is pretty easy to run.
@@ -8,15 +8,34 @@ This benchmark is part of Hadoop; it is pretty easy to run.
 (HH = hadoop_home  dir)
 
 Hadoop 1 :
+-----
 
-    write test:
-        $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
+    [Single Node]
+        write test 
+            $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
 
-    read test:
-        $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
+        read test 
+            $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
+
+    
+    [Multi Node]
+    Things are a little bit different on multinode cluster
+
+    $   cd /tmp 
+    $   sudo -u hdfs   hadoop  jar /usr/share/hadoop/hadoop-test-*.jar   TestDFSIO  -write -nrFiles 5  -fileSize 100
+
+    Notes:
+        - run as user hdfs
+        - we switch to /tmp dir so hdfs user can write out the summary file
+        - hadoop-test*jar could be usually found in one of these dirs
+            /usr/share/hadoop
+            /usr/lib/hadoop
+
+
 
 
 Hadoop 2:
+----
     $ HH/bin/hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
 
 
@@ -33,6 +52,6 @@ At the end of run TestDFSIO will print out stats like the following
      fs.TestDFSIO:     Test exec time sec: 109.847
 
 
-
+=====================
 Benchmark : Terasort
----------------------
+=====================
