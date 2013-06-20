@@ -6,14 +6,7 @@ Lab goal : install and configure hadoop on a single node
 
 -- step 1)
 Login into the linux node.  Instructor will provide credentials
-Username: ec2-user
 
-
--- step 2)
-set permissions on working dir.
-working directory is  '/media/ephemeral0'  directory in EC2 instances
-    $ sudo chown ec2-user:ec2-user /media/ephemeral0
-There is also a convenient link ~/dev pointing to the working dir
 
 
 -- step 3)
@@ -51,10 +44,10 @@ verify the hadoop file exists in   ~/hi/software/hadoop/tar/hadoop-1.1.2-bin.tar
 
 -- step 8)
 untar hadoop file under working dir
-    $  cd ~/dev/
+    $  cd 
     $  tar xf ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
     $  mv hadoop-1.1.2 hadoop   (adjust if your version is different)
-now we have hadoop program files in  ~/dev/hadoop  dir.  We will refer this directory as HADOOP_HOME
+now we have hadoop program files in  ~/hadoop  dir.  We will refer this directory as HADOOP_HOME
 
 verify the following directories exist under HADOOP_HOME
     bin
@@ -65,8 +58,7 @@ verify the following directories exist under HADOOP_HOME
 
 -- step 9)
 create a data dir for hadoop
-    $  cd ~/dev
-    $  mkdir hadoop-data
+    $  mkdir /hadoop/hadoop-data
 
 
 Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/conf dir.
@@ -85,7 +77,7 @@ and update the JAVA_HOME variable
 
 -- step 11)
 copy minimal config files provided into HADOOP_HOME/conf dir
-    $  cp ~/hi/config/hadoop-single/*   ~/dev/hadoop/conf/
+    $  cp ~/hi/config/hadoop-single/*   ~/hadoop/conf/
 
 inspect the following files:
 
@@ -98,12 +90,12 @@ inspect the following files:
 
 -- step 12)
 format namenode storage
-    $   ~/dev/hadoop/bin/hadoop namenode -format
+    $   ~/hadoop/bin/hadoop namenode -format
 
 
 -- step 13)
 start hadoop deamons
-    $  ~/dev/hadoop/bin/start-all.sh
+    $  ~/hadoop/bin/start-all.sh
 
 
 -- step 14)
@@ -130,7 +122,7 @@ In a browser, go to the following URLs
 
 [BONUS LAB 1]
 explore hadoop-data directories
-    $ find ~/dev/hadoop-data
+    $ find /hadoop/hadoop-data
 how does hadoop organize data?
 
 
