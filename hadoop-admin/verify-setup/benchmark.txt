@@ -7,21 +7,21 @@ This benchmark is part of Hadoop; it is pretty easy to run.
 
 (HH = hadoop_home  dir)
 
-Hadoop 1 :
------
+Hadoop version 1 :
+-----------------
 
     [Single Node]
-        write test 
+        write test
             $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
 
-        read test 
+        read test
             $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
 
-    
+
     [Multi Node]
     Things are a little bit different on multinode cluster
 
-    $   cd /tmp 
+    $   cd /tmp
     $   sudo -u hdfs   hadoop  jar /usr/share/hadoop/hadoop-test-*.jar   TestDFSIO  -write -nrFiles 5  -fileSize 100
 
     Notes:
@@ -34,8 +34,8 @@ Hadoop 1 :
 
 
 
-Hadoop 2:
-----
+Hadoop version 2:
+----------------
     $ HH/bin/hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
 
 

@@ -38,13 +38,13 @@ you should see output similar to the following
 
 -- step 7)
 we will install hadoop using TAR file format.
-verify the hadoop file exists in   ~/hi/software/hadoop/tar/hadoop-1.1.2-bin.tar.gz
+verify the hadoop file exists in   ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
 (version numbes 1.1.2 might be different on your node)
 
 
 -- step 8)
-untar hadoop file under working dir
-    $  cd 
+untar hadoop file under home directory
+    $  cd    #  <-- so you are in home dir
     $  tar xf ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
     $  mv hadoop-1.1.2 hadoop   (adjust if your version is different)
 now we have hadoop program files in  ~/hadoop  dir.  We will refer this directory as HADOOP_HOME
@@ -63,10 +63,11 @@ create a data dir for hadoop
 
 Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/conf dir.
 
-Minimal configuration files are provided in ~/hi/conf/hadoop-single directory.  We will copy these files into HADOOP_HOME/conf dir
+Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into HADOOP_HOME/conf dir
 
 
 -- step 10)
+(optional)
 Edit file HADOOP_HOME/conf/hadoop-env.sh
 and update the JAVA_HOME variable
     export JAVA_HOME=/usr/java/latest
@@ -118,6 +119,9 @@ Verify UIs by namenode and job tracker
 In a browser, go to the following URLs
     namenode UI:   http://machine_host_name:50070
     job tracker UI:   http://machine_host_name:50030
+
+substitute 'machine host name' with public IP of your node
+e.g :   http://ec2......com:50070
 
 
 [BONUS LAB 1]
