@@ -53,7 +53,7 @@ open files is 1024, this is too low for hadoop.  Lets up the limit
 
 on CENTOS:
 
-    - edit '/etc/security/limits.conf'  
+    - edit '/etc/security/limits.conf'
             $   sudo vi /etc/security/limits.conf
       and add the following line at the end of file
 *       -       nofile  32768
@@ -63,23 +63,20 @@ what this means:
     - : both soft and hard limit
 
 
-
     - make sure '/etc/pam.d/system-auth' has this entry:
                 session required pam_limits.so
-
 
      - reboot and verify the limit has taken place with a 'ulimit -n'
             $ sudo  reboot
 
             login to machine
-
             $ ulimit -a
 ==============
 
 Java
 
-Make sure java is SUN JDK 1.6 
-verify by 
+Make sure java is Oracle JDK 1.6
+verify by
     $   java -version
 
 output might look like:

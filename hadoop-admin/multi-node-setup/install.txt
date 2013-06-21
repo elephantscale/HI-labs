@@ -10,7 +10,7 @@ Be sure to complete 'first-steps.txt'
 
 -- step )
 intall JDK on all nodes
-    $ sh ~/cluster-cmd.sh -h hosts.slaves   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
+    $  ~/scripts/cluster-cmd.sh -h hosts.slaves   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
 
 
 -- step )
@@ -25,7 +25,7 @@ you should see output similar to the following
 
 -- step )
 verify java is installed on all nodes
-    $  ~/cluster-cmd.sh  -h ~/hosts.all   java -version
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all   java -version
 we should see the output from all nodes!
 
 
@@ -34,26 +34,26 @@ install hadoop rpm on localhost
     $ sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm
 
 now lets install on all slaves
-    $  ~/cluster-cmd.sh  -h hosts.workers  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.workers  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
 
 
 -- step )
 set up hadoop data dir : /hadoop/hadoop-data
-    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data"
 
 
 -- step )
 set up hdfs dirs
 
-    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/dfs/name  /hadoop/hadoop-data/dfs/data   /hadoop/hadoop-data/namesecondary"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/dfs/name  /hadoop/hadoop-data/dfs/data   /hadoop/hadoop-data/namesecondary"
 
-    $  ~/cluster-cmd.sh  -h hosts.all  "sudo chown -R hdfs:hadoop /hadoop/hadoop-data/dfs"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo chown -R hdfs:hadoop /hadoop/hadoop-data/dfs"
 
 
 -- step )
 set up mapred dirs
-    $  ~/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/mapred/local"
-    $  ~/cluster-cmd.sh  -h hosts.all  "sudo chown -R mapred:hadoop /hadoop/hadoop-data/mapred"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/mapred/local"
+    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo chown -R mapred:hadoop /hadoop/hadoop-data/mapred"
 
 
 -- step )
@@ -104,15 +104,15 @@ Question : any data nodes?
 Question : what is the HDFS capacity?
 
 
--- step ) 
+-- step )
 lets start datanodes on workers (not on master)
-    $  ~/cluster-cmd.sh -h hosts.workers  "sudo service hadoop-datanode start"
+    $  ~/scripts/cluster-cmd.sh -h hosts.workers  "sudo service hadoop-datanode start"
 
 
 -- step )
 verify datanodes are running.
 
-method 1) 
+method 1)
 refresh namenode UI again.  We should see datanodes connected and HDFS capacity increasing!
 
 If a datanode is missing, trouble shoot it by logging into that node and inspecting the log file
@@ -148,7 +148,7 @@ now lets start Map Reduce
 
 -- step )
 setup mapreduce directories in hdfs
-    
+
     $  sudo -u hdfs  hadoop dfs -mkdir /mapred/system
     $  sudo -u hdfs  hadoop dfs -chown mapred /mapred/system
 
@@ -168,11 +168,11 @@ start job tracker on master node
 -- step )
 verify job tracker is running
 
-method 1) 
+method 1)
 go to url  http://master_host_name:50030
 if you see mapreduce admin dashboard then job tracker is running!
 
-method 2) 
+method 2)
     $  sudo /usr/java/latest/bin/jps
 
 output might look like...
@@ -180,19 +180,19 @@ output might look like...
     3101 Jps
     1324 NameNode
     1849 SecondaryNameNode
-    
 
-method 3) 
+
+method 3)
 inspect log file
     $  less /var/log/hadoop/mapred/hadoop-mapred-jobtracker*.log
 
 
 -- step)
 start task tracker on worker nodes
-    $   ~/cluster-cmd.sh -h hosts.workers   "sudo service hadoop-tasktracker start"
+    $   ~/scripts/cluster-cmd.sh -h hosts.workers   "sudo service hadoop-tasktracker start"
 
 
--- step) 
+-- step)
 verify task trackers are up and can connect to job tracker
 
 on the job tracker UI, check 'Nodes' section.  Do we see all task trackers connected?
