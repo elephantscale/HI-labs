@@ -13,20 +13,14 @@ intall JDK on all nodes
     $  ~/scripts/cluster-cmd.sh -h ~/hosts.all   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
 
 
--- step )
-verify java is installed on localhost
-    $ java -version
-
-you should see output similar to the following
-    java version "1.6.0_45"
-    Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
-    Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
-
 
 -- step )
 verify java is installed on all nodes
     $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all   java -version
-we should see the output from all nodes!
+we should see the following output from all nodes!
+    java version "1.6.0_45"
+    Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
+    Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
 
 
 
@@ -47,6 +41,64 @@ set up hdfs dirs
 set up mapred dirs
     $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo mkdir -p /hadoop/hadoop-data/mapred/local"
     $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo chown -R mapred:hadoop /hadoop/hadoop-data/mapred"
+
+
+-- step )
+configure hadoop
+sample config files are provided in :   ~/hi/hadoop-labs/hadoop-admin/config/multi-node
+lets copy these files into hadoop config dir  /etc/hadoop
+    $   sudo  cp   ~/hi/hadoop-labs/hadoop-admin/config/multi-node/*   /etc/hadoop/
+
+we need to edit two files to match your system
+    $   sudo   vi /etc/hadoop/core-site.xml
+
+look for the property
+        <name>fs.default.name</name>
+we need to update the value to match your master's IP address.
+
+on your node issue the command   'hostname'   to find out your ip
+    $ hostname
+output might be
+    ip-10-154-179-237
+this is the hostname of the master,  lets plug this value in to <value> tag
+
+so the fs.default.name  will look like
+        <name>fs.default.name</name>
+        <value>hdfs://ip-10-154-179-237.ec2.internal:8020</value>
+
+
+Similary modify   /etc/hadoop/mapred-site.xml
+    $ sudo   vi /etc/hadoop/mapred-site.xml
+
+change the 'jobtracker_hostname' text to the ip address of your master
+    <property>
+        <name>mapred.job.tracker</name>
+        <value>jobtracker_hostname:8021</value>
+    </property>
+
+e.g 
+it might look like:
+    <property>
+        <name>mapred.job.tracker</name>
+        <value>ip-10-154-179-237.ec2.internal:8021</value>
+    </property>
+
+
+
+-- step )
+distribute the config files.
+    $ ~/scripts/distribute-config.sh    -h   ~/hosts.slave
+
+
+step )
+verify config files are updated on slaves
+login to one slave and inspect the file  /etc/hadoop/core-site.xml
+    $ ssh <ip address of slave here>
+once logged in
+    $  cat  /etc/hadoop/core-site.xml
+verify the ip address has been udpated
+    $ logout
+
 
 
 -- step )
