@@ -10,7 +10,7 @@ Be sure to complete 'first-steps.txt'
 
 -- step )
 intall JDK on all nodes
-    $  ~/scripts/cluster-cmd.sh -h hosts.slaves   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
+    $  ~/scripts/cluster-cmd.sh -h ~/hosts.all   "cd hi/software/java; sudo  sh ./jdk-6u45-linux-x64-rpm.bin"
 
 
 -- step )
@@ -34,26 +34,26 @@ install hadoop rpm on localhost
     $ sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm
 
 now lets install on all slaves
-    $  ~/scripts/cluster-cmd.sh  -h hosts.workers  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.slaves  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
 
 
 -- step )
 set up hadoop data dir : /hadoop/hadoop-data
-    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo mkdir -p /hadoop/hadoop-data"
 
 
 -- step )
 set up hdfs dirs
 
-    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/dfs/name  /hadoop/hadoop-data/dfs/data   /hadoop/hadoop-data/namesecondary"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo mkdir -p /hadoop/hadoop-data/dfs/name  /hadoop/hadoop-data/dfs/data   /hadoop/hadoop-data/namesecondary"
 
-    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo chown -R hdfs:hadoop /hadoop/hadoop-data/dfs"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo chown -R hdfs:hadoop /hadoop/hadoop-data/dfs"
 
 
 -- step )
 set up mapred dirs
-    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo mkdir -p /hadoop/hadoop-data/mapred/local"
-    $  ~/scripts/cluster-cmd.sh  -h hosts.all  "sudo chown -R mapred:hadoop /hadoop/hadoop-data/mapred"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo mkdir -p /hadoop/hadoop-data/mapred/local"
+    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.all  "sudo chown -R mapred:hadoop /hadoop/hadoop-data/mapred"
 
 
 -- step )
@@ -106,7 +106,7 @@ Question : what is the HDFS capacity?
 
 -- step )
 lets start datanodes on workers (not on master)
-    $  ~/scripts/cluster-cmd.sh -h hosts.workers  "sudo service hadoop-datanode start"
+    $  ~/scripts/cluster-cmd.sh -h ~/hosts.slaves  "sudo service hadoop-datanode start"
 
 
 -- step )
@@ -189,7 +189,7 @@ inspect log file
 
 -- step)
 start task tracker on worker nodes
-    $   ~/scripts/cluster-cmd.sh -h hosts.workers   "sudo service hadoop-tasktracker start"
+    $   ~/scripts/cluster-cmd.sh -h ~/hosts.slaves   "sudo service hadoop-tasktracker start"
 
 
 -- step)
