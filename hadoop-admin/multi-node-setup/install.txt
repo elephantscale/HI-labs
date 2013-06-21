@@ -29,13 +29,6 @@ verify java is installed on all nodes
 we should see the output from all nodes!
 
 
--- step )
-install hadoop rpm on localhost
-    $ sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm
-
-now lets install on all slaves
-    $  ~/scripts/cluster-cmd.sh  -h ~/hosts.slaves  "sudo yum -y localinstall ~/hi/software/hadoop/apache/hadoop-1.1.2-1.x86_64.rpm"
-
 
 -- step )
 set up hadoop data dir : /hadoop/hadoop-data
