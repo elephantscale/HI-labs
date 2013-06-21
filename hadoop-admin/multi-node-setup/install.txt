@@ -54,7 +54,8 @@ we need to edit two files to match your system
 
 look for the property
         <name>fs.default.name</name>
-we need to update the value to match your master's IP address.
+        <value>hdfs://namenode_hostname:8020</value>
+we need to update the string 'namenode_hostname' to match your master's IP address.
 
 on your node issue the command   'hostname'   to find out your ip
     $ hostname
@@ -64,7 +65,7 @@ this is the hostname of the master,  lets plug this value in to <value> tag
 
 so the fs.default.name  will look like
         <name>fs.default.name</name>
-        <value>hdfs://ip-10-154-179-237.ec2.internal:8020</value>
+        <value>hdfs://ip-10-154-179-237:8020</value>
 
 
 Similary modify   /etc/hadoop/mapred-site.xml
@@ -76,11 +77,11 @@ change the 'jobtracker_hostname' text to the ip address of your master
         <value>jobtracker_hostname:8021</value>
     </property>
 
-e.g 
+e.g
 it might look like:
     <property>
         <name>mapred.job.tracker</name>
-        <value>ip-10-154-179-237.ec2.internal:8021</value>
+        <value>ip-10-154-179-237:8021</value>
     </property>
 
 
@@ -195,7 +196,8 @@ now lets start Map Reduce
 setup mapreduce directories in hdfs
 
     $  sudo -u hdfs  hadoop dfs -mkdir /mapred/system
-    $  sudo -u hdfs  hadoop dfs -chown mapred /mapred/system
+    $  sudo -u hdfs  hadoop dfs -chown -R mapred /mapred
+    $  sudo -u hdfs  hadoop dfs -chmod -R 700 /mapred
 
     $  sudo -u hdfs  hadoop dfs -mkdir /tmp
     $  sudo -u hdfs  hadoop dfs -chmod 777 /tmp
