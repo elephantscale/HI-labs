@@ -47,6 +47,11 @@ see the contents of this file from HDFS
     $ hadoop dfs -cat <yourname>/README.txt
 This should print out the file README.txt
 
+Now you can browser the HDFS
+
+w3m http://localhost:50070
+
+Shift B takes you back.
 
 STEP 5) Check that python or ruby is running on your system
     $ python --version
@@ -54,7 +59,7 @@ STEP 5) Check that python or ruby is running on your system
 
 
 STEP 6) Run the python (or ruby) scripts provided to generate some output.
-    $ cd HadoopIlluminatedSource  (project root dir)
+    $ cd hadoop_labs  (project root dir)
     $ mkdir logs
     $ cd logs 
     $ python ../scripts/gen-billing-data.py
