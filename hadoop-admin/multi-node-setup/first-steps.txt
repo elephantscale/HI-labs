@@ -22,7 +22,7 @@ similarly, create a file ~/hosts.slaves  and enter ips of only worker nodes
 -- step 3)
 verify remote commands scripts
 
-    $ ~/cluster-cmd.sh   -h ~/hosts.all  ls
+    $ ~/scripts/cluster-cmd.sh   -h ~/hosts.all  ls
 
 the output might look like
 

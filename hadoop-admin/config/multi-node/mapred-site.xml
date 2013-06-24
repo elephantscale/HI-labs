@@ -3,7 +3,7 @@
 <configuration>
     <property>
         <name>mapred.job.tracker</name>
-        <value>ip-10-157-40-61.ec2.internal:8021</value>
+        <value>jobtracker_hostname:8021</value>
     </property>
     <property>
         <name>mapred.system.dir</name>
