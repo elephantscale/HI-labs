@@ -8,7 +8,7 @@ wget http://archive.cloudera.com/cm4/installer/latest/cloudera-manager-installer
 chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
-3. Point the browser to <your-url>:7820. Login with admin/admin. 
+3. Point the browser to <your-url>:7180. Login with admin/admin. 
 
 4. Install 4 additional nodes for the cluster.
 
