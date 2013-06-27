@@ -1,5 +1,9 @@
 -- pig-billing.pig
 
+-- ## TODO : set the name of job
+SET job.name 'my_job';
+
+
 -- Parse Input File
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resource_id:chararray,qty:int,cost:int);
 DUMP billing_data;

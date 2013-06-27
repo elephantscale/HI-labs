@@ -1,5 +1,8 @@
 -- itemized-answer.pig
 
+-- ## TODO : set the name of job
+SET job.name 'my_job';
+
 -- Parse Input File
 billing_data = LOAD '<your name>/billing/in/*.log' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
 

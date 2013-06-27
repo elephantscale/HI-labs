@@ -1,5 +1,9 @@
 -- # UDF example
 
+-- ## TODO : set the name of job
+SET job.name 'my_job';
+
+
 register 'a.jar';
 
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long, custid:chararray,resourceid:chararray,qty:int,cost:int);

@@ -1,4 +1,8 @@
 -- pig-billing.pig
+
+-- ## TODO : set the name of job
+SET job.name 'my_job';
+
 -- getting used to LOAD / DESCRIBE / DUMP
 
 -- one line comments start with --
