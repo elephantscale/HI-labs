@@ -33,7 +33,7 @@ Once the mr job is done, inspect the output file:
   $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 STEP 7)

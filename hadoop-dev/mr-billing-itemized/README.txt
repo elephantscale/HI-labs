@@ -23,12 +23,12 @@ Once the mr job is done, inspect the output file:
   $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system  navigate to '/user/<your user name>/billing/out'  dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 STEP 6)
 Once the sample data is working, lets try this on more data.
-See ../lab-notes.txt  on how to generate more data and copy it into hdfs
+See ../getting-started.txt  on how to generate more data and copy it into hdfs
 
 
 STEP 7)
@@ -40,7 +40,7 @@ note 2 : specified a different output dir
 
 STEP 8)
 inpect the output (<your name>/billing/out2  dir) from HDFS UI
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 STEP 9)
 examine the job stats from job tracker UI

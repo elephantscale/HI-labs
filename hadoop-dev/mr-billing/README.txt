@@ -16,7 +16,7 @@ this should create a jar file called 'a.jar'
 STEP 4)
 Now it is time to copy the sample input into HDFS
     $ hadoop dfs -mkdir  <your name>/billing/in
-    $ hadoop dfs -put  ../data/billing-data/sample.txt   <your name>/billing/in/
+    $ hadoop dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
 
 STEP 5)
 we will run this jar file
@@ -27,12 +27,12 @@ Once the mr job is done, inspect the output file:
   $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 STEP 7)
 Once the sample data is working, lets try this on more data.
-See ../lab-notes.txt  on how to generate more data and copy it into hdfs
+See ../getting-started.txt  on how to generate more data and copy it into hdfs
 
 
 STEP 8)
@@ -43,7 +43,7 @@ note 2 : specified a different output dir
 
 STEP 9)
 inpect the output from HDFS UI
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 STEP 10)

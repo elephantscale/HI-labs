@@ -23,7 +23,7 @@ Inspect the output file:
   $ hadoop  dfs -cat <user-name>/sample-out.txt
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/' dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 STEP 6)
 Extra credit: exclude non-numeric entries.

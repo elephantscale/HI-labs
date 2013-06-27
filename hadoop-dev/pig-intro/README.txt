@@ -1,7 +1,7 @@
 Pig Intro Lab : learning pig concepts
 project dir : pig-intro
 
-(Note : before proceeding with the lab, lets make sure we have the data we needed in HDFS : see lab-notes.txt for instructions)
+(Note : before proceeding with the lab, lets make sure we have the data we needed in HDFS : see getting-started.txt for instructions)
 
 STEP 1) start up the GRUNT shell using pig 
 $ pig

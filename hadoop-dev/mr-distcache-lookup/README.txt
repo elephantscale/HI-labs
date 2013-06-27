@@ -43,7 +43,7 @@ Once the mr job is done, inspect the output file:
   $ hadoop  dfs -cat <your name>/billing/out2/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out2' dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 The file should look similar to following:
     1_Memory    117
@@ -68,7 +68,7 @@ You should see something like:
 
 STEP 7)
 Once the sample data is working, lets try this on more data.
-See ../lab-notes.txt  on how to generate more data and copy it into hdfs
+See ../getting-started.txt  on how to generate more data and copy it into hdfs
 
 
 STEP 8)
@@ -80,7 +80,7 @@ note 2 : specified a different output dir
 
 STEP 9)
 inpect the output from HDFS UI
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 BONUS LAB

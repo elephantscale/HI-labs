@@ -71,7 +71,7 @@ public class BillingTotal extends Configured implements Tool
                 int cost = Integer.parseInt(costStr);
 
                 // TODO
-//                Text keyOutCustomer = new Text (?)
+//                Text keyOutCustomer = new Text (?);
 //                IntWritable valueOutCost = new IntWritable(?);
                 // context.write(keyOutCustomer, valueOutCost);
 

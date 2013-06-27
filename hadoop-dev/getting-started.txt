@@ -1,0 +1,101 @@
+Getting started guide for using Hadoop Developer Labs
+----------
+
+lab location : https://github.com/hadoop-illuminated/hadoop-labs
+
+
+== STEP 1) : Make a personal workspace
+If you are using a hadoop cluster provided, please ask the instructor for credentials.
+
+We recommend you create a personal workspace on linux file system.
+
+after you login
+        $  cd    # get to home dir
+        $  mkdir   <your name>
+e.g.    $  mkdir   sujee
+        $ cd   <your name>     #   <-- this is your personal space
+
+
+== STEP 2) : get code from github
+
+Get the code from github into your personal workspace
+        $   cd <your personal workspace dir you just created>
+e.g.    $   cd sujee
+
+There are two ways you can do this:
+
+1) using git
+    $   git clone --depth 1  https://github.com/hadoop-illuminated/hadoop-labs.git
+
+2) or download the zip file
+    2a) click 'download as zip' button on the github url above
+
+    2b) using command line
+        $   wget 'https://github.com/hadoop-illuminated/hadoop-labs/archive/master.zip'
+        $ unzip master.zip
+
+This will create a dir called 'hadoop-labs'.  This will be the project root
+
+Great!  Now you are ready to run the labs:
+
+
+-- Next Steps --
+Lets create some data to work with the labs
+
+
+== STEP 3) create a working dir in HDFS
+      $ hadoop dfs -mkdir <your name>
+e.g   $ hadoop dfs -mkdir sujee
+this might create a dir in HFDS in /user/<login>/sujee
+
+
+== STEP 4)
+
+create hdfs directory to store logs
+        $ hadoop dfs -mkdir <your name>/billing/in
+e.g :   $hadoop dfs -mkdir sujee/billing/in
+this will create a dir in /user/<login>/<yourname>/billing/in
+
+
+== STEP 5) copy sample data into HDFS
+    $  cd  <project root dir>
+    $  hadoop dfs -put data/billing-data/sample.txt   <your name>/billing/in/
+
+
+== STEP 6 ) Generating more data
+run python script or ruby script
+    $  cd <project root dir>
+    $  mkdir logs
+    $  cd logs
+    $  ruby ../data/scripts/gen-billing-data.rb
+  or
+    $  python ../data/scripts/gen-billing-data.py
+
+this will generate a bunch of log files in the current dir
+
+
+== STEP 7) copy the files into hdfs
+
+    $ hadoop dfs -put *.log   <your name>/billing/in/
+
+
+== STEP 8) Browsing HDFS File System using UI
+go to : http://<namenode>:50070
+        http://localhost:50070
+
+Click on 'Browse File System'
+Navigate  to    'user'  --> '<your username>'
+This is your 'home directory' in HDFS.
+
+
+Compiling the source code
+------
+to compile a project
+    $ cd <project dir>
+    $ ../compile.sh
+
+for example:
+    $ cd mr-billing
+    $ ../compile.sh
+
+For Hadoop version2 use 'compile2.sh' script instead

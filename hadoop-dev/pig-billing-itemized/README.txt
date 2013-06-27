@@ -12,7 +12,7 @@ STEP 3) Run the pig file using pig:
 
 STEP 4)
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../lab-notes.txt for detailed instructions)
+(see ../getting-started.txt for detailed instructions)
 
 
 STEP 5) examine the job stats from job tracker UI
