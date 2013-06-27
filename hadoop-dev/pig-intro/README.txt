@@ -1,7 +1,7 @@
 Pig Intro Lab : learning pig concepts
 project dir : pig-intro
 
-(Note : before proceeding with the lab, lets make sure we have the data we needed in HDFS : see getting-started.txt for instructions)
+(Note : before proceeding with the lab, lets make sure we have the data we needed in HDFS : see ../getting-started.txt for instructions)
 
 STEP 1) start up the GRUNT shell using pig 
 $ pig
@@ -51,3 +51,7 @@ e.g : edit file   foreach.pig
       complete TODOs and save the file
       and run the file as follows
          $   pig foreach.pig
+
+
+To change the name of pig script supply 'job.name' parameter
+    $ pig -Djob.name="hello"  script.pig
