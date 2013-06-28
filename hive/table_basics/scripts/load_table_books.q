@@ -1,7 +1,8 @@
--- first make sure you put moby-dick.txt into hdfs
--- hadoop dfs -mkdir um/mark/hive/in
--- hadoop dfs -put ../data/hive-data/moby-dick.txt um/mark/hive/in
-
 -- replace 'mark' with your username
-load data inpath 'um/mark/hive/in/moby-dick.txt'
+
+-- make sure you put moby-dick.txt into hdfs
+-- hadoop dfs -mkdir /tmp/<user_name>/hive/in
+-- hadoop dfs -put <LAB>/data/hive-data/moby-dick.txt /tmp/user_name>/hive/in
+
+load data inpath '/tmp/<user_name>/hive/in/moby-dick.txt'
 into table books;
