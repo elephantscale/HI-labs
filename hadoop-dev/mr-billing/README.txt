@@ -6,6 +6,9 @@ STEP 1) edit the file : mr-billng/src/hi/mr/BillingTotal.java
 STEP 2) complete the TODO items
 Answer : mr-billng/src/hi/mr/BillingTotalAnswer.java
 
+Hint:
+To uniquely identify your job, give it a name:
+Job job = new Job(conf, "Your-name " + getClass().getName());
 
 STEP 3) compile the code:
   $ cd mr-billing
