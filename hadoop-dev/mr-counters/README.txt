@@ -18,7 +18,7 @@ Answer : mr-counters/src/hi/mr/CounterAnswer.java
 
 STEP 5) compile the code:
   $ cd mr-counters
-  $ ../compile.sh
+  $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
 STEP 6)
