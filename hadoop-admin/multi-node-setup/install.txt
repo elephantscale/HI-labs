@@ -45,7 +45,7 @@ set up mapred dirs
 -- step )
 configure hadoop
 sample config files are provided in :   ~/hi/hadoop-labs/hadoop-admin/config/multi-node
-lets copy these files into hadoop config dir  /etc/hadoop
+Let us copy these files into hadoop config dir  /etc/hadoop
     $   sudo  cp   ~/hi/hadoop-labs/hadoop-admin/config/multi-node/*   /etc/hadoop/
 
 we need to edit two files to match your system
@@ -60,7 +60,7 @@ on your node issue the command   'hostname'   to find out your ip
     $ hostname
 output might be
     ip-10-154-179-237
-this is the hostname of the master,  lets plug this value in to <value> tag
+this is the hostname of the master,  let's plug this value in to <value> tag
 
 so the fs.default.name  will look like
         <name>fs.default.name</name>
@@ -150,7 +150,7 @@ Question : what is the HDFS capacity?
 
 
 -- step )
-lets start datanodes on workers (not on master)
+let's start datanodes on workers (not on master)
     $  ~/scripts/cluster-cmd.sh -h ~/hosts.slaves  "sudo service hadoop-datanode start"
 
 
@@ -171,11 +171,11 @@ using command line
 -- step)
 'kick the tires for hdfs'
 
-lets create a 'home' dir in HDFS for 'ec2-user'
+let's create a 'home' dir in HDFS for 'ec2-user'
     $  sudo -u hdfs hadoop dfs -mkdir /user/ec2-user
     $  sudo -u hdfs hadoop dfs -chown ec2-user /user/ec2-user
 
-lets copy a file as ec2-user
+let's copy a file as ec2-user
     $  hadoop dfs -put README.txt  .
 (don't forget the dot at the end!)
 
@@ -189,7 +189,7 @@ output will look similar to the following
 Excellent!  we have HDFS is running.
 
 
-now lets start Map Reduce
+now let's start Map Reduce
 
 -- step )
 setup mapreduce directories in hdfs
