@@ -9,24 +9,24 @@ Login into the linux node.  Instructor will provide credentials
 
 
 
--- step 3)
+-- step 2)
 verify password-less ssh is working on this node
     $  ssh localhost
 say yes to the prompt
 
 
--- step 4)
+-- step 3)
 verify the following files are in ~/hi directory
     hadoop install file : ~/hi/software/hadoop/apache
     java installer : ~/hi/software/java
 
 
--- step 5) install java
+-- step 4) install java
     $  cd ~/hi/software/java
     $  sudo sh ./jdk-6u45-linux-x64-rpm.bin
 
 
--- step 6)
+-- step 5)
 verify java is installed
     $ java -version
 
@@ -36,13 +36,13 @@ you should see output similar to the following
     Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
 
 
--- step 7)
+-- step 6)
 we will install hadoop using TAR file format.
 verify the hadoop file exists in   ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
 (version numbes 1.1.2 might be different on your node)
 
 
--- step 8)
+-- step 7)
 untar hadoop file under home directory
     $  cd    #  <-- so you are in home dir
     $  tar xf ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
@@ -56,7 +56,7 @@ verify the following directories exist under HADOOP_HOME
     sbin
 
 
--- step 9)
+-- step 8)
 create a data dir for hadoop
     $  mkdir /hadoop/hadoop-data
 
@@ -66,7 +66,7 @@ Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/c
 Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into HADOOP_HOME/conf dir
 
 
--- step 10)
+-- step 9)
 (optional)
 Edit file HADOOP_HOME/conf/hadoop-env.sh
 and update the JAVA_HOME variable
@@ -76,7 +76,7 @@ and update the JAVA_HOME variable
     export HADOOP_SSH_OPTS="-o StrictHostKeyChecking=no"
 
 
--- step 11)
+-- step 10)
 copy minimal config files provided into HADOOP_HOME/conf dir
     $  cp ~/hi/config/hadoop-single/*   ~/hadoop/conf/
 
@@ -89,17 +89,17 @@ inspect the following files:
     conf/slaves
 
 
--- step 12)
+-- step 11)
 format namenode storage
     $   ~/hadoop/bin/hadoop namenode -format
 
 
--- step 13)
+-- step 12)
 start hadoop deamons
     $  ~/hadoop/bin/start-all.sh
 
 
--- step 14)
+-- step 13)
 verify the deamons are running
     $   jps
 (if jps is not in path, try  /usr/java/latest/bin/jps)
@@ -114,7 +114,7 @@ output will look similar to this
 We have all deamons running
 
 
--- step 15)
+-- step 14)
 Verify UIs by namenode and job tracker
 In a browser, go to the following URLs
     namenode UI:   http://machine_host_name:50070
