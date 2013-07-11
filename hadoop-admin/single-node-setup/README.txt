@@ -111,7 +111,7 @@ output will look similar to this
     9403 JobTracker
     9089 NameNode
 
-Looks like we have all deamons running!
+We have all deamons running
 
 
 -- step 15)
@@ -129,6 +129,8 @@ explore hadoop-data directories
     $ find /hadoop/hadoop-data
 how does hadoop organize data?
 
-
--- Well done!)
+[BONUS LAB 2]
+Generate a reasonable amount of data using teragen
+Sort the data using terasort
+Analyze cluster performance
 You have installed and configured hadoop on a single node
