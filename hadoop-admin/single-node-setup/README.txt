@@ -124,6 +124,8 @@ substitute 'machine host name' with public IP of your node
 e.g :   http://ec2......com:50070
 
 
+You have installed and configured hadoop on a single node
+
 [BONUS LAB 1]
 explore hadoop-data directories
     $ find /hadoop/hadoop-data
@@ -133,4 +135,3 @@ how does hadoop organize data?
 Generate a reasonable amount of data using teragen
 Sort the data using terasort
 Analyze cluster performance
-You have installed and configured hadoop on a single node
