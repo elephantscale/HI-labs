@@ -1,10 +1,9 @@
-Hadoop Administration - multi Node install
+Hadoop Administration - multi-node install
 ---
 
 Lab goal : install and configure a hadoop cluster
 
 Be sure to complete 'first-steps.txt'
-
 
 
 
@@ -223,7 +222,7 @@ method 2)
     $  sudo /usr/java/latest/bin/jps
 
 output might look like...
-    2956 JobTracker   <---- yay!
+    2956 JobTracker   
     3101 Jps
     1324 NameNode
     1849 SecondaryNameNode
@@ -245,8 +244,8 @@ verify task trackers are up and can connect to job tracker
 on the job tracker UI, check 'Nodes' section.  Do we see all task trackers connected?
 
 
-Yay!  It has been a long lab... but now we have a working hadoop cluster!
+It has been a long lab, but at the end we should have a working hadoop cluster.
 
 Next Steps:
     look under ../verify-setup lab.
-    Run a benchmark (e.g. TestDFSIO) to verify every thing is working
+    Run a benchmark (e.g. TestDFSIO) to verify everything is working
