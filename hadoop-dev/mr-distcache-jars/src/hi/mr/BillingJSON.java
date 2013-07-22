@@ -42,7 +42,7 @@ public class BillingJSON extends Configured implements Tool
 
         Configuration conf = getConf();
 
-        Job job = new Job(conf, getClass().getName());
+        Job job = new Job(conf, getClass().getName() + "--<your_name>"); // TODO
         job.setJarByClass(BillingJSON.class);
         job.setMapperClass(MyMapper.class);
         job.setReducerClass(MyReducer.class);

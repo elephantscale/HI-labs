@@ -42,6 +42,12 @@ There are two ways you can do this:
 This will create a dir called 'hadoop-labs'.  This will be the project root
 
 
+NOTE:
+'hadoop dfs'   or  'hdfs dfs' ?
+use 'hadoop dfs'  for hadoop version 1 and earlier
+use  'hdfs  dfs'  for hadoop version 2
+
+
 === for Hadoop Admin ====
 Create a HDFS home dir for <login user>  (hdfs:///user/<login_name>)
     $  sudo -s  #  if needed
