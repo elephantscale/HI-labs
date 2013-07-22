@@ -1,13 +1,18 @@
-Getting started guide for using Hadoop Developer Labs
-----------
+Getting started guide for Hadoop Developer Labs
+-----------------------------------------------
 
 lab location : https://github.com/hadoop-illuminated/hadoop-labs
 
+== STEP 1) login to the cluster
+Login in to the cluster assigned to you using SSH.  Instructor will provide details.
+    $  ssh <user name>@<hostname>
+    e.g $  ssh ec2-user@ec2.........
 
-== STEP 1) : Make a personal workspace
-If you are using a hadoop cluster provided, please ask the instructor for credentials.
+    You will be placed in home dir : /home/<login user>
+    e.g.    /home/ubuntu    or /home/ec2-user
 
-We recommend you create a personal workspace on linux file system.
+
+== STEP 2) : Make a personal workspace in linux
 
 after you login
         $  cd    # get to home dir
@@ -16,7 +21,7 @@ e.g.    $  mkdir   sujee
         $ cd   <your name>     #   <-- this is your personal space
 
 
-== STEP 2) : get code from github
+== STEP 3) : get code from github
 
 Get the code from github into your personal workspace
         $   cd <your personal workspace dir you just created>
@@ -31,38 +36,64 @@ There are two ways you can do this:
     2a) click 'download as zip' button on the github url above
 
     2b) using command line
-        $   wget 'https://github.com/hadoop-illuminated/hadoop-labs/archive/master.zip'
-        $ unzip master.zip
+        $  wget 'https://github.com/hadoop-illuminated/hadoop-labs/archive/master.zip'
+        $  unzip master.zip
 
 This will create a dir called 'hadoop-labs'.  This will be the project root
 
-Great!  Now you are ready to run the labs:
+
+=== for Hadoop Admin ====
+Create a HDFS home dir for <login user>  (hdfs:///user/<login_name>)
+    $  sudo -s  #  if needed
+    $  sudo -u hdfs  hdfs  dfs -mkdir /user/<login_name>
+
+e.g $  sudo -u hdfs  hdfs  dfs -mkdir /user/ec2-user
+
+set the permissions
+    $  sudo -u hdfs  hdfs dfs  -chown <login_name> /user/<login_name>
+e.g $  sudo -u hdfs  hdfs dfs  -chown ec2-user /user/ec2-user
+
+verify permissions
+    $   hdfs  dfs -ls /user/
+make sure a directory named '/user/<login_user>' exists and is owned by <login_user>
+=== end Hadoop Admin ====
 
 
--- Next Steps --
-Lets create some data to work with the labs
+
+== STEP 4) create a working dir in HDFS
+In the above section, we created a personal workspace on linux.  Lets do a
+similar thing on HDFS as well
+(remember, HDFS is a different file system than linux fs)
+
+      $ hdfs dfs -mkdir <your name>
+e.g   $ hdfs dfs -mkdir sujee
+
+this will create a dir in HDFS : /user/<login_name>/<your name>
+
+this will be your working dir in HDFS.  All your data / files will reside here
 
 
-== STEP 3) create a working dir in HDFS
-      $ hadoop dfs -mkdir <your name>
-e.g   $ hadoop dfs -mkdir sujee
-this might create a dir in HFDS in /user/<login>/sujee
+== STEP 5)
+create a simple file under your dir
+    $  hdfs dfs  -touchz  <your_name>/z
+    $  hdfs dfs  -ls <your_name>
 
 
-== STEP 4)
+
+== STEP 5)
 
 create hdfs directory to store logs
-        $ hadoop dfs -mkdir <your name>/billing/in
-e.g :   $hadoop dfs -mkdir sujee/billing/in
-this will create a dir in /user/<login>/<yourname>/billing/in
+        $  hdfs dfs -mkdir <your name>/billing/in
+e.g :   $  hdfs dfs -mkdir sujee/billing/in
+this will create a dir in /user/<login_name>/<yourname>/billing/in
 
 
-== STEP 5) copy sample data into HDFS
+== STEP 6) copy sample data into HDFS
     $  cd  <project root dir>
-    $  hadoop dfs -put data/billing-data/sample.txt   <your name>/billing/in/
+    $  hdfs dfs -put data/billing-data/sample.txt   <your name>/billing/in/
 
 
-== STEP 6 ) Generating more data
+== STEP 7 ) Generating more data
 run python script or ruby script
     $  cd <project root dir>
     $  mkdir logs
@@ -74,12 +105,12 @@ run python script or ruby script
 this will generate a bunch of log files in the current dir
 
 
-== STEP 7) copy the files into hdfs
+== STEP 8) copy the files into hdfs
 
-    $ hadoop dfs -put *.log   <your name>/billing/in/
+    $ hdfs dfs -put *.log   <your name>/billing/in/
 
 
-== STEP 8) Browsing HDFS File System using UI
+== STEP 9) Browsing HDFS File System using UI
 go to : http://<namenode>:50070
         http://localhost:50070
 
@@ -98,4 +129,4 @@ for example:
     $ cd mr-billing
     $ ../compile.sh
 
-For Hadoop version2 use 'compile2.sh' script instead
+Note : For Hadoop version2 use 'compile2.sh' script instead

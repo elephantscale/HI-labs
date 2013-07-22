@@ -3,16 +3,16 @@ project dir : pig-intro
 
 (Note : before proceeding with the lab, lets make sure we have the data we needed in HDFS : see ../getting-started.txt for instructions)
 
-STEP 1) start up the GRUNT shell using pig 
+STEP 1) start up the GRUNT shell using pig
 $ pig
 
 
 STEP 2) Practice using the Pig Load Command on the billing data
-GRUNT> billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:chararray,custid:chararray,resourceid:chararray,qty:int,cost:int); 
+GRUNT> billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:chararray,custid:chararray,resourceid:chararray,qty:int,cost:int);
 
 
 STEP 3) Practice using the describe command.
-GRUNT > DESCRIBE billing_data; 
+GRUNT > DESCRIBE billing_data;
 
 
 STEP 4) Try the same thing but anonymously
@@ -25,7 +25,7 @@ GRUNT> DUMP billing_data;
 
 
 Step 6) use the store commands to store the results.
-GRUNT> STORE billing_data INTO '<your name>/billing/out'
+GRUNT> STORE billing_data INTO '<your name>/billing/out';
 
 
 STEP 7) Check the output
@@ -55,3 +55,12 @@ e.g : edit file   foreach.pig
 
 To change the name of pig script supply 'job.name' parameter
     $ pig -Djob.name="hello"  script.pig
+
+---
+Turning off logging in pig
+
+create a log.conf file with this line
+  log4j.rootLogger=FATAL
+
+invoke pig with -4 arg
+  $ pig -4 log.conf   < script.pig
