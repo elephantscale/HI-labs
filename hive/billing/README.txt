@@ -59,3 +59,11 @@ You can execute this query directly from hive shell, or place this in a file (e.
     $ hive -f top.q
 
 Question : how many mapreduce jobs are being kicked off?  Why?
+
+
+== Bonus Lab:
+
+Can you find 'free' resource usage.
+    (hint, consider 'cost' field)
+
+Which users uses most 'free' stuff?  (top freeloaders :-)
