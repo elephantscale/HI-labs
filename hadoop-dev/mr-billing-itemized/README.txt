@@ -44,7 +44,7 @@ Browse HDFS file system  navigate to '/user/<your user name>/billing/out'  dir
 
 == STEP 6)
 Once the sample data is working, lets try this on more data.
-See ../getting-started.txt  on how to generate more data and copy it into hdfs
+See ../generating-data.txt  on how to generate more data and copy it into hdfs
 
 
 == STEP 7)

@@ -76,7 +76,7 @@ You should see something like:
 
 == STEP 8)
 Once the sample data is working, lets try this on more data.
-See ../getting-started.txt  on how to generate more data and copy it into hdfs
+See ../generating-data.txt  on how to generate more data and copy it into hdfs
 
 
 == STEP 9)
