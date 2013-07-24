@@ -3,40 +3,56 @@ project dir : mr-counters
 you can also open the project in eclipse
 
 
-STEP 1) inspect the file with 'bad records'
+== STEP 1) inspect the file with 'bad records'
+    $  cd <project root>
 file : data/billing-data/bad_records.txt
 what kind of bad records do you?
   (hint : wrong number of fields,  wrong separator ..etc)
 
-STEP 2) copy 'bad_recods.txt' file into HDFS
-  $ cd <top of project dir>
+
+== STEP 2) copy 'bad_recods.txt' file into HDFS
+  $ cd <project root dir>
+for hadoop 1
   $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in/
+for hadoop 2
+  $ hdfs dfs -put data/billing-data/bad_records.txt    <your name>/billing/in/
 
-STEP 3) edit the file : mr-counters/src/hi/mr/Counter.java
-STEP 4) complete the TODO items
-Answer : mr-counters/src/hi/mr/CounterAnswer.java
 
-STEP 5) compile the code:
+== STEP 3) edit the file : src/hi/mr/Counter.java
+
+
+== STEP 4) complete the TODO items
+Answer : src/hi/mr/CounterAnswer.java
+
+
+== STEP 5) compile the code:
   $ cd mr-counters
+for hadoop 1
+  $ ../compile.sh
+for hadoop 2
   $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
-STEP 6)
+
+== STEP 6)
 we will run this jar file
   $ hadoop jar a.jar  hi.mr.Counter   <your name>/billing/in/bad_records.txt   <your name>/billing/out
 
 Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 
-STEP 6)
+== STEP 7)
 Once the mr job is done, inspect the output file:
+for hadoop 1
   $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
+for hadoop 2
+  $ hdfs  dfs -cat <your name>/billing/out/part-r-00000
 or
 Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 (see ../getting-started.txt for detailed instructions)
 
 
-STEP 7)
+== STEP 8)
 inspect the counters
 A) by the output produced by MR
 B) from job tracker UI

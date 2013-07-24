@@ -2,42 +2,58 @@ Lab : insert and query  customer data into Hbase
 project dir : hbase-insert-1
 you can also open the project in eclipse
 
-STEP 1) edit the file : hbase-insert-1/src/hi/hbase/UserInsert.java
+== STEP 1)
+    $   cd hbase-insert-1
+    edit the file : src/hi/hbase/UserInsert.java
 
 
-STEP 2) complete the TODO items
+== STEP 2) complete the TODO items
 
 
-STEP 3) compile the code:
+== STEP 3) compile the code:
+for hadoop 1
     $ cd hbase-insert-1
     $ ../compile.sh
+for hadoop 2
+    $ cd hbase-insert-1
+    $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
-STEP 4) create a users table on hbase
+
+== STEP 4) create a users table on hbase
 invoke hbase shell
     $ hbase shell
 in hbase shell, create a '<your name>_users' table.  Replace <your name> with your username.
-    hbase >  create 'users', 'info'
+
+e.g.
+    hbase >  create 'sujee_users', 'info'
 
 
-STEP 5) insert data into hbase
+== STEP 5) insert data into hbase
 run the executable insert.sh
+for hadoop 1
     $ ./insert.sh
-or
+    or
     $ sh insert.sh
+
+for hadoop 2
+    $ ./insert2.sh
+    or
+    $ sh insert2.sh
 
 at the end of the run you should see something like:
     inserted 100 users  in 6 ms
 
 
-STEP 6) verify 'users' table is populated
+== STEP 6) verify 'users' table is populated
 start hbase shell
     $ hbase shell
 
-    hbase shell > count 'users'
+    hbase shell > count '<your_name>_users'
     100 row(s) in 0.0440 seconds
 
-    hbase shell > scan 'users'
+e.g.
+    hbase shell > scan 'sujee_users'
 
 the output should look like:
 ROW                           COLUMN+CELL
@@ -52,9 +68,18 @@ ROW                           COLUMN+CELL
 
 STEP 7) now that we have users table populated, lets run some query
 run the file 'query.sh'
+
+for hadoop 1
     $ ./query.sh
-or
+    or
     $ sh query.sh
+
+for hadoop 2
+    $ ./query2.sh
+    or
+    $ sh query2.sh
+
+
 The output might look like:
     querying for userId : 191
          row user=191 : not found

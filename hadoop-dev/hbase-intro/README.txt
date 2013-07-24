@@ -3,7 +3,7 @@ In this lab we will check to ensure that Habse is running on your
 system and be able to get famliar with the user interface.
 
 
-STEP 1) View HBASE Web Interface
+== STEP 1) View HBASE Web Interface
 Hbase master dashboard can be accessed via a browser:
     http://hbase_master:60010
 
@@ -12,9 +12,7 @@ Q : What tables do you see?  Note about system tables and user tables
 Q : how many region servers do you see in the cluster?
 
 
-
-
-STEP 2) Ensuring that the hbase command works
+== STEP 2) Ensuring that the hbase command works
 On a terminal invoke hbase command
     $ hbase
     Usage: hbase <command>
@@ -23,20 +21,20 @@ You can fix your path in this shell window by using the following command:
 $ export PATH=$PATH:/path/to/hbase/location/bin
 
 
-STEP 3) Hbase Shell
+== STEP 3) Hbase Shell
 Invoke hbase shell in a terminal
     $ hbase shell
 You should a prompt like:
     hbase(main):001:0>
 
 
-STEP 4) use 'list' command to see the tables
+== STEP 4) use 'list' command to see the tables
 issue 'list' command in hbase shell
     hbase(main):001:0>  list
 you will see any tables if there is any
 
 
-STEP 5) use 'status' shell command
+== STEP 5) use 'status' shell command
 issue 'status' command to see hbase cluster status
     hbase(main):002:0> status
 
@@ -47,7 +45,7 @@ try detailed status  command
     hbase(main):002:0> status 'detailed'
 
 
-STEP 6) creating TABLE using hbase shell
+== STEP 6) creating TABLE using hbase shell
 we are going to create a table named 'test' with one family named 'd'
     hbase(main):006:0> create '<your name>_test', 'd'
 e.g  :   create 'sujee_test', 'd'
@@ -59,7 +57,7 @@ Use the list command to verify the table exists
     test
 
 
-STEP 7) finding out more about a table : describe command
+== STEP 7) finding out more about a table : describe command
 issue 'describe' command on hbase shell
     hbase(main):008:0> describe 'test'
 
@@ -71,7 +69,7 @@ issue 'describe' command on hbase shell
      ODE_ON_DISK => 'true', BLOCKCACHE => 'true'}]}
 
 
-STEP 8) insert some rows into test table
+== STEP 8) insert some rows into test table
 put command works like this:
     put <table name>  <row key>   <column_famly : column>    <value>
 
@@ -80,7 +78,7 @@ put command works like this:
     hbase(main):017:0> put 'test', 'r2', 'd:c1', 'baz'
 
 
-STEP 9) find out the contents of the table
+== STEP 9) find out the contents of the table
 issue scan 'table_name' command from hbase shell
     hbase(main):019:0> scan 'test'
 
@@ -94,7 +92,7 @@ output may look similar to:
 Note the timestamps, Hbase inserts timestamps automatically (we can over-ride this)
 
 
-STEP 10) count number of rows in a table
+== STEP 10) count number of rows in a table
 issue 'count' command in hbase shell
     hbase(main):024:0> count 'test'
 

@@ -1,0 +1,33 @@
+how to generate data files and load them in HDFS
+
+== STEP 1)
+
+create hdfs directory to store logs
+        $  hdfs dfs -mkdir <your name>/billing/in
+e.g :   $  hdfs dfs -mkdir sujee/billing/in
+this will create a dir in /user/<login_name>/<yourname>/billing/in
+
+
+== STEP 2) copy sample data into HDFS
+    $  cd  <project root dir>
+    $  hdfs dfs -put data/billing-data/sample.txt   <your name>/billing/in/
+
+
+== STEP 3 ) Generating more data
+run python script or ruby script
+    $  cd <project root dir>
+    $  mkdir logs
+    $  cd logs
+    $  ruby ../data/scripts/gen-billing-data.rb
+  or
+    $  python ../data/scripts/gen-billing-data.py
+
+this will generate a bunch of log files in the current dir
+
+
+== STEP 4) copy the files into hdfs
+    $ hdfs dfs -put *.log   <your name>/billing/in/
+
+verify files
+    $ hdfs dfs -ls <your name>/billing/in
+

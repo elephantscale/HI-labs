@@ -13,13 +13,13 @@ Lab Goals:
 TaskTracker daemons.
 
 
-Step 1) View running java processes; look for hadoop daemons
+== Step 1) View running java processes; look for hadoop daemons
 $ ps -eaf | grep java
 hduser   11930     1  0 Mar05 pts/2    00:07:32
 /usr/lib/jvm/java-6-oracle/bin/java -Dproc_namenode -Xmx1000m ...
 ... and so on ...
 
-Step 2) Run jps to see if there
+== Step 2) Run jps to see if there
 $ jps
 12940 JobTracker
 4902 Jps
@@ -28,7 +28,12 @@ $ jps
 12847 SecondaryNameNode
 11930 NameNode
 
-Step 3) Ensuring that the Hadoop command works
+If the above doesn't produce any output try
+    $  sudo jps
+    or
+    $  sudo /usr/java/latest/bin/jps
+
+== Step 3) Ensuring that the Hadoop command works
 
 $ hadoop
 Usage: hadoop [--config confdir] COMMAND
@@ -43,11 +48,12 @@ Open a browser to http://localhost:50070/
 $ lynx http://localhost:50070/
 )
 
-Step 5) Open JobTracker at:
 
+== Step 4) Open JobTracker at:
 http://localhost:50030/
 
-Step 6) Open TaskTracker at:
+
+== Step 5) Open TaskTracker at:
 
 http;//localhost:50060/
 
@@ -74,6 +80,3 @@ You're done -- congradulations!  You just checked to make sure that
 your Hadoop daemons are running, you ensured your path was set up
 properly, and then you viewed the web interface for three of your
 Hadoop Daemons.
-
-
-
