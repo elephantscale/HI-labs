@@ -1,0 +1,11 @@
+# History file
+.Rhistory
+
+# Data file
+.RData
+
+# Output file
+*.Rout
+
+# Example code in package build process
+*-Ex.R

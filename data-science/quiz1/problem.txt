@@ -1,0 +1,19 @@
+-------
+Quiz 01
+-------
+
+q1.1 Create a matrix called matrix1 with the following values :
+         -1,0,1,1,-1
+         1,0,-1,1,-1
+         0,1,-1,1,-1
+         0,1,-1,-1,-1
+         -1,1,-1,-1,-1
+
+q1.2 Multiply matrix1 with its transpose and save the output as matrix2
+
+q1.3 Save matrix2 row-by-row in to a data frame called "df1" with rownames and colnames as
+       "A", "B", "C", "D", and "E"
+
+q1.4 Scatter plot the data frame
+
+q1.5 What inferences can you draw from the data frame?
