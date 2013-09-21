@@ -1,1 +1,0 @@
-../hadoop-dev/compile.sh
