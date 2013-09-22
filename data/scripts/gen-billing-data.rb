@@ -12,8 +12,10 @@ require 'json'
 ## jruby log-gen.rb
 
 # config
-days=10
-entries=100000
+$days=10
+$entries=100000
+$log_format='csv'
+#$log_format='json'
 # end config
 
 
@@ -28,23 +30,28 @@ def generate_log(timestamp)
   cost = rand(200) - 20
   cost = 0 if cost < 0
 
-  logline = "#{timestamp},#{customer_id},#{resource_id},#{qty},#{cost}"
+  if $log_format == 'csv'
+    logline = "#{timestamp},#{customer_id},#{resource_id},#{qty},#{cost}"
+  end
   #puts logline
 
-  ## generate JSON format
-  #dict = {"timestamp" =>  timestamp,
-    #"customer_id" =>  customer_id,
-    #"resource_id" => resource_id,
-    #"qty" => zone_id,
-    #"cost" => cost
-  #}
-  #logline = JSON::generate(dict)
+
+  # generate JSON format
+  if $log_format == 'json'
+    dict = {"timestamp" =>  timestamp,
+      "customer_id" =>  customer_id,
+      "resource_id" => resource_id,
+      "qty" => qty,
+      "cost" => cost
+    }
+    logline = JSON::generate(dict)
+  end
 
 
   logline
 end
 
-time_inc = (24.0*3600)/entries
+time_inc = (24.0*3600)/$entries
 #puts "time inc : #{time_inc}"
 
 
@@ -52,7 +59,7 @@ time_inc = (24.0*3600)/entries
 
 threads = []
 
-0.upto(days-1) do |day|
+0.upto($days-1) do |day|
 
   threads << Thread.new(day) do |myday|
     start_ts = Time.local(2012, 1, 1) + myday * 24 * 3600

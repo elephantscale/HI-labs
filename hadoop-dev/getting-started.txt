@@ -1,7 +1,7 @@
 Getting started guide for Hadoop Developer Labs
 -----------------------------------------------
 
-lab location : https://github.com/hadoop-illuminated/hadoop-labs
+lab location : https://github.com/hadoop-illuminated/HI-labs
 
 == STEP 1) login to the cluster
 Login in to the cluster assigned to you using SSH.  Instructor will provide details.
@@ -30,16 +30,16 @@ e.g.    $   cd sujee
 There are two ways you can do this:
 
 1) using git
-    $   git clone --depth 1  https://github.com/hadoop-illuminated/hadoop-labs.git
+    $   git clone --depth 1  https://github.com/hadoop-illuminated/HI-labs.git
 
 2) or download the zip file
     2a) click 'download as zip' button on the github url above
 
     2b) using command line
-        $  wget 'https://github.com/hadoop-illuminated/hadoop-labs/archive/master.zip'
+        $  wget 'https://github.com/hadoop-illuminated/HI-labs/archive/master.zip'
         $  unzip master.zip
 
-This will create a dir called 'hadoop-labs'.  This will be the project root
+This will create a dir called 'HI-labs'.  This will be the project root
 
 
 NOTE:

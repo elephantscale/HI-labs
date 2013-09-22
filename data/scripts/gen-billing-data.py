@@ -10,6 +10,8 @@
 ## ----- config
 days=10
 entries_per_day=100000
+log_format="csv"
+#log_format="json"
 ## --- end config
 
 
@@ -30,11 +32,13 @@ def generate_log(timestamp):
     cost = 0
 
   #csv
-  logline = "%s,%s,%s,%s,%s" % (timestamp, customer_id, resource_id, qty, cost)
+  if (log_format == 'csv'):
+    logline = "%s,%s,%s,%s,%s" % (timestamp, customer_id, resource_id, qty, cost)
 
-  ## generate JSON format
-  #dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'qty': qty,  'cost':cost}
-  #logline = json.dumps(dict)
+  # generate JSON format
+  if (log_format == 'json'):
+    dict={'timestamp': timestamp, 'customer_id': customer_id, 'resource_id': resource_id, 'qty': qty,  'cost':cost}
+    logline = json.dumps(dict)
 
 
   #print logline
