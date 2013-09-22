@@ -13,9 +13,12 @@ what kind of bad records do you?
 == STEP 2) copy 'bad_recods.txt' file into HDFS
   $ cd <project root dir>
 for hadoop 1
-  $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in/
+  $ hadoop dfs -mkdir <your name>/billing/in2
+  $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in2/
+
 for hadoop 2
-  $ hdfs dfs -put data/billing-data/bad_records.txt    <your name>/billing/in/
+  $ hdfs dfs -mkdir <your name>/billing/in2
+  $ hdfs dfs -put data/billing-data/bad_records.txt    <your name>/billing/in2/
 
 
 == STEP 3) edit the file : src/hi/mr/Counter.java
@@ -36,7 +39,7 @@ this should create a jar file called 'a.jar'
 
 == STEP 6)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.Counter   <your name>/billing/in/bad_records.txt   <your name>/billing/out
+  $ hadoop jar a.jar  hi.mr.Counter   <your name>/billing/in2/bad_records.txt   <your name>/billing/out
 
 Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 

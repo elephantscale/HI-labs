@@ -1,0 +1,28 @@
+System Counters
+credit to : http://lintool.github.io/Cloud9/docs/content/counters.html
+
+
+Group Name	                            Counter Name
+-----
+org.apache.hadoop.mapred.Task$Counter	MAP_INPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	MAP_OUTPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	MAP_SKIPPED_RECORDS
+org.apache.hadoop.mapred.Task$Counter	MAP_INPUT_BYTES
+org.apache.hadoop.mapred.Task$Counter	MAP_OUTPUT_BYTES
+org.apache.hadoop.mapred.Task$Counter	COMBINE_INPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	COMBINE_OUTPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	REDUCE_INPUT_GROUPS
+org.apache.hadoop.mapred.Task$Counter	REDUCE_SHUFFLE_BYTES
+org.apache.hadoop.mapred.Task$Counter	REDUCE_INPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	REDUCE_OUTPUT_RECORDS
+org.apache.hadoop.mapred.Task$Counter	REDUCE_SKIPPED_GROUPS
+org.apache.hadoop.mapred.Task$Counter	REDUCE_SKIPPED_RECORDS
+org.apache.hadoop.mapred.JobInProgress$Counter	TOTAL_LAUNCHED_MAPS
+org.apache.hadoop.mapred.JobInProgress$Counter	RACK_LOCAL_MAPS
+org.apache.hadoop.mapred.JobInProgress$Counter	DATA_LOCAL_MAPS
+org.apache.hadoop.mapred.JobInProgress$Counter	TOTAL_LAUNCHED_REDUCES
+FileSystemCounters	FILE_BYTES_READ
+FileSystemCounters	HDFS_BYTES_READ
+FileSystemCounters	FILE_BYTES_WRITTEN
+FileSystemCounters	HDFS_BYTES_WRITTEN
+
