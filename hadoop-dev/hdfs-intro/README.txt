@@ -126,10 +126,19 @@ verify the files are there
 
 
 
-BONUS LAB:
+== BONUS LAB 1):
 
-== STEP 10) copy the files back to your local directory
-for hadoop 1
-    $  hadoop dfs -get <your name>/billing/in ./billing_data2
-for hadoop 2
-    $  hdfs dfs -get <your name>/billing/in ./billing_data2
+    copy the files back to your local directory
+    for hadoop 1
+        $  hadoop dfs -get <your name>/billing/in ./billing_data2
+    for hadoop 2
+        $  hdfs dfs -get <your name>/billing/in ./billing_data2
+
+
+== BONUS LAB 2)
+    find out which machine has the blocks for a particular file
+    hint the command is : fsck
+        $  hadoop fsck [options]   <full file name>
+        or
+        $  hdfs fsck  [options]   <full file name>
+    can you figure out the options?
