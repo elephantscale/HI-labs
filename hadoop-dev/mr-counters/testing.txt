@@ -14,16 +14,18 @@ We want to inspect the counters programatically and fire off alerts.
 == STEP 2)
     lets get the counter value for BAD_RECORDS programatically
     The command we want is
-        hadoop job -counter  <group name>   <counter name>
+        hadoop job -counter  <job id> <group name>   <counter name>
 
     the group name is : hi.mr.Counter$MyMapper$Counters'
     the counter name is : BAD_RECORDS
+    job id can be found on console or from job tracker UI.
+    It has the format of 'job_timestamp_counter'
 
     for hadoop 1
-        $  hadoop job -counter 'hi.mr.CounterAnswer$MyMapper$Counters'   'BAD_RECORDS'
+        $  hadoop job -counter <job id>  'hi.mr.Counter$MyMapper$Counters'   'BAD_RECORDS'
 
     for hadoop 2
-        $  mapred job -counter 'hi.mr.CounterAnswer$MyMapper$Counters'   'BAD_RECORDS'
+        $  mapred job -counter <job id>  'hi.mr.Counter$MyMapper$Counters'   'BAD_RECORDS'
 
     NOTE : always sorround counter names with single quotes (') ;   not with double quotes (").
     why?

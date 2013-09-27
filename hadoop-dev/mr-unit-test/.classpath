@@ -3,12 +3,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="HADOOP_JARS/hadoop-core-1.0.3.jar"/>
-	<classpathentry kind="var" path="HADOOP_JARS/mrunit/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="var" path="HADOOP_JARS/mrunit/junit-4.10.jar"/>
-	<classpathentry kind="var" path="HADOOP_JARS/mrunit/mockito-all-1.8.5.jar"/>
-	<classpathentry kind="var" path="HADOOP_JARS/mrunit/mrunit-0.9.0-incubating-hadoop1.jar"/>
-	<classpathentry kind="var" path="HADOOP_JARS/mrunit/mrunit-0.9.0-incubating-hadoop2.jar"/>
 	<classpathentry kind="var" path="HADOOP_JARS/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="var" path="HADOOP_JARS/log4j-1.2.15.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/mrunit-hadoop1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/mrunit-hadoop1/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/mrunit-hadoop1/junit-4.10.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/mrunit-hadoop1/mockito-all-1.8.5.jar"/>
+	<classpathentry kind="var" path="HADOOP_JARS/mrunit-hadoop1/mrunit-1.0.0-hadoop1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

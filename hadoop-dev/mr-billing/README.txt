@@ -33,7 +33,7 @@ for hadoop 2
     $ hdfs dfs -mkdir  <your name>/billing/in
     $ hdfs dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
 
-STEP 5)
+== STEP 5)
 we will run this jar file
   $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in/sample.txt   <your name>/billing/out
 

@@ -8,7 +8,7 @@ SET job.name 'my_job';
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resource_id:chararray,qty:int,cost:int);
 DUMP billing_data;
 
-resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage(',') AS (resource_id2:int, resource_name:chararray);
+resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage('=') AS (resource_id2:int, resource_name:chararray);
 DUMP resource_data;
 
 joined = JOIN billing_data by resource_id,  resource_data  by resource_id2;

@@ -1,4 +1,3 @@
-# Resource Mappings
 1=CPU
 2=Memory
 3=Disk_IO
