@@ -20,7 +20,5 @@ analyze how things are done. What can you accomplish with a Manager?
 To fix hdfs permissions
 
 sudo -u hdfs   hdfs dfs -mkdir   /user/ubuntu
-
 sudo -u hdfs  hdfs dfs -chown ubuntu /user/ubuntu
-
 hdfs dfs -mkdir  /user/ubuntu/sujee
