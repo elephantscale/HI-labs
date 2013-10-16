@@ -48,7 +48,7 @@ use 'hadoop dfs'  for hadoop version 1 and earlier
 use  'hdfs  dfs'  for hadoop version 2
 
 
-=== for Hadoop Admin ====
+=== for Instructor only  ====
 Create a HDFS home dir for <login user>  (hdfs:///user/<login_name>)
     $  sudo -s  #  if needed
     $  sudo -u hdfs  hdfs  dfs -mkdir /user/<login_name>
@@ -62,58 +62,5 @@ e.g $  sudo -u hdfs  hdfs dfs  -chown ec2-user /user/ec2-user
 verify permissions
     $   hdfs  dfs -ls /user/
 make sure a directory named '/user/<login_user>' exists and is owned by <login_user>
-=== end Hadoop Admin ====
+=== end Instructor ====
 
-
-
-== STEP 4) create a working dir in HDFS
-In the above section, we created a personal workspace on linux.  Lets do a
-similar thing on HDFS as well
-(remember, HDFS is a different file system than linux fs)
-
-      $ hdfs dfs -mkdir <your name>
-e.g   $ hdfs dfs -mkdir sujee
-
-this will create a dir in HDFS : /user/<login_name>/<your name>
-
-this will be your working dir in HDFS.  All your data / files will reside here
-
-
-== STEP 5)
-create a simple file under your dir
-    $  hdfs dfs  -touchz  <your_name>/z
-
-verify the file (zero length)
-    $  hdfs dfs  -ls <your_name>
-
-
-
-
-== STEP 9) Browsing HDFS File System using UI
-go to : http://<namenode>:50070
-        http://localhost:50070
-
-or
-we can use command line browser 'w3m'
-    $  w3m  http://localhost:50070
-w3m key shortcuts
-    - Shift B takes you back.
-    - q   to quit
-
-Click on 'Browse File System'
-Navigate  to    'user'  --> '<your username>'
-This is your 'home directory' in HDFS.
-
-
-Compiling the source code
-------
-to compile a project
-    $ cd <project dir>
-for hadoop 1
-    $ ../compile.sh
-for hadoop 2
-    $ ../compile2.sh
-
-for example:
-    $ cd mr-billing
-    $ ../compile2.sh
