@@ -55,3 +55,20 @@ At the end of run TestDFSIO will print out stats like the following
 =====================
 Benchmark : Terasort
 =====================
+sort 1TB of random data
+    10 billion records (10billion x 100 bytes each = 1000 billion = 1TB)
+
+hadoop 2:
+generating 10G of data:
+    $  hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar   teragen -D mapred.map.tasks=20  -D dfs.block.size=536870912  100000000   tera/in
+
+- various inputs
+        10 000 000 000  = 10 Billion records = x 100 bytes = 1 TB
+        1 000 000 000  = 1 Billion records = x 100 bytes = 100 GB
+        100 000 000  = 100 million records = x 100 bytes = 10 GB
+
+- we are using block size 512MB
+If you have a very fast cluster, your map tasks might finish in a few seconds if you use a relatively small default HDFS block size such as 128MB (which is not a bad idea though in general). This means that the time to start/stop map tasks might be larger than the time to perform the actual task. In other words, the overhead for managing the TaskTrackers might exceed the job's "payload". An easy way to work around this is to increase the HDFS block size for files written by TeraGen. Keep in mind that the HDFS block size is a per-file setting, and the value specified by the 'dfs.block.size'
+
+Sorting the data:
+    $ hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar  terasort -D mapred.reduce.tasks=50   tera/in   tera/out
