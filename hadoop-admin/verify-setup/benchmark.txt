@@ -12,17 +12,17 @@ Hadoop version 1 :
 
     [Single Node]
         write test
-            $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
+            $ hadoop jar HH/hadoop-test*.jar TestDFSIO -write -nrFiles 5 -fileSize 500
 
         read test
-            $ HH/bin/hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
+            $ hadoop jar HH/hadoop-test*.jar TestDFSIO -read -nrFiles 5 -fileSize 500
 
 
     [Multi Node]
     Things are a little bit different on multinode cluster
 
     $   cd /tmp
-    $   sudo -u hdfs   hadoop  jar /usr/share/hadoop/hadoop-test-*.jar   TestDFSIO  -write -nrFiles 5  -fileSize 100
+    $   sudo -u hdfs   hadoop  jar /usr/lib/hadoop/hadoop-test-*.jar   TestDFSIO  -write -nrFiles 5  -fileSize 100
 
     Notes:
         - run as user hdfs
@@ -36,8 +36,13 @@ Hadoop version 1 :
 
 Hadoop version 2:
 ----------------
-    $ HH/bin/hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
+    $ cd  /tmp
+    $ sudo -u hdfs hadoop org.apache.hadoop.fs.TestDFSIO  -write -nrFiles 5  -fileSize 1GB
 
+
+    (obsolte
+    $ hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-test.jar  TestDFSIO -write -nrFiles 10 -fileSize 1GB
+    )
 
 Interpretting results:
 ----
@@ -50,6 +55,9 @@ At the end of run TestDFSIO will print out stats like the following
      fs.TestDFSIO: Average IO rate mb/sec: 16.754920959472656
      fs.TestDFSIO:  IO rate std deviation: 6.348449064660557
      fs.TestDFSIO:     Test exec time sec: 109.847
+
+
+also a corresponding  -read option
 
 
 =====================
