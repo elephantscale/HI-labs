@@ -6,7 +6,7 @@
 
 
 ## ----- config
-days=3
+files=10
 entries_per_day=5000000
 log_format="csv"
 #log_format="json"
@@ -24,8 +24,8 @@ import json
 ## --- script main
 if __name__ == '__main__':
   severity = ['INFO', 'ERROR',  'WARN', 'DEGUG']
-  for day in range(0, days):
-    filename = "%d.log" % day
+  for f in range(0, files):
+    filename = "%d.log" % f
 
     with open(filename, "w") as fout:
       print "generating log ", filename
