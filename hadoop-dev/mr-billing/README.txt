@@ -64,7 +64,7 @@ note 2 : specified a different output dir
 
 == STEP 9)
 inspect the output from JobTracker UI
-(see ../getting-started.txt for detailed instructions)
+(see ../getting-started.txt, STEP 4, for detailed instructions)
 
 
 == STEP 10)
