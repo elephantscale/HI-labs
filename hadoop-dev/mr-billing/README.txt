@@ -63,7 +63,7 @@ note 2 : specified a different output dir
 
 
 == STEP 9)
-inpect the output from HDFS UI
+inspect the output from HDFS UI
 (see ../getting-started.txt for detailed instructions)
 
 
