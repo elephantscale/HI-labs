@@ -46,7 +46,7 @@ try detailed status  command
 
 
 == STEP 6) creating TABLE using hbase shell
-we are going to create a table named 'test' with one family named 'd'
+we are going to create a table named '<your name>_test' with one family named 'd'
     hbase(main):006:0> create '<your name>_test', 'd'
 e.g  :   create 'sujee_test', 'd'
     0 row(s) in 1.1120 seconds
@@ -59,28 +59,28 @@ Use the list command to verify the table exists
 
 == STEP 7) finding out more about a table : describe command
 issue 'describe' command on hbase shell
-    hbase(main):008:0> describe 'test'
+    hbase(main):008:0> describe '<your name>_test'
 
     DESCRIPTION                                                              ENABLED
-     {NAME => 'test', FAMILIES => [{NAME => 'd', DATA_BLOCK_ENCODING => 'NON true
+     {NAME => '<your name>_test', FAMILIES => [{NAME => 'd', DATA_BLOCK_ENCODING => 'NON true
      E', BLOOMFILTER => 'NONE', REPLICATION_SCOPE => '0', VERSIONS => '3', C
      OMPRESSION => 'NONE', MIN_VERSIONS => '0', TTL => '2147483647', KEEP_DE
      LETED_CELLS => 'false', BLOCKSIZE => '65536', IN_MEMORY => 'false', ENC
      ODE_ON_DISK => 'true', BLOCKCACHE => 'true'}]}
 
 
-== STEP 8) insert some rows into test table
+== STEP 8) insert some rows into <your name>_test table
 put command works like this:
     put <table name>  <row key>   <column_famly : column>    <value>
 
-    hbase(main):016:0> put 'test', 'r1', 'd:c1', 'foo'
-    hbase(main):017:0> put 'test', 'r1', 'd:c2', 'bar'
-    hbase(main):017:0> put 'test', 'r2', 'd:c1', 'baz'
+    hbase(main):016:0> put '<your name>_test', 'r1', 'd:c1', 'foo'
+    hbase(main):017:0> put '<your name>_test', 'r1', 'd:c2', 'bar'
+    hbase(main):017:0> put '<your name>_test', 'r2', 'd:c1', 'baz'
 
 
 == STEP 9) find out the contents of the table
 issue scan 'table_name' command from hbase shell
-    hbase(main):019:0> scan 'test'
+    hbase(main):019:0> scan '<your name>_test'
 
 output may look similar to:
     ROW                           COLUMN+CELL
@@ -94,7 +94,7 @@ Note the timestamps, Hbase inserts timestamps automatically (we can over-ride th
 
 == STEP 10) count number of rows in a table
 issue 'count' command in hbase shell
-    hbase(main):024:0> count 'test'
+    hbase(main):024:0> count '<your name>_test'
 
 output might look like:
     2 row(s) in 0.0380 seconds
