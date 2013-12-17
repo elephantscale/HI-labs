@@ -4,8 +4,8 @@ STEP 1) inspect file scripts/create_table_billing_data_ext.q
 replace <your name> with your username
 
 STEP 2) use Hive to create the table
-    $ hive -f scripts/create_table_billing_data_ext.q
-    $ ~/hive_shell.sh -f scripts/create_table_billing_data_ext.q
+    $ hive -f create_table_billing_data_ext.q
+    $ ~/hive_shell.sh -f create_table_billing_data_ext.q
 
 STEP 3) launch Hive shell, and inspect the table just created
     $ hive
