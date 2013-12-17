@@ -1,11 +1,17 @@
 Lab : Internal vs external tables
 
+The data for this lab is found in 
+
+<lab_dir/data/resource-generated-numbers.log
+
+Before doing the lab, copy this data to hdfs, according to the script 
+that expects to use it.
+
 STEP 1) inspect file scripts/create_table_billing_data_ext.q
 replace <your name> with your username
 
 STEP 2) use Hive to create the table
     $ hive -f create_table_billing_data_ext.q
-    $ ~/hive_shell.sh -f create_table_billing_data_ext.q
 
 STEP 3) launch Hive shell, and inspect the table just created
     $ hive
