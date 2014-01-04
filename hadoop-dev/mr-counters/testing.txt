@@ -64,3 +64,7 @@ We want to inspect the counters programatically and fire off alerts.
         echo $b
 
 
+== BONUS 3) Checking BAD_RECORDS percentage in Java code.
+    We want to fail the mapreduce job if a certain percentage of records are bad.
+    Look at file : src/hi/mr/CounterTest.java
+    Edit TODO items
