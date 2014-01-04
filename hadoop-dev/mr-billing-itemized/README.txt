@@ -42,9 +42,23 @@ Browse HDFS file system  navigate to '/user/<your user name>/billing/out'  dir
 (see ../getting-started.txt for detailed instructions)
 
 
-== STEP 6)
+== STEP 6) Skip this step, if you have already generated data in billing/in  directory
 Once the sample data is working, lets try this on more data.
-See ../generating-data.txt  on how to generate more data and copy it into hdfs
+
+Generate more (random) sample data
+    $  python ../../data/scripts/gen-billing-data.py
+This would generate a bunch of *.log files
+
+Inspect a log file
+    $  head  2012-01-01.log
+
+Quiz : How many records have we generated?
+
+Now lets copy the newly generated log files into HDFS
+    $  hdfs  dfs -put   *.log    <your name>/billing/in/
+
+Verify the files are there
+    $  hdfs  dfs -ls <your name>/billing/in
 
 
 == STEP 7)
