@@ -52,7 +52,7 @@ Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 
 == STEP 7)
 Once the sample data is working, lets try this on more data.
-See ../generating-data.txt  on how to generate more data and copy it into hdfs
+See HI-labs/data/billing-data/generate-more-data.txt
 
 
 == STEP 8)
