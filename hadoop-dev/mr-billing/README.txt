@@ -52,7 +52,20 @@ Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 
 == STEP 7)
 Once the sample data is working, lets try this on more data.
-See HI-labs/data/billing-data/generate-more-data.txt
+    $  python ../../data/scripts/gen-billing-data.py
+
+This would generate a bunch of *.log files
+
+Inspect a log file
+    $  head  2012-01-01.log
+
+Quiz : How many records have we generated?
+
+Now lets copy the newly generated log files into HDFS
+    $  hdfs  dfs -put   *.log    <your name>/billing/in/
+
+Verify the files are there
+    $  hdfs  dfs -ls <your name>/billing/in
 
 
 == STEP 8)
