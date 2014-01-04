@@ -41,12 +41,18 @@ There are two ways you can do this:
 
 This will create a dir called 'HI-labs'.  This will be the project root
 
+== STEP 4) : Cluster inspection, NameNode, JobTracer
 
-NOTE:
-'hadoop dfs'   or  'hdfs dfs' ?
-use 'hadoop dfs'  for hadoop version 1 and earlier
-use  'hdfs  dfs'  for hadoop version 2
+If you are using Cloudera Manager (CM)
 
+1) CM interface is found at <manager-url>:7180
+2) NameNode interface, with the HDFS, is found at <namenode-url>:50070. To find the <namenode-url>, to to HDFS in CM
+3) JobTracker interface is found at <jobtracker-url>:50030. To find the <namenode-url>, to to mapreduce in CM
+
+If you want to see the NameNode and JobTracker on the command line, in ssh, do this
+
+1) NameNode: w3m http://<namenode-url>:50070. You can login to the namenode and use the internal ip for that.
+1) JobTracker: w3m http://<jobtracker-url>:50030. You can login to the jobtracker and use the internal ip for that.
 
 === for Instructor only  ====
 Create a HDFS home dir for <login user>  (hdfs:///user/<login_name>)

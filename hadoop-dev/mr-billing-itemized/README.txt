@@ -56,7 +56,7 @@ note 2 : specified a different output dir
 
 
 == STEP 8)
-inpect the output (<your name>/billing/out2  dir) from HDFS UI
+inspect the output (<your name>/billing/out2  dir) from HDFS UI
 (see ../getting-started.txt for detailed instructions)
 
 
