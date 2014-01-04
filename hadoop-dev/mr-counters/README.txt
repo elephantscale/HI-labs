@@ -5,7 +5,7 @@ you can also open the project in eclipse
 
 == STEP 1) inspect the file with 'bad records'
     $  cd <project root>
-file : data/billing-data/bad_records.txt
+file : HI-labs/data/billing-data/bad_records.txt
 what kind of bad records do you?
   (hint : wrong number of fields,  wrong separator ..etc)
 
