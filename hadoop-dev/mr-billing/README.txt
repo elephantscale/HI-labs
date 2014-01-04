@@ -52,8 +52,9 @@ Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
 
 == STEP 7)
 Once the sample data is working, lets try this on more data.
-    $  python ../../data/scripts/gen-billing-data.py
 
+Generate more (random) sample data
+    $  python ../../data/scripts/gen-billing-data.py
 This would generate a bunch of *.log files
 
 Inspect a log file
