@@ -11,6 +11,8 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- ## first group by customer
 -- ## then sum cost
 
-STORE total_by_customer INTO '<your name>/billing/out';
-
 -- ## TODO : now process all the files (change LOAD example from sample.txt --> *.log)
+
+-- ## TODO : store the file into HDFS
+-- STORE total_by_customer INTO '<your name>/billing/out';
+
