@@ -22,7 +22,7 @@ import json
 
 # overwrite this function to customize log generation
 def generate_log(timestamp):
-  customer_id = random.randint(1,1000000)
+  customer_id = random.randint(1,100000)
   resource_id = random.randint(1,10)
   qty = random.randint(0,100)
 
@@ -58,7 +58,8 @@ if __name__ == '__main__':
   for day in range(0, days):
     day_delta = dt.timedelta(days=day)
     start_ts = year_start + day_delta
-    end_ts = dt.datetime(start_ts.year, start_ts.month, start_ts.day, 23, 59, 59)
+    #end_ts = dt.datetime(start_ts.year, start_ts.month, start_ts.day, 23, 59, 59)
+    end_ts = dt.datetime(start_ts.year, start_ts.month, start_ts.day+1, 0, 0, 0)
     filename = start_ts.strftime("%Y-%m-%d") + ".log"
     #print start_ts
     #print end_ts

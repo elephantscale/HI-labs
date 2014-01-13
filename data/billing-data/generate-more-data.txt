@@ -24,9 +24,7 @@ how to generate billing data files and load them in HDFS
 == STEP 3 ) Generating more data
     run python script
         $  cd  HI-labs/data/billing-data
-        $  mkdir logs
-        $  cd logs
-        $  python ../../scripts/gen-billing-data.py
+        $  python gen-billing-data.py
 
     this will generate a bunch of log files in the current dir
 
