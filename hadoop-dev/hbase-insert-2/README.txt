@@ -12,7 +12,7 @@ STEP 2) compile the code:
 this should create a jar file called 'a.jar'
 
 STEP 3) generate billing data (CSV) if needed
-    $ python ../scripts/gen-billing-data.py
+    $ python ../../data/billing-data/gen-billing-data.py
 this should generate bunch of log files in current dir
 
 

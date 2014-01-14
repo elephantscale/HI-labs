@@ -7,29 +7,8 @@ So far we have dealt with CSV (comma seperated values) files.  Now we are going 
 
 
 == STEP 1) generate json records
-script location : <project root dir>/data/scripts
-there are two flavors of data-gen scripts : ruby and python
-
-If using Ruby:
-edit  file : scripts/gen-billing-data.rb
-comment out json generation around line 35:
-
-def generate_log(timestamp)
-  ...
-  ...
-  #json
-  dict = {"timestamp" =>  timestamp,
-    "customer_id" =>  customer_id,
-    "resource_id" => resource_id,
-    "qty" => zone_id,
-    "cost" => cost
-  }
-  logline = JSON::generate(dict)
-  logline
-end
-
-If you are using PYTHON:
-edit the file : scripts/gen-billing-data.py
+script location : <project root dir>/data/billing-data
+edit the file : <project root dir>/data/billing-data/gen-billing-data.py
 un comment the json generation part around line 35
 
   def generate_log(timestamp)
@@ -50,11 +29,7 @@ un comment the json generation part around line 35
   $ mkdir json
   $ cd json
 
-if using ruby
-  $ ruby ../data/scripts/gen-billing-data.rb
-
-if using python
-  $ python  ../data/scripts/gen-billing-data.py
+  $ python  ../../data/billing-data/gen-billing-data.py
 
 inspect the files generated
   $ less 2012-01-01.log
