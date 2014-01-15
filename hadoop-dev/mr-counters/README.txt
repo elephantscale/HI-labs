@@ -4,21 +4,19 @@ you can also open the project in eclipse
 
 
 == STEP 1) inspect the file with 'bad records'
-    $  cd <project root>
 file : HI-labs/data/billing-data/bad_records.txt
 what kind of bad records do you?
   (hint : wrong number of fields,  wrong separator ..etc)
 
 
 == STEP 2) copy 'bad_recods.txt' file into HDFS
-  $ cd <project root dir>
 for hadoop 1
   $ hadoop dfs -mkdir <your name>/billing/in2
-  $ hadoop dfs -put data/billing-data/bad_records.txt    <your name>/billing/in2/
+  $ hadoop dfs -put ../../data/billing-data/bad_records.txt    <your name>/billing/in2/
 
 for hadoop 2
   $ hdfs dfs -mkdir <your name>/billing/in2
-  $ hdfs dfs -put data/billing-data/bad_records.txt    <your name>/billing/in2/
+  $ hdfs dfs -put ../../data/billing-data/bad_records.txt    <your name>/billing/in2/
 
 
 == STEP 3) edit the file : src/hi/mr/Counter.java

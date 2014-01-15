@@ -42,7 +42,7 @@ public class CombinerAnswer extends Configured implements Tool
         job.setJarByClass(CombinerAnswer.class);
         job.setMapperClass(MyMapper.class);
         job.setReducerClass(MyReducer.class);
-//        job.setCombinerClass(MyReducer.class);
+        // job.setCombinerClass(MyReducer.class);
         job.setMapOutputValueClass(IntWritable.class);
         job.setMapOutputKeyClass(Text.class);
         job.setInputFormatClass(TextInputFormat.class);
@@ -60,11 +60,11 @@ public class CombinerAnswer extends Configured implements Tool
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
-//            System.out.println (record);
+            // System.out.println (record);
             try
             {
                 String [] tokens = record.toString().split(",");
-//                System.out.println (Arrays.toString(tokens));
+                // System.out.println (Arrays.toString(tokens));
 
                 String timestampStr = tokens[0].trim();
                 String customerIdStr = tokens[1].trim();

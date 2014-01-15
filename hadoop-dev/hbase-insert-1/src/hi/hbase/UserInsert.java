@@ -24,8 +24,8 @@ public class UserInsert
     {
         Configuration config = HBaseConfiguration.create();
         HTable htable = new HTable(config, tableName);
-//        htable.setAutoFlush(false); // PERF
-//        htable.setWriteBufferSize(1024*1024*12); // 12M; PERF
+        // htable.setAutoFlush(false); // PERF
+        // htable.setWriteBufferSize(1024*1024*12); // 12M; PERF
         int total = 100;
         long t1 = System.currentTimeMillis();
         for (int i=0; i < total ; i++)

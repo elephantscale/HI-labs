@@ -64,15 +64,15 @@ public class Counter extends Configured implements Tool
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
-//            System.out.println (record);
+            // System.out.println (record);
             try
             {
                 String [] tokens = record.toString().split(",");
-//                System.out.println (Arrays.toString(tokens));
+                // System.out.println (Arrays.toString(tokens));
                 if (tokens.length != 5)
                 {
                     // TODO : increment counter
-//                    context.getCounter(Counters.BAD_RECORDS).increment(?);
+                    // context.getCounter(Counters.BAD_RECORDS).increment(?);
 
                     // TODO : what do we do now?  continue or return?
                 }
@@ -90,8 +90,8 @@ public class Counter extends Configured implements Tool
 
             } catch (Exception e)
             {
-//                System.out.println("*** exception:");
-//                e.printStackTrace();
+                // System.out.println("*** exception:");
+                // e.printStackTrace();
 
                 // TODO increment counter
             }

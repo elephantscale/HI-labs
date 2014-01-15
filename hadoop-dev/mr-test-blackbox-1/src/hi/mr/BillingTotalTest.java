@@ -60,11 +60,11 @@ public class BillingTotalTest extends Configured implements Tool
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
-//            System.out.println (record);
+            // System.out.println (record);
             try
             {
                 String [] tokens = record.toString().split(",");
-//                System.out.println (Arrays.toString(tokens));
+                // System.out.println (Arrays.toString(tokens));
 
                 String timestampStr = tokens[0].trim();
                 String customerIdStr = tokens[1].trim();

@@ -43,8 +43,8 @@ public class BillingInsert
     {
         Configuration config = HBaseConfiguration.create();
         HTable htable = new HTable(config, tableName);
-//        htable.setAutoFlush(false); // PERF
-//        htable.setWriteBufferSize(1024*1024*12); // 12M; PERF
+        // htable.setAutoFlush(false); // PERF
+        // htable.setWriteBufferSize(1024*1024*12); // 12M; PERF
         long t1 = System.currentTimeMillis();
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String line = null;

@@ -16,8 +16,8 @@ public class PrintCounters
             System.exit(1);
         }
         RunningJob job = new JobClient().getJob(JobID.forName(args[0]));
-//        RunningJob job = new JobClient().getJob(new JobID("job_201309211454", 9));
-//        RunningJob job = new JobClient().getJob(args[0]);
+        // RunningJob job = new JobClient().getJob(new JobID("job_201309211454", 9));
+        // RunningJob job = new JobClient().getJob(args[0]);
         Counters counters = job.getCounters();
         for (Counters.Group group : counters) {
             System.out.println("- Counter Group: " + group.getDisplayName() + " (" + group.getName() + ")");

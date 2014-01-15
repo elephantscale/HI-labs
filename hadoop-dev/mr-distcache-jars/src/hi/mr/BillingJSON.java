@@ -67,7 +67,7 @@ public class BillingJSON extends Configured implements Tool
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
-//            System.out.println (record);
+            // System.out.println (record);
             try
             {
                 Gson gson = new Gson();
@@ -89,8 +89,8 @@ public class BillingJSON extends Configured implements Tool
 
             } catch (Exception e)
             {
-//                System.out.println("*** exception:");
-//                e.printStackTrace();
+                // System.out.println("*** exception:");
+                // e.printStackTrace();
                 context.getCounter(Counters.BAD_RECORDS).increment(1);
             }
         }

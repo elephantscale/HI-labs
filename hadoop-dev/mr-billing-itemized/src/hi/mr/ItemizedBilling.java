@@ -59,11 +59,11 @@ public class ItemizedBilling extends Configured implements Tool
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
-//            System.out.println (record);
+            // System.out.println (record);
             try
             {
                 String [] tokens = record.toString().split(",");
-//                System.out.println (Arrays.toString(tokens));
+                // System.out.println (Arrays.toString(tokens));
 
                 String timestampStr = tokens[0].trim();
                 String customerIdStr = tokens[1].trim();
@@ -72,8 +72,8 @@ public class ItemizedBilling extends Configured implements Tool
                 int cost = Integer.parseInt(costStr);
 
                 // TODO
-//                Text keyOutCustomerResource = new Text (customer + "_" + resource)
-//                IntWritable valueOutCost = new IntWritable(?);
+                // Text keyOutCustomerResource = new Text (customer + "_" + resource)
+                // IntWritable valueOutCost = new IntWritable(?);
                 // context.write(keyOutCustomerResource, valueOutCost);
 
             } catch (Exception e)
