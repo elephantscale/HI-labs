@@ -10,6 +10,7 @@ chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
 (For CDH5, change cm4 above to cm5 :)
+wget http://archive.cloudera.com/cm5/installer/5.0.0-beta1.3/cloudera-manager-installer.bin
 
 - Point the browser to <your-url>:7180. Login with admin/admin. 
 
