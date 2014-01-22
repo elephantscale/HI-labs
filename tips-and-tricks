@@ -1,0 +1,8 @@
+To interrogate nodes in the cluster
+
+ssh -i .ssh/hi_mark.pem ec2-user@ec2-50-17-153-88.compute-1.amazonaws.com 'hostname'
+
+You can then give this to the Cloudera manager
+
+
+If in Windows, use Git Bash, it is better than putty
