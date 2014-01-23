@@ -15,7 +15,7 @@ sudo ./cloudera-manager-installer.bin
 
 - Select Standard License
 
-- AMI : ami-5f723836
+- AMI : ami-19e4d970   / old :  ami-5f723836
   user : ec2-user
   instance type : m1.large  or bigger
   instances : 5
