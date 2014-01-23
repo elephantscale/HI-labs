@@ -33,6 +33,12 @@ analyze how things are done. What can you accomplish with a Manager?
 (Reference: http://blog.cloudera.com/blog/2013/03/how-to-create-a-cdh-cluster-on-amazon-ec2-via-cloudera-manager/)
 
 To fix hdfs permissions
-sudo -u hdfs   hdfs dfs -mkdir   /user/ubuntu
-sudo -u hdfs  hdfs dfs -chown ubuntu /user/ubuntu
-hdfs dfs -mkdir  /user/ubuntu/sujee
+on ubuntu
+    sudo -u hdfs   hdfs dfs -mkdir   /user/ubuntu
+    sudo -u hdfs  hdfs dfs -chown ubuntu /user/ubuntu
+    hdfs dfs -mkdir  /user/ubuntu/sujee
+
+on centos
+    sudo -u hdfs   hdfs dfs -mkdir   /user/ec2-user
+    sudo -u hdfs  hdfs dfs -chown ec2-user /user/ec2-user
+    hdfs dfs -mkdir  /user/ec2-user/sujee
