@@ -31,7 +31,8 @@ Hadoop version 1 :
             /usr/share/hadoop
             /usr/lib/hadoop
 
-
+    Example: On Cloudera parcels install
+    sudo -u hdfs hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.5.0-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1000
 
 
 Hadoop version 2:
