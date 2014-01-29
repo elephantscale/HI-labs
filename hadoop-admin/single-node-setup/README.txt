@@ -58,7 +58,7 @@ verify the following directories exist under HADOOP_HOME
 
 -- step 8)
 create a data dir for hadoop
-    $  mkdir /hadoop/hadoop-data
+    $  mkdir ~/hadoop/hadoop-data
 
 
 Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/conf dir.
