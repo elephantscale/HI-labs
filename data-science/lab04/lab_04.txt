@@ -1,5 +1,0 @@
-This is a test file for lab purposes.
-The file lists some random sentences made up of inconsistent verbage.
-The goal is to test some R functionality.
-That is all.
-Nothing more.
