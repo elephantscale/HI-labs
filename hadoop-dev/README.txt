@@ -1,5 +1,5 @@
-HadoopIlluminatedSource
-=======================
+HI-labs
+=======
 
 Labs:
 -----
@@ -25,7 +25,7 @@ STEP 2)
 Create a Java Classpath variable
     Window --> Preferences --> Java --> Build Path --> Classpath Variables
 create a new variable
-    HADOOP_JARS = point it to 'HadoopIlluminatedSource/lib' folder
+    HADOOP_JARS = point it to 'HI-labs/lib' folder
 
 
 Creating New Projects (Internal):
