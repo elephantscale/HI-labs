@@ -1,0 +1,23 @@
+NGram Analysis of text documents
+----------
+
+We will use the 'books' (<your_name>_books) for the analysis.
+TODO : adjust  '<your_name>'
+
+== STEP 1)
+Find the most occuring bigrams (two) in text
+    $  hive -e 'SELECT ngrams(sentences(lower(line)), 2, 20 ) FROM <your name>_books'
+        2 : bi-grams
+        20 : top-20
+
+
+== STEP 2)
+Find context n-grams occuring around word(s)
+
+What words follow the word 'whale'
+    $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array("whale", null), 30) FROM <your name>_books'
+
+
+== STEP 3)
+what are the top adjectives used to describe 'whale'
+    $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array(null, "whale"), 30) FROM <your name>_books'

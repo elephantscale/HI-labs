@@ -54,10 +54,10 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
         $  cd HI-labs  # <--- project root dir
     for hadoop 1
-        $  hadoop dfs -put README.txt  <your_name>/
+        $  hadoop dfs -put README.txt  <your_name>/README.txt
         $  hadoop dfs -ls  <your_name>
     for hadoop 2
-        $  hdfs dfs -put README.txt  <your_name>/
+        $  hdfs dfs -put README.txt  <your_name>/README.txt
         $  hdfs dfs -ls  <your_name>
 
     output might look like:
