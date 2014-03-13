@@ -31,7 +31,7 @@ if __name__ == '__main__':
             state = random.choice(states)
             discount = random.randint(1,20) - 10
             if discount < 0:
-                discount = ""
+                discount = 0
             logline = "%s,%s,%s,%s,%s" % (customer_id, name, email, state, discount )
             #print logline
             fout.write(logline + "\n")

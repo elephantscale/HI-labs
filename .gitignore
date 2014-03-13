@@ -6,3 +6,4 @@
 *.class
 *.jar
 .DS_Store
+*sublime-workspace

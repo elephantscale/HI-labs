@@ -85,3 +85,5 @@ Verify invoice data in mysql:
     >  exit;
 
 
+== BONUS LAB
+'customers' data has a discount column.  Apply discount to total customer invoice.

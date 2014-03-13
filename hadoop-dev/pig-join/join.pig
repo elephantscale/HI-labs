@@ -20,7 +20,7 @@ DUMP joined;
 
 
 -- ## TODO : join by resource_id
--- outer_join = JOIN billing_data by billing_data.resource_id LEFT OUTER, resource_data  by resource_data.resource_id;
+-- outer_join = JOIN billing_data by resource_id LEFT OUTER, resource_data  by resource_id;
 -- DESCRIBE outer_join;
 -- DUMP outer_join;
 -- ## do all records show up?
