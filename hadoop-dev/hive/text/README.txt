@@ -10,6 +10,8 @@ Copy the data 'moby-dick.txt' file into the above directory
 
 == STEP 2)
 Create a hive table for books
+Edit file 'create_table_books.q' and fix TODO items.
+Execute the script
     $ hive -f create_table_books.q
 
 verify the table
