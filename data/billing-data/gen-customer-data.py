@@ -25,8 +25,14 @@ if __name__ == '__main__':
     with open(file_name, "w") as fout:
         print "generating file ", file_name
         for x in range(1, entries+1):
-            #print x
-            logline = "%s,Customer-%s, customer-%s@email.com, %s" % (x, x, x, random.choice(states))
+            customer_id = x
+            name = "Customer %s" % x
+            email = "customer-%s@email.com" % x
+            state = random.choice(states)
+            discount = random.randint(1,20) - 10
+            if discount < 0:
+                discount = ""
+            logline = "%s,%s,%s,%s,%s" % (customer_id, name, email, state, discount )
             #print logline
             fout.write(logline + "\n")
 

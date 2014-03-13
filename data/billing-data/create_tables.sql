@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `billing` ;
 CREATE TABLE  `billing` (
     `id` INT NOT NULL AUTO_INCREMENT ,
     `timestamp` BIGINT NOT NULL ,
@@ -8,18 +9,19 @@ CREATE TABLE  `billing` (
     PRIMARY KEY (  `id` )
 ) ENGINE = MYISAM ;
 
+DROP TABLE IF EXISTS `customers`;
 CREATE TABLE  `customers` (
-    `id` INT NOT NULL AUTO_INCREMENT ,
-    `customer_id` INT NOT NULL ,
+    `id` INT NOT NULL ,
     `name` varchar(50) NOT NULL ,
     `email` varchar(50) NOT NULL ,
     `state` varchar(5) NOT NULL ,
+    `discount` INT NULL ,
     PRIMARY KEY (  `id` )
 ) ENGINE = MYISAM ;
 
+DROP TABLE IF EXISTS `invoices`;
 CREATE TABLE  `invoices` (
-    `id` INT NOT NULL AUTO_INCREMENT ,
     `customer_id` INT NOT NULL ,
     `total` INT NOT NULL ,
-    PRIMARY KEY (  `id` )
+    PRIMARY KEY (  `customer_id` )
 ) ENGINE = MYISAM ;
