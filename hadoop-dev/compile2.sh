@@ -7,7 +7,7 @@ mkdir -p $build_dir
 rm -rf $build_dir/*
 
 
-javac -d $build_dir  -sourcepath src -classpath /usr/lib/hadoop/*:/usr/lib/hadoop-hdfs/*:/usr/lib/hadoop-0.20-mapreduce/*:/usr/lib/hbase/*  $(find src -name "*.java")
+javac -d $build_dir  -sourcepath src -classpath /usr/lib/hadoop/*:/usr/lib/hadoop-hdfs/*:/usr/lib/hadoop-0.20-mapreduce/*:/usr/lib/hbase/*:/usr/lib/pig/*  $(find src -name "*.java")
 
 
 rm  -f a.jar

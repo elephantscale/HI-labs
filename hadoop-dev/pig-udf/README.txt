@@ -1,24 +1,29 @@
 Pig UDF lab 
-project dir : pig-
+project dir : pig-udf
 
 In this lab we are going to create a UDF (User defined function)
-to truncate a domain name to just its name; e.g. www.facebook.com ->
-facebook.
+to extract the 'month' from millisecond timestamp.
 
-STEP 1) View the compile.sh in the directory, and fix the location of your
-pig install.  e.g., /usr/lib/pig
+== STEP 1) 
+View the file : src/hi/udf/MonthFromMilliSeconds.java
 
-STEP 2) View the ShortDomainName.java file.  Notice that the signature of the
-UDF.
 
-STEP 3) Complete the lab exercise by shortening the domain name. 
+== STEP 2)
+compile the code :  ../compile2.sh
+This will create a jar file a.jar
 
-STEP 4) Compile and create a jar by using the included compile.sh.  If there
-are problems, correct them and compile again.
 
-STEP 5) View the pig-udf.pig Make sure the paths to sample input and myudf.jar are correct.
+== STEP 3)
+edit the pig script udf.pig.
+update the TODO items
+Notice how the UDF is registered and used.
 
-Step 6) run the script
-$ pig pig-udf.pig
 
-STEP 6) Check the output
+== STEP 4) 
+run the script
+    $ pig udf.pig
+
+
+== STEP 5)
+validate the output.
+If it looks correct, run this on complete set of data

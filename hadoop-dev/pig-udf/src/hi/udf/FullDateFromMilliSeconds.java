@@ -2,12 +2,15 @@ package hi.udf;
 
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
 
 public class FullDateFromMilliSeconds extends EvalFunc<String> {
 	Calendar calendar = Calendar.getInstance();
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
 	// expects a long
 	@Override
@@ -21,9 +24,8 @@ public class FullDateFromMilliSeconds extends EvalFunc<String> {
 		try {
 			long ts = (Long) input.get(0); // epoc time in ms
 			calendar.setTimeInMillis(ts);
-			date = String.format("%d-%d-%d", calendar.get(Calendar.YEAR),
-					calendar.get(Calendar.MONTH) + 1,
-					calendar.get(Calendar.DAY_OF_MONTH));
+            Date dt = new Date(ts);
+            date = sdf.format(dt);
 		} catch (Exception e) {
 			throw new IOException(e);
 		}
