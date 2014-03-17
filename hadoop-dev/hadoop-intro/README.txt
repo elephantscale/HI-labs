@@ -40,15 +40,9 @@ Lab Goals:
     $ hadoop
     Usage: hadoop [--config confdir] COMMAND
 
-    If you get 'command not found' message, fix your path in this shell window by using the following command:
-        $ export PATH=$PATH:/path/to/hadoop/location/bin
 
-
-== STEP 4) View NameNOde web interface.
-    Open a browser and go to url  http://<name node host>:50070
-    e.g:
-        http://localhost:50070
-        http://ec2......:50070
+== STEP 4) View NameNode web interface.
+    Open a browser and go to Namenode UI (Instructor will provide details)
 
     question : what is the version of HDFS?
     question : how many nodes in the cluster?
@@ -56,9 +50,6 @@ Lab Goals:
 
 
 == STEP 5) Open JobTracker at:
-   url :   http://<job tracker host>:50030
-   e.g. :
-        http://localhost:50030
-        http://ec2......:50030
+   Open a browser and go to Job Tracker UI (Instructor will provide details)
 
-    question : how many nodes?
+   question : how many nodes?

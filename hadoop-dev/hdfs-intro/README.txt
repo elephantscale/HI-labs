@@ -14,9 +14,6 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
 
 == STEP 1) View Files in HDFS
-    for hadoop 1
-        $ hadoop dfs -ls /
-    for hadoop 2
         $ hdfs dfs -ls  /
 
     If you do have some data, you will see something like this
@@ -28,9 +25,6 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
 
 == STEP 2) View files recursively
-    for hadoop 1
-        $ hadoop dfs -lsr  /
-    for hadopo 2
         $ hdfs dfs -ls -R  /
 
     output will be recursive listing of all files
@@ -53,10 +47,6 @@ for hadoop 2 and later versions  use 'hdfs dfs'
     (make sure to complete step 3 and create your work dir in HDFS)
 
         $  cd HI-labs  # <--- project root dir
-    for hadoop 1
-        $  hadoop dfs -put README.txt  <your_name>/README.txt
-        $  hadoop dfs -ls  <your_name>
-    for hadoop 2
         $  hdfs dfs -put README.txt  <your_name>/README.txt
         $  hdfs dfs -ls  <your_name>
 
@@ -64,18 +54,14 @@ for hadoop 2 and later versions  use 'hdfs dfs'
     rwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 README.txt
 
     see the contents of this file from HDFS
-    for hadoop 1
-        $  hadoop dfs -cat <yourname>/README.txt
-    for hadoop 2
         $  hdfs dfs -cat <yourname>/README.txt
     This should print out the file README.txt
 
 
-== STEP 5)
+== STEP 5) Use Namenode UI to browse files
     (Note : This step might need browser proxy setup)
 
-    Now you can browse files in HDFS
-    goto namenode URL   : http://<namenode ip>:50070
+    goto namenode URL   (Instructor will provide details)
     click on 'Browse File System'
     drill down to /user  directory  until you see the freshly copied file
 
@@ -101,9 +87,6 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 == BONUS LAB 1):
 
     copy the files back to your local directory
-    for hadoop 1
-        $  hadoop dfs -get <your name>/README.txt   readme2
-    for hadoop 2
         $  hdfs dfs -get <your name>/README.txt   readme2
 
 

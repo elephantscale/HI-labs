@@ -1,14 +1,11 @@
 Running mapreduce examples that ship with Hadoop
 
 These examples are in 'hadoop-examples-*.jar'
-On Cloudera 4.x releases, this jar file is in /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar
-On Cloudera 5.x releases, this jar file is in /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 
 == STEP 1)
     Find what mapreduce examples are available
 
-    $ hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar
-    or
     $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 
     This will print out sample programs available
@@ -27,8 +24,6 @@ On Cloudera 5.x releases, this jar file is in /usr/lib/hadoop-mapreduce/hadoop-m
 
 == STEP 3) running grep
     to find grep usage
-        $ hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar grep 
-        or
         $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar  grep
 
     it will print out the usage
@@ -38,8 +33,6 @@ On Cloudera 5.x releases, this jar file is in /usr/lib/hadoop-mapreduce/hadoop-m
 
     now lets run the command, look for two strings 'dfs' and 'xml'
 
-        $ hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar grep  <your_name>/grep/in   <your_name>/grep/out   '(dfs|xml)'
-        or
         $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar  grep  <your_name>/grep/in   <your_name>/grep/out   '(dfs|xml)'
 
     This commnad will kick off mapreduce jobs
