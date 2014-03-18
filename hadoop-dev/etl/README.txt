@@ -80,7 +80,7 @@ We are going to export the invoice data to mysql
 Let's create a db table in mysql database to hold invoice data.
 Edit file : create_db_table.sql
 Run the file
-    $   mysql -u root  training < create-db_table.sql
+    $   mysql -u root  training < create_db_table.sql
 
 Verify that the db table is there by the following command:
 
@@ -102,3 +102,7 @@ Verify invoice data in mysql:
 
 == BONUS LAB
 'customers' data has a discount column.  Apply discount to total customer invoice.
+
+== BONUS LAB
+    Calculate state-wide revenue
+    (Hint : customers data has state)

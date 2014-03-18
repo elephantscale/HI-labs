@@ -55,7 +55,6 @@ public class BillingTotal extends Configured implements Tool
     static class MyMapper extends Mapper<Object, Text, Text, IntWritable>
     {
 
-
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
@@ -81,7 +80,6 @@ public class BillingTotal extends Configured implements Tool
                 e.printStackTrace();
             }
         }
-
     }
 
     public static class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable>
@@ -97,9 +95,6 @@ public class BillingTotal extends Configured implements Tool
                 // add up all the costs
             }
             context.write(key, new IntWritable(total));
-
         }
-
     }
-
 }

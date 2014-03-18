@@ -39,9 +39,12 @@ There are two ways you can do this:
 
 This will create a dir called 'HI-labs'.  This will be the project root
 
-== STEP 4) : Cluster inspection : Manager, NameNode, JobTracer
 
-Instructor will provide web urls for this
+== STEP 4) : Cluster inspection using We
+Browse UIs for (Instructor will provide details)
+    Managers
+    NameNode
+    Job Tracker
 
 
 === for Instructor only  ====

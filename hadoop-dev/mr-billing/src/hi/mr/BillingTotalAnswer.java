@@ -27,7 +27,6 @@ public class BillingTotalAnswer extends Configured implements Tool
     @Override
     public int run(String[] args) throws Exception
     {
-
         if (args.length != 2)
         {
             System.out.println("usage : need <input path>  <output path>");
@@ -54,8 +53,6 @@ public class BillingTotalAnswer extends Configured implements Tool
 
     static class MyMapper extends Mapper<Object, Text, Text, IntWritable>
     {
-
-
         @Override
         public void map(Object key, Text record, Context context) throws IOException
         {
@@ -82,14 +79,12 @@ public class BillingTotalAnswer extends Configured implements Tool
                 e.printStackTrace();
             }
         }
-
     }
 
     public static class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable>
     {
 
-        public void reduce(Text key, Iterable<IntWritable> results, Context context) throws IOException,
-                InterruptedException
+        public void reduce(Text key, Iterable<IntWritable> results, Context context) throws IOException, InterruptedException
         {
             int total = 0;
             for (IntWritable cost : results)
@@ -97,9 +92,6 @@ public class BillingTotalAnswer extends Configured implements Tool
                 total += cost.get();
             }
             context.write(key, new IntWritable(total));
-
         }
-
     }
-
 }

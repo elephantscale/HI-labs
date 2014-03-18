@@ -58,7 +58,7 @@ Generate more (random) sample data
 This would generate a bunch of *.log files
 
 Inspect a log file
-    $  head  2012-01-01.log
+    $  head  billing-2012-01-01.log
 
 Quiz : How many records have we generated?
 
