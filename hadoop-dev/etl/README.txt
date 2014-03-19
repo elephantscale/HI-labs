@@ -16,8 +16,13 @@ Verify data in mysql
 
 Use sqoop to export customer data from mysql database into HDFS
 TODO : fix <your name>
+Command we want is 'sqoop import'
+Refer to sqoop's online manual for syntax
+Here are some parameters to get you started.
+    $  sqoop import --connect jdbc:mysql://localhost/training  --username root ___________
 
-    $  sqoop import --connect jdbc:mysql://localhost/training  --username root --table customers  --target-dir <your name>/billing/customers
+figure out the values for '--table'   and '--target-dir'  param
+
 
 Verify that the customer data is in HDFS  (via NameNode webui)
 
@@ -36,7 +41,7 @@ We will simulate this in this case.  Let's generate some billing data and dump i
 == STEP 3) Clean up billing data
 Let's do some cleanup of billing data.
 Remove all billing records that have cost == 0
-Save this data in another dir
+Save this data in another dir  (so some one can analyze this later)
 Edit cleanup.pig
 And execute it
     $  pig cleanup.pig
