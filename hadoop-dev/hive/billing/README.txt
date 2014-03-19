@@ -19,7 +19,18 @@ fix the TODO items
     hive > describe <your_name>_billing;
 
 
-== STEP 4) lets count the number of rows in the table
+=== STEP 4) Load data into billing table
+(if you have billing data already in your billing/in  directory, you can skip this)
+    $  hdfs  dfs -mkdir  <your name>/billing/in
+
+generate data
+    $  python ../../../data/billing-data/gen-billing-data.py
+
+upload data into HDFS
+
+    $  hdfs  dfs -put   billing*.log     <you name>/billing/in/
+
+== STEP 5) lets count the number of rows in the table
 Launch hive shell
     $ hive
 
@@ -28,7 +39,7 @@ Launch hive shell
 This will actually kick off a mapreduce job, and at the end you will get the count
 
 
-== STEP 5) see a sample of data
+== STEP 6) see a sample of data
 Lanch hive shell
     $ hive
 
@@ -43,13 +54,13 @@ another query:
     hive > select * from <your name>_billing where customer_id = 61442 limit 5;
 
 
-== STEP 6) calculate customer totals
+== STEP 7) calculate customer totals
 launch hive shell
     $ hive
     hive > select customer_id, SUM(cost) as total from <your name>_billing group by customer_id limit 5;
 
 
-== STEP 7) find top spending customers
+== STEP 8) find top spending customers
 the query will look like:
     select customer_id, SUM(cost) as total from <yourname>_billing group by customer_id order by total desc limit 5;
 
