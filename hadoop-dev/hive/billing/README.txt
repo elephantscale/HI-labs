@@ -20,14 +20,13 @@ fix the TODO items
 
 
 === STEP 4) Load data into billing table
-(if you have billing data already in your billing/in  directory, you can skip this)
+(if you have billing data already in your billing/in  directory, you can skip this step)
     $  hdfs  dfs -mkdir  <your name>/billing/in
 
 generate data
     $  python ../../../data/billing-data/gen-billing-data.py
 
 upload data into HDFS
-
     $  hdfs  dfs -put   billing*.log     <you name>/billing/in/
 
 == STEP 5) lets count the number of rows in the table
@@ -69,6 +68,8 @@ You can execute this query directly from hive shell, or place this in a file (e.
 
 Question : how many mapreduce jobs are being kicked off?  Why?
 
+
+== STEP 8)
 
 == Bonus Lab:
 
