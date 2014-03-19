@@ -54,5 +54,13 @@ TODO : fix <your name>
                 limit 10;
 
 
-=== BONUS LAB )
+=== BONUS LAB 1) Calculate state-wide invoice totals
+    Hint : customer table has state field
+
+
+=== BONUS LAB 2) Apply customer discounts
+    Hint : customer table has 'discount' percentage
+
+
+=== BONUS LAB 3 )
 Store the join results in another table
