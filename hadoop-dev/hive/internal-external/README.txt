@@ -29,7 +29,7 @@ data shows up?
 
 
 === STEP 4) Creating internal table
-Edit the file : create_table_billing_ext.q
+Edit the file : create_table_billing_int.q
 Fix TODOs
 Execute the script
     $  hive -f  create_table_billing_int.q
