@@ -79,3 +79,12 @@ Browse HDFS directories
     - external table :   /user/<login name>/<your name>/billing/hive
 
 which data deleted?  which data is preserved?
+
+
+
+=== BONUS LAB 1)  distinguising internal / external table
+how can we find out if a table is internal or external?
+Hint : refer to Hive manual for 'describe'
+    https://cwiki.apache.org/confluence/display/Hive/LanguageManual
+        or
+    https://github.com/elephantscale/HI-labs/tree/master/hadoop-dev/hive/billing/Hortonworks-CheatSheet-SqlHive.pdf
