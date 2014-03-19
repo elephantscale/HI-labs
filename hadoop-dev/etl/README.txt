@@ -1,5 +1,7 @@
 ETL Lab
 -------
+(Instructor will provide the answers after the lab
+Instructor: answer in   hadoop-training/answers/etl-answer.txt)
 
 Objective :
 Process billing records and customer records
