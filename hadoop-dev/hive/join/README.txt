@@ -50,13 +50,12 @@ Lets do join
 TODO : fix <your name>
     hive> select <your name>_billing.*, <your name>_customers.*
                 from <your name>_billing join <your name>_customers on
-                (<your name>_billing.customer_id = <your name>_customer.id)
+                (<your name>_billing.customer_id = <your name>_customers.id)
                 limit 10;
 
 
 === BONUS LAB 1) Calculate state-wide invoice totals
     Hint : customer table has state field
-
 
 === BONUS LAB 2) Apply customer discounts
     Hint : customer table has 'discount' percentage

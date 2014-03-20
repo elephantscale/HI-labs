@@ -5,7 +5,7 @@ Make a directory in HDFS to store books data.
     $  hdfs  dfs  -mkdir  <your name>/hive/books
 
 Copy the data 'moby-dick.txt' file into the above directory
-    $  hdfds  dfs  -put  moby-dick.txt   <your name>/hive/books/
+    $  hdfs  dfs  -put  moby-dick.txt   <your name>/hive/books/
 
 
 == STEP 2)

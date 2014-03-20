@@ -7,9 +7,14 @@ TODO : adjust  '<your_name>'
 == STEP 1)
 Find the most occuring bigrams (two) in text
     $  hive -e 'SELECT ngrams(sentences(lower(line)), 2, 20 ) FROM <your name>_books'
-        2 : bi-grams
-        20 : top-20
 
+Note : The output will be a json structure, it is hard to read
+Use http://jsoneditor.appspot.com/  to pretty-up the output
+(copy & paste the hive output into json editor)
+
+Note : What are the top bi-grams?
+Do they offer any insights?
+Hint : these are called stop words (or filler words)
 
 == STEP 2)
 Find context n-grams occuring around word(s)

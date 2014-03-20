@@ -53,7 +53,7 @@ No data, right?
 Start hive shell and run the load command
 TODO : fix <your name>
     $   hive
-    hive>   LOAD DATA INPATH '<your name>/billing/stage' OVERWRITE INTO TABLE <your name>_billing_int;
+    hive>   LOAD DATA INPATH '<your name>/billing/stage' INTO TABLE <your name>_billing_int;
 
 if the load is successful, query the internal table
 
