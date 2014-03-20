@@ -46,6 +46,11 @@ We will simulate this in this case.  Let's generate some billing data and dump i
 
 Hint 1 : sample billing here : ../../data/billing-data/sample.txt
 Hint 2 :  use the python script to generate data
+
+Edit gen-billing-data.py to generate more data
+    $  vi   ../../data/billing-data/gen-billing-data.py
+change 'days=10'  to 'days=45'
+save and run the script
     $  python  ../../data/billing-data/gen-billing-data.py
 copy generated billing data into HDFS dir (raw)
 
