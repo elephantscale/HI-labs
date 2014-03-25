@@ -51,12 +51,14 @@ copy generated billing data into HDFS dir (raw)
 
 
 == STEP 3) Clean up billing data
-Let's do some cleanup of billing data.
-Remove all billing records that have cost == 0
-Save this data in another dir  (so some one can analyze this later)
+Use Pig to cleanup billing data
+Let's remove all billing records that have cost == 0
 Edit cleanup.pig
 And execute it
     $  pig cleanup.pig
+
+Extra :  Also save records with cost == 0 into a separate directory
+(so some one can analyze this later and debug)
 
 
 == STEP 4) Create Hive tables for billing & customer data
@@ -64,6 +66,7 @@ Create hive tables
 Edit file : create_hive_tables.q
 Fix TODO items.
     $ hive -f  create_hive_tables.q
+
 
 == STEP 5)  Generate invoices.
 Now that we have prepared the data, we are going to use Hive to run some
