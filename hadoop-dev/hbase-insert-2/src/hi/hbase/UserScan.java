@@ -17,7 +17,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 public class UserScan
 {
     // TODO : fix the table name
-    static String tableName = "<your name>_users";
+    static String tableName = "<your name>_billing";
     static String familyName = "info";
 
     public static void main(String[] args) throws Exception
