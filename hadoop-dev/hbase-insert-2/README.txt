@@ -5,10 +5,13 @@ STEP 1) edit file : src/hi/hbase/BilllingInsert.java
 complete TODOs
 Answer : src/hi/hbase/BillingInsertAnswer.java
 
+Edit file : src/hi/hbase/UserScan.java
+complete TODOs
+
 
 STEP 2) compile the code:
   $ cd hbase-insert-2
-  $ ../compile.sh
+  $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
 STEP 3) generate billing data (CSV) if needed
@@ -26,12 +29,13 @@ start hbase shell
 
 STEP 5)
 We will load one of the log files into hbase
-    $ sh ./insert.sh   2012-01-01.log
+    $ sh ./insert2.sh   2012-01-01.log
+
 
 
 STEP 6) query for a particular customer
-    $ sh ./scan.sh  <customer id>
-e.g.   $ sh ./scan.sh   10
+    $ sh ./scan2.sh  <customer id>
+e.g.   $ sh ./scan2.sh   10
 
 this will scan all billing records for this particular customer and calculate the cost
 
