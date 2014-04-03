@@ -12,7 +12,7 @@ Q : What tables do you see?  Note about system tables and user tables
 Q : how many region servers do you see in the cluster?
 
 
-== STEP 2) Ensuring that the hbase command works
+== STEP 2) Only if your 'hbase" command does not work - ensuring that the hbase command works
 On a terminal invoke hbase command
     $ hbase
     Usage: hbase <command>
