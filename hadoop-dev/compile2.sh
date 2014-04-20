@@ -1,14 +1,16 @@
 #!/bin/bash
 
-# tmp hack for hadoop2 distros
+## compile script
+
 
 build_dir=build
 mkdir -p $build_dir
 rm -rf $build_dir/*
 
+classpath="$(hadoop classpath):$(hbase classpath)"
+#echo $classpath
 
-javac -d $build_dir  -sourcepath src -classpath /usr/lib/hadoop/*:/usr/lib/hadoop-hdfs/*:/usr/lib/hadoop-0.20-mapreduce/*:/usr/lib/hbase/*:/usr/lib/pig/*  $(find src -name "*.java")
-
+javac -d $build_dir  -sourcepath src -classpath "$classpath"  $(find src -name "*.java")
 
 rm  -f a.jar
 jar cf a.jar -C $build_dir .
