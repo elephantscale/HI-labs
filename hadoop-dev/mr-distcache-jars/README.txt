@@ -60,9 +60,6 @@ Answer : src/hi/mr/BillingJSONAnswer.java
 
 == STEP 5) compile the code:
   $ cd mr-distcache-1
-for hadoop 1
-  $ ../compile.sh
-for hadoop 2
   $ ../compile2.sh
 this should create a jar file called 'a.jar'
 

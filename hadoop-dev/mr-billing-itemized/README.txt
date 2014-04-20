@@ -14,10 +14,6 @@ Answer : src/hi/mr/ItemizedBillingAnswer.java
 == STEP 3)
 compile the code:
   $ cd mr-billing-itemized
-for hadoop 1
-  $ ../compile.sh
-
-for hadoop 2
   $ ../compile2.sh
 
 this should create a jar file called 'a.jar'

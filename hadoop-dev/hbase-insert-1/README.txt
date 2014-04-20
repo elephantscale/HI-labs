@@ -11,10 +11,6 @@ you can also open the project in eclipse
 
 
 == STEP 3) compile the code:
-for hadoop 1
-    $ cd hbase-insert-1
-    $ ../compile.sh
-for hadoop 2
     $ cd hbase-insert-1
     $ ../compile2.sh
 this should create a jar file called 'a.jar'
@@ -31,12 +27,6 @@ e.g.
 
 == STEP 5) insert data into hbase
 run the executable insert.sh
-for hadoop 1
-    $ ./insert.sh
-    or
-    $ sh insert.sh
-
-for hadoop 2
     $ ./insert2.sh
     or
     $ sh insert2.sh

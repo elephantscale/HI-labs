@@ -4,7 +4,7 @@ project dir : mr-billing-polished
 This lab ties up some loose ends in billing MR code and hardens it ready for production
 
 
-== STEP 1) 
+== STEP 1)
     $  cd mr-billing-polished
     inspect the file : src/hi/mr/BillingPolished.java
 
@@ -14,9 +14,6 @@ These specify the changes made
 
 == STEP 2) compile the code:
   $ cd mr-billing-polished
-for hadoop 1
-  $ ../compile.sh
-for hadoop 2
   $ ../compile2.sh
 
 this should create a jar file called 'a.jar'

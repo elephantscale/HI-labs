@@ -6,9 +6,6 @@ We are going to two runs.  One without combiner, one with.
 
 == STEP 1) compile the code:
   $ cd mr-combiner
-for hadoop 1
-  $ ../compile.sh
-for hadoop 2
   $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
@@ -43,9 +40,6 @@ Answer : src/hi/mr/CombinerAnswer.java
 == STEP 6)
 compile the code:
   $ cd mr-combiner
-for hadoop 1
-  $ ../compile.sh
-for hadoop 2
   $ ../compile2.sh
 this should create a jar file called 'a.jar'
 

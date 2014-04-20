@@ -12,11 +12,6 @@ Answer : src/hi/mr/BillingTotalAnswer.java
 
 
 == STEP 3) compile the code:
-for hadoop 1
-  $ cd mr-billing
-  $ ../compile.sh
-
-for hadoop 2
   $ cd mr-billing
   $ ../compile2.sh
 

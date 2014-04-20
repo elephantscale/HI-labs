@@ -2,7 +2,7 @@ Lab : copy a file from local storage to HDFS
 project dir : hdfs-client
 you can also open the project in eclipse
 
-== STEP 1) 
+== STEP 1)
     $  cd hdfs-client
     edit the file : src/hi/hdfs/HdfsClientWrite.java
 
@@ -13,9 +13,6 @@ Answer : src/hi/hdfs/HdfsClientWriteAnswer.java
 
 == STEP 3) compile the code:
   $ cd hdfs-client
-for hadoop 1
-  $ ../compile.sh
-for hadoop 2
   $ ../compile2.sh
 this should create a jar file called 'a.jar'
 
