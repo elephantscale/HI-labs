@@ -1,2 +1,7 @@
 #!/bin/bash
-java -cp a.jar:../lib/*:../lib/mrunit/*:../lib/hbase/*  hi.hbase.UserInsert
+
+# (optional) add any extra classpath here
+extra_classpath=""
+classpath="a.jar:$(hbase classpath):$extra_classpath"
+
+java -cp "$classpath"  hi.hbase.UserInsert
