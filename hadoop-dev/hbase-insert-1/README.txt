@@ -27,9 +27,9 @@ e.g.
 
 == STEP 5) insert data into hbase
 run the executable insert.sh
-    $ ./insert2.sh
+    $ ./insert.sh
     or
-    $ sh insert2.sh
+    $ sh insert.sh
 
 at the end of the run you should see something like:
     inserted 100 users  in 6 ms
@@ -59,15 +59,9 @@ ROW                           COLUMN+CELL
 STEP 7) now that we have users table populated, lets run some query
 run the file 'query.sh'
 
-for hadoop 1
     $ ./query.sh
     or
     $ sh query.sh
-
-for hadoop 2
-    $ ./query2.sh
-    or
-    $ sh query2.sh
 
 
 The output might look like:

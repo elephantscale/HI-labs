@@ -29,13 +29,13 @@ start hbase shell
 
 STEP 5)
 We will load one of the log files into hbase
-    $ sh ./insert2.sh   2012-01-01.log
+    $ sh ./insert.sh   2012-01-01.log
 
 
 
 STEP 6) query for a particular customer
-    $ sh ./scan2.sh  <customer id>
-e.g.   $ sh ./scan2.sh   10
+    $ sh ./scan.sh  <customer id>
+e.g.   $ sh ./scan.sh   10
 
 this will scan all billing records for this particular customer and calculate the cost
 
