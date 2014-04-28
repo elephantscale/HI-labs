@@ -10,7 +10,7 @@ chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
 (For CDH5, change cm4 above to cm5 :)
-wget http://archive.cloudera.com/cm5/installer/5.0.0-beta1.3/cloudera-manager-installer.bin
+wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
 - Point the browser to <your-url>:7180.
     Login with admin/admin.
@@ -19,7 +19,7 @@ wget http://archive.cloudera.com/cm5/installer/5.0.0-beta1.3/cloudera-manager-in
       Select Standard License
 
 - Page 2 : Instance Specifics
-      AMI :  ami-0b7c6762
+      AMI : ami-6238dc0a
       user : ec2-user
       instance type : m1.large  or bigger
       instances : 5
@@ -29,20 +29,36 @@ wget http://archive.cloudera.com/cm5/installer/5.0.0-beta1.3/cloudera-manager-in
 - Page 3 : Credentials
     Instructor will provide security keys
     Be sure to 'Test Credentials' to verify
-    Let installer create new ssh keys
+
+    Instructor will provide SSH keys (*.pem)
+    Upload these keys to be used
+
 
 - Page 5 : Review to make sure every thing is right
     Click 'Start Installation'
+
 
 - Page 6 : Provisioning
     nothing to do here
     Click next once done
 
 
-- Page 6 :
+- Page 7 :
+    start all services
 
-- Start all services in the wizard, poke around the CM,
-analyze how things are done. What can you accomplish with a Manager?
+
+- Install Done:
+    congrats.. cluster is up and running
+
+
+- Exploring:
+    HDFS:
+    click on HDFS service,  Check out Namenode WebUI
+
+    Hue:
+    Click on 'Hue' service.  Access Hue Web UI
+    If prompted, create a user account with user name / password : ec2-user / ec2-user
+    explore File Manager / Job Manager
 
 (Reference: http://blog.cloudera.com/blog/2013/03/how-to-create-a-cdh-cluster-on-amazon-ec2-via-cloudera-manager/)
 
