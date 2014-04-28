@@ -12,20 +12,34 @@ sudo ./cloudera-manager-installer.bin
 (For CDH5, change cm4 above to cm5 :)
 wget http://archive.cloudera.com/cm5/installer/5.0.0-beta1.3/cloudera-manager-installer.bin
 
-- Point the browser to <your-url>:7180. Login with admin/admin. 
+- Point the browser to <your-url>:7180.
+    Login with admin/admin.
 
-- Select Standard License
+- Page 1 :
+      Select Standard License
 
-- AMI : ami-19e4d970   / old :  ami-5f723836
-  user : ec2-user
-  instance type : m1.large  or bigger
-  instances : 5
-  name of cluster : <your name>_cdh
+- Page 2 : Instance Specifics
+      AMI :  ami-0b7c6762
+      user : ec2-user
+      instance type : m1.large  or bigger
+      instances : 5
+      name of cluster : <your name>_cdh
 
-- Instructor will provide security keys
-  Let installer create new keys
 
-- Install 4 additional nodes for the cluster.
+- Page 3 : Credentials
+    Instructor will provide security keys
+    Be sure to 'Test Credentials' to verify
+    Let installer create new ssh keys
+
+- Page 5 : Review to make sure every thing is right
+    Click 'Start Installation'
+
+- Page 6 : Provisioning
+    nothing to do here
+    Click next once done
+
+
+- Page 6 :
 
 - Start all services in the wizard, poke around the CM,
 analyze how things are done. What can you accomplish with a Manager?
