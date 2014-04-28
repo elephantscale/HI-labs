@@ -37,6 +37,9 @@ Here are some parameters to get you started.
 
 Instructor will provide details for host / user / password.
 
+TODO instructor : install mysql connector.jar in /usr/lib/sqoop/lib/
+$  sudo cp ~/software/mysql-connector-java-5.1.30-bin.jar   /usr/lib/sqoop/lib/
+
 Verify that the customer data is in HDFS  (via NameNode webui)
 
 
