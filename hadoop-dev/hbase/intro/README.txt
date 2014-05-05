@@ -27,61 +27,50 @@ Invoke hbase shell in a terminal
 You should a prompt like:
     hbase(main):001:0>
 
-
-== STEP 4) use 'list' command to see the tables
-issue 'list' command in hbase shell
-    hbase(main):001:0>  list
-you will see any tables if there is any
+Try the 'help' command
+    hbase> help
 
 
-== STEP 5) use 'status' shell command
-issue 'status' command to see hbase cluster status
-    hbase(main):002:0> status
+== STEP 4) See all tables
+HINT : use 'list' command
 
-you might see output like:
-1 servers, 0 dead, 2.0000 average load
 
-try detailed status  command
-    hbase(main):002:0> status 'detailed'
+== STEP 5) Find out the 'status' of the cluster:
+Hint : status command
+Q : Can you get 'detailed' status ?
+Hint : help "status"   (don't forget the quotes)
+
 
 
 == STEP 6) creating TABLE using hbase shell
 we are going to create a table named '<your name>_test' with one family named 'd'
-    hbase(main):006:0> create '<your name>_test', 'd'
+    hbase> create '<your name>_test', 'd'
 e.g  :   create 'sujee_test', 'd'
     0 row(s) in 1.1120 seconds
 
 Use the list command to verify the table exists
-    hbase(main):007:0> list
+    hbase> list
     TABLE
     test
 
 
-== STEP 7) finding out more about a table : describe command
-issue 'describe' command on hbase shell
-    hbase(main):008:0> describe '<your name>_test'
-
-    DESCRIPTION                                                              ENABLED
-     {NAME => '<your name>_test', FAMILIES => [{NAME => 'd', DATA_BLOCK_ENCODING => 'NON true
-     E', BLOOMFILTER => 'NONE', REPLICATION_SCOPE => '0', VERSIONS => '3', C
-     OMPRESSION => 'NONE', MIN_VERSIONS => '0', TTL => '2147483647', KEEP_DE
-     LETED_CELLS => 'false', BLOCKSIZE => '65536', IN_MEMORY => 'false', ENC
-     ODE_ON_DISK => 'true', BLOCKCACHE => 'true'}]}
+== STEP 7) Find out more about the table
+Hint : 'describe'
+Inspect the output produced by HBase
 
 
 == STEP 8) insert some rows into <your name>_test table
 put command works like this:
     put <table name>  <row key>   <column_famly : column>    <value>
 
-    hbase(main):016:0> put '<your name>_test', 'r1', 'd:c1', 'foo'
-    hbase(main):017:0> put '<your name>_test', 'r1', 'd:c2', 'bar'
-    hbase(main):017:0> put '<your name>_test', 'r2', 'd:c1', 'baz'
+    hbase>  put '<your name>_test', 'r1', 'd:c1', 'foo'
+    hbase>  put '<your name>_test', 'r1', 'd:c2', 'bar'
+    hbase>  put '<your name>_test', 'r2', 'd:c1', 'baz'
 
 
 == STEP 9) find out the contents of the table
-issue scan 'table_name' command from hbase shell
-    hbase(main):019:0> scan '<your name>_test'
-
+Hint : use 'scan'
+Inspect the output
 output may look similar to:
     ROW                           COLUMN+CELL
      r1                           column=d:c1, timestamp=1365320206055, value=foo
@@ -93,8 +82,21 @@ Note the timestamps, Hbase inserts timestamps automatically (we can over-ride th
 
 
 == STEP 10) count number of rows in a table
-issue 'count' command in hbase shell
-    hbase(main):024:0> count '<your name>_test'
+Hint : 'count'
 
-output might look like:
-    2 row(s) in 0.0380 seconds
+
+== STEP 11) delete a (any) cell value of row 'r1'
+Hint : help 'delete'
+    delete <table> , <row>,  <family> , <column>
+do a 'scan' after the delete
+
+
+== STEP 12)  delete the entire table you just created
+Hint : drop
+
+
+== BONUS Lab)
+    Create another table with two column families 'f1'  and 'f2'
+    f1 has 1 VERSIONs
+    f2 has 2 VERSIONs
+Hint : help 'create'
