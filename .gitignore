@@ -7,3 +7,4 @@
 *.jar
 .DS_Store
 *sublime-workspace
+target/
