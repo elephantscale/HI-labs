@@ -10,53 +10,66 @@ import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.util.Bytes;
 
-public class UserQuery
-{
-    // TODO : substitute your username to <yourname> for the table name
-    static String tableName = "<your name>_users";
-    static String familyName = "info";
+/**
+ * HBase JavaDocs :
+ * http://hbase.apache.org/0.94/apidocs/index.html?overview-summary.html
+ *
+ * before running this, create '<yourname>_users' table (replace <yourname> with
+ * your username) in hbase shell: create '<yourname>_users', 'info'
+ */
+public class UserQuery {
+  // TODO : update tablename
+  static String tableName = "<your name>_users";
+  static String familyName = "info";
 
-    public static void main(String[] args) throws Exception
-    {
-        Configuration config = HBaseConfiguration.create();
-        HTable htable = new HTable(config, tableName);
-        int total = 100;
-        Random rand = new Random();
-        for (int i=0; i < 10; i++)
-        {
-            int id = rand.nextInt(total * 2);
-            System.out.println ("querying for userId : " + id);
-            byte [] key = Bytes.toBytes(id);
+  public static void main(String[] args) throws Exception {
+    Configuration config = HBaseConfiguration.create();
+    HTable htable = new HTable(config, tableName);
 
-            long t1 = System.nanoTime();
-            Get get = new Get(key);
-            long t2 = System.nanoTime();
-            Result result = htable.get(get);
-            if (result.isEmpty())
-            {
-                // first check, this row may not exist
-                System.out.println ("     row user=" + id + " : not found");
-            }
-            else
-            {
-                byte [] family = Bytes.toBytes(familyName);
-                byte [] emailCol = Bytes.toBytes("email");
-                KeyValue kv = result.getColumnLatest(family, emailCol);
-                if (kv == null)
-                {
-                    // even if row exist, this column may not exist
-                    System.out.println ("     column 'email' not found");
-                }
-                else
-                {
-                    // found
-                    byte [] value = kv.getValue();
-                    String email = new String (value);
-                    System.out.println ("     email=" + email );
-                }
-            }
-            System.out.println ("     query time : " + (t2-t1)/1000000.0 + " ms\n");
+    // we are going to query for random userids (user-10, user-99 ...etc)
+    int total = 100;
+    Random rand = new Random();
+    for (int i = 0; i < 10; i++) {
+      int randomId = rand.nextInt(total * 2);
+      String userId = "user-" + randomId;
+      System.out.println("querying for userId : " + userId);
+
+      // TODO : convert the userId to bytes
+      // byte [] key = ....
+
+      // TODO : create a Get object with key
+      long t1 = System.nanoTime();
+      // Get get = ....
+      long t2 = System.nanoTime();
+      Result result = null;
+      // TODO : get a Result using htable.get()
+      // result = .....
+
+      // TODO : check if result is null or empty
+      if (result == null /* || () */) {
+        // first check, this row may not exist
+        System.out.println("     not found");
+      } else {
+        KeyValue kv = null;
+        // TODO : get a KeyValue using result.getColumn.... () method
+        // kv = .....
+        // remember, to convert all values to bytes
+        if (kv == null) {
+          // even if row exist, this column may not exist
+          System.out.println("     column 'email' not found");
+        } else {
+          // found value
+          // TODO : retrieve email from KeyValue
+          String email = null;
+          // email = ....
+          System.out.println("     email=" + email);
         }
+      }
+      // TODO : lets see how long the query time is
+      // Q : is this time correct?
+      System.out
+          .println("     query time : " + (t2 - t1) / 1000000.0 + " ms\n");
     }
+  }
 
 }
