@@ -1,0 +1,34 @@
+Lab : Use HBase Java APIs for connecting
+Connect
+----
+project dir : HI-labs/hadoop-dev/hbase/crud
+you can also open the project in eclipse
+
+== STEP 1)
+    $   cd crud
+    edit the file : src/main/hi/hbase/Connect.java
+
+
+== STEP 2) complete the TODO items
+
+
+== STEP 3) compile the code:
+    $ cd crud
+    $ ../compile.sh
+this should create a jar file called 'a.jar'
+
+
+== STEP 5) Connect to HBase
+Note : make sure you have created 'xxx_users' table before proceeding further
+Inspect the file   connect.sh
+run the executable connect.sh
+    $ ./connect.sh
+    or
+    $ sh ./connect.sh
+
+at the end of the run you should see something like:
+    connected to sujee_users
+
+
+== STEP 6) Inspect the console output
+zookeeper connections?

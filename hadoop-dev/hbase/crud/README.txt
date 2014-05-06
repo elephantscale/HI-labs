@@ -12,16 +12,21 @@ This table will have only ONE column family : 'info'
 HINT : help 'create'
 
 
-== STEP 2) Create
+== STEP 2) Connect
+follow : connect.txt
+
+
+== STEP 3) Create
 follow : create.txt
 
 
-== STEP 3) Query
+== STEP 4) Query
 follow : query.txt
 
 
-== STEP 4) Update
+== STEP 5) Update
 follow : update.txt
+
 
 == BONUS ) Delete
 follow : delete.txt
