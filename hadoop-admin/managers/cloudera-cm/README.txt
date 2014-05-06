@@ -15,14 +15,17 @@ wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer
 - Point the browser to <your-url>:7180.
     Login with admin/admin.
 
-- Page 1 :
+- Welcome Page
       Select Standard License
 
+- Page 1 :
+    Click Continue
+
 - Page 2 : Instance Specifics
-      AMI : ami-6238dc0a
+      AMI : ami-e855b580
       user : ec2-user
       instance type : m1.large  or bigger
-      instances : 5
+      instances : 4
       name of cluster : <your name>_cdh
 
 
@@ -30,7 +33,7 @@ wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer
     Instructor will provide security keys
     Be sure to 'Test Credentials' to verify
 
-    Instructor will provide SSH keys (*.pem)
+    Instructor will provide SSH key (*.pem)
     Upload these keys to be used
 
 
@@ -43,9 +46,15 @@ wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer
     Click next once done
 
 
-- Page 7 :
-    start all services
+- Page 7 : install on nodes
+    click next when done
 
+
+- Page 8: inspecting hosts
+    click next when done
+
+- Page 9 : starting services
+    click next when done
 
 - Install Done:
     congrats.. cluster is up and running
