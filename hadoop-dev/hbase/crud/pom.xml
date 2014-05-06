@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hilabs</groupId>
-    <artifactId>hbase-put-get</artifactId>
+    <artifactId>hbase-crud</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>hbase</name>
+    <name>hbase-crud</name>
 
     <build>
         <plugins>

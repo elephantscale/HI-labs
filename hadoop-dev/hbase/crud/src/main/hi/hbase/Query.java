@@ -17,7 +17,7 @@ import org.apache.hadoop.hbase.util.Bytes;
  * before running this, create '<yourname>_users' table (replace <yourname> with
  * your username) in hbase shell: create '<yourname>_users', 'info'
  */
-public class UserQuery {
+public class Query {
   // TODO : update tablename
   static String tableName = "<your name>_users";
   static String familyName = "info";

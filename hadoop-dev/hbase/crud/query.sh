@@ -4,4 +4,4 @@
 extra_classpath=""
 classpath="a.jar:$(hbase classpath):$extra_classpath"
 
-java -cp "$classpath"  hi.hbase.UserQuery
+java -cp "$classpath"  hi.hbase.Query

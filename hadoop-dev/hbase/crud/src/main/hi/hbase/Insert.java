@@ -13,7 +13,7 @@ import org.apache.hadoop.hbase.util.Bytes;
  * in hbase shell:
  *      create '<yourname>_users', 'info'
  */
-public class UserInsert
+public class Insert
 {
 
     // TODO : update the table name with your username
