@@ -1,6 +1,5 @@
-Introduction
-In this lab we will check to ensure that Habse is running on your
-system and be able to get famliar with the user interface.
+HBase Intro:
+----
 
 
 == STEP 1) View HBASE Web Interface
@@ -12,13 +11,16 @@ Q : What tables do you see?  Note about system tables and user tables
 Q : how many region servers do you see in the cluster?
 
 
-== STEP 2) Only if your 'hbase" command does not work - ensuring that the hbase command works
-On a terminal invoke hbase command
+== STEP 2) using 'hbase' command
+On terminal invoke 'hbase'
     $ hbase
     Usage: hbase <command>
 
-You can fix your path in this shell window by using the following command:
+Q : Find out the version of hbase using CLI
+
+(If hbase command is not in path adjust your PATH environment
 $ export PATH=$PATH:/path/to/hbase/location/bin
+)
 
 
 == STEP 3) Hbase Shell
@@ -30,6 +32,9 @@ You should a prompt like:
 Try the 'help' command
     hbase> help
 
+To find help for a specific command use
+    help 'create'
+(don't forget the quotes)
 
 == STEP 4) See all tables
 HINT : use 'list' command
@@ -68,7 +73,11 @@ put command works like this:
     hbase>  put '<your name>_test', 'r2', 'd:c1', 'baz'
 
 
-== STEP 9) find out the contents of the table
+== STEP 9) inspect a row
+use 'get'
+
+
+== STEP 10) find out the contents of the table
 Hint : use 'scan'
 Inspect the output
 output may look similar to:
@@ -81,17 +90,17 @@ output may look similar to:
 Note the timestamps, Hbase inserts timestamps automatically (we can over-ride this)
 
 
-== STEP 10) count number of rows in a table
+== STEP 11) count number of rows in a table
 Hint : 'count'
 
 
-== STEP 11) delete a (any) cell value of row 'r1'
+== STEP 12) delete a (any) cell value of row 'r1'
 Hint : help 'delete'
     delete <table> , <row>,  <family> , <column>
 do a 'scan' after the delete
 
 
-== STEP 12)  delete the entire table you just created
+== STEP 13)  delete the entire table you just created
 Hint : drop
 
 
