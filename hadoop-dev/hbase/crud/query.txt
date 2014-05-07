@@ -20,7 +20,7 @@ Refer HBase javadocs for class methods
 this should create a jar file called 'a.jar'
 
 
-STEP 4) query
+== STEP 4) query
 inspect the file : query.sh
 And execute it
     $ ./query.sh
@@ -38,3 +38,9 @@ The output might look like:
          query time : 0.041 ms
 
 We try to query some random userIds.  Take a look at the query time, they are pretty good (in milli seconds or sub-ms range!)
+
+
+== BONUS LAB)  get all column familes and columns for a row
+think 'select *'
+Hint : consult javadocs for Get
+Can you figure out the types for each column values?

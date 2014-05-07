@@ -32,3 +32,12 @@ at the end of the run you should see something like:
 
 == STEP 6) Inspect the console output
 zookeeper connections?
+
+
+== BONUS Lab ) measure connection latency
+Find out how much time it takes to establish a connection
+You can use the following Java code
+    long  t1 = System.currentTimeMillis();
+    // establish connection
+    long  t2 = System.currentTimeMillis();
+    System.out.println ("connection took : " + (t2 - t1) + " ms");
