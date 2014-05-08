@@ -6,7 +6,7 @@ you can also open the project in eclipse
 
 == STEP 1)
     $   cd crud
-    edit the file : src/main/hi/hbase/Connect.java
+edit the file : src/main/hi/hbase/Connect.java
 
 
 == STEP 2) complete the TODO items
@@ -41,3 +41,11 @@ You can use the following Java code
     // establish connection
     long  t2 = System.currentTimeMillis();
     System.out.println ("connection took : " + (t2 - t1) + " ms");
+
+
+== BONUS BONUS Lab) Reducing connection latency by using a ConnectionPool
+Connection pooling is a common technique to reduce connection latencies.
+So instead of making a new connection each time,  we pick from an existing pool of connections; thus reducing latency.
+
+Update Connect.java to use connection pooling
+look at Javadocs for class : HTablePool

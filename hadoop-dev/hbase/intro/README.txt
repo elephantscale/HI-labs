@@ -49,14 +49,15 @@ Hint : help "status"   (don't forget the quotes)
 
 == STEP 6) creating TABLE using hbase shell
 we are going to create a table named '<your name>_test' with one family named 'd'
+Replace <your_name> with your name :)
     hbase> create '<your name>_test', 'd'
-e.g  :   create 'sujee_test', 'd'
+e.g  :     create 'sujee_test', 'd'
     0 row(s) in 1.1120 seconds
 
 Use the list command to verify the table exists
     hbase> list
     TABLE
-    test
+    sujee_test
 
 
 == STEP 7) Find out more about the table

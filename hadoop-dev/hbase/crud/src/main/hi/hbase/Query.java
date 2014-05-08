@@ -44,6 +44,7 @@ public class Query {
       Result result = null;
       // TODO : get a Result using htable.get()
       // result = .....
+      System.out.println ("Result : " + result);
 
       // TODO : check if result is null or empty
       if (result == null /* || () */) {

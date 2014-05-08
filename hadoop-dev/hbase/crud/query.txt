@@ -7,7 +7,7 @@ you can also open the project in eclipse
 
 == STEP 1)
     $   cd crud
-    edit the file : src/main/hi/hbase/Query.java
+edit the file : src/main/hi/hbase/Query.java
 
 
 == STEP 2) complete the TODO items

@@ -12,7 +12,7 @@ public class Connect {
 
   public static void main(String[] args) throws Exception {
     Configuration config = HBaseConfiguration.create();
-    HTable htable = new HTable(config, "sujee_users");     // TODO : change table name
+    HTable htable = new HTable(config, "<your name>_users");     // TODO : change table name
     System.out.println ("connected to " + htable.getTableDescriptor().getNameAsString());
     htable.close();
   }

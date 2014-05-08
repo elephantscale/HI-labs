@@ -6,7 +6,7 @@ you can also open the project in eclipse
 
 == STEP 1)
     $   cd crud
-    edit the file : src/main/hi/hbase/Update.java
+edit the file : src/main/hi/hbase/Update.java
 
 
 == STEP 2) complete the TODO items
@@ -57,3 +57,10 @@ change the user-id to some id that you know doesn't exist  (e.g : user-999)
 Run the code..
 Does HBase throw a 'record not found' exception?
 discuss this behavior
+
+
+== BONUS Lab ) Check And Update
+Say we want to update a column only if the record is present.
+For example, let's update the email to "newemail@gmail.com"  ONLY if the existing email address is "oldemail@gmail.com"
+How can we accomplish this?
+Hint : HTable.checkAndPut()
