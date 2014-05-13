@@ -1,10 +1,14 @@
 This lab teaches the use of Cloudera Manager (CM)
+----
+(To instructor : hosts given to students should be launched with 'Cloduera Manager' security group)
 
+== STEP 1)  Installing Cloduera Manager
+ Use the instance provided by the instructor. Log in using SSH
+ e.g
+    ssh ec2-user@your_host_name
 
-- Use the instance provided by the instructor. Log in.
-(This instance should be launched with 'Cloduera Manager' security group)
+== STEP 2) execute the following commands on the terminal
 
-- Install CM.
 wget http://archive.cloudera.com/cm4/installer/latest/cloudera-manager-installer.bin
 chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
@@ -12,8 +16,17 @@ sudo ./cloudera-manager-installer.bin
 (For CDH5, change cm4 above to cm5 :)
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
-- Point the browser to <your-url>:7180.
+
+== STEP 3)
+Follow the prompts of CDH installer on the screen.  Once the installer is done, it will ask you to login to browser based install.
+In your browser to go  <your_host_name>:7180
+Note : be sure to use the public IP address, rather than the private ip
+
+
+== STEP 4) on the UI installer page
     Login with admin/admin.
+
+== STEP 5) Follow the UI installer
 
 - Welcome Page
       Select Standard License
@@ -22,19 +35,21 @@ wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer
     Click Continue
 
 - Page 2 : Instance Specifics
-      AMI : ami-e855b580
+    Choose 'custom image'
+      Image ID : ami-e855b580  (verify with instructor)
       user : ec2-user
-      instance type : m1.large  or bigger
-      instances : 4
-      name of cluster : <your name>_cdh
+
+   instance type : m1.large  or bigger
+   instances : 4
+   name of cluster : <your name>-cdh
 
 
 - Page 3 : Credentials
     Instructor will provide security keys
     Be sure to 'Test Credentials' to verify
 
+    ** Important ** Choose 'Upload my own key'
     Instructor will provide SSH key (*.pem)
-    Upload these keys to be used
 
 
 - Page 5 : Review to make sure every thing is right
