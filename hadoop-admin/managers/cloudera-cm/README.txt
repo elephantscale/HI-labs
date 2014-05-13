@@ -1,6 +1,10 @@
 This lab teaches the use of Cloudera Manager (CM)
 ----
-(To instructor : hosts given to students should be launched with 'Cloduera Manager' security group)
+To instructor :
+    - latest guide is in : /hadoop-training/docs/Installing_Cloudera_on_Amazon.docx
+      please use that
+
+    - hosts given to students should be launched with 'Cloduera Manager' security group
 
 == STEP 1)  Installing Cloduera Manager
  Use the instance provided by the instructor. Log in using SSH
