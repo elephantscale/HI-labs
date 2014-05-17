@@ -1,0 +1,45 @@
+Lab : Scan sensor data
+----
+project dir : HI-labs/hadoop-dev/hbase/sensor
+you can also open the project in eclipse
+
+== STEP 1)
+    $   cd sensor
+    edit the file : src/main/hi/hbase/SensorQuery.java
+
+
+== STEP 2) complete the TODO items
+Refer HBase javadocs for class methods
+
+
+== STEP 3) compile the code:
+    $ cd sensor
+    $ ../compile.sh
+this should create a jar file called 'a.jar'
+
+
+== STEP 4) query for data for a specific sensorId
+Provide an integer value for sensor_id (e.g 25)
+Use the run script
+    $ ./run.sh   hi.hbase.SensorQuery  <sensor_id>
+    or
+    $ sh run.sh  hi.hbase.SensorInsert  <sensor_id>
+
+
+== STEP 5)  inspect timestamps and temperature from output
+what is the order of records?
+
+
+== BONUS LAB 1)  Find maximum temperature for a sensor_id, and the time it occurred
+
+
+== BONUS LAB 2)  get all column familes and columns for a row
+think 'select *'
+Hint : consult javadocs for Result
+Can you figure out the types for each column values?
+
+
+== BONUS LAB 3)  'wide table'
+If you had done the wide-table challenge from insert, now query the records using the wide table schema
+Is there a sorting order to the results?
+

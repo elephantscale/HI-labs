@@ -1,0 +1,36 @@
+Lab : Inserting sensor data
+----
+
+project dir : HI-labs/hadoop-dev/hbase/sensor
+you can also open the project in eclipse
+
+== STEP 1)
+    $   cd sensor
+    edit the file : src/main/hi/hbase/Insert.java
+
+
+== STEP 2) complete the TODO items
+Refer HBase javadocs for class methods
+
+
+== STEP 3) compile the code:
+    $ cd sensor
+    $ ../compile.sh
+this should create a jar file called 'a.jar'
+
+
+== STEP 4) insert data
+Use the run script
+    $ ./run.sh   hi.hbase.SensorInsert
+    or
+    $ sh run.sh  hi.hbase.SensorInsert
+
+
+
+
+== BONUS LAB)  Use 'wide table' schema
+Currently we are using tall table design.
+How will you change this design for a wide table?
+one sensor will have ONE row.
+each timestamp would be a column
+How would you store multiple values (temperature, humidity) for a single timestamp?
