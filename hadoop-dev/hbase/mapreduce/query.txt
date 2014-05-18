@@ -1,0 +1,46 @@
+Lab : Use HBase Java APIs for CRUD
+Query (R)
+----
+
+project dir : HI-labs/hadoop-dev/hbase/crud
+you can also open the project in eclipse
+
+== STEP 1)
+    $   cd crud
+    edit the file : src/main/hi/hbase/Query.java
+
+
+== STEP 2) complete the TODO items
+Refer HBase javadocs for class methods
+
+
+== STEP 3) compile the code:
+    $ cd crud
+    $ ../compile.sh
+this should create a jar file called 'a.jar'
+
+
+== STEP 4) query
+inspect the file : query.sh
+And execute it
+    $ ./query.sh
+    or
+    $ sh query.sh
+
+The output might look like:
+
+    querying for userId : 39
+         email=user-39@foo.com
+         query time : 0.0060 ms
+
+    querying for userId : 191
+         not found
+         query time : 0.041 ms
+
+We try to query some random userIds.  Take a look at the query time, they are pretty good (in milli seconds or sub-ms range!)
+
+
+== BONUS LAB)  get all column familes and columns for a row
+think 'select *'
+Hint : consult javadocs for Get
+Can you figure out the types for each column values?
