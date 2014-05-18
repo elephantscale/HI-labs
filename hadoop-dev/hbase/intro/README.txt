@@ -90,6 +90,9 @@ output may look similar to:
 
 Note the timestamps, Hbase inserts timestamps automatically (we can over-ride this)
 
+Try this: Scan takes arguments like VERSIONS, LIMIT ...
+Try the limit option
+
 
 == STEP 11) count number of rows in a table
 Hint : 'count'
