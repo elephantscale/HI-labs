@@ -1,0 +1,55 @@
+Benchmarking HBase:
+-------
+reference : http://sujee.net/tech/articles/hadoop/hbase-performance-testing/
+
+== STEP 1) Using built-in benchmarking tool : HBase Performance Evaluation
+
+To see all options:
+    $  hbase  org.apache.hadoop.hbase.PerformanceEvaluation
+
+start with 'randomWrite' test
+use multiple threads instead of map reduce (--nomapred option)
+Uses 'TestTable' (created automatically)
+Following uses 5 clients (threads).  Each client will write 1 million entries.
+'time' is a linux utility that prints out time taken by a command
+
+    $  time hbase  org.apache.hadoop.hbase.PerformanceEvaluation  --nomapred  randomWrite 5
+
+
+== STEP 2) while test is running...
+go to HBase master UI in the browser
+and look at 'requestsPerSecond'  in region server area.
+Are all Region Servers busy?   why or why not?
+Doe this change during the run of the test?
+
+
+== STEP 3) watching table splits
+In the HMaster UI, click on the 'TestTable'
+see how many regions the table consists of
+
+
+== STEP 4) test again
+run the randomWrite test again.
+Notice the runtime.
+Is it significantly different than before?
+why or why not?
+
+
+== STEP 5) Run a mapreduce version of randomWrite test
+The test can use MapReduce framework to run the test in parallel.
+If your cluster has MapReduce enabled, go ahead the run the test in mapreduce mode.
+remove the '--nomapred'  option
+
+    $  hbase  org.apache.hadoop.hbase.PerformanceEvaluation  randomWrite 5
+
+
+== STEP 6) do a randomRead test
+
+
+== BONUS LAB ) do a sequentialWrite test
+observe which region servers stay busy
+
+
+== BONUS LAB) other options to play with
+-writeToWAL
+-presplit
