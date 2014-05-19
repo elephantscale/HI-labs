@@ -27,12 +27,11 @@ Get the code from github into your personal workspace
         $   cd <your personal workspace dir you just created>
 e.g.    $   cd sujee
 
-There are two ways you can do this:
-
-1) using git
+There are two ways of doing this:
+option 1 -- recommended ) using git
     $   git clone --depth 1  https://github.com/elephantscale/HI-labs.git
 
-2) or download the zip file
+option 2) or download the zip file
    using command line
         $  wget 'https://github.com/elephantscale/HI-labs/archive/master.zip'
         $  unzip master.zip
