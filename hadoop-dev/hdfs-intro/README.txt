@@ -32,9 +32,6 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
 
 == STEP 3) create your home directory in HDFS
-    for hadoop 1
-        $ hadoop dfs -mkdir <your name>
-    for hadoop 2
         $ hdfs dfs -mkdir <your name>
 
     e.g
@@ -58,22 +55,26 @@ for hadoop 2 and later versions  use 'hdfs dfs'
     This should print out the file README.txt
 
 
-== STEP 5) Use Namenode UI to browse files
-    (Note : This step might need browser proxy setup)
+== STEP 5) view files in UI
+    option 1 -- recommended) Using Hue UI
+        open Hue UI and click on 'File Manager' 
 
+    option 2) Using Namenode UI
+    (Note : This step might need browser proxy setup)
     goto namenode URL   (Instructor will provide details)
     click on 'Browse File System'
     drill down to /user  directory  until you see the freshly copied file
 
+    option 3) command line browser
+        If the unable to browse the file system from your laptop, we can use
+        the command line browser 'w3m'
 
-    If the unable to browse the file system from your laptop, we can use the command line browser 'w3m'
+        from cluster termainal
+            $  w3m  <name node url>
 
-    from cluster termainal
-        $  w3m http://<name node ip>:50070
-
-    w3m key shortcuts
-        - Shift B takes you back.
-        - q   to quit
+        w3m key shortcuts
+            - Shift B takes you back.
+            - q   to quit
 
 
 == STEP 6)

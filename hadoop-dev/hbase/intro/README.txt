@@ -94,17 +94,27 @@ Try this: Scan takes arguments like VERSIONS, LIMIT ...
 Try the limit option
 
 
-== STEP 11) count number of rows in a table
+== STEP 11)  Over-ride a value
+    $   hbase  shell
+    hbase>  put '<your name>_test', 'r1', 'd:c1', 'foonew'
+
+scan the table.  What value do see for  r1:d:c1 ?
+
+Q : can you see the old value of r1:d:c1?
+Hint : help 'scan'  (look at VERSIONS option)
+
+
+== STEP 12) count number of rows in a table
 Hint : 'count'
 
 
-== STEP 12) delete a (any) cell value of row 'r1'
+== STEP 13) delete a (any) cell value of row 'r1'
 Hint : help 'delete'
     delete <table> , <row>,  <family> , <column>
 do a 'scan' after the delete
 
 
-== STEP 13)  delete the entire table you just created
+== STEP 14)  delete the entire table you just created
 Hint : drop
 
 

@@ -49,7 +49,12 @@ Lab Goals:
     question : what is the capacity of HDFS?
 
 
-== STEP 5) Open JobTracker at:
+== STEP 5) Inspect JobTracker UI
    Open a browser and go to Job Tracker UI (Instructor will provide details)
 
    question : how many nodes?
+
+
+== STEP 6) Inspect HUE UI
+    Open Hue Web UI.
+    (Instructor will provide credentials)
