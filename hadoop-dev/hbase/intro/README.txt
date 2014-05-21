@@ -4,7 +4,7 @@ HBase Intro:
 
 == STEP 1) View HBASE Web Interface
 Hbase master dashboard can be accessed via a browser:
-    http://hbase_master:60010
+(instructor will provide details)
 
 Q : What is the version of  HBase?
 Q : What tables do you see?  Note about system tables and user tables
@@ -17,10 +17,6 @@ On terminal invoke 'hbase'
     Usage: hbase <command>
 
 Q : Find out the version of hbase using CLI
-
-(If hbase command is not in path adjust your PATH environment
-$ export PATH=$PATH:/path/to/hbase/location/bin
-)
 
 
 == STEP 3) Hbase Shell
@@ -114,7 +110,26 @@ Hint : help 'delete'
 do a 'scan' after the delete
 
 
-== STEP 14)  delete the entire table you just created
+== STEP 14) Examining HBase files in HDFS
+HBase stores data in HDFS
+Either open HDFS Web UI or  Hue Web UI
+navigate to directory : /hbase
+explore the directory structure.
+Q : how are the tables stored?
+
+Navigate to your table directory
+Q : Do you see more directories under there?  What do they represent?
+
+Navigate further into the dir structure
+Do you see the actual file where data is stored?
+If not, your table hasn't be saved to disk yet (not flushed)
+Go to HBase shell and flush your table
+HINT : flush 'table_name'
+
+Now inspect  HDFS storage directory, do you see the data file?
+
+
+== STEP 15)  delete the entire table you just created
 Hint : drop
 
 
