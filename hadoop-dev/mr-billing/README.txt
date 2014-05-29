@@ -13,7 +13,7 @@ Answer : src/hi/mr/BillingTotalAnswer.java
 
 == STEP 3) compile the code:
   $ cd mr-billing
-  $ ../compile2.sh
+  $ ../compile.sh
 
 this should create a jar file called 'a.jar'
 
