@@ -1,7 +1,7 @@
 Lab : introduction to counters
 project dir : mr-counters
 
-DK API docs : http://docs.oracle.com/javase/7/docs/api/
+JDK API docs : http://docs.oracle.com/javase/7/docs/api/
 Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
 
 

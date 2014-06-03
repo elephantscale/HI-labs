@@ -13,14 +13,14 @@ DUMP resource_data;
 
 -- ## TODO : join by resource_id
 -- ## note, some resource_ids don't have any mappings (e.g 7, 8, 9, 10)
-joined = JOIN billing_data by resource_id,  resource_data  by resource_id;
+joined = JOIN billing_data by ????,  resource_data  by ????;
 DESCRIBE joined;
 DUMP joined;
 -- ## do all records show up?
 
 
 -- ## TODO : join by resource_id
--- outer_join = JOIN billing_data by resource_id LEFT OUTER, resource_data  by resource_id;
+-- outer_join = JOIN billing_data by ???? LEFT OUTER, resource_data  by ????;
 -- DESCRIBE outer_join;
 -- DUMP outer_join;
 -- ## do all records show up?
