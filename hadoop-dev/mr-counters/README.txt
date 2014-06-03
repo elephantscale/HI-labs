@@ -1,6 +1,12 @@
 Lab : introduction to counters
 project dir : mr-counters
+
+DK API docs : http://docs.oracle.com/javase/7/docs/api/
+Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
+
+
 you can also open the project in eclipse
+(use  'mvn eclipse:eclipse'  to create eclipse project files)
 
 
 == STEP 1) inspect the file with 'bad records'
@@ -10,52 +16,40 @@ what kind of bad records do you?
 
 
 == STEP 2) copy 'bad_recods.txt' file into HDFS
-for hadoop 1
-  $ hadoop dfs -mkdir <your name>/billing/in2
-  $ hadoop dfs -put ../../data/billing-data/bad_records.txt    <your name>/billing/in2/
-
-for hadoop 2
   $ hdfs dfs -mkdir <your name>/billing/in2
   $ hdfs dfs -put ../../data/billing-data/bad_records.txt    <your name>/billing/in2/
 
 
-== STEP 3) edit the file : src/hi/mr/Counter.java
+== STEP 3) edit the file : src/main/java/hi/mr/Counter.java
+complete the TODO items
+
+(Instructor : answer : /labs-solutions/hadoop/mr/mr-counters)
 
 
-== STEP 4) complete the TODO items
-Answer : src/hi/mr/CounterAnswer.java
-
-
-== STEP 5) compile the code:
+== STEP 4) compile the code:
   $ cd mr-counters
-  $ ../compile2.sh
+  $ ../compile.sh
 this should create a jar file called 'a.jar'
 
 
-== STEP 6)
+== STEP 5)
 we will run this jar file
   $ hadoop jar a.jar  hi.mr.Counter   <your name>/billing/in2/bad_records.txt   <your name>/billing/out
 
 Note : if you get an error saying output directory exists, just give it a different output dir  (e.g.  <your name>/billing/out-5)
 
 
-== STEP 7)
+== STEP 6)
 Once the mr job is done, inspect the output file:
-for hadoop 1
-  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
-for hadoop 2
   $ hdfs  dfs -cat <your name>/billing/out/part-r-00000
 or
-Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../getting-started.txt for detailed instructions)
+Browse HDFS file system.
 
 
-== STEP 8)
+== STEP 7)
 inspect the counters
 A) by the output produced by MR
 B) from job tracker UI
-  go to http://<job tracker>:50030
-        http://localhost:50030
   find the job under 'completed jobs' section
   click on job stats page
   inspect the BAD_RECORDS  counter

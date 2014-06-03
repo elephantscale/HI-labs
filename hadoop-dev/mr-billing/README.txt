@@ -12,7 +12,7 @@ you can also open the project in eclipse
 
 == STEP 1)
     $  cd mr-billing
-edit the file : src/hi/mr/BillingTotal.java
+edit the file : src/main/java/hi/mr/BillingTotal.java
 complete the TODO items
 
 (Instructor : answer in  /labs-solutions/hadoop/mr/mr-billing)

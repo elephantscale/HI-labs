@@ -16,9 +16,12 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class CounterTest extends Configured implements Tool {
+//JDK API docs : http://docs.oracle.com/javase/7/docs/api/
+//Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
+
+public class Counter extends Configured implements Tool {
   public static void main(String[] args) throws Exception {
-    int res = ToolRunner.run(new Configuration(), new CounterTest(), args);
+    int res = ToolRunner.run(new Configuration(), new Counter(), args);
     System.exit(res);
   }
 
@@ -35,7 +38,7 @@ public class CounterTest extends Configured implements Tool {
     Configuration conf = getConf();
 
     Job job = new Job(conf, getClass().getName() + "--<your_name>"); // TODO
-    job.setJarByClass(CounterTest.class);
+    job.setJarByClass(Counter.class);
     job.setMapperClass(MyMapper.class);
     job.setReducerClass(MyReducer.class);
     job.setMapOutputValueClass(IntWritable.class);
@@ -46,11 +49,15 @@ public class CounterTest extends Configured implements Tool {
     TextOutputFormat.setOutputPath(job, outputPath);
 
     int retCode = job.waitForCompletion(true) ? 0 : 1;
+    return retCode;
+
+    /*
+     /// TODO : the following is for bonus lab
 
     if (retCode != 0)
       return retCode; // Job failed, return
 
-    // TODO : find the counter values
+    /// TODO : find the counter values
     // look at 'counters.txt' for description of all counters
     long inputRecordCount = job.getCounters()
         .findCounter("group_name ???", "counter_name  ???").getValue();
@@ -58,9 +65,10 @@ public class CounterTest extends Configured implements Tool {
         .findCounter("group_name ???", "counter_name ???").getValue();
 
     int retCode2 = 0;
-    // TODO : return a failure code if more than 5% of the records are bad
+    /// TODO : return a failure code if more than 5% of the records are bad
 
     return retCode2;
+    */
   }
 
   static class MyMapper extends Mapper<Object, Text, Text, IntWritable> {
@@ -74,25 +82,27 @@ public class CounterTest extends Configured implements Tool {
         throws IOException {
       // System.out.println (record);
       try {
-        String[] tokens = record.toString().split(",");
+        // / TODO : split the records into tokens
+        // String[] tokens = record.toString().
         // System.out.println (Arrays.toString(tokens));
-        if (tokens.length != 5) {
-          // TODO : increment counter
-          // context.getCounter(Counters.BAD_RECORDS).increment(?);
 
-          // TODO : what do we do now? continue or return?
-        }
+        // / TODO : check token length
+        // if (tokens.length != 5) {
+        // / TODO : increment counter
+        // context.getCounter(Counters.BAD_RECORDS).increment(?);
 
-        String timestampStr = tokens[0].trim();
-        String customerIdStr = tokens[1].trim();
-        String costStr = tokens[4].trim();
+        // / TODO : what do we do now? continue or return?
+        // }
 
-        int cost = Integer.parseInt(costStr);
+        // / TODO : extract fields
+        // String customerIdStr = tokens[1].trim();
+        // String costStr = .....
+        // int cost = ....
 
-        Text keyOutCustomer = new Text(customerIdStr);
-        IntWritable valueOutCost = new IntWritable(cost);
-
-        context.write(keyOutCustomer, valueOutCost);
+        // / TODO : create output key / value pair
+        // Text keyOutCustomer = new Text(???);
+        // IntWritable valueOutCost = new IntWritable(???);
+        // context.write(keyOutCustomer, valueOutCost);
 
       } catch (Exception e) {
         // System.out.println("*** exception:");

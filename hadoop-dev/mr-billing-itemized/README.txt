@@ -9,7 +9,7 @@ you can also open the project in eclipse
 
 == STEP 1)
     $ cd mr-billing-itemized
-edit the file : src/hi/mr/ItemizedBilling.java
+edit the file : src/main/java/hi/mr/ItemizedBilling.java
 complete the TODO items
 
 (instructor :  answer file : /labs-solutions/hadoop/mr/mr-billing-itemized)
