@@ -16,11 +16,11 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class CombinerAnswer extends Configured implements Tool
+public class Combiner extends Configured implements Tool
 {
     public static void main(String[] args) throws Exception
     {
-        int res = ToolRunner.run(new Configuration(), new CombinerAnswer(), args);
+        int res = ToolRunner.run(new Configuration(), new Combiner(), args);
         System.exit(res);
     }
 
@@ -38,11 +38,13 @@ public class CombinerAnswer extends Configured implements Tool
 
         Configuration conf = getConf();
 
-        Job job = new Job(conf, getClass().getName() + "--answer");
-        job.setJarByClass(CombinerAnswer.class);
+        Job job = new Job(conf, getClass().getName() + "--<your_name>"); // TODO
+        job.setJarByClass(Combiner.class);
         job.setMapperClass(MyMapper.class);
         job.setReducerClass(MyReducer.class);
-        // job.setCombinerClass(MyReducer.class);
+        /// TODO : set combiner class
+        /// in this case (aggregation) Reducer can be used as Combiner
+        // job.setCombinerClass(cls);
         job.setMapOutputValueClass(IntWritable.class);
         job.setMapOutputKeyClass(Text.class);
         job.setInputFormatClass(TextInputFormat.class);
@@ -69,12 +71,10 @@ public class CombinerAnswer extends Configured implements Tool
                 String timestampStr = tokens[0].trim();
                 String customerIdStr = tokens[1].trim();
                 String costStr = tokens[4].trim();
-
                 int cost = Integer.parseInt(costStr);
 
-                Text keyOutCustomer = new Text(customerIdStr);
+                Text keyOutCustomer = new Text (customerIdStr);
                 IntWritable valueOutCost = new IntWritable(cost);
-
                 context.write(keyOutCustomer, valueOutCost);
 
             } catch (Exception e)
@@ -95,7 +95,7 @@ public class CombinerAnswer extends Configured implements Tool
             int total = 0;
             for (IntWritable cost : results)
             {
-                total += cost.get();
+              total += cost.get();
             }
             context.write(key, new IntWritable(total));
 
