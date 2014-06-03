@@ -1,51 +1,50 @@
 Lab : calculate customer total
+----
+
+Objective :  Use mapreduce to calculate billing invoices
+
+JDK API docs : http://docs.oracle.com/javase/7/docs/api/
+Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
+
 project dir : mr-billing
 you can also open the project in eclipse
+(use  'mvn eclipse:eclipse'  to create eclipse project files)
 
 == STEP 1)
     $  cd mr-billing
-    edit the file : src/hi/mr/BillingTotal.java
+edit the file : src/hi/mr/BillingTotal.java
+complete the TODO items
+
+(Instructor : answer in  /labs-solutions/hadoop/mr/mr-billing)
 
 
-== STEP 2) complete the TODO items
-Answer : src/hi/mr/BillingTotalAnswer.java
-
-
-== STEP 3) compile the code:
+== STEP 2) compile the code:
   $ cd mr-billing
   $ ../compile.sh
-
 this should create a jar file called 'a.jar'
 
+(alternatively  use 'mvn package' command to build the project too)
 
-== STEP 4)
+
+== STEP 3)
 Now it is time to copy the sample input into HDFS
-for hadoop 1
-    $ hadoop dfs -mkdir  <your name>/billing/in
-    $ hadoop dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
-
-for hadoop 2
     $ hdfs dfs -mkdir  <your name>/billing/in
     $ hdfs dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
 
-== STEP 5)
+
+== STEP 4)
 we will run this jar file
   $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in/sample.txt   <your name>/billing/out
 
 
-== STEP 6)
+== STEP 5)
 Once the mr job is done, inspect the output file:
-for hadoop 1
-  $ hadoop  dfs -cat <your name>/billing/out/part-r-00000
-
-for hadoop 2
   $ hdfs  dfs -cat <your name>/billing/out/part-r-00000
 or
-Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../getting-started.txt for detailed instructions)
+Browse HDFS file system.  Navigate to '/user/<login name>/<your user name>/billing/out' dir
 
 
-== STEP 7)
+== STEP 6)
 Once the sample data is working, lets try this on more data.
 
 Generate more (random) sample data
@@ -64,23 +63,20 @@ Verify the files are there
     $  hdfs  dfs -ls <your name>/billing/in
 
 
-== STEP 8)
+== STEP 7)
 run mr again on this new data
   $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in   <your name>/billing/out2
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 
 
-== STEP 9)
+== STEP 8)
 inspect the output from JobTracker UI
 (see ../getting-started.txt, STEP 4, for detailed instructions)
 
 
-== STEP 10)
+== STEP 9)
 examine the job stats from job tracker UI
-go to  http://<job tracker>:50030
-       http://localhost:50030
-
 Find the job under 'completed jobs' section
 Click on it
 inspect the stats

@@ -7,6 +7,8 @@ Hadoop 1 :
 
 
 Hadoop 2:
+    $ hadoop  TestDFSIO -write -nrFiles 10 -fileSize 1GB
+        or
     $ hadoop jar HH/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 1GB
 
 Interpretting results:
