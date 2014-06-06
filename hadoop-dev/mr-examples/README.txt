@@ -2,6 +2,7 @@ Running mapreduce examples that ship with Hadoop
 
 These examples are in 'hadoop-examples-*.jar'
 This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+(might be located under /opt  for some distributions)
 
 == STEP 1)
     Find what mapreduce examples are available
@@ -24,7 +25,7 @@ This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-exa
 
 == STEP 3) running grep
     to find grep usage
-        $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar  grep
+        $ hadoop   org.apache.hadoop.examples.Grep
 
     it will print out the usage
         first arg : input dir
@@ -33,7 +34,7 @@ This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-exa
 
     now lets run the command, look for two strings 'dfs' and 'xml'
 
-        $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar  grep  <your_name>/grep/in   <your_name>/grep/out   '(dfs|xml)'
+        $ hadoop org.apache.hadoop.examples.Grep   <your_name>/grep/in   <your_name>/grep/out   '(dfs|xml)'
 
     This commnad will kick off mapreduce jobs
 

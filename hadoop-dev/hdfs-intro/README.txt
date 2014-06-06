@@ -57,7 +57,7 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
 == STEP 5) view files in UI
     option 1 -- recommended) Using Hue UI
-        open Hue UI and click on 'File Manager' 
+        open Hue UI and click on 'File Manager'
 
     option 2) Using Namenode UI
     (Note : This step might need browser proxy setup)
@@ -92,9 +92,12 @@ for hadoop 2 and later versions  use 'hdfs dfs'
 
 
 == BONUS LAB 2)
+    List all the data nodes using hdfs command
+    (Find the right 'sub command' for hdfs)
+
+
+== BONUS LAB 3)
     find out which machine has the blocks for a particular file
     hint the command is : fsck
-        $  hadoop fsck [options]   <full file name>
-        or
-        $  hdfs fsck  [options]   <full file name>
+        $  hdfs fsck   <full file name> [options]
     can you figure out the options?
