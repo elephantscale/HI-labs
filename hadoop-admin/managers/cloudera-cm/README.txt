@@ -21,7 +21,8 @@ sudo ./cloudera-manager-installer.bin
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
 (For CDH5, set swappiness to 0 on every node, like this:
-sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
+sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf" - then reboot
+for immediate change do 'sudo sysctl vm.swappiness=0'
 - because CDH5 checks it).
 
 == STEP 3)
