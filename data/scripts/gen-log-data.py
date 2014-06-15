@@ -23,7 +23,7 @@ import json
 #main
 ## --- script main
 if __name__ == '__main__':
-  severity = ['INFO', 'ERROR',  'WARN', 'DEGUG']
+  severity = ['INFO', 'ERROR',  'WARN', 'DEBUG']
   for f in range(0, files):
     filename = "%d.log" % f
 
