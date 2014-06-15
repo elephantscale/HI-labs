@@ -1,0 +1,10 @@
+1,Customer 1,customer-1@email.com,TX,0
+2,Customer 2,customer-2@email.com,NM,8
+3,Customer 3,customer-3@email.com,OR,5
+4,Customer 4,customer-4@email.com,NV,2
+5,Customer 5,customer-5@email.com,NV,2
+6,Customer 6,customer-6@email.com,CA,10
+7,Customer 7,customer-7@email.com,AZ,7
+8,Customer 8,customer-8@email.com,NV,3
+9,Customer 9,customer-9@email.com,NM,0
+10,Customer 10,customer-10@email.com,OR,0

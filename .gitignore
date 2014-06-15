@@ -8,3 +8,5 @@
 .DS_Store
 *sublime-workspace
 target/
+.classpath
+.project

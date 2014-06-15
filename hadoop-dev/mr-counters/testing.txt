@@ -21,10 +21,6 @@ We want to inspect the counters programatically and fire off alerts.
     job id can be found on console or from job tracker UI.
     It has the format of 'job_timestamp_counter'
 
-    for hadoop 1
-        $  hadoop job -counter <job id>  'hi.mr.Counter$MyMapper$Counters'   'BAD_RECORDS'
-
-    for hadoop 2
         $  mapred job -counter <job id>  'hi.mr.Counter$MyMapper$Counters'   'BAD_RECORDS'
 
     NOTE : always sorround counter names with single quotes (') ;   not with double quotes (").
@@ -66,5 +62,5 @@ We want to inspect the counters programatically and fire off alerts.
 
 == BONUS 3) Checking BAD_RECORDS percentage in Java code.
     We want to fail the mapreduce job if a certain percentage of records are bad.
-    Look at file : src/hi/mr/CounterTest.java
+    Look at file : src/main/java/hi/mr/CounterTest.java
     Edit TODO items
