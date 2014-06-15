@@ -20,6 +20,9 @@ sudo ./cloudera-manager-installer.bin
 (For CDH5, change cm4 above to cm5 :)
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
+(For CDH5, set swappiness to 0 on every node, like this:
+sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
+- because CDH5 checks it).
 
 == STEP 3)
 Follow the prompts of CDH installer on the screen.  Once the installer is done, it will ask you to login to browser based install.
