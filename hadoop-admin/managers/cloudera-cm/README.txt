@@ -104,3 +104,14 @@ on centos
     sudo -u hdfs   hdfs dfs -mkdir   /user/ec2-user
     sudo -u hdfs  hdfs dfs -chown ec2-user /user/ec2-user
     hdfs dfs -mkdir  /user/ec2-user/sujee
+
+for cluster health, set ntp
+sudo yum -y install ntp
+sudo chkconfig ntpd on
+sudo ntpdate 0.centos.pool.ntp.org
+sudo service ntpd start
+
+set swappiness to 0
+sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
+sudo sysctl vm.swappiness=0
+
