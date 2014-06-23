@@ -6,7 +6,7 @@ To instructor :
 
     - hosts given to students should be launched with 'Cloduera Manager' security group
 
-== STEP 1)  Installing Cloduera Manager
+== STEP 1)  Installing Cloudera Manager
  Use the instance provided by the instructor. Log in using SSH
  e.g
     ssh ec2-user@your_host_name
@@ -47,7 +47,7 @@ Note : be sure to use the public IP address, rather than the private ip
       Image ID : ami-e855b580  (verify with instructor)
       user : ec2-user
 
-   instance type : m1.large  or bigger
+   instance type : m3.xlarge  or bigger
    instances : 4
    name of cluster : <your name>-cdh
 
