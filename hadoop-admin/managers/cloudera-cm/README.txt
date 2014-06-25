@@ -6,7 +6,7 @@ To instructor :
 
     - hosts given to students should be launched with 'Cloduera Manager' security group
 
-== STEP 1)  Installing Cloduera Manager
+== STEP 1)  Installing Cloudera Manager
  Use the instance provided by the instructor. Log in using SSH
  e.g
     ssh ec2-user@your_host_name
@@ -20,6 +20,10 @@ sudo ./cloudera-manager-installer.bin
 (For CDH5, change cm4 above to cm5 :)
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
+(For CDH5, set swappiness to 0 on every node, like this:
+sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf" - then reboot
+for immediate change do 'sudo sysctl vm.swappiness=0'
+- because CDH5 checks it).
 
 == STEP 3)
 Follow the prompts of CDH installer on the screen.  Once the installer is done, it will ask you to login to browser based install.
@@ -43,7 +47,7 @@ Note : be sure to use the public IP address, rather than the private ip
       Image ID : ami-e855b580  (verify with instructor)
       user : ec2-user
 
-   instance type : m1.large  or bigger
+   instance type : m3.xlarge  or bigger
    instances : 4
    name of cluster : <your name>-cdh
 
@@ -100,3 +104,14 @@ on centos
     sudo -u hdfs   hdfs dfs -mkdir   /user/ec2-user
     sudo -u hdfs  hdfs dfs -chown ec2-user /user/ec2-user
     hdfs dfs -mkdir  /user/ec2-user/sujee
+
+for cluster health, set ntp
+sudo yum -y install ntp
+sudo chkconfig ntpd on
+sudo ntpdate 0.centos.pool.ntp.org
+sudo service ntpd start
+
+set swappiness to 0
+sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
+sudo sysctl vm.swappiness=0
+
