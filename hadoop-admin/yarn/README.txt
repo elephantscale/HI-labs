@@ -134,3 +134,21 @@ To instructor :
 
   There should be no errors, or else read the error message and fix configuration files
 
+== STEP 8) Start the HDFS services
+
+  cd ../sbin
+  sudo ./hadoop-daemon.sh start
+  sudo ./hadoop-daemon.sh start namenode
+  sudo ./hadoop-daemon.sh start secondarynamenode
+  sudo ./hadoop-daemon.sh start datanode
+
+  Verify with
+  sudo jps (you should see the daemons)
+
+== STEP 9) Fix home directory
+
+  From the bin directory
+
+  sudo -u hdfs ./hdfs dfs -mkdir /user/
+  sudo -u hdfs ./hdfs dfs -mkdir /user/ubuntu
+  sudo -u hdfs ./hdfs dfs -chown ubuntu /user/ubuntu
