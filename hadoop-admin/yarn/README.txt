@@ -3,38 +3,134 @@ This lab teaches the install of YARN
 To instructor :
     - each student can install YARN on a server provided for him or her. Alternatively, they can work in groups, so that each group has a node assigned to it
 
-== STEP 1)  Installing Flume
- Use the instance provided by the instructor. Log in using SSH
- e.g
+== STEP 1)  Download Hadoop
+
+  Start with this URL in the browser: http://hadoop.apache.org/releases.html#Download. Find the right link, then login to your instance.
+  Use the instance provided by the instructor. Log in using SSH
+  e.g
     ssh ec2-user@your_host_name
+    Download the link you found with the browser
+    for example, wget http://mirrors.gigenet.com/apache/hadoop/common/hadoop-2.4.0/hadoop-2.4.0.tar.gz
 
-== STEP 2) execute the following commands on the terminal
-    sudo yum install --assumeyes flume-ng
-
-Please note that if you already installed Hadoop cluster, such as with CDH5, Flume may be already installed
-If not, you may also need to add the Cloudera or another repository from which to install Flume
-
-== STEP 3) execute the following commands on the terminal
-  Using sudo, create a new file names /etc/hadoop/conf/flume-conf.properties
-  Take the file /usr/lib/flume-ng/conf/flume-conf.properties.template as a starting point
-
-== STEP 4) generate data in the access log
-  cd to the /HI-labs/data/scripts directory
-  run the data generating script: python gen-log-data.py
-  this will give you a number of log files: 0.log, 1.log, 2.log, and so on. You will be able to append data to you main log files, such as cat 1.log >> <your-log-file>
+== STEP 2) 
   
-== STEP 5) configure flume agent
-  Using sudo, create a new file names /etc/hadoop/conf/flume-conf.properties
-  Take the file /usr/lib/flume-ng/conf/flume-conf.properties.template as a starting point
+  Unpack Hadoop files
+  sudo mkdir /opt/yarn
+  cd /opt/yarn
+  sudo tar xvzf ~/hadoop-2.4.0.tar.gz
 
-== STEP 6) start collector in second terminal window
-  Use flume-ng command
+== STEP 3) Java setup
 
-== STEP 7) start the source in third terminal window
-  Use flume-ng command
+  Install Java if you don't have it. Hadoop will work with many version, here is the list http://wiki.apache.org/hadoop/HadoopJavaVersions
+  Make sure your JAVA_HOME is set
+  You may need it to work in all accounts, for example, using this command
+  sudo -i
+  echo "export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_45" > /etc/profile.d/java.sh
+  source /etc/profile.d/java.sh
+  exit (stop being root)
+  Alternatively, if you get "JAVA_HOME not defined" error, set it in here
+  sudo vi hadoop-env.sh 
 
-== STEP 8) observe the files in HDFS
-  Use 'hdfs dfs -ls' command
+== STEP 4) Create groups and users
 
+  sudo groupadd hadoop
+  sudo useradd -g hadoop yarn
+  sudo useradd -g hadoop hdfs
+  sudo useradd -g hadoop mapred
 
+== STEP 5) Create directories
+
+  sudo mkdir -p /var/data/hadoop/hdfs/nn
+  sudo mkdir -p /var/data/hadoop/hdfs/snn
+  sudo mkdir -p /var/data/hadoop/hdfs/dn
+  sudo mkdir -p /var/log/hadoop/yarn
+  sudo chown hdfs:hadoop /var/data/hadoop/hdfs -R
+  sudo chown yarn:hadoop /var/log/hadoop/yarn -R  
+
+  Move to the Hadoop installation root and create the logs directory
+  cd /opt/yarn/hadoop-2.4.0
+  sudo mkdir logs
+  sudo chmod g+w logs
+  sudo chown yarn:hadoop . -R
+
+== STEP 6) Configure
+
+  From the same hadoop root install directory as in step 5), edit the core site configuration
+  sudo vi etc/hadoop/core-site.xml (or nano)
+
+  Put the following in the configuration
+
+  <configuration>
+    <property>
+      <name>fs.default.name</name>
+      <value>hdfs://localhost:9000</value>
+    </property>
+    <property>
+      <name>hadoop.http.staticuser.user</name>
+      <value>hdfs</value>
+    </property>
+  </configuration>
+
+  Edit the hdfs site configuration
+  sudo vi etc/hadoop/hdfs-site.xml
+
+  Put the following in the configuration
+
+  <configuration>
+    <property>
+      <name>dfs.replication</name>
+      <value>1</value>
+    </property>
+    <property>
+      <name>dfs.namenode.name.dir</name>
+      <value>file:/var/data/hadoop/hdfs/nn</value>
+    </property>
+    <property>
+      <name>fs.checkpoint.dir</name>
+      <value>file:/var/data/hadoop/hdfs/snn</value>
+    </property>
+    <property>
+      <name>fs.checkpoint.edits.dir</name>
+      <value>file:/var/data/hadoop/hdfs/snn</value>
+    </property>
+    <property>
+      <name>dfs.datanode.data.dir</name>
+      <value>file:/var/data/hadoop/hdfs/dn</value>
+    </property>
+  </configuration>
+
+  Configure the mapred-site.xml
+  Start by copying a template
+  
+  sudo cp etc/hadoop/mapred-site.xml.template  etc/hadoop/mapred-site.xml
+  sudo vi etc/hadoop/mapred-site.xml
+  Add the following in the configuration
+
+  <configuration>
+    <property>
+      <name>mapreduce.framework.name</name>
+      <value>yarn</value>
+    </property>
+  <configuration>
+
+  Configure yarn site
+
+  sudo vi etc/hadoop/yarn-site.xml
+
+  <configuration>
+    <property>
+      <name>yarn.nodemanager.aux-services</name>
+      <value>mapreduce.shuffle</value>
+    </property>
+    <property>
+      <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+      <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+    </property>
+  </configuration>
+
+== STEP 7) Format HDFS
+
+  sudo -u hdfs bin/hdfs namenode -format
+
+  There should be no errors, or else read the error message and fix configuration files
 
