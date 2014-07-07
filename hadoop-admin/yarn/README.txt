@@ -128,6 +128,9 @@ To instructor :
     </property>
   </configuration>
 
+
+NOTE. The configuration is done. It will be for your own benfit to put the 'bin' directory of Hadoop on your PATH.
+
 == STEP 7) Format HDFS
 
   sudo -u hdfs bin/hdfs namenode -format
@@ -137,10 +140,9 @@ To instructor :
 == STEP 8) Start the HDFS services
 
   cd ../sbin
-  sudo ./hadoop-daemon.sh start
-  sudo ./hadoop-daemon.sh start namenode
-  sudo ./hadoop-daemon.sh start secondarynamenode
-  sudo ./hadoop-daemon.sh start datanode
+  sudo -u hdfs ./hadoop-daemon.sh start namenode
+  sudo -u hdfs ./hadoop-daemon.sh start secondarynamenode
+  sudo -u hdfs ./hadoop-daemon.sh start datanode
 
   Verify with
   sudo jps (you should see the daemons)
@@ -150,5 +152,27 @@ To instructor :
   From the bin directory
 
   sudo -u hdfs ./hdfs dfs -mkdir /user/
-  sudo -u hdfs ./hdfs dfs -mkdir /user/ubuntu
-  sudo -u hdfs ./hdfs dfs -chown ubuntu /user/ubuntu
+  sudo -u hdfs ./hdfs dfs -mkdir /user/<your-user-name>
+  sudo -u hdfs ./hdfs dfs -chown <your-user-name> /user/<your-user-name>
+
+== STEP 10) Start YARN services
+
+  cd YARN_HOME/sbin
+  sudo -u yarn ./yarn-daemon.sh start resourcemanager
+  sudo -u yarn ./yarn-daemon.sh start nodemanager
+
+== STEP 11) Verify in the browser
+
+  HDFS
+
+  http://localhost:50070
+
+  Resource Manager
+
+  http://localhost:8088/cluster
+
+  run as user hdfs. For example sudo -i; su - hdfs
+
+  from HOME_HOME
+
+  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar pi 10 20
