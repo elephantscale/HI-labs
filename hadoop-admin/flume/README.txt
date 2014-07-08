@@ -28,8 +28,8 @@ If not, you may also need to add the Cloudera or another repository from which t
 == STEP 5) start collector in second terminal window
   Use flume-ng command
 
-== STEP 6) start the source in third terminal window
-  Use flume-ng command
+== STEP 6) imitate the source adding data
+  Use >> to append some data to your log file
 
 == STEP 7) observe the files in HDFS
   Use 'hdfs dfs -ls' command
