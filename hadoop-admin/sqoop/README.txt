@@ -35,8 +35,8 @@ To instructor :
   sqoop import --connect jdbc:mysql://localhost/training --table mylogs --fields-terminated-by '\t'  --username root --password <password> # if using password
 
 == STEP 5) Verify that the command worked
-  hdfs dfs -ls training
-  hdfs dfs -tail training/part-m-00000
+  hdfs dfs -ls mylogs
+  hdfs dfs -tail mylogs/part-m-00000
 
 Bonus points
 
