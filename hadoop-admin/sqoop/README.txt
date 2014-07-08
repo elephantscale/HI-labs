@@ -42,6 +42,3 @@ Bonus points
 
   Create and import the database containing emails from Enron litigation, http://freeeed.org/index.php/documentation/testing-with-enron-data
   
-Advanced: use Enron emails processed for eDiscovery, from this site: http://freeeed.org/index.php/documentation/testing-with-enron-data 
-
-
