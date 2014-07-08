@@ -25,17 +25,13 @@ If not, you may also need to add the Cloudera or another repository from which t
   run the data generating script: python gen-log-data.py
   this will give you a number of log files: 0.log, 1.log, 2.log, and so on. You will be able to append data to you main log files, such as cat 1.log >> <your-log-file>
   
-== STEP 5) configure flume agent
-  Using sudo, create a new file names /etc/hadoop/conf/flume-conf.properties
-  Take the file /usr/lib/flume-ng/conf/flume-conf.properties.template as a starting point
-
-== STEP 6) start collector in second terminal window
+== STEP 5) start collector in second terminal window
   Use flume-ng command
 
-== STEP 7) start the source in third terminal window
+== STEP 6) start the source in third terminal window
   Use flume-ng command
 
-== STEP 8) observe the files in HDFS
+== STEP 7) observe the files in HDFS
   Use 'hdfs dfs -ls' command
 
 
