@@ -171,8 +171,10 @@ NOTE. The configuration is done. It will be for your own benfit to put the 'bin'
 
   http://localhost:8088/cluster
 
-  run as user hdfs. For example sudo -i; su - hdfs
+  run as user hdfs. For example 
+  sudo -i
+  su - hdfs
 
-  from HOME_HOME
+  from YARN_HOME
 
   bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar pi 10 20
