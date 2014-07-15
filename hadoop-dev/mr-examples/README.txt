@@ -20,9 +20,9 @@ Running mapreduce examples that ship with Hadoop
         second arg : output dir
         third arg : pattern to look for
 
-    now lets run the command, look for two strings 'dfs' and 'xml'
+    now lets run the command, look for string 'dfs'
 
-        $ hadoop org.apache.hadoop.examples.Grep   <your_name>/grep/in   <your_name>/grep/out   '(dfs|xml)'
+        $ hadoop org.apache.hadoop.examples.Grep   <your_name>/grep/in   <your_name>/grep/out   'dfs'
 
     This commnad will kick off mapreduce jobs
 
@@ -36,6 +36,11 @@ Running mapreduce examples that ship with Hadoop
     use 'cat' command to see the file contents
 
         $ hdfs dfs -cat <your_name>/grep/out/part-00000
+
+
+== STEP 4)  look for multiple words
+    grep for two strings 'dfs' and 'xml'
+    hint : the regular expression is :  '(dfs|xml)'
 
 
 == BONUS LAB )
