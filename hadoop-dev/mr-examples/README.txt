@@ -5,7 +5,7 @@ Running mapreduce examples that ship with Hadoop
     lets copy some files into hdfs, we will use Hadoop config files
 
     prepare a directory in hdfs
-        $ hdfs dfs -mkdir <your_name>/grep/in
+        $ hdfs dfs -mkdir -p <your_name>/grep/in
 
     copy hadoop config files from /etc/hadoop/conf  into HDFS
         $ hdfs dfs -put /etc/hadoop/conf/*   <your_name>/grep/in
