@@ -1,19 +1,7 @@
 Running mapreduce examples that ship with Hadoop
 
-These examples are in 'hadoop-examples-*.jar'
-This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
-(might be located under /opt  for some distributions)
 
 == STEP 1)
-    Find what mapreduce examples are available
-
-    $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
-
-    This will print out sample programs available
-
-
-
-== STEP 2)
     lets copy some files into hdfs, we will use Hadoop config files
 
     prepare a directory in hdfs
@@ -23,7 +11,7 @@ This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-exa
         $ hdfs dfs -put /etc/hadoop/conf/*   <your_name>/grep/in
 
 
-== STEP 3) running grep
+== STEP 2) running grep
     to find grep usage
         $ hadoop   org.apache.hadoop.examples.Grep
 
@@ -39,7 +27,7 @@ This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-exa
     This commnad will kick off mapreduce jobs
 
 
-== STEP 4) verifying run output
+== STEP 3) verifying run output
     grep output will be in the output dir (<your_name>/grep/out)
     see files in the output dir
 
@@ -57,3 +45,18 @@ This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-exa
     note the count
     what is the count from Hadoop grep
     do they agree?  if not why not?
+
+
+== BONUS LAB)
+More examples are in 'hadoop-examples-*.jar'
+This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+(might be located under /opt  for some distributions
+use the following command to locate the file
+    $   find /opt   | grep hadoop-mapreduce-exmamples.jar
+)
+
+Find what mapreduce examples are available
+
+$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+
+This will print out sample programs available
