@@ -25,15 +25,14 @@ DESCRIBE billing_data2;
 
 -- # now lets store the records in hdfs
 -- ## TODO : change <your name>
--- STORE billing_data into '<your name>/billing/out';
+-- STORE billing_data into '<your name>/billing/pigout';
 -- # uncomment above line and run the script
--- # check out 'logs/out' in HDFS
+-- # inspect the output in HDFS
 -- # is that a file or directory?
 
--- # what is the field seperator in result file?
--- # by defautl is it TAB
+-- # what is the field separator in result file?
+-- # by default delimiter TAB
 -- # lets change it to |
 -- ## TODO : update <your name>
--- STORE billing_data into '<your name>/billing/out2' using PigStorage('|');
-
+-- STORE billing_data into '<your name>/billing/pigout2' using PigStorage('|');
 

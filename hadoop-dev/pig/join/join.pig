@@ -1,13 +1,17 @@
--- pig-billing.pig
+-- join.pig
 
 -- ## TODO : set the name of job
 SET job.name 'my_job';
 
 
--- Parse Input File
+-- ## TODO : load billing data, edit <your name>
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:int,resource_id:chararray,qty:int,cost:int);
 DUMP billing_data;
 
+-- ## TODO : copy the resources.txt file into HDFS (use 'hdfs dfs -put')
+-- ## resources.txt is in  HI-labs/data/billing-data  directory
+-- ## WARN : do not place resources.txt file into 'billing/in'
+--           directory  (don't mix billing logs & resources.txt)
 resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage('=') AS (resource_id:int, resource_name:chararray);
 DUMP resource_data;
 

@@ -21,11 +21,15 @@ e.g :   $  pig intro.pig
 
 To change the name of pig script supply 'job.name' parameter
     $ pig -Djob.name="hello"  script.pig
-
+---
 Turning off logging in pig
 
-create a log.conf file with this line
-  log4j.rootLogger=FATAL
+    create a log.conf file with this line
+      log4j.rootLogger=FATAL
 
-invoke pig with -4 arg
-  $ pig -4 log.conf   < script.pig
+    invoke pig with -4 arg
+      $ pig -4 log.conf   script.pig
+---
+'echoing' execution line by line   (like sh -x)
+    $   pig   < script.pig
+---

@@ -13,12 +13,15 @@ To instructor :
 
 == STEP 2) execute the following commands on the terminal
 
+CDH 4:
 wget http://archive.cloudera.com/cm4/installer/latest/cloudera-manager-installer.bin
 chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
-(For CDH5, change cm4 above to cm5 :)
+CDH5 :
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+chmod +x cloudera-manager-installer.bin
+sudo ./cloudera-manager-installer.bin
 
 (For CDH5, set swappiness to 0 on every node, like this:
 sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf" - then reboot

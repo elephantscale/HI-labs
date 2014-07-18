@@ -1,7 +1,7 @@
 Lab : Use HBase Java APIs for CRUD (Create, Read, Update, Delete)
 ----
 
-project dir : HI-labs/hadoop-dev/hbase/put-get
+project dir : HI-labs/hadoop-dev/hbase/crud
 you can also open the project in eclipse
 
 

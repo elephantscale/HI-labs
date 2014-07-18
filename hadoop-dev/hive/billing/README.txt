@@ -4,12 +4,12 @@ project dir : HI-labs/hadoop-dev/hive/billing
 
 == STEP 1)
 Lets create an external table for our billing data
-inspect file create_table_billing.q
+inspect file create_table_billing_ext.q
 fix the TODO items
 
 
 == STEP 2) use Hive to create the table
-    $ hive -f create_table_billing.q
+    $ hive -f create_table_billing_ext.q
 
 
 == STEP 3) launch Hive shell, and inspect the table just created
@@ -29,11 +29,12 @@ generate data
 upload data into HDFS
     $  hdfs  dfs -put   billing*.log     <you name>/billing/in/
 
+
 == STEP 5) lets count the number of rows in the table
 Launch hive shell
     $ hive
 
-    hive >  select count(1) from <your name>_billing;
+    hive >  select count(*) from <your name>_billing;
 
 This will actually kick off a mapreduce job, and at the end you will get the count
 
@@ -59,9 +60,8 @@ launch hive shell
     hive > select customer_id, SUM(cost) as total from <your name>_billing group by customer_id limit 5;
 
 
-== STEP 8) find top spending customers
-the query will look like:
-    select customer_id, SUM(cost) as total from <yourname>_billing group by customer_id order by total desc limit 5;
+== STEP 8) find top 10 spending customers
+what is the query?
 
 You can execute this query directly from hive shell, or place this in a file (e.g top.q) and execute it using hive
     $ hive -f top.q
