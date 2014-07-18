@@ -28,7 +28,7 @@ this should create a jar file called 'a.jar'
 
 == STEP 3)
 Now it is time to copy the sample input into HDFS
-    $ hdfs dfs -mkdir  <your name>/billing/in
+    $ hdfs dfs -mkdir -p  <your name>/billing/in
     $ hdfs dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
 
 
