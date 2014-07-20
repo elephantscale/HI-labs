@@ -58,6 +58,11 @@ public class BillingTotal extends Configured implements Tool {
         throws IOException {
       // System.out.println (record);
       try {
+        // sample data looks like this
+        //  timestamp,  customer_id,  resource_id,   qty,   cost
+        // 1325404800864,1,6,83,64
+        // 1325404801728,2,3,17,166
+
         /// TODO : split the records by ,
         // String [] tokens = record.toString()......
         // System.out.println (Arrays.toString(tokens));

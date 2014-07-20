@@ -10,7 +10,7 @@ SET job.name 'my_job';
 billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
 
 -- ## extract customer_id & cost
--- cid_cost = FOREACH billing_data  GENERATE ....
+-- cid_cost = FOREACH billing_data  GENERATE ???,  ???  ;
 -- DESCRIBE cid_cost;
 -- DUMP cid_cost;
 
@@ -20,6 +20,8 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- DUMP grp_by_cid;
 
 -- ## then sum cost
+-- ## hint : sum(cost) won't work, b/c cost is nested
+-- ##        inspect DESCRIBE grp_by_cid  output to determine structure
 -- total_by_cid = FOREACH grp_by_cid GENERATE group, SUM(....) as total;
 -- DUMP total_by_cid;
 

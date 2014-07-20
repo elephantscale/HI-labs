@@ -16,8 +16,12 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 DESCRIBE billing_data;
 
 -- ## TODO : change <your name>
-billing_data2 = LOAD '<your name>/billing/in/*.log' USING PigStorage(',');
+billing_data2 = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',');
 DESCRIBE billing_data2;
+
+-- ## TODO : explain
+-- ## uncomment the following line, inspect the output
+-- EXPLAIN billing_data;
 
 -- DUMP billing_data;
 -- # now uncomment  DUMP above.  Run the script again.
@@ -27,7 +31,7 @@ DESCRIBE billing_data2;
 -- ## TODO : change <your name>
 -- STORE billing_data into '<your name>/billing/pigout';
 -- # uncomment above line and run the script
--- # inspect the output in HDFS
+-- # inspect the output in HDFS (use  HDFS UI or  'hdfs dfs -ls' & 'hdfs dfs -cat' commands)
 -- # is that a file or directory?
 
 -- # what is the field separator in result file?

@@ -9,6 +9,7 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- ## TODO : lets extract custid and cost
 -- A = FOREACH billing_data GENERATE custid, cost;
 -- DESCRIBE A;
+-- EXPLAIN A;
 -- DUMP A;
 
 -- ## TODO : do some manipulation of data
