@@ -1,0 +1,67 @@
+Lab : Billing using HCatalog and Pig
+location : hadoop-dev/hcatalog
+
+pre-requisites for this lab:
+	1) you should have billing data in  <your name>/billing/in  directory
+	2) hadoop-dev/pig/billing
+	3) hadoop-dev/hive/billing
+
+
+== STEP 1) create billing table 
+Note : If you already have a billing table, you can skip this step
+
+Edit file : ../hive/billing/create_table_billing_ext.q 
+Fix TODO items.
+Execute the script as follows
+	$   hive -f   ../hive/billing/create_table_billing_ext.q 
+
+
+== STEP 2) create invoicing table
+Note : If you already have a invoices table, you can skip this step
+Edit file : ../hive/billing/create_table_invoices_ext.q 
+Fix TODO items.
+Execute the script as follows
+	$   hive -f   ../hive/billing/create_table_invoices_ext.q
+
+
+== STEP 3) Use hcat to verify the tables
+Use 'hcat' command to list the tables (use -e option)
+
+Also use hcat command to inspect schemas of both  <yourname>_billing  and <yourname>_invoices  tables  (hint use 'describe')
+
+
+== STEP 4) Use Pig + HCat to calculate invoices
+Start with pig billing solution : pig/billing/billing.pig
+(Instructor can provide solution for pig billing as starting point)
+
+Copy this file as : hcat-billing.pig
+	$   cp  ../pig/billing/billing.pig   hcat-billing.pig
+
+
+Instead of specifying schema during LOAD lets use HCatLoder
+Modify the load as follows
+	A = load '___your billing table name____' using org.apache.hcatalog.pig.HCatLoader();
+
+
+Also modify the final STORE command to use HCatalog.
+Class is : org.apache.hcatalog.pig.HCatStorer()
+
+
+== STEP 5) execute the pig script as follows
+	$   pig -useHCatalog  hcat-billing.pig
+
+What is the output?
+Make necessary changes to get the script running.
+
+
+== STEP 6) Run the pig script again.
+What is the output?
+How can we fix this?
+Check these out : 
+- https://issues.apache.org/jira/browse/HCATALOG-551
+- https://cwiki.apache.org/confluence/display/Hive/HCatalog+LoadStore#HCatalogLoadStore-HCatStorer 
+
+
+== BONUS Lab )
+Modify the pig script so it over-writes previous results, without throwing an error.
+Hint : look at file commands here : http://pig.apache.org/docs/r0.8.1/piglatin_ref2.html
