@@ -1,7 +1,7 @@
 -- TODO :  replace '<your name>' with your name
 -- TODO :  replace '<login name>' with login name (e.g  ubuntu ,  ec2-user)
 
-CREATE EXTERNAL TABLE <your name>_billing_ext (
+CREATE EXTERNAL TABLE <your name>_ext (
     ts BIGINT,
     customer_id INT,
     resource_id INT,

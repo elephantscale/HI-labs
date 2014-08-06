@@ -1,7 +1,7 @@
 -- TODO : replace '<your name>' with your username
 
 
-CREATE TABLE <your name>_billing_int (
+CREATE TABLE <your name>_int (
     ts BIGINT,
     customer_id INT,
     resource_id INT,
