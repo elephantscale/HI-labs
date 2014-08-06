@@ -77,8 +77,20 @@ for hadoop 2 and later versions  use 'hdfs dfs'
             - q   to quit
 
 
-== STEP 6)
-    create a simple file under your dir
+== STEP 6) over write files in HDFS
+repeat the -put command again
+        $  hdfs dfs -put README.txt  <your_name>/README.txt
+what is the result?  why?
+
+Delete the README.txt file in HDFS
+Hint : To find the delete command  type 'hdfs dfs' command and see usage
+
+Once you deleted the README.txt file, copy it again
+Hint : use the -put command
+
+
+== STEP 7)
+    create a zero sized file under your dir
         $  hdfs dfs  -touchz  <your_name>/z
 
     verify the file (zero length)
