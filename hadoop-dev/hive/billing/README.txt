@@ -4,12 +4,12 @@ project dir : HI-labs/hadoop-dev/hive/billing
 
 == STEP 1)
 Lets create an external table for our billing data
-inspect file create_table_billing_ext.q
+inspect file billing_ext.q
 fix the TODO items
 
 
 == STEP 2) use Hive to create the table
-    $ hive -f create_table_billing_ext.q
+    $ hive -f billing_ext.q
 
 
 == STEP 3) launch Hive shell, and inspect the table just created
@@ -76,7 +76,7 @@ we want to save the calculated invoices into a table.
 Edit file : create_table_invoices_ext.q
 Fix TODOs
 Execute the script to create table
-    $  hive  -f  create_table_invoices_ext.q
+    $  hive  -f  invoices_ext.q
 
 
 == STEP 9)  Save results into invoice table
