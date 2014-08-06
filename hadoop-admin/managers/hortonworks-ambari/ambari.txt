@@ -16,7 +16,7 @@ execute these steps in terminal
 #wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/GA/ambari.repo
 wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.4.3.38/ambari.repo
 sudo cp ambari.repo /etc/yum.repos.d
-yum install epel-release
+sudo yum install epel-release
 sudo yum install -y ambari-server
 sudo ambari-server setup
 sudo ambari-server start
@@ -36,4 +36,12 @@ sudo ambari-server start
 - for service allocation, accept the defaults
 - install clients on all nodes
 - password : admin for all services
+
+
+== STEP 4) post instal
+login to namenode
+
+setup user hdfs directory
+    $  sudo -u hdfs  hdfs  dfs -mkdir /user/$USER
+    $  sudo -u hdfs  hdfs  dfs -chown $USER  /user/$USER
 

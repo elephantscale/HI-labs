@@ -20,12 +20,13 @@ billing_data2 = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',');
 DESCRIBE billing_data2;
 
 -- ## TODO : explain
--- ## uncomment the following line, inspect the output
+-- ## uncomment the following line, run the script, inspect the output
 -- EXPLAIN billing_data;
 
+-- ## TODO : DUMP
+-- ## uncomment the following line, run the script, inspect the output
+-- ## check YARN UI, what do you see?
 -- DUMP billing_data;
--- # now uncomment  DUMP above.  Run the script again.
--- # what is the output?  check the JT page see any MR jobs ran
 
 -- # now lets store the records in hdfs
 -- ## TODO : change <your name>

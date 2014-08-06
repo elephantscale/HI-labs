@@ -7,7 +7,7 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- DUMP billing_data;
 
 -- ## TODO : group by resourceid
--- grouped_by_resource = GROUP billing_data BY ______;
+-- grouped_by_resource = GROUP billing_data BY ???  ;
 -- DESCRIBE grouped_by_resource;
 -- DUMP   grouped_by_resource;
 

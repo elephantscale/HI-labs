@@ -35,7 +35,7 @@ Running mapreduce examples that ship with Hadoop
 
     use 'cat' command to see the file contents
 
-        $ hdfs dfs -cat <your_name>/grep/out/part-00000
+        $ hdfs dfs -cat <your_name>/grep/out/part-r-00000
 
 
 == STEP 4)  look for multiple words
@@ -54,7 +54,7 @@ Running mapreduce examples that ship with Hadoop
 
 == BONUS LAB)
 More examples are in 'hadoop-examples-*.jar'
-This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
 (might be located under /opt  for some distributions
 use the following command to locate the file
     $   find /opt   | grep hadoop-mapreduce-exmamples.jar
@@ -62,6 +62,8 @@ use the following command to locate the file
 
 Find what mapreduce examples are available
 
-$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+$ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
+e.g.
+$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
 
 This will print out sample programs available
