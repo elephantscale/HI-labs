@@ -2,10 +2,10 @@ Lab : create partitioned tables
 location : HI-labs/hadoop-dev/hive/partitions
 
 === STEP 1) Create a partitioned table
-Edit file  : create_table_billing_p.q
+Edit file  : billing_p.q
 Fix TODOs
 Execute the script
-    $   hive -f  create_table_billing_p.q
+    $   hive -f  billing_p.q
 
 Verify table is created by running
     $   hive -e 'show tables'

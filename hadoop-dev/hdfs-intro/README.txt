@@ -82,6 +82,9 @@ repeat the -put command again
         $  hdfs dfs -put README.txt  <your_name>/README.txt
 what is the result?  why?
 
+Q :  How can we over-write the file?
+    You have to delete it and re-create it
+
 Delete the README.txt file in HDFS
 Hint : To find the delete command  type 'hdfs dfs' command and see usage
 
