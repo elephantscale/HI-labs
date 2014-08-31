@@ -1,4 +1,4 @@
-Introduction
+Introduction (15 min)
 
 In this lab we will practice measuring the performance of search engines.
 We will look at the two major metrics: precision and recall.
