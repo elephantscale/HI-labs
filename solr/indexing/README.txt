@@ -16,3 +16,6 @@ java -jar post.jar *.xml
 
 == STEP 2) Execute the *:* query. For that, select 'collection1'. Follow the screenshot on the slides.
 
+== STEP 3) Investigate various search options provided by Solr. Compose your list, then compare it
+to the screenshot on the slides.
+
