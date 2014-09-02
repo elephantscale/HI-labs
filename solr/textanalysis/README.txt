@@ -1,4 +1,4 @@
-Installing SolrCloud (30 min)
+Text analysis (45 min)
 ========================
 
 In this lab we will install a minimal SolrCloud, with one collection 
