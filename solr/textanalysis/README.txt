@@ -1,78 +1,27 @@
 Text analysis (45 min)
 ========================
 
-In this lab we will install a minimal SolrCloud, with one collection 
-containing two shards
+In this lab we will adjust the schema to implement the text analysis
+techniques for tweets
 
 Lab Goals
 
-1. Copy a sample collection and modify it to create our version
-2. Start and use SolrCloud
+1. Adjust schema.xml
+2. Re-index the documents
+3. Verify text analysis
 
-== STEP 1) Copy a sample collection
+== STEP 1) Use the schema from conf/schema.xml in this lab's directory
 
-cd $SOLR_INSTALL/
-cp -r example/ shard1/
+The examples in this chapter depend on a few minor customizations to the
+schema.xml that ships with the Solr example. We recommend that you replace the
+schema.xml file that ships with the Solr example with the customized version in
+$SOLR_IN_ACTION/example-docs/ch6/schema.xml. Specifically, you need to overwrite
+$SOLR_INSTALL/example/solr/collection1/conf/schema.xml by doing
+cp $SOLR_IN_ACTION/example-docs/ch6/schema.xml SOLR_INSTALL/example/solr/collection1/conf/
 
-== STEP 2) Create a core directory for logmill
+In addition, you need to copy the wdfftypes.txt file to the conf directory:
+cp $SOLR_IN_ACTION/example-docs/ch6/wdfftypes.txt $SOLR_INSTALL/example/solr/collection1/conf/
 
-  clone the collection1/ directory under shard1/solr.
+Finally, to start with a clean slate, you should delete everything in your data directory to start with an empty search index:
 
-== STEP 3) Delete the data directory so that you start with an empty index
-
-== STEP 4) Remove the core.properties files for all preexisting core directories 
-
-   that way, the cores will not be added to the SolrCloud cluster automatically. 
-
-== STEP 5) Finally, enable core autodiscovery:
-
-   cd shard1
-   cp -r solr/collection1/ solr/logmill/
-   rm -rf solr/logmill/data/
-   find . -name "core.properties" -type f -exec rm {} \;
-   echo "name=logmill" > solr/logmill/core.properties
-
-== STEP 6) Start Solr in cloud mode
-
-java -Dcollection.configName=logmill \
-  -DzkRun \
-  -DnumShards=2 \
-  -Dbootstrap_confdir=./solr/logmill/conf \
-  -jar start.jar
-
-== STEP 7) Explain the command above
-
-
-Administering Solr (20 min)
-===========================
-In this lab we will change the SolrCloud configuration and update SolrCloud with it
-
-Lab Goals:
-
-1. Change the solrconfig.xml file
-2. Update SolrCloud with the changes
-
-
-== STEP 1) Locate $SOLR_INSTALL/shard1/solr/logmill/conf/solrconfig.xml to
-
-== STEP 2) Change configuration as below
-
-<filterCache class="solr.FastLRUCache"
-   size="60"
-   initialSize="20"
-   autowarmCount="20" />
-
-== STEP 4) Upload changes to ZooKeeper
-
-cd $SOLR_INSTALL/shard1/cloud-scripts
-./zkcli.sh -zkhost localhost:9983
- -cmd upconfig
- -confname logmill
- -confdir ../solr/logmill/conf
-
-(Note: in production this will be a comma-delimited list of ZooKeeper host and port pairs, or quorum)
-
-== STEP 5)  Reload the collection
-
-Reload the collection using the Collections API: http://localhost:8983/solr/admin/
-collections?action=RELOAD&name=logmill
+rm -rf $SOLR_INSTALL/example/solr/collection1/data/*
