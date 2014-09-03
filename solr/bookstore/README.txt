@@ -2,7 +2,8 @@ Bookstore example (30 min)
 ==========================
 
 In this lab we will build a bookstore search and explore it.
-
+This is a real-life lab, where you may need to be creative, reformat
+the documents, and invent your own schema and features.
 
 Lab Goals:
 
