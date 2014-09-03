@@ -36,7 +36,7 @@ java -jar start.jar
 
 == STEP 4) Verify install
 
-Open this URL in your browser: http://<your-server-url>:8983
+Open this URL in your browser: http://<your-server-url>:8983/solr
 
 You will be redirected to the Solr admin console
 
