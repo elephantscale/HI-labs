@@ -24,10 +24,12 @@ java -jar <path-to-solr-jar>/post.jar *.xml
 
 == STEP 3) Investigate various search options provided by Solr. Compose yourlist, then compare it to the screenshot on the slides.
 
-Solr indexing and searching (15 min) - XML and JSON
-====================================
 
-In this lab we will practice the indexing of XML and JSON tweet documents 
+Solr indexing and searching for tweets - XML and JSON ((15 min)
+==============================================================
+
+In this lab we will practice the indexing of XML and JSON tweet documents.
+The documents are found in this labs's data folder. 
 
 
 Lab Goals:
@@ -35,10 +37,10 @@ Lab Goals:
 1. Index tweet documents
 2. Search the results
 
-== STEP 1) Index documents
+== STEP 1) Index XML documents
 
 cd $HI_Labs/solr/indexing/data
-java -jar post.jar tweets.xml
+java -jar <path-to-post-jar>/post.jar tweets.xml
 
 == STEP 2) Execute the *:* query. 
 
