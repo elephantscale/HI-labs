@@ -16,9 +16,12 @@ cd $SOLR_INSTALL/example/solr
 cp -a collection1 newcore
 cd newcore; rm -rf core.properties data README.txt
 
- http://localhost:8983/solr/admin/cores?action=CREATE&name=newcore&instanceDir=newcore&config=solrconfig.xml&dataDir=data&schema=schema.xml
-
 == STEP 2) Register it with Solr (hint: we are using Solr 4.9)
+
+  Try to find the information online 
+  Report your results
+  Barring that
+ http://localhost:8983/solr/admin/cores?action=CREATE&name=newcore&instanceDir=newcore&config=solrconfig.xml&dataDir=data&schema=schema.xml
 
 == STEP 3) Index some documents (tweets) into the second core
 
