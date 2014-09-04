@@ -12,6 +12,10 @@ Lab Goals
 
 == STEP 1) Do a recursive copy of collection1. Call it collection2
 
+cd $SOLR_INSTALL/example/solr
+cp -a collection1 collection2
+cd collection2; rm -rf core.properties data README.txt
+
 == STEP 2) Register it with Solr (hint: we are using Solr 4.9)
 
 == STEP 3) Index some documents (tweets) into the second core
