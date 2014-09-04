@@ -13,8 +13,9 @@ Lab Goals:
 == STEP 1) Prepare schema
 
 Examine the cd $HI_Labs/solr/bookstore/data/books.xml
-
-Create the schema for this document type
+Change the xml format to be acceptable to Solr.
+Either change the fields that are not recognized to dynamic fields (*_s), or
+add them to the schema (but we will be working on a schema later)
 
 == STEP 2) Import the documents
 
