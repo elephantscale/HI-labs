@@ -14,5 +14,8 @@ Lab Goals:
   Start from the 'example' schema
   Modify it to include the tweet documents fields
 
-== STEP 2) Run queries showcasing the advantages of your schema
+== STEP 2) Showcase your schema 
+  
+  Hint: look in the schema browser
+
 

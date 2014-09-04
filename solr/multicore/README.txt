@@ -10,11 +10,13 @@ Lab Goals
 2. Register it in Solr
 3. Run queries against it
 
-== STEP 1) Do a recursive copy of collection1. Call it collection2
+== STEP 1) Do a recursive copy of collection1. Call it newcore
 
 cd $SOLR_INSTALL/example/solr
-cp -a collection1 collection2
-cd collection2; rm -rf core.properties data README.txt
+cp -a collection1 newcore
+cd newcore; rm -rf core.properties data README.txt
+
+ http://localhost:8983/solr/admin/cores?action=CREATE&name=newcore&instanceDir=newcore&config=solrconfig.xml&dataDir=data&schema=schema.xml
 
 == STEP 2) Register it with Solr (hint: we are using Solr 4.9)
 

@@ -64,11 +64,12 @@ Lab Goals:
 
 == STEP 4) Upload changes to ZooKeeper
 
-cd $SOLR_INSTALL/shard1/cloud-scripts
-./zkcli.sh -zkhost localhost:9983
- -cmd upconfig
- -confname logmill
- -confdir ../solr/logmill/conf
+
+cd $SOLR_INSTALL/shard1/scripts/cloud-scripts
+./zkcli.sh -zkhost localhost:9983 \
+ -cmd upconfig \
+ -confname logmill \
+ -confdir ../../solr/logmill/conf
 
 (Note: in production this will be a comma-delimited list of ZooKeeper host and port pairs, or quorum)
 
