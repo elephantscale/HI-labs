@@ -36,6 +36,19 @@ java -jar start.jar
 
 == STEP 4) Verify install
 
-Open this URL in your browser: http://<your-server-url>:8983
+Open this URL in your browser: http://<your-server-url>:8983/solr
 
 You will be redirected to the Solr admin console
+
+== STEP 5) Look around. Answer the following questions
+
+1 What’s the value of the lucene-spec version property for your Solr server?
+2 What’s the log level of the org.apache.solr.core.SolrConfig class?
+3 What’s the value of the maxDoc property for the collection1 core?
+4 What’s the value of the java.vm.vendor Java system property?
+5 What’s the segment count for the collection1 core?
+6 What’s the response time of pinging your server?
+7 What’s the top term for the manu field? (Hint: select the manu field in the schema
+browser, and click the Load Term Info button.)
+8 What’s the current size of your documentCache? (Hint: think stats.)
+9 What’s the analyzed value of the name Belkin Mobile Power

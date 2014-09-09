@@ -2,7 +2,8 @@ Bookstore example (30 min)
 ==========================
 
 In this lab we will build a bookstore search and explore it.
-
+This is a real-life lab, where you may need to be creative, reformat
+the documents, and invent your own schema and features.
 
 Lab Goals:
 
@@ -12,8 +13,9 @@ Lab Goals:
 == STEP 1) Prepare schema
 
 Examine the cd $HI_Labs/solr/bookstore/data/books.xml
-
-Create the schema for this document type
+Change the xml format to be acceptable to Solr.
+Either change the fields that are not recognized to dynamic fields (*_s), or
+add them to the schema (but we will be working on a schema later)
 
 == STEP 2) Import the documents
 
