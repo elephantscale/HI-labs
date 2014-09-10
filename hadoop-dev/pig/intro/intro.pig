@@ -19,6 +19,7 @@ DESCRIBE billing_data;
 billing_data2 = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',');
 DESCRIBE billing_data2;
 
+-- ## BREAK : Wait for Instructor
 -- ## TODO : explain
 -- ## uncomment the following line, run the script, inspect the output
 -- EXPLAIN billing_data;

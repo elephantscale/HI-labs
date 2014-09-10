@@ -19,11 +19,12 @@ No data, right?
 
 === STEP 3) Copy data into Hive table
 TODO : replace <your name>
+    $   hdfs   dfs -mkdir  -p  <your_name>/billing/hive
     $   hdfs dfs -put ../../../data/billing-data/sample.txt    <your name>/billing/hive/
 
 Now launch Hive and see if there is any data in table
     $   hive
-    >   select * from <your name>_billing_ext;
+    >   select * from <your name>_ext;
 Do you see data?
 How many rows?
 

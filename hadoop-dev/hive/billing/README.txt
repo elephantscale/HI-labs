@@ -73,7 +73,7 @@ Question : how many mapreduce jobs are being kicked off?  Why?
 printing to screen is great for developing / debugging.
 we want to save the calculated invoices into a table.
 
-Edit file : create_table_invoices_ext.q
+Edit file : invoices_ext.q
 Fix TODOs
 Execute the script to create table
     $  hive  -f  invoices_ext.q

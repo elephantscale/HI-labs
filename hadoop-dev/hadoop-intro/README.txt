@@ -15,6 +15,7 @@ Lab Goals:
 
 == STEP 2) View running java processes; look for hadoop daemons
     use 'jps' command
+    Output may look like the following
 
     $ jps
         4902 Jps
@@ -49,8 +50,8 @@ Lab Goals:
     question : what is the capacity of HDFS?
 
 
-== STEP 5) Inspect JobTracker UI
-   Open a browser and go to Job Tracker UI (Instructor will provide details)
+== STEP 5) Inspect YARN / JobTracker  UI
+   Open a browser and go to YARN / Job Tracker UI (Instructor will provide details)
 
    question : how many nodes?
 

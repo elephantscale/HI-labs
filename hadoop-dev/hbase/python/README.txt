@@ -9,4 +9,8 @@ Start thrift server in HBase
   option 1)    bin/hbase-daemon.sh   start thrift
 
 
-execute
+Edit test.py
+update hbase host pointers
+
+Execute python script
+  python   test.py

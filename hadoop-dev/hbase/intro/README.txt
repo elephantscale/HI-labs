@@ -7,8 +7,9 @@ Hbase master dashboard can be accessed via a browser:
 (instructor will provide details)
 
 Q : What is the version of  HBase?
-Q : What tables do you see?  Note about system tables and user tables
+Q : What tables do you see?  Note the system tables and the user tables
 Q : how many region servers do you see in the cluster?
+Q : How many regions each region server is hosting?  is the number evenly split across cluster?
 
 
 == STEP 2) using 'hbase' command

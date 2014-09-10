@@ -97,16 +97,12 @@ Note : be sure to use the public IP address, rather than the private ip
 
 (Reference: http://blog.cloudera.com/blog/2013/03/how-to-create-a-cdh-cluster-on-amazon-ec2-via-cloudera-manager/)
 
-To fix hdfs permissions
-on ubuntu
-    sudo -u hdfs   hdfs dfs -mkdir   /user/ubuntu
-    sudo -u hdfs  hdfs dfs -chown ubuntu /user/ubuntu
-    hdfs dfs -mkdir  /user/ubuntu/sujee
+Create a home directory in HDFS
+    sudo -u hdfs   hdfs dfs -mkdir   /user/$USER
+    sudo -u hdfs  hdfs dfs -chown $USER /user/$USER
+    hdfs dfs -mkdir  /user/$USER/sujee
 
-on centos
-    sudo -u hdfs   hdfs dfs -mkdir   /user/ec2-user
-    sudo -u hdfs  hdfs dfs -chown ec2-user /user/ec2-user
-    hdfs dfs -mkdir  /user/ec2-user/sujee
+(On ubuntu $USER = ubuntu,  On CentOS $USER = ec2-user)
 
 for cluster health, set ntp
 sudo yum -y install ntp

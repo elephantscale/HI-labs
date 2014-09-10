@@ -43,7 +43,7 @@ This will create a dir called 'HI-labs'.  This will be the project root
 Browse UIs for (Instructor will provide details)
     Managers
     NameNode
-    Job Tracker
+    YARN
 
 
 === for Instructor only  ====

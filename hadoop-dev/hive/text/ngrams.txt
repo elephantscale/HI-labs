@@ -1,7 +1,7 @@
 NGram Analysis of text documents
 ----------
 
-We will use the 'books' (<your_name>_books) for the analysis.
+We will use the 'books' table (<your_name>_books) for the analysis.
 TODO : adjust  '<your_name>'
 
 == STEP 1)
@@ -12,12 +12,13 @@ Note : The output will be a json structure, it is hard to read
 Use http://jsoneditor.appspot.com/  to pretty-up the output
 (copy & paste the hive output into json editor)
 
-Note : What are the top bi-grams?
-Do they offer any insights?
+Q : What are the top bi-grams?
+Q : Do they offer any insights?
 Hint : these are called stop words (or filler words)
 
+
 == STEP 2)
-Find context n-grams occuring around word(s)
+Find context n-grams occurring around word(s)
 
 What words follow the word 'whale'
     $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array("whale", null), 30) FROM <your name>_books'
