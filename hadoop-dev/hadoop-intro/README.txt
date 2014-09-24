@@ -17,6 +17,10 @@ Lab Goals:
     use 'jps' command
     Output may look like the following
 
+    (In some installations, jps may not be in path.
+    e.g. in hortonworks installs jps is in /usr/jdk64/jdk1.7.0_45/bin/jps
+    substitute this for the command)
+
     $ jps
         4902 Jps
         12940 JobTracker

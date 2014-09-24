@@ -13,71 +13,64 @@ for hadoop 1 and earlier versions  use 'hadoop dfs'
 for hadoop 2 and later versions  use 'hdfs dfs'
 
 
-== STEP 1) View Files in HDFS
-        $ hdfs dfs -ls  /
+== STEP 1) View HDFS files in the browser UI
 
-    If you do have some data, you will see something like this
-        Found 2 items
-        drwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 /user
-        drwxrwxrwx   - hduser supergroup          0 2013-02-19 12:00 /tmp
+option 1) Go to Namenode UI and launch the file browser
+(look under Utilities menu )
 
-    Otherwise if you have no files you will see nothing.
+option 2) Use Hue file browser
+
+Navigate to    '/user/<login name>''  directory in HDFS
+Q : What files do you see?
+Q : How about all the personal workspace files we created in 'getting started' lab?
+
+== Break : Instructor to explain the missing files ==
 
 
-== STEP 2) View files recursively
+== STEP 2) Use command line utilitity View Files in HDFS
+    $ hdfs dfs -ls  /
+
+If you do have some data, you will see something like this
+    Found 2 items
+    drwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 /user
+    drwxrwxrwx   - hduser supergroup          0 2013-02-19 12:00 /tmp
+
+Otherwise if you have no files you will see nothing.
+
+
+== STEP 3) View files recursively
         $ hdfs dfs -ls -R  /
-
     output will be recursive listing of all files
 
 
+== STEP 4) create your home directory in HDFS
+    $ hdfs dfs -mkdir <your name>
+e.g
+    $ hdfs dfs -mkdir tim
 
-== STEP 3) create your home directory in HDFS
-        $ hdfs dfs -mkdir <your name>
-
-    e.g
-        $ hdfs dfs -mkdir tim
-
-    This directory will be located in /user/<login_name>/<your name>
+This directory will be located in /user/<login_name>/<your name>
 
 
-== STEP 4) Copying files to HDFS
-    (make sure to complete step 3 and create your work dir in HDFS)
+== STEP 5) Copying files to HDFS
+(make sure to complete step 3 and create your work dir in HDFS)
 
-        $  cd HI-labs  # <--- project root dir
-        $  hdfs dfs -put README.txt  <your_name>/README.txt
-        $  hdfs dfs -ls  <your_name>
+    $  cd HI-labs  # <--- project root dir
+    $  hdfs dfs -put README.txt  <your_name>/README.txt
+    $  hdfs dfs -ls  <your_name>
 
-    output might look like:
-    rwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 README.txt
+output might look like:
+rwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 README.txt
 
-    see the contents of this file from HDFS
-        $  hdfs dfs -cat <yourname>/README.txt
-    This should print out the file README.txt
-
-
-== STEP 5) view files in UI
-    option 1 -- recommended) Using Hue UI
-        open Hue UI and click on 'File Manager'
-
-    option 2) Using Namenode UI
-    (Note : This step might need browser proxy setup)
-    goto namenode URL   (Instructor will provide details)
-    click on 'Browse File System'
-    drill down to /user  directory  until you see the freshly copied file
-
-    option 3) command line browser
-        If the unable to browse the file system from your laptop, we can use
-        the command line browser 'w3m'
-
-        from cluster termainal
-            $  w3m  <name node url>
-
-        w3m key shortcuts
-            - Shift B takes you back.
-            - q   to quit
+see the contents of this file from HDFS
+    $  hdfs dfs -cat <yourname>/README.txt
+This should print out the file README.txt
 
 
-== STEP 6) over write files in HDFS
+== STEP 6) View the created files in Browser UI  (refer to STEP 1)
+Go ahead and click  on a file in the UI.  What do you see?
+
+
+== STEP 7) over write files in HDFS
 repeat the -put command again
         $  hdfs dfs -put README.txt  <your_name>/README.txt
 what is the result?  why?
@@ -92,16 +85,17 @@ Once you deleted the README.txt file, copy it again
 Hint : use the -put command
 
 
-== STEP 7)
-    create a zero sized file under your dir
-        $  hdfs dfs  -touchz  <your_name>/z
+== STEP 8)
+create a zero sized file under your dir
+    $  hdfs dfs  -touchz  <your_name>/z
 
-    verify the file (zero length)
-        $  hdfs dfs  -ls <your_name>
+verify the file (zero length)
+    $  hdfs dfs  -ls <your_name>
+
+Q : How many blocks does file 'z' have?
 
 
 == BONUS LAB 1):
-
     copy the files back to your local directory
         $  hdfs dfs -get <your name>/README.txt   readme2
 
