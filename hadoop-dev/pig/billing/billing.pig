@@ -27,6 +27,7 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 
 -- ## TODO : now process all the files (change LOAD example from sample.txt --> *.log)
 -- ## NOTE : turn off any DUMP statements before running with large datasets !
+-- ## Instructor can provide even larger datasets  to run on
 
 -- ## TODO : store the file into HDFS
 -- STORE total_by_cid INTO '<your name>/billing/pig-invoice';

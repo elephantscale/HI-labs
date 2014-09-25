@@ -12,6 +12,9 @@ DUMP billing_data;
 -- ## resources.txt is in  HI-labs/data/billing-data  directory
 -- ## WARN : do not place resources.txt file into 'billing/in'
 --           directory  (don't mix billing logs & resources.txt)
+-- ## try the following command
+--      $   hdfs dfs -put ../../../data/billing-data/resources.txt      your_name/billing/
+
 resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage('=') AS (resource_id:int, resource_name:chararray);
 DUMP resource_data;
 
