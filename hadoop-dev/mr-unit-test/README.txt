@@ -11,7 +11,7 @@ STEP 2) complete the TODO items
 
 STEP 3) compile the code:
     $ cd mr-unit-test
-    $  ./compile2.sh
+    $  ./compile.sh
 this should create a jar file called 'a.jar'
 
 STEP 4)  run the unit test
