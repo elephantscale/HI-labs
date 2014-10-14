@@ -24,10 +24,15 @@ Running mapreduce examples that ship with Hadoop
 
         $ hadoop org.apache.hadoop.examples.Grep   <your_name>/grep/in   <your_name>/grep/out   'dfs'
 
-    This commnad will kick off mapreduce jobs
+    This command will kick off mapreduce jobs
 
 
-== STEP 3) verifying run output
+== STEP 3) Watch the mapreduce output on the console
+Also watch the job progress in YARN UI  or Hue UI
+Q : How many jobs are running for grep?
+
+
+== STEP 4) verifying run output
     grep output will be in the output dir (<your_name>/grep/out)
     see files in the output dir
 
@@ -38,7 +43,7 @@ Running mapreduce examples that ship with Hadoop
         $ hdfs dfs -cat <your_name>/grep/out/part-r-00000
 
 
-== STEP 4)  look for multiple words
+== STEP 5)  look for multiple words
     grep for two strings 'dfs' and 'xml'
     hint : the regular expression is :  '(dfs|xml)'
 

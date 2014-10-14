@@ -1,5 +1,5 @@
 Lab : introduction to counters
-project dir : mr-counters
+project dir : HI-labs/hadoop-dev/mr-counters
 
 JDK API docs : http://docs.oracle.com/javase/7/docs/api/
 Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
@@ -11,11 +11,14 @@ you can also open the project in eclipse
 
 == STEP 1) inspect the file with 'bad records'
 file : HI-labs/data/billing-data/bad_records.txt
-what kind of bad records do you?
+what kind of bad records do you see?
   (hint : wrong number of fields,  wrong separator ..etc)
 
 
 == STEP 2) copy 'bad_recods.txt' file into HDFS
+Do not copy this in 'billing/in' folder you have been using.
+Create a new directory 'billing/in2' as shown below
+
   $ hdfs dfs -mkdir <your name>/billing/in2
   $ hdfs dfs -put ../../data/billing-data/bad_records.txt    <your name>/billing/in2/
 
@@ -23,7 +26,7 @@ what kind of bad records do you?
 == STEP 3) edit the file : src/main/java/hi/mr/Counter.java
 complete the TODO items
 
-(Instructor : answer : /labs-solutions/hadoop/mr/mr-counters)
+(Instructor : answer : /labs-private/solutions/hadoop/mr/mr-counters)
 
 
 == STEP 4) compile the code:
@@ -49,7 +52,7 @@ Browse HDFS file system.
 == STEP 7)
 inspect the counters
 A) by the output produced by MR
-B) from job tracker UI
+B) from YARN UI (or Hue UI)
   find the job under 'completed jobs' section
   click on job stats page
   inspect the BAD_RECORDS  counter
@@ -57,3 +60,6 @@ B) from job tracker UI
 also check the console logs, you should see the counter printed out something like this:
     hi.mr.CounterAnswer$MyMapper$Counters
         BAD_RECORDS=5
+
+
+== Next Step) see : testing.txt

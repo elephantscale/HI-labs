@@ -6,7 +6,7 @@ Objective :  Use mapreduce to calculate billing invoices
 JDK API docs : http://docs.oracle.com/javase/7/docs/api/
 Hadoop API docs : http://hadoop.apache.org/docs/stable/api/
 
-project dir : mr-billing
+project dir : HI-labs/hadoop-dev/mr-billing
 you can also open the project in eclipse
 (use  'mvn eclipse:eclipse'  to create eclipse project files)
 
