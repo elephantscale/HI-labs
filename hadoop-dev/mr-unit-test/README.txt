@@ -20,8 +20,6 @@ From command line:
     or
     $ sh run-test.sh
 
-for hadoop2
-    $ ./run-test2.sh
 
 To run the test from Eclipse:
     - open the project 'mr-unit-test' in eclipse
