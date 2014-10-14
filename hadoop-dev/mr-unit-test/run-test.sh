@@ -1,2 +1,4 @@
 #!/bin/bash
-java -cp a.jar:../lib/*:../lib/mrunit-hadoop1/*  org.junit.runner.JUnitCore  hi.mr.MapperTest
+classpath="a.jar:$(hadoop classpath):../lib/mrunit-hadoop2/*"
+
+java -cp $classpath  org.junit.runner.JUnitCore  hi.mr.MapperTest
