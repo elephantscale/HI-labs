@@ -1,7 +1,7 @@
 -- pig-billing.pig
 
 -- ## TODO : set the name of job
-SET job.name 'my_job';
+SET job.name 'your_name  intro.pig';
 
 -- getting used to LOAD / DESCRIBE / DUMP
 

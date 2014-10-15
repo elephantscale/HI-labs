@@ -1,8 +1,8 @@
-Lab : Use HBase to store sensor data
+Lab : Storing time-series data in HBase
 ----
 In this lab, we are going to store sensor data and query it.
 
-project dir : HI-labs/hadoop-dev/hbase/sensor
+project dir : HI-labs/hadoop-dev/hbase/time-series
 you can also open the project in eclipse
 To compile the project:
     $  ../compile.sh
