@@ -40,7 +40,7 @@ You can use the following Java code
     long  t1 = System.currentTimeMillis();
     // establish connection
     long  t2 = System.currentTimeMillis();
-    System.out.println ("connection took : " + (t2 - t1) + " ms");
+    System.out.println ("### connection took : " + (t2 - t1) + " ms");
 
 
 == BONUS BONUS Lab) Reducing connection latency by using a ConnectionPool

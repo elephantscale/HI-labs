@@ -1,4 +1,5 @@
 -- FOR EACH lab
+-- answer : labs-private/solutions/hadoop-solutions/pig/foreach-answer.pig
 
 -- ## TODO : set the name of job
 SET job.name 'my_job';
@@ -7,12 +8,16 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- DUMP billing_data;
 
 -- ## TODO : lets extract custid and cost
--- A = FOREACH billing_data GENERATE custid, cost;
+-- A = FOREACH billing_data GENERATE ??? , ???;
 -- DESCRIBE A;
 -- EXPLAIN A;
 -- DUMP A;
 
--- ## TODO : do some manipulation of data
--- B = FOREACH billing_data GENERATE custid, cost*2;
+-- ## TODO : generate custid, and cost_in_dollars
+-- ## Assume cost is in cents.  Convert it to dollars
+-- ## hint : divide by 100
+-- ## check the output, is the output correct?
+-- ## what do you have to do to fix it?
+-- B = FOREACH .....
 -- DESCRIBE B;
 -- DUMP B;

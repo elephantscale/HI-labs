@@ -111,7 +111,12 @@ Hint : help 'delete'
 do a 'scan' after the delete
 
 
-== STEP 14) Examining HBase files in HDFS
+STEP 14) Examine tables in HBase UI
+Look at the user tables in HBase UI?  Click on them and explore
+Q : How many regions do you see now?  Are they distributed evenly across the cluster?
+
+
+== STEP 15) Examining HBase files in HDFS
 HBase stores data in HDFS
 Either open HDFS Web UI or  Hue Web UI
 navigate to directory : /hbase

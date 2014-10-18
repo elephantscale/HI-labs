@@ -21,7 +21,7 @@ fix the TODO items
 
 === STEP 4) Load data into billing table
 (if you have billing data already in your billing/in  directory, you can skip this step)
-    $  hdfs  dfs -mkdir  <your name>/billing/in
+    $  hdfs  dfs -mkdir -p <your name>/billing/in
 
 generate data
     $  python ../../../data/billing-data/gen-billing-data.py

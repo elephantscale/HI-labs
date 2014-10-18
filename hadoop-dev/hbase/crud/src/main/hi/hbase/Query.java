@@ -32,7 +32,7 @@ public class Query {
     for (int i = 0; i < 10; i++) {
       int randomId = rand.nextInt(total * 2);
       String userId = "user-" + randomId;
-      System.out.println("querying for userId : " + userId);
+      System.out.println("### querying for userId : " + userId);
 
       // TODO : convert the userId to bytes
       // byte [] key = ....
@@ -44,12 +44,12 @@ public class Query {
       Result result = null;
       // TODO : get a Result using htable.get()
       // result = .....
-      System.out.println ("Result : " + result);
+      System.out.println ("### Result : " + result);
 
       // TODO : check if result is null or empty
       if (result == null /* || () */) {
         // first check, this row may not exist
-        System.out.println("     not found");
+        System.out.println("###     not found");
       } else {
         KeyValue kv = null;
         // TODO : get a KeyValue using result.getColumn.... () method
@@ -57,19 +57,19 @@ public class Query {
         // remember, to convert all values to bytes
         if (kv == null) {
           // even if row exist, this column may not exist
-          System.out.println("     column 'email' not found");
+          System.out.println("###     column 'email' not found");
         } else {
           // found value
           // TODO : retrieve email from KeyValue
           String email = null;
           // email = ....
-          System.out.println("     email=" + email);
+          System.out.println("###     email=" + email);
         }
       }
       // TODO : lets see how long the query time is
       // Q : is this time correct?
       System.out
-          .println("     query time : " + (t2 - t1) / 1000000.0 + " ms\n");
+          .println("###     query time : " + (t2 - t1) / 1000000.0 + " ms\n");
     }
   }
 

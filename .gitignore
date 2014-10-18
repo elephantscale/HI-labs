@@ -11,3 +11,7 @@
 target/
 .classpath
 .project
+
+# intellij
+.idea
+*.iml

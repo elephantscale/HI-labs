@@ -50,7 +50,7 @@ public class Insert
 
         }
         long t2 = System.currentTimeMillis();
-        System.out.println ("inserted " + total + " users  in " + (t2-t1) + " ms");
+        System.out.println ("### inserted " + total + " users  in " + (t2-t1) + " ms");
 
         // TODO : close the htable
     }
