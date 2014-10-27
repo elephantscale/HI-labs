@@ -7,60 +7,53 @@ system and be able to get famliar with the user interface.
 Lab Goals:
 
 1. Install Hadoop in Windows, Mac or Linux.
-2. Learn how to view which daemons are running
-3. Examine the web interfaces for the Namenode, JobTracker daemons.
-
+2. Start the basic git command line.
 
 == STEP 1)  Install Git.
 
+    Open the following link in your browser
+    
+    http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+    
+    Follow the instructions for your operating system
+    
+== STEP 2) Specifically for Windows
 
-== STEP 2) View running java processes; look for hadoop daemons
-    use 'jps' command
-    Output may look like the following
+    Since most Linux or Mac developers are usually used to working on the command line, this steps concentrates on Git for Windows
+    
+    Open this link: http://git-scm.com/download/win
+    
+    And install the executable that will be downloaded on your computer    
+    TAKE ALL THE DEFAULTS. This will assure that every student has the same install configuration. 
+    After you are done with the labs, you will be able to experiment with various install options.
+    
+== STEP 3) Open git command line in a directory
 
-    (In some installations, jps may not be in path.
-    e.g. in hortonworks installs jps is in /usr/jdk64/jdk1.7.0_45/bin/jps
-    substitute this for the command)
+    If you are in Windows, prepare a new 'git-labs' directory in the File browser, 
+    then right-click on that directory and choose "Git-Bash" menu. 
+    This will open git command line.
+    
+    If you are on Mac or Linux, just open a terminal in the newly-created 'git-labs' directory
+    Git command will be available, since you have installed it in step 1
+    
+== STEP 4) Experiment with git command
 
-    $ jps
-        4902 Jps
-        12940 JobTracker
-        13295 TaskTracker
-        12462 DataNode
-        12847 SecondaryNameNode
-        11930 NameNode
-
-    If the above doesn't produce any output try
-    $  sudo jps
-    or
-    $  sudo /usr/java/latest/bin/jps
-
-    to see more details of the process
-
-    $ ps -eaf | grep java
-
-
-
-== STEP 3) Ensuring that the Hadoop command works
-
-    $ hadoop
-    Usage: hadoop [--config confdir] COMMAND
-
-
-== STEP 4) View NameNode web interface.
-    Open a browser and go to Namenode UI (Instructor will provide details)
-
-    question : what is the version of HDFS?
-    question : how many nodes in the cluster?
-    question : what is the capacity of HDFS?
-
-
-== STEP 5) Inspect YARN / JobTracker  UI
-   Open a browser and go to YARN / Job Tracker UI (Instructor will provide details)
-
-   question : how many nodes?
-
-
-== STEP 6) Inspect HUE UI
-    Open Hue Web UI.
-    (Instructor will provide credentials)
+    Type 
+    git
+    and hit the ENTER key
+    
+    Observe git help
+    
+    Type
+    
+    git status
+    
+    You should get 'Not a git repository'
+    
+    Type
+    
+    pwd
+    
+    Note that you will see the working directory.
+    
+    Deduce from here that you are in a fully implemented Linux environment. Indeed, this is a cygwin implemenation. Experiment with linux commands, such as 'ls'
