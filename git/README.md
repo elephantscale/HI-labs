@@ -1,4 +1,4 @@
-hbase-book
-==========
+git labs
+========
 
-HBase Design Patterns for Packt
+Elephant Scale Git labs
