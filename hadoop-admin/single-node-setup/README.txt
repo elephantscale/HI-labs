@@ -10,7 +10,7 @@ Login into the linux node.  Instructor will provide credentials
 
 
 -- step 2)
-verify password-less ssh is working on this node
+verify that password-less ssh is working on this node
     $  ssh localhost
 say yes to the prompt
 
@@ -27,27 +27,28 @@ verify the following files are in ~ directory
 
 
 -- step 5)
-verify java is installed
+verify that java is installed
     $ java -version
 
 you should see output similar to the following
     java version "1.7.0"
-    Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
-    Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
+    Java(TM) SE Runtime Environment (build 1.7.0)
 
 
 -- step 6)
 we will install hadoop using TAR file format.
-verify the hadoop file exists in   ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
+verify that the hadoop tarball exists in   ~/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
 (version numbes 1.1.2 might be different on your node)
 
 
 -- step 7)
 untar hadoop file under home directory
     $  cd    #  <-- so you are in home dir
-    $  tar xf ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
+    $  tar xf ~/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
     $  mv hadoop-1.1.2 hadoop   (adjust if your version is different)
-now we have hadoop program files in  ~/hadoop  dir.  We will refer this directory as HADOOP_HOME
+now we have hadoop program files in  ~/hadoop  dir.  
+
+    We will refer to this directory as HADOOP_HOME
 
 verify the following directories exist under HADOOP_HOME
     bin
