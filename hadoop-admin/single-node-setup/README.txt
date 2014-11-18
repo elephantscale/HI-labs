@@ -67,10 +67,10 @@ Minimal configuration files are provided in ~/hi/config/hadoop-single directory.
 
 
 -- step 9)
-(optional)
+
 Edit file ~/hadoop/conf/hadoop-env.sh
 and update the JAVA_HOME variable
-    export JAVA_HOME=/usr/java/latest
+    export JAVA_HOME=<your jdk (such as ~/apps/jdk7, without /bin/java>
 
 (optional) also edit the following line (around line 37)
     export HADOOP_SSH_OPTS="-o StrictHostKeyChecking=no"
