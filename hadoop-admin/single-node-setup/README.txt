@@ -16,14 +16,14 @@ say yes to the prompt
 
 
 -- step 3)
-verify the following files are in ~/hi directory
-    hadoop install file : ~/hi/software/hadoop/apache
-    java installer : ~/hi/software/java
+verify the following files are in ~ directory
+    hadoop install file : ~/software/hadoop/apache
+    java installer : ~/software/java
 
 
--- step 4) install java
-    $  cd ~/hi/software/java
-    $  sudo sh ./jdk-6u45-linux-x64-rpm.bin
+-- step 4) install java (if it is not installed, otherwise go to step 5)
+    $  cd ~/software/java
+    $  use the jdk-7u67-linux-x64.tgz
 
 
 -- step 5)
@@ -31,7 +31,7 @@ verify java is installed
     $ java -version
 
 you should see output similar to the following
-    java version "1.6.0_45"
+    java version "1.7.0"
     Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
     Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
 
