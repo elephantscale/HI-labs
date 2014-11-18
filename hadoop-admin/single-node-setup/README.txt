@@ -46,11 +46,10 @@ untar hadoop file under home directory
     $  cd    #  <-- so you are in home dir
     $  tar xf ~/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
     $  mv hadoop-1.1.2 hadoop   (adjust if your version is different)
+    
 now we have hadoop program files in  ~/hadoop  dir.  
 
-    We will refer to this directory as HADOOP_HOME
-
-verify the following directories exist under HADOOP_HOME
+verify the following directories exist under ~/hadoop
     bin
     conf
     lib
@@ -62,14 +61,14 @@ create a data dir for hadoop
     $  mkdir ~/hadoop/hadoop-data
 
 
-Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/conf dir.
+Next, we will configure Hadoop.  Hadoop configuration file are in  ~/hadoop/conf dir.
 
-Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into HADOOP_HOME/conf dir
+Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into ~/hadoop/conf dir
 
 
 -- step 9)
 (optional)
-Edit file HADOOP_HOME/conf/hadoop-env.sh
+Edit file ~/hadoop/conf/hadoop-env.sh
 and update the JAVA_HOME variable
     export JAVA_HOME=/usr/java/latest
 
@@ -78,7 +77,7 @@ and update the JAVA_HOME variable
 
 
 -- step 10)
-copy minimal config files provided into HADOOP_HOME/conf dir
+copy minimal config files provided into ~/hadoop/conf dir
     $  cp ~/hi/config/hadoop-single/*   ~/hadoop/conf/
 
 inspect the following files:
