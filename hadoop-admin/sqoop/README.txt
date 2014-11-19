@@ -12,8 +12,6 @@ To instructor :
   mysql -u root #Log into MySQL
   exit #Exit MySQL
   
-   1006  sudo yum install mysql-server
- 1007  sudo /sbin/service mysqld start
 
 == STEP 2) Load the log data into the table
   generate the data using the scripts in data HI_labs/data/scripts (unless you did it before)
