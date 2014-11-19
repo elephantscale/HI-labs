@@ -22,10 +22,12 @@ import json
 
 domains = ['facebook.com',  'yahoo.com',   'google.com',   'zynga.com',    'wikipedia.org',   'sf.craigslist.org',   'twitter.com',    'amazon.com',    'flickr.com',    'cnn.com',      'usatoday.com',      'npr.org',    'foxnews.com',    'comedycentral.com',   'youtube.com',   'hulu.com',   'bbc.co.uk',  'nytimes.com',   'sfgate.com',   'funnyordie.com']
 
+actions = ['viewed', 'clicked', 'blocked']
+
 # overwrite this function to customize log generation
 def generate_log(timestamp):
   user = random.randint(1,100000)
-  action = random.randint(1,2)
+  action = random.choice(actions)
   domain = random.choice(domains)
   campaign = random.randint(1,20)
   session = "session_%s" % random.randint(1,100)
@@ -39,9 +41,9 @@ def generate_log(timestamp):
     logline = "%s,%s,%s,%s,%s,%s,%s" % (timestamp, user, action, domain, campaign, cost, session)
 
   # generate JSON format
-  if (log_format == 'json'):
-    dict={'timestamp': timestamp, 'user': user, 'action': action, 'domain': domain,  'campaign':campaign, 'cost': cost,  'session': session}
-    logline = json.dumps(dict)
+  #if (log_format == 'json'):
+    #dict={'timestamp': timestamp, 'user': user, 'action': action, 'domain': domain,  'campaign':campaign, 'cost': cost,  'session': session}
+    #logline = json.dumps(dict)
 
 
   #print logline
