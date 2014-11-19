@@ -27,7 +27,7 @@ To instructor :
 
 == STEP 3) Installing sqoop (if not installed)
   sqoop should be installed, if not - 'sudo yum install --assumeyes sqoop'
-  sudo ln -s ~/HI-labs/hadoop-dev/lib/mysql-connector-java-5.1.31-bin.jar mysql-connector-java.jar #give it mysql connector (adjust the path if needed): 
+  sudo ln -s ~/HI-labs/hadoop-dev/lib/mysql-connector-java-5.1.31-bin.jar /var/lib/sqoop/mysql-connector-java.jar #give it mysql connector (adjust the path if needed): 
 
 == STEP 4) Operate sqoop for lookups
   sqoop help
