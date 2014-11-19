@@ -19,6 +19,7 @@ If not, you may also need to add the Cloudera or another repository from which t
 == STEP 3) execute the following commands on the terminal
   Using sudo, create a new file names /etc/hadoop/conf/flume-conf.properties
   Take the file /usr/lib/flume-ng/conf/flume-conf.properties.template as a starting point
+  (you may have to find it under /opt/cloudera/parcels/ if you used Cloudera parcels install)
 
 == STEP 4) generate data in the access log
   cd to the /HI-labs/data/scripts directory
