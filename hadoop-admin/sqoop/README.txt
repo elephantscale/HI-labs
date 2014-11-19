@@ -11,10 +11,19 @@ To instructor :
   service mysqld start #Start the MySQL service
   mysql -u root #Log into MySQL
   exit #Exit MySQL
+  
+   1006  sudo yum install mysql-server
+ 1007  sudo /sbin/service mysqld start
 
 == STEP 2) Load the log data into the table
   generate the data using the scripts in data HI_labs/data/scripts (unless you did it before)
-  login, then select the database: 'use training'
+  
+  Login to the database
+  mysql -u root
+  Create the database
+  create database training  
+  use training
+
   create the table, based on the data you will be using (see below), such as
   CREATE TABLE mylogs (message_type VARCHAR(20), m1 VARCHAR(20), m2 VARCHAR(20), m3 VARCHAR(20), m4 VARCHAR(20), m5 VARCHAR(20))
 
