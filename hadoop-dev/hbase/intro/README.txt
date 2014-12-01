@@ -107,7 +107,7 @@ Hint : 'count'
 
 == STEP 13) delete a (any) cell value of row 'r1'
 Hint : help 'delete'
-    delete <table> , <row>,  <family> , <column>
+    delete <table> , <row>,  '<family>:<column>'
 do a 'scan' after the delete
 
 
