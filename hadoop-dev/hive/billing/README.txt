@@ -4,9 +4,9 @@ project dir : HI-labs/hadoop-dev/hive/billing
 Replace MY_NAME throughout the lab.
 
 == STEP 1)
-Lets create an external table for our billing data
-inspect file billing_ext.q
-fix the TODO items
+Lets create an external table for our billing data.
+Edit file billing_ext.q
+Fix the TODO items
 
 
 == STEP 2) use Hive to create the table
