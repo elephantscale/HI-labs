@@ -12,6 +12,7 @@ Instructor will provide details
 
 Inspect the following:
     - running components (HDFS, YARN ..etc)
+    - examine HDFS and YARN specific UIs in the manager
     - various graphs for the cluster
 
 

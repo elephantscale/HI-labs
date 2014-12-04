@@ -1,7 +1,7 @@
--- TODO :  replace '<your name>' with your name
+-- TODO :  replace 'MY_NAME' with your name
 -- TODO :  replace '<login name>' with login name (e.g  ubuntu ,  ec2-user)
 
-CREATE EXTERNAL TABLE <your name>_ext (
+CREATE EXTERNAL TABLE MY_NAME_ext (
     ts BIGINT,
     customer_id INT,
     resource_id INT,
@@ -10,4 +10,4 @@ CREATE EXTERNAL TABLE <your name>_ext (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 stored as textfile
-LOCATION '/user/<login name>/<your name>/billing/hive'  ;
+LOCATION '/user/<login name>/MY_NAME/billing/hive'  ;

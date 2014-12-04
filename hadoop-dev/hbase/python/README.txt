@@ -13,4 +13,4 @@ Edit test.py
 update hbase host pointers
 
 Execute python script
-  python   test.py
+  $   python   test.py

@@ -20,7 +20,7 @@ this should create a jar file called 'a.jar'
 
 
 == STEP 5) insert data into hbase
-Note : make sure you have created 'xxx_users' table before proceeding further
+Note : make sure you have created 'MY_NAME_users' table before proceeding further
 Inspect the file   update.sh
 run the executable update.sh
     $ ./update.sh

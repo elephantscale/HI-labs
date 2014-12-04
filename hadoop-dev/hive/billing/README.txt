@@ -1,6 +1,7 @@
 Lab : Hive Customer Billing
 project dir : HI-labs/hadoop-dev/hive/billing
 
+Replace MY_NAME throughout the lab.
 
 == STEP 1)
 Lets create an external table for our billing data
@@ -16,25 +17,25 @@ fix the TODO items
     $ hive
     hive > show tables;
 
-    hive > describe <your_name>_billing;
+    hive > describe MY_NAME_billing;
 
 
 === STEP 4) Load data into billing table
 (if you have billing data already in your billing/in  directory, you can skip this step)
-    $  hdfs  dfs -mkdir -p <your name>/billing/in
+    $  hdfs  dfs -mkdir -p MY_NAME/billing/in
 
 generate data
     $  python ../../../data/billing-data/gen-billing-data.py
 
 upload data into HDFS
-    $  hdfs  dfs -put   billing*.log     <you name>/billing/in/
+    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
 
 
 == STEP 5) lets count the number of rows in the table
 Launch hive shell
     $ hive
 
-    hive >  select count(*) from <your name>_billing;
+    hive >  select count(*) from MY_NAME_billing;
 
 This will actually kick off a mapreduce job, and at the end you will get the count
 
@@ -43,7 +44,7 @@ This will actually kick off a mapreduce job, and at the end you will get the cou
 Lanch hive shell
     $ hive
 
-    hive > select * from <your_name>_billing limit 10;
+    hive > select * from MY_NAME_billing limit 10;
 output might look like:
     OK
     1325376000000   614156  6   77  89
@@ -51,13 +52,13 @@ output might look like:
     1325376001728   377292  3   63  83
 
 another query:
-    hive > select * from <your name>_billing where customer_id = 61442 limit 5;
+    hive > select * from MY_NAME_billing where customer_id = 61442 limit 5;
 
 
 == STEP 7) calculate customer totals
 launch hive shell
     $ hive
-    hive > select customer_id, SUM(cost) as total from <your name>_billing group by customer_id limit 5;
+    hive > select customer_id, SUM(cost) as total from MY_NAME_billing group by customer_id limit 5;
 
 
 == STEP 8) find top 10 spending customers

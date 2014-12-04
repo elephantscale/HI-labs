@@ -1,14 +1,15 @@
-Running mapreduce examples that ship with Hadoop
+Running mapreduce examples that ship with Hadoop.
+    Grep : look for keywords in files
 
 
 == STEP 1)
     lets copy some files into hdfs, we will use Hadoop config files
 
     prepare a directory in hdfs
-        $ hdfs dfs -mkdir -p <your_name>/grep/in
+        $ hdfs dfs -mkdir -p MY_NAME/grep/in
 
     copy hadoop config files from /etc/hadoop/conf  into HDFS
-        $ hdfs dfs -put /etc/hadoop/conf/*   <your_name>/grep/in
+        $ hdfs dfs -put /etc/hadoop/conf/*   MY_NAME/grep/in
 
 
 == STEP 2) running grep
@@ -22,7 +23,7 @@ Running mapreduce examples that ship with Hadoop
 
     now lets run the command, look for string 'dfs'
 
-        $ hadoop org.apache.hadoop.examples.Grep   <your_name>/grep/in   <your_name>/grep/out   'dfs'
+        $ hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
 
     This command will kick off mapreduce jobs
 
@@ -33,14 +34,14 @@ Q : How many jobs are running for grep?
 
 
 == STEP 4) verifying run output
-    grep output will be in the output dir (<your_name>/grep/out)
+    grep output will be in the output dir (MY_NAME/grep/out)
     see files in the output dir
 
-        $ hdfs dfs -ls <your_name>/grep/out
+        $ hdfs dfs -ls MY_NAME/grep/out
 
     use 'cat' command to see the file contents
 
-        $ hdfs dfs -cat <your_name>/grep/out/part-r-00000
+        $ hdfs dfs -cat MY_NAME/grep/out/part-r-00000
 
 
 == STEP 5)  look for multiple words
