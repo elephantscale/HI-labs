@@ -1,10 +1,11 @@
 -- data cleansing lab
 
 -- ## TODO : set the name of job
-SET job.name 'my_job';
+SET job.name 'MY_NAME clean.pig';
 
 ## TODO : fix input dir
-billing_data = LOAD '<your name>/billing/in2/bad_records.txt' USING PigStorage(',') AS (timestamp,custid,resourceid,qty,cost);
+-- ## TODO : load billing data, change MY_NAME
+billing_data = LOAD 'MY_NAME/billing/in2/bad_records.txt' USING PigStorage(',') AS (timestamp,custid,resourceid,qty,cost);
 DUMP billing_data;
 
 -- ## TODO : filter out valid resource_id
@@ -18,4 +19,4 @@ DUMP billing_data;
 -- ## TODO  : store the bad records so they can be checked
 -- ##         hint, use OR
 -- C = FILTER billing_data BY .....
--- STORE C into '<your name>/billing/bad_data/' ;
+-- STORE C into 'MY_NAME/billing/bad_data/' ;

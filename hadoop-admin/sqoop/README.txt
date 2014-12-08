@@ -44,6 +44,10 @@ To instructor :
 
   sqoop import --connect jdbc:mysql://localhost/training --table mylogs --fields-terminated-by '\t'  --username root --password <password> # if using password
 
+  Example for SQLServer
+
+  sqoop import --table <table-name> --target-dir test/import -m 1 --connect "jdbc:sqlserver://<ip>;databaseName=<name>" --username <username> --password <password>
+
 == STEP 6) Verify that import worked
   hdfs dfs -ls mylogs
   hdfs dfs -tail mylogs/part-m-00000

@@ -1,5 +1,5 @@
--- TODO 1  replace '<your name>' with your username
-CREATE TABLE <your name>_billing (
+-- TODO 1  replace 'MY_NAME' with your username
+CREATE TABLE MY_NAME_billing (
     ts BIGINT,
     customer_id INT,
     resource_id INT,

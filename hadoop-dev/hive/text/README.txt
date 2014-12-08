@@ -2,10 +2,10 @@ Lab: Analyzing Text Data
 
 == STEP 1)
 Make a directory in HDFS to store books data.
-    $  hdfs  dfs  -mkdir  -p <your name>/hive/books
+    $  hdfs  dfs  -mkdir  -p MY_NAME/hive/books
 
 Copy the data 'moby-dick.txt' file into the above directory
-    $  hdfs  dfs  -put  moby-dick.txt   <your name>/hive/books/
+    $  hdfs  dfs  -put  moby-dick.txt   MY_NAME/hive/books/
 
 
 == STEP 2)
@@ -20,7 +20,7 @@ verify the table
 
 ==  STEP 3)
 Examine the data in 'books'
-    $  hive -e 'select * from <your_name>_books limit 10'
+    $  hive -e 'select * from MY_NAME_books limit 10'
 
 
 == Next Step)
