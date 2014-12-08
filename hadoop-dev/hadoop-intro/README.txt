@@ -7,7 +7,7 @@ Examine the various web interfaces for Hadoop
 
 == STEP 1)  Inspect 'manager' UI
 Instructor will provide details
-    Cloudera Manager will run on port 7080
+    Cloudera Manager will run on port 7180
     Hortonworks Ambari will run on port 8080
 
 Inspect the following:
