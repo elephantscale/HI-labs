@@ -42,10 +42,7 @@
             <artifactId>hadoop-core</artifactId>
             <version>1.2.1</version>
             <exclusions>
-                <exclusion>
-                    <groupId>org.codehaus.jackson</groupId>
-                    <artifactId>jackson-core-asl</artifactId>
-                </exclusion>
+
             </exclusions>
         </dependency>
         <dependency>
@@ -53,5 +50,11 @@
             <artifactId>hadoop-test</artifactId>
             <version>1.2.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+        
     </dependencies>
 </project>
