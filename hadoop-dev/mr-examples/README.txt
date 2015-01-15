@@ -65,7 +65,7 @@ More examples are in 'hadoop-examples-*.jar'
 This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
 (might be located under /opt  for some distributions
 use the following command to locate the file
-    $   find /opt   | grep hadoop-mapreduce-exmamples.jar
+    $   find /opt   | grep hadoop-mapreduce-examples.jar
 )
 
 Find what mapreduce examples are available
