@@ -16,6 +16,7 @@ execute these steps in terminal
 #wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/GA/ambari.repo
 #wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.4.3.38/ambari.repo
 wget  http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.6.1/ambari.repo
+wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.7.0/ambari.repo
 
 sudo cp ambari.repo /etc/yum.repos.d
 sudo yum install epel-release
