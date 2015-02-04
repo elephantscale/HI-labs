@@ -1,25 +1,15 @@
 Pig Lab : find top spending customers
-project dir : pig-top-spenders
+project dir : top-spenders
 
-Note that this is the same lab as the pig-billing example.
-
-STEP 1) Edit the file top.pig
-
-
-STEP 2) complete the TODO items
-Answer : pig-billing/top-answer.pig
-
-STEP 3) Run the pig file using pig:
-  $ pig ./top.pig
-
-STEP 4)
-Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
-(see ../getting-started.txt for detailed instructions)
+=== STEP 1) Edit the file top.pig
+Complete the TODO items
 
 
-STEP 5) examine the job stats from job tracker UI
-go to  http://<job tracker>:50030
-       (e.g. http://localhost:50030)
+=== STEP 2) Run the pig file using pig:
+  $ time   pig top.pig
 
-Find the job under 'completed jobs' section
-how many mr jobs were run?
+Q : How many mapreduce jobs are launched?
+    can we co-relate Pig statements and MR jobs?
+
+Q : Inspect the Job DAG Pig prints after the job run
+(may be have to scroll up/through Pig output to see this)

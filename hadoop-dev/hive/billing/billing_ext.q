@@ -1,7 +1,7 @@
--- TODO 1 : replace '<your name>' with your username
--- TODO 2 : replace '<login name>' with actual login name
+-- TODO 1 : replace 'MY_NAME' with your username
+-- TODO 2 : replace 'LOGIN_NAME' with actual login name
 
-CREATE EXTERNAL TABLE <your name>_billing (
+CREATE EXTERNAL TABLE MY_NAME_billing (
     ts BIGINT,
     customer_id INT,
     resource_id INT,
@@ -10,4 +10,4 @@ CREATE EXTERNAL TABLE <your name>_billing (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 stored as textfile
-LOCATION '/user/<login name>/<your name>/billing/in'  ;
+LOCATION '/user/LOGIN_NAME/MY_NAME/billing/in'  ;

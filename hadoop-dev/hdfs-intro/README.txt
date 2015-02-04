@@ -13,6 +13,9 @@ for hadoop 1 and earlier versions  use 'hadoop dfs'
 for hadoop 2 and later versions  use 'hdfs dfs'
 
 
+HDFS commands cheat sheet :
+http://www.dummies.com/how-to/content/hadoop-for-dummies-cheat-sheet.html
+
 == STEP 1) View HDFS files in the browser UI
 
 option 1) Go to Namenode UI and launch the file browser
@@ -44,25 +47,26 @@ Otherwise if you have no files you will see nothing.
 
 
 == STEP 4) create your home directory in HDFS
-    $ hdfs dfs -mkdir <your name>
+Replace MY_NAME with your name
+    $ hdfs dfs -mkdir MY_NAME
 e.g
     $ hdfs dfs -mkdir tim
 
-This directory will be located in /user/<login_name>/<your name>
+This directory will be located in /user/<login_name>/MY_NAME
 
 
 == STEP 5) Copying files to HDFS
 (make sure to complete step 3 and create your work dir in HDFS)
-
-    $  cd HI-labs  # <--- project root dir
-    $  hdfs dfs -put README.txt  <your_name>/README.txt
-    $  hdfs dfs -ls  <your_name>
+(Replace MY_NAME with yours)
+    $  hdfs dfs -put ~/README.txt  MY_NAME/README.txt
+    $  hdfs dfs -ls  MY_NAME
 
 output might look like:
 rwxr-xr-x   - hduser supergroup          0 2013-02-19 12:00 README.txt
 
 see the contents of this file from HDFS
-    $  hdfs dfs -cat <yourname>/README.txt
+(Replace MY_NAME with yours)
+    $  hdfs dfs -cat MY_NAME/README.txt
 This should print out the file README.txt
 
 
@@ -72,7 +76,8 @@ Go ahead and click  on a file in the UI.  What do you see?
 
 == STEP 7) over write files in HDFS
 repeat the -put command again
-        $  hdfs dfs -put README.txt  <your_name>/README.txt
+(replace MY_NAME with yours)
+        $  hdfs dfs -put README.txt  MY_NAME/README.txt
 what is the result?  why?
 
 Q :  How can we over-write the file?
@@ -87,17 +92,20 @@ Hint : use the -put command
 
 == STEP 8)
 create a zero sized file under your dir
-    $  hdfs dfs  -touchz  <your_name>/z
+(replace MY_NAME with yours)
+    $  hdfs dfs  -touchz  MY_NAME/z
 
 verify the file (zero length)
-    $  hdfs dfs  -ls <your_name>
+(replace MY_NAME with yours)
+    $  hdfs dfs  -ls MY_NAME
 
 Q : How many blocks does file 'z' have?
 
 
 == BONUS LAB 1):
     copy the files back to your local directory
-        $  hdfs dfs -get <your name>/README.txt   readme2
+    (replace MY_NAME with yours)
+        $  hdfs dfs -get MY_NAME/README.txt   readme2
 
 
 == BONUS LAB 2)

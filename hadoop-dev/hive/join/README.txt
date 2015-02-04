@@ -11,13 +11,13 @@ Execute the script
 
 === STEP 2) load some billing data
 (if you have billing data already in your billing/in  directory, you can skip this step)
-    $  hdfs  dfs -mkdir  <your name>/billing/in
+    $  hdfs  dfs -mkdir  MY_NAME/billing/in
 
 generate data
     $  python ../../../data/billing-data/gen-billing-data.py
 
 upload data into HDFS
-    $  hdfs  dfs -put   billing*.log     <you name>/billing/in/
+    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
 
 
 === STEP 3) Create customer table
@@ -36,21 +36,21 @@ this will generate a customers.log file
 In this step, we are going to load data directly from local computer  (not staging into HDFS)
 
     $  hive
-    hive> load data local inpath './customers.log' INTO TABLE <your name>_customers;
+    hive> load data local inpath './customers.log' INTO TABLE MY_NAME_customers;
 
 
 === STEP 6)  Verify data on both tables
     $   hive
-    hive>  select * from <your name>_billing  LIMIT 10;
-    hive>  select * from <your name>_customers  LIMIT 10;
+    hive>  select * from MY_NAME_billing  LIMIT 10;
+    hive>  select * from MY_NAME_customers  LIMIT 10;
 
 
 === STEP 7)
 Lets do join
-TODO : fix <your name>
-    hive> select <your name>_billing.*, <your name>_customers.*
-                from <your name>_billing join <your name>_customers on
-                (<your name>_billing.customer_id = <your name>_customers.id)
+TODO : fix MY_NAME
+    hive> select MY_NAME_billing.*, MY_NAME_customers.*
+                from MY_NAME_billing join MY_NAME_customers on
+                (MY_NAME_billing.customer_id = MY_NAME_customers.id)
                 limit 10;
 
 

@@ -45,9 +45,9 @@ Hint : help "status"   (don't forget the quotes)
 
 
 == STEP 6) creating TABLE using hbase shell
-we are going to create a table named '<your name>_test' with one family named 'd'
-Replace <your_name> with your name :)
-    hbase> create '<your name>_test', 'd'
+we are going to create a table named 'MY_NAME_test' with one family named 'd'
+Replace MY_NAME with your name :)
+    hbase> create 'MY_NAME_test', 'd'
 e.g  :     create 'sujee_test', 'd'
     0 row(s) in 1.1120 seconds
 
@@ -62,13 +62,13 @@ Hint : 'describe'
 Inspect the output produced by HBase
 
 
-== STEP 8) insert some rows into <your name>_test table
+== STEP 8) insert some rows into MY_NAME_test table
 put command works like this:
     put <table name>  <row key>   <column_famly : column>    <value>
 
-    hbase>  put '<your name>_test', 'r1', 'd:c1', 'foo'
-    hbase>  put '<your name>_test', 'r1', 'd:c2', 'bar'
-    hbase>  put '<your name>_test', 'r2', 'd:c1', 'baz'
+    hbase>  put 'MY_NAME_test', 'r1', 'd:c1', 'foo'
+    hbase>  put 'MY_NAME_test', 'r1', 'd:c2', 'bar'
+    hbase>  put 'MY_NAME_test', 'r2', 'd:c1', 'baz'
 
 
 == STEP 9) inspect a row
@@ -93,7 +93,7 @@ Try the limit option
 
 == STEP 11)  Over-ride a value
     $   hbase  shell
-    hbase>  put '<your name>_test', 'r1', 'd:c1', 'foonew'
+    hbase>  put 'MY_NAME_test', 'r1', 'd:c1', 'foonew'
 
 scan the table.  What value do see for  r1:d:c1 ?
 
@@ -107,7 +107,7 @@ Hint : 'count'
 
 == STEP 13) delete a (any) cell value of row 'r1'
 Hint : help 'delete'
-    delete <table> , <row>,  <family> , <column>
+    delete <table> , <row>,  '<family>:<column>'
 do a 'scan' after the delete
 
 
