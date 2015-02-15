@@ -15,7 +15,7 @@ DUMP billing_data;
 -- DESCRIBE A;
 -- DUMP A;
 
--- ## TODO : filter free usage (cost = 0) for resource_id = 8
+-- ## TODO : filter free usage (cost == 0) for resource_id == 8
 -- B = FILTER .....  ;
 -- DESCRIBE B;
 -- DUMP B;
