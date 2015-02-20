@@ -2,13 +2,15 @@
 
 ## compile script
 
+export HADOOP_VERSION=`hadoop version | grep Hadoop | sed 's/Hadoop [1-2]\.[0-9]\.[0-9]\.//g'`
 
 build_dir=build
 mkdir -p $build_dir
 rm -rf $build_dir/*
 
 #classpath="$(hadoop classpath):$(hbase classpath)"
-classpath="$(hadoop classpath)"
+export additional_classpath=/usr/hdp/$HADOOP_VERSION/hive/lib/*:/usr/hdp/$HADOOP_VERSION/pig/*:/usr/hdp/$HADOOP_VERSION/pig/lib/*
+classpath="$(hadoop classpath)":$additional_classpath
 #echo $classpath
 
 javac -d $build_dir  -sourcepath src -classpath "$classpath"  $(find src -name "*.java")
