@@ -10,46 +10,46 @@ Login into the linux node.  Instructor will provide credentials
 
 
 -- step 2)
-verify password-less ssh is working on this node
+verify that password-less ssh is working on this node
     $  ssh localhost
 say yes to the prompt
 
 
 -- step 3)
-verify the following files are in ~/hi directory
-    hadoop install file : ~/hi/software/hadoop/apache
-    java installer : ~/hi/software/java
+verify the following files are in ~ directory
+    hadoop install file : ~/software/hadoop/apache
+    java installer : ~/software/java
 
 
--- step 4) install java
-    $  cd ~/hi/software/java
-    $  sudo sh ./jdk-6u45-linux-x64-rpm.bin
+-- step 4) install java (if it is not installed, otherwise go to step 5)
+    $  cd ~/software/java
+    $  use the jdk-7u67-linux-x64.tgz
 
 
 -- step 5)
-verify java is installed
+verify that java is installed
     $ java -version
 
 you should see output similar to the following
-    java version "1.6.0_45"
-    Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
-    Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
+    java version "1.7.0"
+    Java(TM) SE Runtime Environment (build 1.7.0)
 
 
 -- step 6)
 we will install hadoop using TAR file format.
-verify the hadoop file exists in   ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
+verify that the hadoop tarball exists in   ~/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
 (version numbes 1.1.2 might be different on your node)
 
 
 -- step 7)
 untar hadoop file under home directory
     $  cd    #  <-- so you are in home dir
-    $  tar xf ~/hi/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
+    $  tar xf ~/software/hadoop/apache/hadoop-1.1.2-bin.tar.gz
     $  mv hadoop-1.1.2 hadoop   (adjust if your version is different)
-now we have hadoop program files in  ~/hadoop  dir.  We will refer this directory as HADOOP_HOME
+    
+now we have hadoop program files in  ~/hadoop  dir.  
 
-verify the following directories exist under HADOOP_HOME
+verify the following directories exist under ~/hadoop
     bin
     conf
     lib
@@ -61,23 +61,23 @@ create a data dir for hadoop
     $  mkdir ~/hadoop/hadoop-data
 
 
-Next, we will configure Hadoop.  Hadoop configuration file are in  HADOOP_HOME/conf dir.
+Next, we will configure Hadoop.  Hadoop configuration file are in  ~/hadoop/conf dir.
 
-Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into HADOOP_HOME/conf dir
+Minimal configuration files are provided in ~/hi/config/hadoop-single directory.  We will copy these files into ~/hadoop/conf dir
 
 
 -- step 9)
-(optional)
-Edit file HADOOP_HOME/conf/hadoop-env.sh
+
+Edit file ~/hadoop/conf/hadoop-env.sh
 and update the JAVA_HOME variable
-    export JAVA_HOME=/usr/java/latest
+    export JAVA_HOME=<your jdk (such as ~/apps/jdk7, without /bin/java>
 
 (optional) also edit the following line (around line 37)
     export HADOOP_SSH_OPTS="-o StrictHostKeyChecking=no"
 
 
 -- step 10)
-copy minimal config files provided into HADOOP_HOME/conf dir
+copy minimal config files provided into ~/hadoop/conf dir
     $  cp ~/hi/config/hadoop-single/*   ~/hadoop/conf/
 
 inspect the following files:

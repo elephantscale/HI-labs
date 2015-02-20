@@ -15,7 +15,7 @@ Refer HBase javadocs for class methods
 
 
 == STEP 3) compile the code:
-    $ cd crud
+From the project working dir...
     $ ../compile.sh
 this should create a jar file called 'a.jar'
 

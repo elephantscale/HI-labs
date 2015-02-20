@@ -3,7 +3,7 @@
 -- Pig Latin reference : http://pig.apache.org/docs/r0.11.1/basic.html
 
 -- ## TODO : set the name of job
-SET job.name 'my_job';
+SET job.name 'MY_NAME billing.pig';
 
 -- TIP : Verify each step is working before going to the next one
 -- you can use DUMP statements to verify the output is correct.
@@ -12,8 +12,9 @@ SET job.name 'my_job';
 -- verify that the output looks correct before going further.
 -- once verified comment out the DUMP statements (because each DUMP statement will run MR job... it will just take more time)
 
+-- ## TODO : change MY_NAME
 -- Parse Input File
-billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
+billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
 -- DUMP billing_data;
 
 -- ## extract customer_id & cost
@@ -37,6 +38,6 @@ billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS
 -- ## NOTE : turn off any DUMP statements before running with large datasets !
 -- ## Instructor can provide even larger datasets  to run on
 
--- ## TODO : store the file into HDFS
--- STORE total_by_cid INTO '<your name>/billing/pig-invoice';
+-- ## TODO : change MY_NAME (Store files in HDFS)
+-- STORE total_by_cid INTO 'MY_NAME/billing/pig-invoice';
 

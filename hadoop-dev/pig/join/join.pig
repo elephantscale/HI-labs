@@ -1,11 +1,11 @@
 -- join.pig
 
 -- ## TODO : set the name of job
-SET job.name 'my_job';
+SET job.name 'MY_NAME join.pig';
 
 
--- ## TODO : load billing data, edit <your name>
-billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:int,resource_id:chararray,qty:int,cost:int);
+-- ## TODO : load billing data, change MY_NAME
+billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:int,resource_id:chararray,qty:int,cost:int);
 DUMP billing_data;
 
 -- ## TODO : copy the resources.txt file into HDFS (use 'hdfs dfs -put')
@@ -15,7 +15,8 @@ DUMP billing_data;
 -- ## try the following command
 --      $   hdfs dfs -put ../../../data/billing-data/resources.txt      your_name/billing/
 
-resource_data = LOAD '<your name>/billing/resources.txt' USING PigStorage('=') AS (resource_id:int, resource_name:chararray);
+-- ## TODO : update MY_NAME
+resource_data = LOAD 'MY_NAME/billing/resources.txt' USING PigStorage('=') AS (resource_id:int, resource_name:chararray);
 DUMP resource_data;
 
 -- ## TODO : join by resource_id

@@ -4,9 +4,10 @@
 -- Pig Latin Ref : https://pig.apache.org/docs/r0.7.0/piglatin_ref2.html
 
 -- ## TODO : set the name of job
-SET job.name 'my_job';
+SET job.name 'MY_NAME filter.pig';
 
-billing_data = LOAD '<your name>/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
+-- ## TODO : change MY_NAME
+billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
 DUMP billing_data;
 
 -- ## TODO : filter only resource_id = 1
@@ -14,7 +15,7 @@ DUMP billing_data;
 -- DESCRIBE A;
 -- DUMP A;
 
--- ## TODO : filter free usage (cost = 0) for resource_id = 8
+-- ## TODO : filter free usage (cost == 0) for resource_id == 8
 -- B = FILTER .....  ;
 -- DESCRIBE B;
 -- DUMP B;

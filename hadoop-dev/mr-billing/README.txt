@@ -28,20 +28,20 @@ this should create a jar file called 'a.jar'
 
 == STEP 3)
 Now it is time to copy the sample input into HDFS
-    $ hdfs dfs -mkdir -p  <your name>/billing/in
-    $ hdfs dfs -put  ../../data/billing-data/sample.txt   <your name>/billing/in/
+    $ hdfs dfs -mkdir -p  MY_NAME/billing/in
+    $ hdfs dfs -put  ../../data/billing-data/sample.txt   MY_NAME/billing/in/
 
 
 == STEP 4)
 we will run this jar file
-  $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in/sample.txt   <your name>/billing/out
+  $ hadoop jar a.jar  hi.mr.BillingTotal   MY_NAME/billing/in/sample.txt   MY_NAME/billing/out
 
 
 == STEP 5)
 Once the mr job is done, inspect the output file:
-  $ hdfs  dfs -cat <your name>/billing/out/part-r-00000
+  $ hdfs  dfs -cat MY_NAME/billing/out/part-r-00000
 or
-Browse HDFS file system.  Navigate to '/user/<login name>/<your user name>/billing/out' dir
+Browse HDFS file system.  Navigate to '/user/<login name>/MY_NAME/billing/out' dir
 
 
 == STEP 6)
@@ -57,25 +57,25 @@ Inspect a log file
 Quiz : How many records have we generated?
 
 Now lets copy the newly generated log files into HDFS
-    $  hdfs  dfs -put   *.log    <your name>/billing/in/
+    $  hdfs  dfs -put   *.log    MY_NAME/billing/in/
 
 Verify the files are there
-    $  hdfs  dfs -ls <your name>/billing/in
+    $  hdfs  dfs -ls MY_NAME/billing/in
 
 
 == STEP 7)
 run mr again on this new data
-  $ hadoop jar a.jar  hi.mr.BillingTotal   <your name>/billing/in   <your name>/billing/out2
+  $ hadoop jar a.jar  hi.mr.BillingTotal   MY_NAME/billing/in   MY_NAME/billing/out2
 note 1 : we are supplying an input dir (not a single file)
 note 2 : specified a different output dir
 
 
 == STEP 8)
-inspect the output from JobTracker UI
+inspect the output from YARN Resource Manager UI
 
 
 == STEP 9)
-examine the job stats from job tracker UI
+examine the job stats from YARN Resource Manager UI
 Find the job under 'completed jobs' section
 Click on it
 inspect the stats
