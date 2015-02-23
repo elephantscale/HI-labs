@@ -29,7 +29,7 @@ this should create a jar file called 'a.jar'
 == STEP 3)
 Now it is time to copy the sample input into HDFS
     $ hdfs dfs -mkdir -p  MY_NAME/billing/in
-        $ hdfs dfs -put  ../../data/billing-data/sample.txt   MY_NAME/billing/in/
+    $ hdfs dfs -put  ../../data/billing-data/sample.txt   MY_NAME/billing/in/
 
 
 == STEP 4)
@@ -71,11 +71,11 @@ note 2 : specified a different output dir
 
 
 == STEP 8)
-inspect the output from JobTracker UI
+inspect the output from YARN Resource Manager UI
 
 
 == STEP 9)
-examine the job stats from job tracker UI
+examine the job stats from YARN Resource Manager UI
 Find the job under 'completed jobs' section
 Click on it
 inspect the stats

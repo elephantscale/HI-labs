@@ -1,6 +1,8 @@
 Running mapreduce examples that ship with Hadoop.
     Grep : look for keywords in files
 
+Note :
+In the following steps replace MY_NAME with your name
 
 == STEP 1)
     lets copy some files into hdfs, we will use Hadoop config files
@@ -29,7 +31,7 @@ Running mapreduce examples that ship with Hadoop.
 
 
 == STEP 3) Watch the mapreduce output on the console
-Also watch the job progress in YARN UI  or Hue UI
+Also watch the job progress in YARN UI (Resource Manager UI)  or Hue UI
 Q : How many jobs are running for grep?
 
 
@@ -63,7 +65,7 @@ More examples are in 'hadoop-examples-*.jar'
 This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
 (might be located under /opt  for some distributions
 use the following command to locate the file
-    $   find /opt   | grep hadoop-mapreduce-exmamples.jar
+    $   find /opt   | grep hadoop-mapreduce-examples.jar
 )
 
 Find what mapreduce examples are available

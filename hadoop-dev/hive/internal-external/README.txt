@@ -100,4 +100,4 @@ how can we find out if a table is internal or external?
 Hint : refer to Hive manual for 'describe'
     https://cwiki.apache.org/confluence/display/Hive/LanguageManual
         or
-    https://github.com/elephantscale/HI-labs/tree/master/hadoop-dev/hive/billing/Hortonworks-CheatSheet-SqlHive.pdf
+    https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hive/Hortonworks-CheatSheet-SqlHive.pdf

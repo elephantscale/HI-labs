@@ -1,0 +1,5424 @@
+0	OTHELLO
+1	
+2	
+3	DRAMATIS PERSONAE
+4	
+5	
+6	DUKE OF VENICE:
+7	
+8	BRABANTIO	a senator.
+9	
+10	Other Senators.
+11	(Senator:)
+12	(First Senator:)
+13	(Second Senator:)
+14	
+15	GRATIANO	brother to Brabantio.
+16	
+17	LODOVICO	kinsman to Brabantio.
+18	
+19	OTHELLO	a noble Moor in the service of the Venetian state.
+20	
+21	CASSIO	his lieutenant.
+22	
+23	IAGO	his ancient.
+24	
+25	RODERIGO	a Venetian gentleman.
+26	
+27	MONTANO	Othello's predecessor in the government of Cyprus.
+28	
+29	Clown, servant to Othello. (Clown:)
+30	
+31	DESDEMONA	daughter to Brabantio and wife to Othello.
+32	
+33	EMILIA	wife to Iago.
+34	
+35	BIANCA	mistress to Cassio.
+36	
+37	Sailor, Messenger, Herald, Officers, Gentlemen,
+38	Musicians, and Attendants.
+39	(Sailor:)
+40	(First Officer:)
+41	(Messenger:)
+42	(Gentleman:)
+43	(First Gentleman:)
+44	(Second Gentleman:)
+45	(Third Gentleman:)
+46	(First Musician:)
+47	
+48	
+49	SCENE	Venice: a Sea-port in Cyprus.
+50	
+51	
+52	
+53	
+54	OTHELLO
+55	
+56	
+57	ACT I
+58	
+59	
+60	
+61	SCENE I	Venice. A street.
+62	
+63	
+64	[Enter RODERIGO and IAGO]
+65	
+66	RODERIGO	Tush! never tell me; I take it much unkindly
+67	That thou, Iago, who hast had my purse
+68	As if the strings were thine, shouldst know of this.
+69	
+70	IAGO	'Sblood, but you will not hear me:
+71	If ever I did dream of such a matter, Abhor me.
+72	
+73	RODERIGO	Thou told'st me thou didst hold him in thy hate.
+74	
+75	IAGO	Despise me, if I do not. Three great ones of the city,
+76	In personal suit to make me his lieutenant,
+77	Off-capp'd to him: and, by the faith of man,
+78	I know my price, I am worth no worse a place:
+79	But he; as loving his own pride and purposes,
+80	Evades them, with a bombast circumstance
+81	Horribly stuff'd with epithets of war;
+82	And, in conclusion,
+83	Nonsuits my mediators; for, 'Certes,' says he,
+84	'I have already chose my officer.'
+85	And what was he?
+86	Forsooth, a great arithmetician,
+87	One Michael Cassio, a Florentine,
+88	A fellow almost damn'd in a fair wife;
+89	That never set a squadron in the field,
+90	Nor the division of a battle knows
+91	More than a spinster; unless the bookish theoric,
+92	Wherein the toged consuls can propose
+93	As masterly as he: mere prattle, without practise,
+94	Is all his soldiership. But he, sir, had the election:
+95	And I, of whom his eyes had seen the proof
+96	At Rhodes, at Cyprus and on other grounds
+97	Christian and heathen, must be be-lee'd and calm'd
+98	By debitor and creditor: this counter-caster,
+99	He, in good time, must his lieutenant be,
+100	And I--God bless the mark!--his Moorship's ancient.
+101	
+102	RODERIGO	By heaven, I rather would have been his hangman.
+103	
+104	IAGO	Why, there's no remedy; 'tis the curse of service,
+105	Preferment goes by letter and affection,
+106	And not by old gradation, where each second
+107	Stood heir to the first. Now, sir, be judge yourself,
+108	Whether I in any just term am affined
+109	To love the Moor.
+110	
+111	RODERIGO	I would not follow him then.
+112	
+113	IAGO	O, sir, content you;
+114	I follow him to serve my turn upon him:
+115	We cannot all be masters, nor all masters
+116	Cannot be truly follow'd. You shall mark
+117	Many a duteous and knee-crooking knave,
+118	That, doting on his own obsequious bondage,
+119	Wears out his time, much like his master's ass,
+120	For nought but provender, and when he's old, cashier'd:
+121	Whip me such honest knaves. Others there are
+122	Who, trimm'd in forms and visages of duty,
+123	Keep yet their hearts attending on themselves,
+124	And, throwing but shows of service on their lords,
+125	Do well thrive by them and when they have lined
+126	their coats
+127	Do themselves homage: these fellows have some soul;
+128	And such a one do I profess myself. For, sir,
+129	It is as sure as you are Roderigo,
+130	Were I the Moor, I would not be Iago:
+131	In following him, I follow but myself;
+132	Heaven is my judge, not I for love and duty,
+133	But seeming so, for my peculiar end:
+134	For when my outward action doth demonstrate
+135	The native act and figure of my heart
+136	In compliment extern, 'tis not long after
+137	But I will wear my heart upon my sleeve
+138	For daws to peck at: I am not what I am.
+139	
+140	RODERIGO	What a full fortune does the thicklips owe
+141	If he can carry't thus!
+142	
+143	IAGO	Call up her father,
+144	Rouse him: make after him, poison his delight,
+145	Proclaim him in the streets; incense her kinsmen,
+146	And, though he in a fertile climate dwell,
+147	Plague him with flies: though that his joy be joy,
+148	Yet throw such changes of vexation on't,
+149	As it may lose some colour.
+150	
+151	RODERIGO	Here is her father's house; I'll call aloud.
+152	
+153	IAGO	Do, with like timorous accent and dire yell
+154	As when, by night and negligence, the fire
+155	Is spied in populous cities.
+156	
+157	RODERIGO	What, ho, Brabantio! Signior Brabantio, ho!
+158	
+159	IAGO	Awake! what, ho, Brabantio! thieves! thieves! thieves!
+160	Look to your house, your daughter and your bags!
+161	Thieves! thieves!
+162	
+163	[BRABANTIO appears above, at a window]
+164	
+165	BRABANTIO	What is the reason of this terrible summons?
+166	What is the matter there?
+167	
+168	RODERIGO	Signior, is all your family within?
+169	
+170	IAGO	Are your doors lock'd?
+171	
+172	BRABANTIO	Why, wherefore ask you this?
+173	
+174	IAGO	'Zounds, sir, you're robb'd; for shame, put on
+175	your gown;
+176	Your heart is burst, you have lost half your soul;
+177	Even now, now, very now, an old black ram
+178	Is topping your white ewe. Arise, arise;
+179	Awake the snorting citizens with the bell,
+180	Or else the devil will make a grandsire of you:
+181	Arise, I say.
+182	
+183	BRABANTIO	                  What, have you lost your wits?
+184	
+185	RODERIGO	Most reverend signior, do you know my voice?
+186	
+187	BRABANTIO	Not I	what are you?
+188	
+189	RODERIGO	My name is Roderigo.
+190	
+191	BRABANTIO	The worser welcome:
+192	I have charged thee not to haunt about my doors:
+193	In honest plainness thou hast heard me say
+194	My daughter is not for thee; and now, in madness,
+195	Being full of supper and distempering draughts,
+196	Upon malicious bravery, dost thou come
+197	To start my quiet.
+198	
+199	RODERIGO	Sir, sir, sir,--
+200	
+201	BRABANTIO	                  But thou must needs be sure
+202	My spirit and my place have in them power
+203	To make this bitter to thee.
+204	
+205	RODERIGO	Patience, good sir.
+206	
+207	BRABANTIO	What tell'st thou me of robbing? this is Venice;
+208	My house is not a grange.
+209	
+210	RODERIGO	Most grave Brabantio,
+211	In simple and pure soul I come to you.
+212	
+213	IAGO	'Zounds, sir, you are one of those that will not
+214	serve God, if the devil bid you. Because we come to
+215	do you service and you think we are ruffians, you'll
+216	have your daughter covered with a Barbary horse;
+217	you'll have your nephews neigh to you; you'll have
+218	coursers for cousins and gennets for germans.
+219	
+220	BRABANTIO	What profane wretch art thou?
+221	
+222	IAGO	I am one, sir, that comes to tell you your daughter
+223	and the Moor are now making the beast with two backs.
+224	
+225	BRABANTIO	Thou art a villain.
+226	
+227	IAGO	You are--a senator.
+228	
+229	BRABANTIO	This thou shalt answer; I know thee, Roderigo.
+230	
+231	RODERIGO	Sir, I will answer any thing. But, I beseech you,
+232	If't be your pleasure and most wise consent,
+233	As partly I find it is, that your fair daughter,
+234	At this odd-even and dull watch o' the night,
+235	Transported, with no worse nor better guard
+236	But with a knave of common hire, a gondolier,
+237	To the gross clasps of a lascivious Moor--
+238	If this be known to you and your allowance,
+239	We then have done you bold and saucy wrongs;
+240	But if you know not this, my manners tell me
+241	We have your wrong rebuke. Do not believe
+242	That, from the sense of all civility,
+243	I thus would play and trifle with your reverence:
+244	Your daughter, if you have not given her leave,
+245	I say again, hath made a gross revolt;
+246	Tying her duty, beauty, wit and fortunes
+247	In an extravagant and wheeling stranger
+248	Of here and every where. Straight satisfy yourself:
+249	If she be in her chamber or your house,
+250	Let loose on me the justice of the state
+251	For thus deluding you.
+252	
+253	BRABANTIO	Strike on the tinder, ho!
+254	Give me a taper! call up all my people!
+255	This accident is not unlike my dream:
+256	Belief of it oppresses me already.
+257	Light, I say! light!
+258	
+259	[Exit above]
+260	
+261	IAGO	Farewell; for I must leave you:
+262	It seems not meet, nor wholesome to my place,
+263	To be produced--as, if I stay, I shall--
+264	Against the Moor: for, I do know, the state,
+265	However this may gall him with some cheque,
+266	Cannot with safety cast him, for he's embark'd
+267	With such loud reason to the Cyprus wars,
+268	Which even now stand in act, that, for their souls,
+269	Another of his fathom they have none,
+270	To lead their business: in which regard,
+271	Though I do hate him as I do hell-pains.
+272	Yet, for necessity of present life,
+273	I must show out a flag and sign of love,
+274	Which is indeed but sign. That you shall surely find him,
+275	Lead to the Sagittary the raised search;
+276	And there will I be with him. So, farewell.
+277	
+278	[Exit]
+279	
+280	[Enter, below, BRABANTIO, and Servants with torches]
+281	
+282	BRABANTIO	It is too true an evil: gone she is;
+283	And what's to come of my despised time
+284	Is nought but bitterness. Now, Roderigo,
+285	Where didst thou see her? O unhappy girl!
+286	With the Moor, say'st thou? Who would be a father!
+287	How didst thou know 'twas she? O she deceives me
+288	Past thought! What said she to you? Get more tapers:
+289	Raise all my kindred. Are they married, think you?
+290	
+291	RODERIGO	Truly, I think they are.
+292	
+293	BRABANTIO	O heaven! How got she out? O treason of the blood!
+294	Fathers, from hence trust not your daughters' minds
+295	By what you see them act. Is there not charms
+296	By which the property of youth and maidhood
+297	May be abused? Have you not read, Roderigo,
+298	Of some such thing?
+299	
+300	RODERIGO	Yes, sir, I have indeed.
+301	
+302	BRABANTIO	Call up my brother. O, would you had had her!
+303	Some one way, some another. Do you know
+304	Where we may apprehend her and the Moor?
+305	
+306	RODERIGO	I think I can discover him, if you please,
+307	To get good guard and go along with me.
+308	
+309	BRABANTIO	Pray you, lead on. At every house I'll call;
+310	I may command at most. Get weapons, ho!
+311	And raise some special officers of night.
+312	On, good Roderigo: I'll deserve your pains.
+313	
+314	[Exeunt]
+315	
+316	
+317	
+318	
+319	OTHELLO
+320	
+321	
+322	ACT I
+323	
+324	
+325	
+326	SCENE II	Another street.
+327	
+328	
+329	[Enter OTHELLO, IAGO, and Attendants with torches]
+330	
+331	IAGO	Though in the trade of war I have slain men,
+332	Yet do I hold it very stuff o' the conscience
+333	To do no contrived murder: I lack iniquity
+334	Sometimes to do me service: nine or ten times
+335	I had thought to have yerk'd him here under the ribs.
+336	
+337	OTHELLO	'Tis better as it is.
+338	
+339	IAGO	Nay, but he prated,
+340	
+341	And spoke such scurvy and provoking terms
+342	Against your honour
+343	That, with the little godliness I have,
+344	I did full hard forbear him. But, I pray you, sir,
+345	Are you fast married? Be assured of this,
+346	That the magnifico is much beloved,
+347	And hath in his effect a voice potential
+348	As double as the duke's: he will divorce you;
+349	Or put upon you what restraint and grievance
+350	The law, with all his might to enforce it on,
+351	Will give him cable.
+352	
+353	OTHELLO	Let him do his spite:
+354	My services which I have done the signiory
+355	Shall out-tongue his complaints. 'Tis yet to know,--
+356	Which, when I know that boasting is an honour,
+357	I shall promulgate--I fetch my life and being
+358	From men of royal siege, and my demerits
+359	May speak unbonneted to as proud a fortune
+360	As this that I have reach'd: for know, Iago,
+361	But that I love the gentle Desdemona,
+362	I would not my unhoused free condition
+363	Put into circumscription and confine
+364	For the sea's worth. But, look! what lights come yond?
+365	
+366	IAGO	Those are the raised father and his friends:
+367	You were best go in.
+368	
+369	OTHELLO	Not I	I must be found:
+370	My parts, my title and my perfect soul
+371	Shall manifest me rightly. Is it they?
+372	
+373	IAGO	By Janus, I think no.
+374	
+375	[Enter CASSIO, and certain Officers with torches]
+376	
+377	OTHELLO	The servants of the duke, and my lieutenant.
+378	The goodness of the night upon you, friends!
+379	What is the news?
+380	
+381	CASSIO	                  The duke does greet you, general,
+382	And he requires your haste-post-haste appearance,
+383	Even on the instant.
+384	
+385	OTHELLO	What is the matter, think you?
+386	
+387	CASSIO	Something from Cyprus as I may divine:
+388	It is a business of some heat: the galleys
+389	Have sent a dozen sequent messengers
+390	This very night at one another's heels,
+391	And many of the consuls, raised and met,
+392	Are at the duke's already: you have been
+393	hotly call'd for;
+394	When, being not at your lodging to be found,
+395	The senate hath sent about three several guests
+396	To search you out.
+397	
+398	OTHELLO	'Tis well I am found by you.
+399	I will but spend a word here in the house,
+400	And go with you.
+401	
+402	[Exit]
+403	
+404	CASSIO	                  Ancient, what makes he here?
+405	
+406	IAGO	'Faith, he to-night hath boarded a land carack:
+407	If it prove lawful prize, he's made for ever.
+408	
+409	CASSIO	I do not understand.
+410	
+411	IAGO	He's married.
+412	
+413	CASSIO	To who?
+414	
+415	[Re-enter OTHELLO]
+416	
+417	IAGO	Marry, to--Come, captain, will you go?
+418	
+419	OTHELLO	Have with you.
+420	
+421	CASSIO	Here comes another troop to seek for you.
+422	
+423	IAGO	It is Brabantio. General, be advised;
+424	He comes to bad intent.
+425	
+426	[Enter BRABANTIO, RODERIGO, and Officers with
+427	torches and weapons]
+428	
+429	OTHELLO	Holla! stand there!
+430	
+431	RODERIGO	Signior, it is the Moor.
+432	
+433	BRABANTIO	Down with him, thief!
+434	
+435	[They draw on both sides]
+436	
+437	IAGO	You, Roderigo! come, sir, I am for you.
+438	
+439	OTHELLO	Keep up your bright swords, for the dew will rust them.
+440	Good signior, you shall more command with years
+441	Than with your weapons.
+442	
+443	BRABANTIO	O thou foul thief, where hast thou stow'd my daughter?
+444	Damn'd as thou art, thou hast enchanted her;
+445	For I'll refer me to all things of sense,
+446	If she in chains of magic were not bound,
+447	Whether a maid so tender, fair and happy,
+448	So opposite to marriage that she shunned
+449	The wealthy curled darlings of our nation,
+450	Would ever have, to incur a general mock,
+451	Run from her guardage to the sooty bosom
+452	Of such a thing as thou, to fear, not to delight.
+453	Judge me the world, if 'tis not gross in sense
+454	That thou hast practised on her with foul charms,
+455	Abused her delicate youth with drugs or minerals
+456	That weaken motion: I'll have't disputed on;
+457	'Tis probable and palpable to thinking.
+458	I therefore apprehend and do attach thee
+459	For an abuser of the world, a practiser
+460	Of arts inhibited and out of warrant.
+461	Lay hold upon him: if he do resist,
+462	Subdue him at his peril.
+463	
+464	OTHELLO	Hold your hands,
+465	Both you of my inclining, and the rest:
+466	Were it my cue to fight, I should have known it
+467	Without a prompter. Where will you that I go
+468	To answer this your charge?
+469	
+470	BRABANTIO	To prison, till fit time
+471	Of law and course of direct session
+472	Call thee to answer.
+473	
+474	OTHELLO	What if I do obey?
+475	How may the duke be therewith satisfied,
+476	Whose messengers are here about my side,
+477	Upon some present business of the state
+478	To bring me to him?
+479	
+480	First Officer	'Tis true, most worthy signior;
+481	The duke's in council and your noble self,
+482	I am sure, is sent for.
+483	
+484	BRABANTIO	How! the duke in council!
+485	In this time of the night! Bring him away:
+486	Mine's not an idle cause: the duke himself,
+487	Or any of my brothers of the state,
+488	Cannot but feel this wrong as 'twere their own;
+489	For if such actions may have passage free,
+490	Bond-slaves and pagans shall our statesmen be.
+491	
+492	[Exeunt]
+493	
+494	
+495	
+496	
+497	OTHELLO
+498	
+499	
+500	ACT I
+501	
+502	
+503	
+504	SCENE III	A council-chamber.
+505	
+506	
+507	[The DUKE and Senators sitting at a table; Officers
+508	attending]
+509	
+510	DUKE OF VENICE	There is no composition in these news
+511	That gives them credit.
+512	
+513	First Senator	Indeed, they are disproportion'd;
+514	My letters say a hundred and seven galleys.
+515	
+516	DUKE OF VENICE	And mine, a hundred and forty.
+517	
+518	Second Senator	And mine, two hundred:
+519	But though they jump not on a just account,--
+520	As in these cases, where the aim reports,
+521	'Tis oft with difference--yet do they all confirm
+522	A Turkish fleet, and bearing up to Cyprus.
+523	
+524	DUKE OF VENICE	Nay, it is possible enough to judgment:
+525	I do not so secure me in the error,
+526	But the main article I do approve
+527	In fearful sense.
+528	
+529	Sailor	[Within]  What, ho! what, ho! what, ho!
+530	
+531	First Officer	A messenger from the galleys.
+532	
+533	[Enter a Sailor]
+534	
+535	DUKE OF VENICE	Now, what's the business?
+536	
+537	Sailor	The Turkish preparation makes for Rhodes;
+538	So was I bid report here to the state
+539	By Signior Angelo.
+540	
+541	DUKE OF VENICE	How say you by this change?
+542	
+543	First Senator	This cannot be,
+544	By no assay of reason: 'tis a pageant,
+545	To keep us in false gaze. When we consider
+546	The importancy of Cyprus to the Turk,
+547	And let ourselves again but understand,
+548	That as it more concerns the Turk than Rhodes,
+549	So may he with more facile question bear it,
+550	For that it stands not in such warlike brace,
+551	But altogether lacks the abilities
+552	That Rhodes is dress'd in: if we make thought of this,
+553	We must not think the Turk is so unskilful
+554	To leave that latest which concerns him first,
+555	Neglecting an attempt of ease and gain,
+556	To wake and wage a danger profitless.
+557	
+558	DUKE OF VENICE	Nay, in all confidence, he's not for Rhodes.
+559	
+560	First Officer	Here is more news.
+561	
+562	[Enter a Messenger]
+563	
+564	Messenger	The Ottomites, reverend and gracious,
+565	Steering with due course towards the isle of Rhodes,
+566	Have there injointed them with an after fleet.
+567	
+568	First Senator	Ay, so I thought. How many, as you guess?
+569	
+570	Messenger	Of thirty sail: and now they do restem
+571	Their backward course, bearing with frank appearance
+572	Their purposes toward Cyprus. Signior Montano,
+573	Your trusty and most valiant servitor,
+574	With his free duty recommends you thus,
+575	And prays you to believe him.
+576	
+577	DUKE OF VENICE	'Tis certain, then, for Cyprus.
+578	Marcus Luccicos, is not he in town?
+579	
+580	First Senator	He's now in Florence.
+581	
+582	DUKE OF VENICE	Write from us to him; post-post-haste dispatch.
+583	
+584	First Senator	Here comes Brabantio and the valiant Moor.
+585	
+586	[Enter BRABANTIO, OTHELLO, IAGO, RODERIGO, and Officers]
+587	
+588	DUKE OF VENICE	Valiant Othello, we must straight employ you
+589	Against the general enemy Ottoman.
+590	
+591	[To BRABANTIO]
+592	
+593	I did not see you; welcome, gentle signior;
+594	We lack'd your counsel and your help tonight.
+595	
+596	BRABANTIO	So did I yours. Good your grace, pardon me;
+597	Neither my place nor aught I heard of business
+598	Hath raised me from my bed, nor doth the general care
+599	Take hold on me, for my particular grief
+600	Is of so flood-gate and o'erbearing nature
+601	That it engluts and swallows other sorrows
+602	And it is still itself.
+603	
+604	DUKE OF VENICE	Why, what's the matter?
+605	
+606	BRABANTIO	My daughter! O, my daughter!
+607	
+608	
+609	DUKE OF VENICE	|	Dead?
+610	Senator	|
+611	
+612	
+613	BRABANTIO	Ay, to me;
+614	She is abused, stol'n from me, and corrupted
+615	By spells and medicines bought of mountebanks;
+616	For nature so preposterously to err,
+617	Being not deficient, blind, or lame of sense,
+618	Sans witchcraft could not.
+619	
+620	DUKE OF VENICE	Whoe'er he be that in this foul proceeding
+621	Hath thus beguiled your daughter of herself
+622	And you of her, the bloody book of law
+623	You shall yourself read in the bitter letter
+624	After your own sense, yea, though our proper son
+625	Stood in your action.
+626	
+627	BRABANTIO	Humbly I thank your grace.
+628	Here is the man, this Moor, whom now, it seems,
+629	Your special mandate for the state-affairs
+630	Hath hither brought.
+631	
+632	
+633	DUKE OF VENICE	|
+634	|                 We are very sorry for't.
+635	Senator	|
+636	
+637	
+638	DUKE OF VENICE	[To OTHELLO]  What, in your own part, can you say to this?
+639	
+640	BRABANTIO	Nothing, but this is so.
+641	
+642	OTHELLO	Most potent, grave, and reverend signiors,
+643	My very noble and approved good masters,
+644	That I have ta'en away this old man's daughter,
+645	It is most true; true, I have married her:
+646	The very head and front of my offending
+647	Hath this extent, no more. Rude am I in my speech,
+648	And little bless'd with the soft phrase of peace:
+649	For since these arms of mine had seven years' pith,
+650	Till now some nine moons wasted, they have used
+651	Their dearest action in the tented field,
+652	And little of this great world can I speak,
+653	More than pertains to feats of broil and battle,
+654	And therefore little shall I grace my cause
+655	In speaking for myself. Yet, by your gracious patience,
+656	I will a round unvarnish'd tale deliver
+657	Of my whole course of love; what drugs, what charms,
+658	What conjuration and what mighty magic,
+659	For such proceeding I am charged withal,
+660	I won his daughter.
+661	
+662	BRABANTIO	A maiden never bold;
+663	Of spirit so still and quiet, that her motion
+664	Blush'd at herself; and she, in spite of nature,
+665	Of years, of country, credit, every thing,
+666	To fall in love with what she fear'd to look on!
+667	It is a judgment maim'd and most imperfect
+668	That will confess perfection so could err
+669	Against all rules of nature, and must be driven
+670	To find out practises of cunning hell,
+671	Why this should be. I therefore vouch again
+672	That with some mixtures powerful o'er the blood,
+673	Or with some dram conjured to this effect,
+674	He wrought upon her.
+675	
+676	DUKE OF VENICE	To vouch this, is no proof,
+677	Without more wider and more overt test
+678	Than these thin habits and poor likelihoods
+679	Of modern seeming do prefer against him.
+680	
+681	First Senator	But, Othello, speak:
+682	Did you by indirect and forced courses
+683	Subdue and poison this young maid's affections?
+684	Or came it by request and such fair question
+685	As soul to soul affordeth?
+686	
+687	OTHELLO	I do beseech you,
+688	Send for the lady to the Sagittary,
+689	And let her speak of me before her father:
+690	If you do find me foul in her report,
+691	The trust, the office I do hold of you,
+692	Not only take away, but let your sentence
+693	Even fall upon my life.
+694	
+695	DUKE OF VENICE	Fetch Desdemona hither.
+696	
+697	OTHELLO	Ancient, conduct them: you best know the place.
+698	
+699	[Exeunt IAGO and Attendants]
+700	
+701	And, till she come, as truly as to heaven
+702	I do confess the vices of my blood,
+703	So justly to your grave ears I'll present
+704	How I did thrive in this fair lady's love,
+705	And she in mine.
+706	
+707	DUKE OF VENICE	Say it, Othello.
+708	
+709	OTHELLO	Her father loved me; oft invited me;
+710	Still question'd me the story of my life,
+711	From year to year, the battles, sieges, fortunes,
+712	That I have passed.
+713	I ran it through, even from my boyish days,
+714	To the very moment that he bade me tell it;
+715	Wherein I spake of most disastrous chances,
+716	Of moving accidents by flood and field
+717	Of hair-breadth scapes i' the imminent deadly breach,
+718	Of being taken by the insolent foe
+719	And sold to slavery, of my redemption thence
+720	And portance in my travels' history:
+721	Wherein of antres vast and deserts idle,
+722	Rough quarries, rocks and hills whose heads touch heaven
+723	It was my hint to speak,--such was the process;
+724	And of the Cannibals that each other eat,
+725	The Anthropophagi and men whose heads
+726	Do grow beneath their shoulders. This to hear
+727	Would Desdemona seriously incline:
+728	But still the house-affairs would draw her thence:
+729	Which ever as she could with haste dispatch,
+730	She'ld come again, and with a greedy ear
+731	Devour up my discourse: which I observing,
+732	Took once a pliant hour, and found good means
+733	To draw from her a prayer of earnest heart
+734	That I would all my pilgrimage dilate,
+735	Whereof by parcels she had something heard,
+736	But not intentively: I did consent,
+737	And often did beguile her of her tears,
+738	When I did speak of some distressful stroke
+739	That my youth suffer'd. My story being done,
+740	She gave me for my pains a world of sighs:
+741	She swore, in faith, twas strange, 'twas passing strange,
+742	'Twas pitiful, 'twas wondrous pitiful:
+743	She wish'd she had not heard it, yet she wish'd
+744	That heaven had made her such a man: she thank'd me,
+745	And bade me, if I had a friend that loved her,
+746	I should but teach him how to tell my story.
+747	And that would woo her. Upon this hint I spake:
+748	She loved me for the dangers I had pass'd,
+749	And I loved her that she did pity them.
+750	This only is the witchcraft I have used:
+751	Here comes the lady; let her witness it.
+752	
+753	[Enter DESDEMONA, IAGO, and Attendants]
+754	
+755	DUKE OF VENICE	I think this tale would win my daughter too.
+756	Good Brabantio,
+757	Take up this mangled matter at the best:
+758	Men do their broken weapons rather use
+759	Than their bare hands.
+760	
+761	BRABANTIO	I pray you, hear her speak:
+762	If she confess that she was half the wooer,
+763	Destruction on my head, if my bad blame
+764	Light on the man! Come hither, gentle mistress:
+765	Do you perceive in all this noble company
+766	Where most you owe obedience?
+767	
+768	DESDEMONA	My noble father,
+769	I do perceive here a divided duty:
+770	To you I am bound for life and education;
+771	My life and education both do learn me
+772	How to respect you; you are the lord of duty;
+773	I am hitherto your daughter: but here's my husband,
+774	And so much duty as my mother show'd
+775	To you, preferring you before her father,
+776	So much I challenge that I may profess
+777	Due to the Moor my lord.
+778	
+779	BRABANTIO	God be wi' you! I have done.
+780	Please it your grace, on to the state-affairs:
+781	I had rather to adopt a child than get it.
+782	Come hither, Moor:
+783	I here do give thee that with all my heart
+784	Which, but thou hast already, with all my heart
+785	I would keep from thee. For your sake, jewel,
+786	I am glad at soul I have no other child:
+787	For thy escape would teach me tyranny,
+788	To hang clogs on them. I have done, my lord.
+789	
+790	DUKE OF VENICE	Let me speak like yourself, and lay a sentence,
+791	Which, as a grise or step, may help these lovers
+792	Into your favour.
+793	When remedies are past, the griefs are ended
+794	By seeing the worst, which late on hopes depended.
+795	To mourn a mischief that is past and gone
+796	Is the next way to draw new mischief on.
+797	What cannot be preserved when fortune takes
+798	Patience her injury a mockery makes.
+799	The robb'd that smiles steals something from the thief;
+800	He robs himself that spends a bootless grief.
+801	
+802	BRABANTIO	So let the Turk of Cyprus us beguile;
+803	We lose it not, so long as we can smile.
+804	He bears the sentence well that nothing bears
+805	But the free comfort which from thence he hears,
+806	But he bears both the sentence and the sorrow
+807	That, to pay grief, must of poor patience borrow.
+808	These sentences, to sugar, or to gall,
+809	Being strong on both sides, are equivocal:
+810	But words are words; I never yet did hear
+811	That the bruised heart was pierced through the ear.
+812	I humbly beseech you, proceed to the affairs of state.
+813	
+814	DUKE OF VENICE	The Turk with a most mighty preparation makes for
+815	Cyprus. Othello, the fortitude of the place is best
+816	known to you; and though we have there a substitute
+817	of most allowed sufficiency, yet opinion, a
+818	sovereign mistress of effects, throws a more safer
+819	voice on you: you must therefore be content to
+820	slubber the gloss of your new fortunes with this
+821	more stubborn and boisterous expedition.
+822	
+823	OTHELLO	The tyrant custom, most grave senators,
+824	Hath made the flinty and steel couch of war
+825	My thrice-driven bed of down: I do agnise
+826	A natural and prompt alacrity
+827	I find in hardness, and do undertake
+828	These present wars against the Ottomites.
+829	Most humbly therefore bending to your state,
+830	I crave fit disposition for my wife.
+831	Due reference of place and exhibition,
+832	With such accommodation and besort
+833	As levels with her breeding.
+834	
+835	DUKE OF VENICE	If you please,
+836	Be't at her father's.
+837	
+838	BRABANTIO	I'll not have it so.
+839	
+840	OTHELLO	Nor I.
+841	
+842	DESDEMONA	     Nor I; I would not there reside,
+843	To put my father in impatient thoughts
+844	By being in his eye. Most gracious duke,
+845	To my unfolding lend your prosperous ear;
+846	And let me find a charter in your voice,
+847	To assist my simpleness.
+848	
+849	DUKE OF VENICE	What would You, Desdemona?
+850	
+851	DESDEMONA	That I did love the Moor to live with him,
+852	My downright violence and storm of fortunes
+853	May trumpet to the world: my heart's subdued
+854	Even to the very quality of my lord:
+855	I saw Othello's visage in his mind,
+856	And to his honour and his valiant parts
+857	Did I my soul and fortunes consecrate.
+858	So that, dear lords, if I be left behind,
+859	A moth of peace, and he go to the war,
+860	The rites for which I love him are bereft me,
+861	And I a heavy interim shall support
+862	By his dear absence. Let me go with him.
+863	
+864	OTHELLO	Let her have your voices.
+865	Vouch with me, heaven, I therefore beg it not,
+866	To please the palate of my appetite,
+867	Nor to comply with heat--the young affects
+868	In me defunct--and proper satisfaction.
+869	But to be free and bounteous to her mind:
+870	And heaven defend your good souls, that you think
+871	I will your serious and great business scant
+872	For she is with me: no, when light-wing'd toys
+873	Of feather'd Cupid seal with wanton dullness
+874	My speculative and officed instruments,
+875	That my disports corrupt and taint my business,
+876	Let housewives make a skillet of my helm,
+877	And all indign and base adversities
+878	Make head against my estimation!
+879	
+880	DUKE OF VENICE	Be it as you shall privately determine,
+881	Either for her stay or going: the affair cries haste,
+882	And speed must answer it.
+883	
+884	First Senator	You must away to-night.
+885	
+886	OTHELLO	With all my heart.
+887	
+888	DUKE OF VENICE	At nine i' the morning here we'll meet again.
+889	Othello, leave some officer behind,
+890	And he shall our commission bring to you;
+891	With such things else of quality and respect
+892	As doth import you.
+893	
+894	OTHELLO	So please your grace, my ancient;
+895	A man he is of honest and trust:
+896	To his conveyance I assign my wife,
+897	With what else needful your good grace shall think
+898	To be sent after me.
+899	
+900	DUKE OF VENICE	Let it be so.
+901	Good night to every one.
+902	
+903	[To BRABANTIO]
+904	
+905	And, noble signior,
+906	If virtue no delighted beauty lack,
+907	Your son-in-law is far more fair than black.
+908	
+909	First Senator	Adieu, brave Moor, use Desdemona well.
+910	
+911	BRABANTIO	Look to her, Moor, if thou hast eyes to see:
+912	She has deceived her father, and may thee.
+913	
+914	[Exeunt DUKE OF VENICE, Senators, Officers, &c]
+915	
+916	OTHELLO	My life upon her faith! Honest Iago,
+917	My Desdemona must I leave to thee:
+918	I prithee, let thy wife attend on her:
+919	And bring them after in the best advantage.
+920	
+921	Come, Desdemona: I have but an hour
+922	Of love, of worldly matters and direction,
+923	To spend with thee: we must obey the time.
+924	
+925	[Exeunt OTHELLO and DESDEMONA]
+926	
+927	RODERIGO	Iago,--
+928	
+929	IAGO	What say'st thou, noble heart?
+930	
+931	RODERIGO	What will I do, thinkest thou?
+932	
+933	IAGO	Why, go to bed, and sleep.
+934	
+935	RODERIGO	I will incontinently drown myself.
+936	
+937	IAGO	If thou dost, I shall never love thee after. Why,
+938	thou silly gentleman!
+939	
+940	RODERIGO	It is silliness to live when to live is torment; and
+941	then have we a prescription to die when death is our physician.
+942	
+943	IAGO	O villainous! I have looked upon the world for four
+944	times seven years; and since I could distinguish
+945	betwixt a benefit and an injury, I never found man
+946	that knew how to love himself. Ere I would say, I
+947	would drown myself for the love of a guinea-hen, I
+948	would change my humanity with a baboon.
+949	
+950	RODERIGO	What should I do? I confess it is my shame to be so
+951	fond; but it is not in my virtue to amend it.
+952	
+953	IAGO	Virtue! a fig! 'tis in ourselves that we are thus
+954	or thus. Our bodies are our gardens, to the which
+955	our wills are gardeners: so that if we will plant
+956	nettles, or sow lettuce, set hyssop and weed up
+957	thyme, supply it with one gender of herbs, or
+958	distract it with many, either to have it sterile
+959	with idleness, or manured with industry, why, the
+960	power and corrigible authority of this lies in our
+961	wills. If the balance of our lives had not one
+962	scale of reason to poise another of sensuality, the
+963	blood and baseness of our natures would conduct us
+964	to most preposterous conclusions: but we have
+965	reason to cool our raging motions, our carnal
+966	stings, our unbitted lusts, whereof I take this that
+967	you call love to be a sect or scion.
+968	
+969	RODERIGO	It cannot be.
+970	
+971	IAGO	It is merely a lust of the blood and a permission of
+972	the will. Come, be a man. Drown thyself! drown
+973	cats and blind puppies. I have professed me thy
+974	friend and I confess me knit to thy deserving with
+975	cables of perdurable toughness; I could never
+976	better stead thee than now. Put money in thy
+977	purse; follow thou the wars; defeat thy favour with
+978	an usurped beard; I say, put money in thy purse. It
+979	cannot be that Desdemona should long continue her
+980	love to the Moor,-- put money in thy purse,--nor he
+981	his to her: it was a violent commencement, and thou
+982	shalt see an answerable sequestration:--put but
+983	money in thy purse. These Moors are changeable in
+984	their wills: fill thy purse with money:--the food
+985	that to him now is as luscious as locusts, shall be
+986	to him shortly as bitter as coloquintida. She must
+987	change for youth: when she is sated with his body,
+988	she will find the error of her choice: she must
+989	have change, she must: therefore put money in thy
+990	purse. If thou wilt needs damn thyself, do it a
+991	more delicate way than drowning. Make all the money
+992	thou canst: if sanctimony and a frail vow betwixt
+993	an erring barbarian and a supersubtle Venetian not
+994	too hard for my wits and all the tribe of hell, thou
+995	shalt enjoy her; therefore make money. A pox of
+996	drowning thyself! it is clean out of the way: seek
+997	thou rather to be hanged in compassing thy joy than
+998	to be drowned and go without her.
+999	
+1000	RODERIGO	Wilt thou be fast to my hopes, if I depend on
+1001	the issue?
+1002	
+1003	IAGO	Thou art sure of me:--go, make money:--I have told
+1004	thee often, and I re-tell thee again and again, I
+1005	hate the Moor: my cause is hearted; thine hath no
+1006	less reason. Let us be conjunctive in our revenge
+1007	against him: if thou canst cuckold him, thou dost
+1008	thyself a pleasure, me a sport. There are many
+1009	events in the womb of time which will be delivered.
+1010	Traverse! go, provide thy money. We will have more
+1011	of this to-morrow. Adieu.
+1012	
+1013	RODERIGO	Where shall we meet i' the morning?
+1014	
+1015	IAGO	At my lodging.
+1016	
+1017	RODERIGO	I'll be with thee betimes.
+1018	
+1019	IAGO	Go to; farewell. Do you hear, Roderigo?
+1020	
+1021	RODERIGO	What say you?
+1022	
+1023	IAGO	No more of drowning, do you hear?
+1024	
+1025	RODERIGO	I am changed: I'll go sell all my land.
+1026	
+1027	[Exit]
+1028	
+1029	IAGO	Thus do I ever make my fool my purse:
+1030	For I mine own gain'd knowledge should profane,
+1031	If I would time expend with such a snipe.
+1032	But for my sport and profit. I hate the Moor:
+1033	And it is thought abroad, that 'twixt my sheets
+1034	He has done my office: I know not if't be true;
+1035	But I, for mere suspicion in that kind,
+1036	Will do as if for surety. He holds me well;
+1037	The better shall my purpose work on him.
+1038	Cassio's a proper man: let me see now:
+1039	To get his place and to plume up my will
+1040	In double knavery--How, how? Let's see:--
+1041	After some time, to abuse Othello's ear
+1042	That he is too familiar with his wife.
+1043	He hath a person and a smooth dispose
+1044	To be suspected, framed to make women false.
+1045	The Moor is of a free and open nature,
+1046	That thinks men honest that but seem to be so,
+1047	And will as tenderly be led by the nose
+1048	As asses are.
+1049	I have't. It is engender'd. Hell and night
+1050	Must bring this monstrous birth to the world's light.
+1051	
+1052	[Exit]
+1053	
+1054	
+1055	
+1056	
+1057	OTHELLO
+1058	
+1059	
+1060	ACT II
+1061	
+1062	
+1063	
+1064	SCENE I	A Sea-port in Cyprus. An open place near the quay.
+1065	
+1066	
+1067	[Enter MONTANO and two Gentlemen]
+1068	
+1069	MONTANO	What from the cape can you discern at sea?
+1070	
+1071	First Gentleman	Nothing at all: it is a highwrought flood;
+1072	I cannot, 'twixt the heaven and the main,
+1073	Descry a sail.
+1074	
+1075	MONTANO	Methinks the wind hath spoke aloud at land;
+1076	A fuller blast ne'er shook our battlements:
+1077	If it hath ruffian'd so upon the sea,
+1078	What ribs of oak, when mountains melt on them,
+1079	Can hold the mortise? What shall we hear of this?
+1080	
+1081	Second Gentleman	A segregation of the Turkish fleet:
+1082	
+1083	For do but stand upon the foaming shore,
+1084	The chidden billow seems to pelt the clouds;
+1085	The wind-shaked surge, with high and monstrous mane,
+1086	seems to cast water on the burning bear,
+1087	And quench the guards of the ever-fixed pole:
+1088	I never did like molestation view
+1089	On the enchafed flood.
+1090	
+1091	MONTANO	If that the Turkish fleet
+1092	Be not enshelter'd and embay'd, they are drown'd:
+1093	It is impossible they bear it out.
+1094	
+1095	[Enter a third Gentleman]
+1096	
+1097	Third Gentleman	News, lads! our wars are done.
+1098	The desperate tempest hath so bang'd the Turks,
+1099	That their designment halts: a noble ship of Venice
+1100	Hath seen a grievous wreck and sufferance
+1101	On most part of their fleet.
+1102	
+1103	MONTANO	How! is this true?
+1104	
+1105	Third Gentleman	The ship is here put in,
+1106	A Veronesa; Michael Cassio,
+1107	Lieutenant to the warlike Moor Othello,
+1108	Is come on shore: the Moor himself at sea,
+1109	And is in full commission here for Cyprus.
+1110	
+1111	MONTANO	I am glad on't; 'tis a worthy governor.
+1112	
+1113	Third Gentleman	But this same Cassio, though he speak of comfort
+1114	Touching the Turkish loss, yet he looks sadly,
+1115	And prays the Moor be safe; for they were parted
+1116	With foul and violent tempest.
+1117	
+1118	MONTANO	Pray heavens he be;
+1119	For I have served him, and the man commands
+1120	Like a full soldier. Let's to the seaside, ho!
+1121	As well to see the vessel that's come in
+1122	As to throw out our eyes for brave Othello,
+1123	Even till we make the main and the aerial blue
+1124	An indistinct regard.
+1125	
+1126	Third Gentleman	Come, let's do so:
+1127	For every minute is expectancy
+1128	Of more arrivance.
+1129	
+1130	[Enter CASSIO]
+1131	
+1132	CASSIO	Thanks, you the valiant of this warlike isle,
+1133	That so approve the Moor! O, let the heavens
+1134	Give him defence against the elements,
+1135	For I have lost us him on a dangerous sea.
+1136	
+1137	MONTANO	Is he well shipp'd?
+1138	
+1139	CASSIO	His bark is stoutly timber'd, his pilot
+1140	Of very expert and approved allowance;
+1141	Therefore my hopes, not surfeited to death,
+1142	Stand in bold cure.
+1143	
+1144	[A cry within 'A sail, a sail, a sail!']
+1145	
+1146	[Enter a fourth Gentleman]
+1147	
+1148	CASSIO	What noise?
+1149	
+1150	Fourth Gentleman	The town is empty; on the brow o' the sea
+1151	Stand ranks of people, and they cry 'A sail!'
+1152	
+1153	CASSIO	My hopes do shape him for the governor.
+1154	
+1155	[Guns heard]
+1156	
+1157	Second Gentlemen	They do discharge their shot of courtesy:
+1158	Our friends at least.
+1159	
+1160	CASSIO	I pray you, sir, go forth,
+1161	And give us truth who 'tis that is arrived.
+1162	
+1163	Second Gentleman	I shall.
+1164	
+1165	[Exit]
+1166	
+1167	MONTANO	But, good lieutenant, is your general wived?
+1168	
+1169	CASSIO	Most fortunately: he hath achieved a maid
+1170	That paragons description and wild fame;
+1171	One that excels the quirks of blazoning pens,
+1172	And in the essential vesture of creation
+1173	Does tire the ingener.
+1174	
+1175	[Re-enter second Gentleman]
+1176	
+1177	How now! who has put in?
+1178	
+1179	Second Gentleman	'Tis one Iago, ancient to the general.
+1180	
+1181	CASSIO	Has had most favourable and happy speed:
+1182	Tempests themselves, high seas, and howling winds,
+1183	The gutter'd rocks and congregated sands--
+1184	Traitors ensteep'd to clog the guiltless keel,--
+1185	As having sense of beauty, do omit
+1186	Their mortal natures, letting go safely by
+1187	The divine Desdemona.
+1188	
+1189	MONTANO	What is she?
+1190	
+1191	CASSIO	She that I spake of, our great captain's captain,
+1192	Left in the conduct of the bold Iago,
+1193	Whose footing here anticipates our thoughts
+1194	A se'nnight's speed. Great Jove, Othello guard,
+1195	And swell his sail with thine own powerful breath,
+1196	That he may bless this bay with his tall ship,
+1197	Make love's quick pants in Desdemona's arms,
+1198	Give renew'd fire to our extincted spirits
+1199	And bring all Cyprus comfort!
+1200	
+1201	[Enter DESDEMONA, EMILIA, IAGO, RODERIGO, and
+1202	Attendants]
+1203	
+1204	O, behold,
+1205	The riches of the ship is come on shore!
+1206	Ye men of Cyprus, let her have your knees.
+1207	Hail to thee, lady! and the grace of heaven,
+1208	Before, behind thee, and on every hand,
+1209	Enwheel thee round!
+1210	
+1211	DESDEMONA	I thank you, valiant Cassio.
+1212	What tidings can you tell me of my lord?
+1213	
+1214	CASSIO	He is not yet arrived: nor know I aught
+1215	But that he's well and will be shortly here.
+1216	
+1217	DESDEMONA	O, but I fear--How lost you company?
+1218	
+1219	CASSIO	The great contention of the sea and skies
+1220	Parted our fellowship--But, hark! a sail.
+1221	
+1222	[Within 'A sail, a sail!' Guns heard]
+1223	
+1224	Second Gentleman	They give their greeting to the citadel;
+1225	This likewise is a friend.
+1226	
+1227	CASSIO	See for the news.
+1228	
+1229	[Exit Gentleman]
+1230	
+1231	Good ancient, you are welcome.
+1232	
+1233	[To EMILIA]
+1234	
+1235	Welcome, mistress.
+1236	Let it not gall your patience, good Iago,
+1237	That I extend my manners; 'tis my breeding
+1238	That gives me this bold show of courtesy.
+1239	
+1240	[Kissing her]
+1241	
+1242	IAGO	Sir, would she give you so much of her lips
+1243	As of her tongue she oft bestows on me,
+1244	You'll have enough.
+1245	
+1246	DESDEMONA	Alas, she has no speech.
+1247	
+1248	IAGO	In faith, too much;
+1249	I find it still, when I have list to sleep:
+1250	Marry, before your ladyship, I grant,
+1251	She puts her tongue a little in her heart,
+1252	And chides with thinking.
+1253	
+1254	EMILIA	You have little cause to say so.
+1255	
+1256	IAGO	Come on, come on; you are pictures out of doors,
+1257	Bells in your parlors, wild-cats in your kitchens,
+1258	Saints m your injuries, devils being offended,
+1259	Players in your housewifery, and housewives' in your beds.
+1260	
+1261	DESDEMONA	O, fie upon thee, slanderer!
+1262	
+1263	IAGO	Nay, it is true, or else I am a Turk:
+1264	You rise to play and go to bed to work.
+1265	
+1266	EMILIA	You shall not write my praise.
+1267	
+1268	IAGO	No, let me not.
+1269	
+1270	DESDEMONA	What wouldst thou write of me, if thou shouldst
+1271	praise me?
+1272	
+1273	IAGO	O gentle lady, do not put me to't;
+1274	For I am nothing, if not critical.
+1275	
+1276	DESDEMONA	Come on assay. There's one gone to the harbour?
+1277	
+1278	IAGO	Ay, madam.
+1279	
+1280	DESDEMONA	I am not merry; but I do beguile
+1281	The thing I am, by seeming otherwise.
+1282	Come, how wouldst thou praise me?
+1283	
+1284	IAGO	I am about it; but indeed my invention
+1285	Comes from my pate as birdlime does from frize;
+1286	It plucks out brains and all: but my Muse labours,
+1287	And thus she is deliver'd.
+1288	If she be fair and wise, fairness and wit,
+1289	The one's for use, the other useth it.
+1290	
+1291	DESDEMONA	Well praised! How if she be black and witty?
+1292	
+1293	IAGO	If she be black, and thereto have a wit,
+1294	She'll find a white that shall her blackness fit.
+1295	
+1296	DESDEMONA	Worse and worse.
+1297	
+1298	EMILIA	How if fair and foolish?
+1299	
+1300	IAGO	She never yet was foolish that was fair;
+1301	For even her folly help'd her to an heir.
+1302	
+1303	DESDEMONA	These are old fond paradoxes to make fools laugh i'
+1304	the alehouse. What miserable praise hast thou for
+1305	her that's foul and foolish?
+1306	
+1307	IAGO	There's none so foul and foolish thereunto,
+1308	But does foul pranks which fair and wise ones do.
+1309	
+1310	DESDEMONA	O heavy ignorance! thou praisest the worst best.
+1311	But what praise couldst thou bestow on a deserving
+1312	woman indeed, one that, in the authority of her
+1313	merit, did justly put on the vouch of very malice itself?
+1314	
+1315	IAGO	She that was ever fair and never proud,
+1316	Had tongue at will and yet was never loud,
+1317	Never lack'd gold and yet went never gay,
+1318	Fled from her wish and yet said 'Now I may,'
+1319	She that being anger'd, her revenge being nigh,
+1320	Bade her wrong stay and her displeasure fly,
+1321	She that in wisdom never was so frail
+1322	To change the cod's head for the salmon's tail;
+1323	She that could think and ne'er disclose her mind,
+1324	See suitors following and not look behind,
+1325	She was a wight, if ever such wight were,--
+1326	
+1327	DESDEMONA	To do what?
+1328	
+1329	IAGO	To suckle fools and chronicle small beer.
+1330	
+1331	DESDEMONA	O most lame and impotent conclusion! Do not learn
+1332	of him, Emilia, though he be thy husband. How say
+1333	you, Cassio? is he not a most profane and liberal
+1334	counsellor?
+1335	
+1336	CASSIO	He speaks home, madam: You may relish him more in
+1337	the soldier than in the scholar.
+1338	
+1339	IAGO	[Aside]  He takes her by the palm: ay, well said,
+1340	whisper: with as little a web as this will I
+1341	ensnare as great a fly as Cassio. Ay, smile upon
+1342	her, do; I will gyve thee in thine own courtship.
+1343	You say true; 'tis so, indeed: if such tricks as
+1344	these strip you out of your lieutenantry, it had
+1345	been better you had not kissed your three fingers so
+1346	oft, which now again you are most apt to play the
+1347	sir in. Very good; well kissed! an excellent
+1348	courtesy! 'tis so, indeed. Yet again your fingers
+1349	to your lips? would they were clyster-pipes for your sake!
+1350	
+1351	[Trumpet within]
+1352	
+1353	The Moor! I know his trumpet.
+1354	
+1355	CASSIO	'Tis truly so.
+1356	
+1357	DESDEMONA	Let's meet him and receive him.
+1358	
+1359	CASSIO	Lo, where he comes!
+1360	
+1361	[Enter OTHELLO and Attendants]
+1362	
+1363	OTHELLO	O my fair warrior!
+1364	
+1365	DESDEMONA	                  My dear Othello!
+1366	
+1367	OTHELLO	It gives me wonder great as my content
+1368	To see you here before me. O my soul's joy!
+1369	If after every tempest come such calms,
+1370	May the winds blow till they have waken'd death!
+1371	And let the labouring bark climb hills of seas
+1372	Olympus-high and duck again as low
+1373	As hell's from heaven! If it were now to die,
+1374	'Twere now to be most happy; for, I fear,
+1375	My soul hath her content so absolute
+1376	That not another comfort like to this
+1377	Succeeds in unknown fate.
+1378	
+1379	DESDEMONA	The heavens forbid
+1380	But that our loves and comforts should increase,
+1381	Even as our days do grow!
+1382	
+1383	OTHELLO	Amen to that, sweet powers!
+1384	I cannot speak enough of this content;
+1385	It stops me here; it is too much of joy:
+1386	And this, and this, the greatest discords be
+1387	
+1388	[Kissing her]
+1389	
+1390	That e'er our hearts shall make!
+1391	
+1392	IAGO	[Aside]  O, you are well tuned now!
+1393	But I'll set down the pegs that make this music,
+1394	As honest as I am.
+1395	
+1396	OTHELLO	                  Come, let us to the castle.
+1397	News, friends; our wars are done, the Turks
+1398	are drown'd.
+1399	How does my old acquaintance of this isle?
+1400	Honey, you shall be well desired in Cyprus;
+1401	I have found great love amongst them. O my sweet,
+1402	I prattle out of fashion, and I dote
+1403	In mine own comforts. I prithee, good Iago,
+1404	Go to the bay and disembark my coffers:
+1405	Bring thou the master to the citadel;
+1406	He is a good one, and his worthiness
+1407	Does challenge much respect. Come, Desdemona,
+1408	Once more, well met at Cyprus.
+1409	
+1410	[Exeunt OTHELLO, DESDEMONA, and Attendants]
+1411	
+1412	IAGO	Do thou meet me presently at the harbour. Come
+1413	hither. If thou be'st valiant,-- as, they say, base
+1414	men being in love have then a nobility in their
+1415	natures more than is native to them--list me. The
+1416	lieutenant tonight watches on the court of
+1417	guard:--first, I must tell thee this--Desdemona is
+1418	directly in love with him.
+1419	
+1420	
+1421	RODERIGO	With him! why, 'tis not possible.
+1422	
+1423	IAGO	Lay thy finger thus, and let thy soul be instructed.
+1424	Mark me with what violence she first loved the Moor,
+1425	but for bragging and telling her fantastical lies:
+1426	and will she love him still for prating? let not
+1427	thy discreet heart think it. Her eye must be fed;
+1428	and what delight shall she have to look on the
+1429	devil? When the blood is made dull with the act of
+1430	sport, there should be, again to inflame it and to
+1431	give satiety a fresh appetite, loveliness in favour,
+1432	sympathy in years, manners and beauties; all which
+1433	the Moor is defective in: now, for want of these
+1434	required conveniences, her delicate tenderness will
+1435	find itself abused, begin to heave the gorge,
+1436	disrelish and abhor the Moor; very nature will
+1437	instruct her in it and compel her to some second
+1438	choice. Now, sir, this granted,--as it is a most
+1439	pregnant and unforced position--who stands so
+1440	eminent in the degree of this fortune as Cassio
+1441	does? a knave very voluble; no further
+1442	conscionable than in putting on the mere form of
+1443	civil and humane seeming, for the better compassing
+1444	of his salt and most hidden loose affection? why,
+1445	none; why, none: a slipper and subtle knave, a
+1446	finder of occasions, that has an eye can stamp and
+1447	counterfeit advantages, though true advantage never
+1448	present itself; a devilish knave. Besides, the
+1449	knave is handsome, young, and hath all those
+1450	requisites in him that folly and green minds look
+1451	after: a pestilent complete knave; and the woman
+1452	hath found him already.
+1453	
+1454	RODERIGO	I cannot believe that in her; she's full of
+1455	most blessed condition.
+1456	
+1457	IAGO	Blessed fig's-end! the wine she drinks is made of
+1458	grapes: if she had been blessed, she would never
+1459	have loved the Moor. Blessed pudding! Didst thou
+1460	not see her paddle with the palm of his hand? didst
+1461	not mark that?
+1462	
+1463	RODERIGO	Yes, that I did; but that was but courtesy.
+1464	
+1465	IAGO	Lechery, by this hand; an index and obscure prologue
+1466	to the history of lust and foul thoughts. They met
+1467	so near with their lips that their breaths embraced
+1468	together. Villanous thoughts, Roderigo! when these
+1469	mutualities so marshal the way, hard at hand comes
+1470	the master and main exercise, the incorporate
+1471	conclusion, Pish! But, sir, be you ruled by me: I
+1472	have brought you from Venice. Watch you to-night;
+1473	for the command, I'll lay't upon you. Cassio knows
+1474	you not. I'll not be far from you: do you find
+1475	some occasion to anger Cassio, either by speaking
+1476	too loud, or tainting his discipline; or from what
+1477	other course you please, which the time shall more
+1478	favourably minister.
+1479	
+1480	RODERIGO	Well.
+1481	
+1482	IAGO	Sir, he is rash and very sudden in choler, and haply
+1483	may strike at you: provoke him, that he may; for
+1484	even out of that will I cause these of Cyprus to
+1485	mutiny; whose qualification shall come into no true
+1486	taste again but by the displanting of Cassio. So
+1487	shall you have a shorter journey to your desires by
+1488	the means I shall then have to prefer them; and the
+1489	impediment most profitably removed, without the
+1490	which there were no expectation of our prosperity.
+1491	
+1492	RODERIGO	I will do this, if I can bring it to any
+1493	opportunity.
+1494	
+1495	IAGO	I warrant thee. Meet me by and by at the citadel:
+1496	I must fetch his necessaries ashore. Farewell.
+1497	
+1498	RODERIGO	Adieu.
+1499	
+1500	[Exit]
+1501	
+1502	IAGO	That Cassio loves her, I do well believe it;
+1503	That she loves him, 'tis apt and of great credit:
+1504	The Moor, howbeit that I endure him not,
+1505	Is of a constant, loving, noble nature,
+1506	And I dare think he'll prove to Desdemona
+1507	A most dear husband. Now, I do love her too;
+1508	Not out of absolute lust, though peradventure
+1509	I stand accountant for as great a sin,
+1510	But partly led to diet my revenge,
+1511	For that I do suspect the lusty Moor
+1512	Hath leap'd into my seat; the thought whereof
+1513	Doth, like a poisonous mineral, gnaw my inwards;
+1514	And nothing can or shall content my soul
+1515	Till I am even'd with him, wife for wife,
+1516	Or failing so, yet that I put the Moor
+1517	At least into a jealousy so strong
+1518	That judgment cannot cure. Which thing to do,
+1519	If this poor trash of Venice, whom I trash
+1520	For his quick hunting, stand the putting on,
+1521	I'll have our Michael Cassio on the hip,
+1522	Abuse him to the Moor in the rank garb--
+1523	For I fear Cassio with my night-cap too--
+1524	Make the Moor thank me, love me and reward me.
+1525	For making him egregiously an ass
+1526	And practising upon his peace and quiet
+1527	Even to madness. 'Tis here, but yet confused:
+1528	Knavery's plain face is never seen tin used.
+1529	
+1530	[Exit]
+1531	
+1532	
+1533	
+1534	
+1535	OTHELLO
+1536	
+1537	
+1538	ACT II
+1539	
+1540	
+1541	
+1542	SCENE II	A street.
+1543	
+1544	
+1545	[Enter a Herald with a proclamation; People
+1546	following]
+1547	
+1548	Herald	It is Othello's pleasure, our noble and valiant
+1549	general, that, upon certain tidings now arrived,
+1550	importing the mere perdition of the Turkish fleet,
+1551	every man put himself into triumph; some to dance,
+1552	some to make bonfires, each man to what sport and
+1553	revels his addiction leads him: for, besides these
+1554	beneficial news, it is the celebration of his
+1555	nuptial. So much was his pleasure should be
+1556	proclaimed. All offices are open, and there is full
+1557	liberty of feasting from this present hour of five
+1558	till the bell have told eleven. Heaven bless the
+1559	isle of Cyprus and our noble general Othello!
+1560	
+1561	[Exeunt]
+1562	
+1563	
+1564	
+1565	
+1566	OTHELLO
+1567	
+1568	
+1569	ACT II
+1570	
+1571	
+1572	
+1573	SCENE III	A hall in the castle.
+1574	
+1575	
+1576	[Enter OTHELLO, DESDEMONA, CASSIO, and Attendants]
+1577	
+1578	OTHELLO	Good Michael, look you to the guard to-night:
+1579	Let's teach ourselves that honourable stop,
+1580	Not to outsport discretion.
+1581	
+1582	CASSIO	Iago hath direction what to do;
+1583	But, notwithstanding, with my personal eye
+1584	Will I look to't.
+1585	
+1586	OTHELLO	                  Iago is most honest.
+1587	Michael, good night: to-morrow with your earliest
+1588	Let me have speech with you.
+1589	
+1590	[To DESDEMONA]
+1591	
+1592	Come, my dear love,
+1593	The purchase made, the fruits are to ensue;
+1594	That profit's yet to come 'tween me and you.
+1595	Good night.
+1596	
+1597	[Exeunt OTHELLO, DESDEMONA, and Attendants]
+1598	
+1599	[Enter IAGO]
+1600	
+1601	CASSIO	Welcome, Iago; we must to the watch.
+1602	
+1603	IAGO	Not this hour, lieutenant; 'tis not yet ten o' the
+1604	clock. Our general cast us thus early for the love
+1605	of his Desdemona; who let us not therefore blame:
+1606	he hath not yet made wanton the night with her; and
+1607	she is sport for Jove.
+1608	
+1609	CASSIO	She's a most exquisite lady.
+1610	
+1611	IAGO	And, I'll warrant her, fun of game.
+1612	
+1613	CASSIO	Indeed, she's a most fresh and delicate creature.
+1614	
+1615	IAGO	What an eye she has! methinks it sounds a parley of
+1616	provocation.
+1617	
+1618	CASSIO	An inviting eye; and yet methinks right modest.
+1619	
+1620	IAGO	And when she speaks, is it not an alarum to love?
+1621	
+1622	CASSIO	She is indeed perfection.
+1623	
+1624	IAGO	Well, happiness to their sheets! Come, lieutenant, I
+1625	have a stoup of wine; and here without are a brace
+1626	of Cyprus gallants that would fain have a measure to
+1627	the health of black Othello.
+1628	
+1629	CASSIO	Not to-night, good Iago: I have very poor and
+1630	unhappy brains for drinking: I could well wish
+1631	courtesy would invent some other custom of
+1632	entertainment.
+1633	
+1634	IAGO	O, they are our friends; but one cup: I'll drink for
+1635	you.
+1636	
+1637	CASSIO	I have drunk but one cup to-night, and that was
+1638	craftily qualified too, and, behold, what innovation
+1639	it makes here: I am unfortunate in the infirmity,
+1640	and dare not task my weakness with any more.
+1641	
+1642	IAGO	What, man! 'tis a night of revels: the gallants
+1643	desire it.
+1644	
+1645	CASSIO	Where are they?
+1646	
+1647	IAGO	Here at the door; I pray you, call them in.
+1648	
+1649	CASSIO	I'll do't; but it dislikes me.
+1650	
+1651	[Exit]
+1652	
+1653	IAGO	If I can fasten but one cup upon him,
+1654	With that which he hath drunk to-night already,
+1655	He'll be as full of quarrel and offence
+1656	As my young mistress' dog. Now, my sick fool Roderigo,
+1657	Whom love hath turn'd almost the wrong side out,
+1658	To Desdemona hath to-night caroused
+1659	Potations pottle-deep; and he's to watch:
+1660	Three lads of Cyprus, noble swelling spirits,
+1661	That hold their honours in a wary distance,
+1662	The very elements of this warlike isle,
+1663	Have I to-night fluster'd with flowing cups,
+1664	And they watch too. Now, 'mongst this flock of drunkards,
+1665	Am I to put our Cassio in some action
+1666	That may offend the isle.--But here they come:
+1667	If consequence do but approve my dream,
+1668	My boat sails freely, both with wind and stream.
+1669	
+1670	[Re-enter CASSIO; with him MONTANO and Gentlemen;
+1671	servants following with wine]
+1672	
+1673	CASSIO	'Fore God, they have given me a rouse already.
+1674	
+1675	MONTANO	Good faith, a little one; not past a pint, as I am
+1676	a soldier.
+1677	
+1678	IAGO	Some wine, ho!
+1679	
+1680	[Sings]
+1681	
+1682	And let me the canakin clink, clink;
+1683	And let me the canakin clink
+1684	A soldier's a man;
+1685	A life's but a span;
+1686	Why, then, let a soldier drink.
+1687	Some wine, boys!
+1688	
+1689	CASSIO	'Fore God, an excellent song.
+1690	
+1691	IAGO	I learned it in England, where, indeed, they are
+1692	most potent in potting: your Dane, your German, and
+1693	your swag-bellied Hollander--Drink, ho!--are nothing
+1694	to your English.
+1695	
+1696	CASSIO	Is your Englishman so expert in his drinking?
+1697	
+1698	IAGO	Why, he drinks you, with facility, your Dane dead
+1699	drunk; he sweats not to overthrow your Almain; he
+1700	gives your Hollander a vomit, ere the next pottle
+1701	can be filled.
+1702	
+1703	CASSIO	To the health of our general!
+1704	
+1705	MONTANO	I am for it, lieutenant; and I'll do you justice.
+1706	
+1707	IAGO	O sweet England!
+1708	King Stephen was a worthy peer,
+1709	His breeches cost him but a crown;
+1710	He held them sixpence all too dear,
+1711	With that he call'd the tailor lown.
+1712	He was a wight of high renown,
+1713	And thou art but of low degree:
+1714	'Tis pride that pulls the country down;
+1715	Then take thine auld cloak about thee.
+1716	Some wine, ho!
+1717	
+1718	CASSIO	Why, this is a more exquisite song than the other.
+1719	
+1720	IAGO	Will you hear't again?
+1721	
+1722	CASSIO	No; for I hold him to be unworthy of his place that
+1723	does those things. Well, God's above all; and there
+1724	be souls must be saved, and there be souls must not be saved.
+1725	
+1726	IAGO	It's true, good lieutenant.
+1727	
+1728	CASSIO	For mine own part,--no offence to the general, nor
+1729	any man of quality,--I hope to be saved.
+1730	
+1731	IAGO	And so do I too, lieutenant.
+1732	
+1733	CASSIO	Ay, but, by your leave, not before me; the
+1734	lieutenant is to be saved before the ancient. Let's
+1735	have no more of this; let's to our affairs.--Forgive
+1736	us our sins!--Gentlemen, let's look to our business.
+1737	Do not think, gentlemen. I am drunk: this is my
+1738	ancient; this is my right hand, and this is my left:
+1739	I am not drunk now; I can stand well enough, and
+1740	speak well enough.
+1741	
+1742	All	Excellent well.
+1743	
+1744	CASSIO	Why, very well then; you must not think then that I am drunk.
+1745	
+1746	[Exit]
+1747	
+1748	MONTANO	To the platform, masters; come, let's set the watch.
+1749	
+1750	IAGO	You see this fellow that is gone before;
+1751	He is a soldier fit to stand by Caesar
+1752	And give direction: and do but see his vice;
+1753	'Tis to his virtue a just equinox,
+1754	The one as long as the other: 'tis pity of him.
+1755	I fear the trust Othello puts him in.
+1756	On some odd time of his infirmity,
+1757	Will shake this island.
+1758	
+1759	MONTANO	But is he often thus?
+1760	
+1761	IAGO	'Tis evermore the prologue to his sleep:
+1762	He'll watch the horologe a double set,
+1763	If drink rock not his cradle.
+1764	
+1765	MONTANO	It were well
+1766	The general were put in mind of it.
+1767	Perhaps he sees it not; or his good nature
+1768	Prizes the virtue that appears in Cassio,
+1769	And looks not on his evils: is not this true?
+1770	
+1771	[Enter RODERIGO]
+1772	
+1773	IAGO	[Aside to him]  How now, Roderigo!
+1774	I pray you, after the lieutenant; go.
+1775	
+1776	[Exit RODERIGO]
+1777	
+1778	MONTANO	And 'tis great pity that the noble Moor
+1779	Should hazard such a place as his own second
+1780	With one of an ingraft infirmity:
+1781	It were an honest action to say
+1782	So to the Moor.
+1783	
+1784	IAGO	                  Not I, for this fair island:
+1785	I do love Cassio well; and would do much
+1786	To cure him of this evil--But, hark! what noise?
+1787	
+1788	[Cry within: 'Help! help!']
+1789	
+1790	[Re-enter CASSIO, driving in RODERIGO]
+1791	
+1792	CASSIO	You rogue! you rascal!
+1793	
+1794	MONTANO	What's the matter, lieutenant?
+1795	
+1796	CASSIO	A knave teach me my duty!
+1797	I'll beat the knave into a twiggen bottle.
+1798	
+1799	RODERIGO	Beat me!
+1800	
+1801	CASSIO	       Dost thou prate, rogue?
+1802	
+1803	[Striking RODERIGO]
+1804	
+1805	MONTANO	Nay, good lieutenant;
+1806	
+1807	[Staying him]
+1808	
+1809	I pray you, sir, hold your hand.
+1810	
+1811	CASSIO	Let me go, sir,
+1812	Or I'll knock you o'er the mazzard.
+1813	
+1814	MONTANO	Come, come,
+1815	you're drunk.
+1816	
+1817	CASSIO	Drunk!
+1818	
+1819	[They fight]
+1820	
+1821	IAGO	[Aside to RODERIGO]  Away, I say; go out, and cry a mutiny.
+1822	
+1823	[Exit RODERIGO]
+1824	
+1825	Nay, good lieutenant,--alas, gentlemen;--
+1826	Help, ho!--Lieutenant,--sir,--Montano,--sir;
+1827	Help, masters!--Here's a goodly watch indeed!
+1828	
+1829	[Bell rings]
+1830	
+1831	Who's that which rings the bell?--Diablo, ho!
+1832	The town will rise: God's will, lieutenant, hold!
+1833	You will be shamed for ever.
+1834	
+1835	[Re-enter OTHELLO and Attendants]
+1836	
+1837	OTHELLO	What is the matter here?
+1838	
+1839	MONTANO	'Zounds, I bleed still; I am hurt to the death.
+1840	
+1841	[Faints]
+1842	
+1843	OTHELLO	Hold, for your lives!
+1844	
+1845	IAGO	Hold, ho! Lieutenant,--sir--Montano,--gentlemen,--
+1846	Have you forgot all sense of place and duty?
+1847	Hold! the general speaks to you; hold, hold, for shame!
+1848	
+1849	OTHELLO	Why, how now, ho! from whence ariseth this?
+1850	Are we turn'd Turks, and to ourselves do that
+1851	Which heaven hath forbid the Ottomites?
+1852	For Christian shame, put by this barbarous brawl:
+1853	He that stirs next to carve for his own rage
+1854	Holds his soul light; he dies upon his motion.
+1855	Silence that dreadful bell: it frights the isle
+1856	From her propriety. What is the matter, masters?
+1857	Honest Iago, that look'st dead with grieving,
+1858	Speak, who began this? on thy love, I charge thee.
+1859	
+1860	IAGO	I do not know: friends all but now, even now,
+1861	In quarter, and in terms like bride and groom
+1862	Devesting them for bed; and then, but now--
+1863	As if some planet had unwitted men--
+1864	Swords out, and tilting one at other's breast,
+1865	In opposition bloody. I cannot speak
+1866	Any beginning to this peevish odds;
+1867	And would in action glorious I had lost
+1868	Those legs that brought me to a part of it!
+1869	
+1870	OTHELLO	How comes it, Michael, you are thus forgot?
+1871	
+1872	CASSIO	I pray you, pardon me; I cannot speak.
+1873	
+1874	OTHELLO	Worthy Montano, you were wont be civil;
+1875	The gravity and stillness of your youth
+1876	The world hath noted, and your name is great
+1877	In mouths of wisest censure: what's the matter,
+1878	That you unlace your reputation thus
+1879	And spend your rich opinion for the name
+1880	Of a night-brawler? give me answer to it.
+1881	
+1882	MONTANO	Worthy Othello, I am hurt to danger:
+1883	Your officer, Iago, can inform you,--
+1884	While I spare speech, which something now
+1885	offends me,--
+1886	Of all that I do know: nor know I aught
+1887	By me that's said or done amiss this night;
+1888	Unless self-charity be sometimes a vice,
+1889	And to defend ourselves it be a sin
+1890	When violence assails us.
+1891	
+1892	OTHELLO	Now, by heaven,
+1893	My blood begins my safer guides to rule;
+1894	And passion, having my best judgment collied,
+1895	Assays to lead the way: if I once stir,
+1896	Or do but lift this arm, the best of you
+1897	Shall sink in my rebuke. Give me to know
+1898	How this foul rout began, who set it on;
+1899	And he that is approved in this offence,
+1900	Though he had twinn'd with me, both at a birth,
+1901	Shall lose me. What! in a town of war,
+1902	Yet wild, the people's hearts brimful of fear,
+1903	To manage private and domestic quarrel,
+1904	In night, and on the court and guard of safety!
+1905	'Tis monstrous. Iago, who began't?
+1906	
+1907	MONTANO	If partially affined, or leagued in office,
+1908	Thou dost deliver more or less than truth,
+1909	Thou art no soldier.
+1910	
+1911	IAGO	Touch me not so near:
+1912	I had rather have this tongue cut from my mouth
+1913	Than it should do offence to Michael Cassio;
+1914	Yet, I persuade myself, to speak the truth
+1915	Shall nothing wrong him. Thus it is, general.
+1916	Montano and myself being in speech,
+1917	There comes a fellow crying out for help:
+1918	And Cassio following him with determined sword,
+1919	To execute upon him. Sir, this gentleman
+1920	Steps in to Cassio, and entreats his pause:
+1921	Myself the crying fellow did pursue,
+1922	Lest by his clamour--as it so fell out--
+1923	The town might fall in fright: he, swift of foot,
+1924	Outran my purpose; and I return'd the rather
+1925	For that I heard the clink and fall of swords,
+1926	And Cassio high in oath; which till to-night
+1927	I ne'er might say before. When I came back--
+1928	For this was brief--I found them close together,
+1929	At blow and thrust; even as again they were
+1930	When you yourself did part them.
+1931	More of this matter cannot I report:
+1932	But men are men; the best sometimes forget:
+1933	Though Cassio did some little wrong to him,
+1934	As men in rage strike those that wish them best,
+1935	Yet surely Cassio, I believe, received
+1936	From him that fled some strange indignity,
+1937	Which patience could not pass.
+1938	
+1939	OTHELLO	I know, Iago,
+1940	Thy honesty and love doth mince this matter,
+1941	Making it light to Cassio. Cassio, I love thee
+1942	But never more be officer of mine.
+1943	
+1944	[Re-enter DESDEMONA, attended]
+1945	
+1946	Look, if my gentle love be not raised up!
+1947	I'll make thee an example.
+1948	
+1949	DESDEMONA	What's the matter?
+1950	
+1951	OTHELLO	All's well now, sweeting; come away to bed.
+1952	Sir, for your hurts, myself will be your surgeon:
+1953	Lead him off.
+1954	
+1955	[To MONTANO, who is led off]
+1956	
+1957	Iago, look with care about the town,
+1958	And silence those whom this vile brawl distracted.
+1959	Come, Desdemona: 'tis the soldiers' life
+1960	To have their balmy slumbers waked with strife.
+1961	
+1962	[Exeunt all but IAGO and CASSIO]
+1963	
+1964	IAGO	What, are you hurt, lieutenant?
+1965	
+1966	CASSIO	Ay, past all surgery.
+1967	
+1968	IAGO	Marry, heaven forbid!
+1969	
+1970	CASSIO	Reputation, reputation, reputation! O, I have lost
+1971	my reputation! I have lost the immortal part of
+1972	myself, and what remains is bestial. My reputation,
+1973	Iago, my reputation!
+1974	
+1975	IAGO	As I am an honest man, I thought you had received
+1976	some bodily wound; there is more sense in that than
+1977	in reputation. Reputation is an idle and most false
+1978	imposition: oft got without merit, and lost without
+1979	deserving: you have lost no reputation at all,
+1980	unless you repute yourself such a loser. What, man!
+1981	there are ways to recover the general again: you
+1982	are but now cast in his mood, a punishment more in
+1983	policy than in malice, even so as one would beat his
+1984	offenceless dog to affright an imperious lion: sue
+1985	to him again, and he's yours.
+1986	
+1987	CASSIO	I will rather sue to be despised than to deceive so
+1988	good a commander with so slight, so drunken, and so
+1989	indiscreet an officer. Drunk? and speak parrot?
+1990	and squabble? swagger? swear? and discourse
+1991	fustian with one's own shadow? O thou invisible
+1992	spirit of wine, if thou hast no name to be known by,
+1993	let us call thee devil!
+1994	
+1995	IAGO	What was he that you followed with your sword? What
+1996	had he done to you?
+1997	
+1998	CASSIO	I know not.
+1999	
+2000	IAGO	Is't possible?
+2001	
+2002	CASSIO	I remember a mass of things, but nothing distinctly;
+2003	a quarrel, but nothing wherefore. O God, that men
+2004	should put an enemy in their mouths to steal away
+2005	their brains! that we should, with joy, pleasance
+2006	revel and applause, transform ourselves into beasts!
+2007	
+2008	IAGO	Why, but you are now well enough: how came you thus
+2009	recovered?
+2010	
+2011	CASSIO	It hath pleased the devil drunkenness to give place
+2012	to the devil wrath; one unperfectness shows me
+2013	another, to make me frankly despise myself.
+2014	
+2015	IAGO	Come, you are too severe a moraler: as the time,
+2016	the place, and the condition of this country
+2017	stands, I could heartily wish this had not befallen;
+2018	but, since it is as it is, mend it for your own good.
+2019	
+2020	CASSIO	I will ask him for my place again; he shall tell me
+2021	I am a drunkard! Had I as many mouths as Hydra,
+2022	such an answer would stop them all. To be now a
+2023	sensible man, by and by a fool, and presently a
+2024	beast! O strange! Every inordinate cup is
+2025	unblessed and the ingredient is a devil.
+2026	
+2027	IAGO	Come, come, good wine is a good familiar creature,
+2028	if it be well used: exclaim no more against it.
+2029	And, good lieutenant, I think you think I love you.
+2030	
+2031	CASSIO	I have well approved it, sir. I drunk!
+2032	
+2033	IAGO	You or any man living may be drunk! at a time, man.
+2034	I'll tell you what you shall do. Our general's wife
+2035	is now the general: may say so in this respect, for
+2036	that he hath devoted and given up himself to the
+2037	contemplation, mark, and denotement of her parts and
+2038	graces: confess yourself freely to her; importune
+2039	her help to put you in your place again: she is of
+2040	so free, so kind, so apt, so blessed a disposition,
+2041	she holds it a vice in her goodness not to do more
+2042	than she is requested: this broken joint between
+2043	you and her husband entreat her to splinter; and, my
+2044	fortunes against any lay worth naming, this
+2045	crack of your love shall grow stronger than it was before.
+2046	
+2047	CASSIO	You advise me well.
+2048	
+2049	IAGO	I protest, in the sincerity of love and honest kindness.
+2050	
+2051	CASSIO	I think it freely; and betimes in the morning I will
+2052	beseech the virtuous Desdemona to undertake for me:
+2053	I am desperate of my fortunes if they cheque me here.
+2054	
+2055	IAGO	You are in the right. Good night, lieutenant; I
+2056	must to the watch.
+2057	
+2058	CASSIO: Good night, honest Iago.
+2059	
+2060	[Exit]
+2061	
+2062	IAGO	And what's he then that says I play the villain?
+2063	When this advice is free I give and honest,
+2064	Probal to thinking and indeed the course
+2065	To win the Moor again? For 'tis most easy
+2066	The inclining Desdemona to subdue
+2067	In any honest suit: she's framed as fruitful
+2068	As the free elements. And then for her
+2069	To win the Moor--were't to renounce his baptism,
+2070	All seals and symbols of redeemed sin,
+2071	His soul is so enfetter'd to her love,
+2072	That she may make, unmake, do what she list,
+2073	Even as her appetite shall play the god
+2074	With his weak function. How am I then a villain
+2075	To counsel Cassio to this parallel course,
+2076	Directly to his good? Divinity of hell!
+2077	When devils will the blackest sins put on,
+2078	They do suggest at first with heavenly shows,
+2079	As I do now: for whiles this honest fool
+2080	Plies Desdemona to repair his fortunes
+2081	And she for him pleads strongly to the Moor,
+2082	I'll pour this pestilence into his ear,
+2083	That she repeals him for her body's lust;
+2084	And by how much she strives to do him good,
+2085	She shall undo her credit with the Moor.
+2086	So will I turn her virtue into pitch,
+2087	And out of her own goodness make the net
+2088	That shall enmesh them all.
+2089	
+2090	[Re-enter RODERIGO]
+2091	
+2092	How now, Roderigo!
+2093	
+2094	RODERIGO	I do follow here in the chase, not like a hound that
+2095	hunts, but one that fills up the cry. My money is
+2096	almost spent; I have been to-night exceedingly well
+2097	cudgelled; and I think the issue will be, I shall
+2098	have so much experience for my pains, and so, with
+2099	no money at all and a little more wit, return again to Venice.
+2100	
+2101	IAGO	How poor are they that have not patience!
+2102	What wound did ever heal but by degrees?
+2103	Thou know'st we work by wit, and not by witchcraft;
+2104	And wit depends on dilatory time.
+2105	Does't not go well? Cassio hath beaten thee.
+2106	And thou, by that small hurt, hast cashier'd Cassio:
+2107	Though other things grow fair against the sun,
+2108	Yet fruits that blossom first will first be ripe:
+2109	Content thyself awhile. By the mass, 'tis morning;
+2110	Pleasure and action make the hours seem short.
+2111	Retire thee; go where thou art billeted:
+2112	Away, I say; thou shalt know more hereafter:
+2113	Nay, get thee gone.
+2114	
+2115	[Exit RODERIGO]
+2116	
+2117	Two things are to be done:
+2118	My wife must move for Cassio to her mistress;
+2119	I'll set her on;
+2120	Myself the while to draw the Moor apart,
+2121	And bring him jump when he may Cassio find
+2122	Soliciting his wife: ay, that's the way
+2123	Dull not device by coldness and delay.
+2124	
+2125	[Exit]
+2126	
+2127	
+2128	
+2129	
+2130	OTHELLO
+2131	
+2132	
+2133	ACT III
+2134	
+2135	
+2136	
+2137	SCENE I	Before the castle.
+2138	
+2139	
+2140	[Enter CASSIO and some Musicians]
+2141	
+2142	CASSIO	Masters, play here; I will content your pains;
+2143	Something that's brief; and bid 'Good morrow, general.'
+2144	
+2145	[Music]
+2146	
+2147	[Enter Clown]
+2148	
+2149	Clown	Why masters, have your instruments been in Naples,
+2150	that they speak i' the nose thus?
+2151	
+2152	First Musician	How, sir, how!
+2153	
+2154	Clown	Are these, I pray you, wind-instruments?
+2155	
+2156	First Musician	Ay, marry, are they, sir.
+2157	
+2158	Clown	O, thereby hangs a tail.
+2159	
+2160	First Musician	Whereby hangs a tale, sir?
+2161	
+2162	Clown	Marry. sir, by many a wind-instrument that I know.
+2163	But, masters, here's money for you: and the general
+2164	so likes your music, that he desires you, for love's
+2165	sake, to make no more noise with it.
+2166	
+2167	First Musician	Well, sir, we will not.
+2168	
+2169	Clown	If you have any music that may not be heard, to't
+2170	again: but, as they say to hear music the general
+2171	does not greatly care.
+2172	
+2173	First Musician	We have none such, sir.
+2174	
+2175	Clown	Then put up your pipes in your bag, for I'll away:
+2176	go; vanish into air; away!
+2177	
+2178	[Exeunt Musicians]
+2179	
+2180	CASSIO	Dost thou hear, my honest friend?
+2181	
+2182	Clown	No, I hear not your honest friend; I hear you.
+2183	
+2184	CASSIO	Prithee, keep up thy quillets. There's a poor piece
+2185	of gold for thee: if the gentlewoman that attends
+2186	the general's wife be stirring, tell her there's
+2187	one Cassio entreats her a little favour of speech:
+2188	wilt thou do this?
+2189	
+2190	Clown	She is stirring, sir: if she will stir hither, I
+2191	shall seem to notify unto her.
+2192	
+2193	CASSIO	Do, good my friend.
+2194	
+2195	[Exit Clown]
+2196	
+2197	[Enter IAGO]
+2198	
+2199	In happy time, Iago.
+2200	
+2201	IAGO	You have not been a-bed, then?
+2202	
+2203	CASSIO	Why, no; the day had broke
+2204	Before we parted. I have made bold, Iago,
+2205	To send in to your wife: my suit to her
+2206	Is, that she will to virtuous Desdemona
+2207	Procure me some access.
+2208	
+2209	IAGO	I'll send her to you presently;
+2210	And I'll devise a mean to draw the Moor
+2211	Out of the way, that your converse and business
+2212	May be more free.
+2213	
+2214	CASSIO	I humbly thank you for't.
+2215	
+2216	[Exit IAGO]
+2217	
+2218	I never knew
+2219	A Florentine more kind and honest.
+2220	
+2221	[Enter EMILIA]
+2222	
+2223	EMILIA	Good morrow, good Lieutenant: I am sorry
+2224	For your displeasure; but all will sure be well.
+2225	The general and his wife are talking of it;
+2226	And she speaks for you stoutly: the Moor replies,
+2227	That he you hurt is of great fame in Cyprus,
+2228	And great affinity, and that in wholesome wisdom
+2229	He might not but refuse you; but he protests he loves you
+2230	And needs no other suitor but his likings
+2231	To take the safest occasion by the front
+2232	To bring you in again.
+2233	
+2234	CASSIO	Yet, I beseech you,
+2235	If you think fit, or that it may be done,
+2236	Give me advantage of some brief discourse
+2237	With Desdemona alone.
+2238	
+2239	EMILIA	Pray you, come in;
+2240	I will bestow you where you shall have time
+2241	To speak your bosom freely.
+2242	
+2243	CASSIO	I am much bound to you.
+2244	
+2245	[Exeunt]
+2246	
+2247	
+2248	
+2249	
+2250	OTHELLO
+2251	
+2252	
+2253	ACT III
+2254	
+2255	
+2256	
+2257	SCENE II	A room in the castle.
+2258	
+2259	
+2260	[Enter OTHELLO, IAGO, and Gentlemen]
+2261	
+2262	OTHELLO	These letters give, Iago, to the pilot;
+2263	And by him do my duties to the senate:
+2264	That done, I will be walking on the works;
+2265	Repair there to me.
+2266	
+2267	IAGO	Well, my good lord, I'll do't.
+2268	
+2269	OTHELLO	This fortification, gentlemen, shall we see't?
+2270	
+2271	Gentleman	We'll wait upon your lordship.
+2272	
+2273	[Exeunt]
+2274	
+2275	
+2276	
+2277	
+2278	OTHELLO
+2279	
+2280	
+2281	ACT III
+2282	
+2283	
+2284	
+2285	SCENE III	The garden of the castle.
+2286	
+2287	
+2288	[Enter DESDEMONA, CASSIO, and EMILIA]
+2289	
+2290	DESDEMONA	Be thou assured, good Cassio, I will do
+2291	All my abilities in thy behalf.
+2292	
+2293	EMILIA	Good madam, do: I warrant it grieves my husband,
+2294	As if the case were his.
+2295	
+2296	DESDEMONA	O, that's an honest fellow. Do not doubt, Cassio,
+2297	But I will have my lord and you again
+2298	As friendly as you were.
+2299	
+2300	CASSIO	Bounteous madam,
+2301	Whatever shall become of Michael Cassio,
+2302	He's never any thing but your true servant.
+2303	
+2304	DESDEMONA	I know't; I thank you. You do love my lord:
+2305	You have known him long; and be you well assured
+2306	He shall in strangeness stand no further off
+2307	Than in a polite distance.
+2308	
+2309	CASSIO	Ay, but, lady,
+2310	That policy may either last so long,
+2311	Or feed upon such nice and waterish diet,
+2312	Or breed itself so out of circumstance,
+2313	That, I being absent and my place supplied,
+2314	My general will forget my love and service.
+2315	
+2316	DESDEMONA	Do not doubt that; before Emilia here
+2317	I give thee warrant of thy place: assure thee,
+2318	If I do vow a friendship, I'll perform it
+2319	To the last article: my lord shall never rest;
+2320	I'll watch him tame and talk him out of patience;
+2321	His bed shall seem a school, his board a shrift;
+2322	I'll intermingle every thing he does
+2323	With Cassio's suit: therefore be merry, Cassio;
+2324	For thy solicitor shall rather die
+2325	Than give thy cause away.
+2326	
+2327	EMILIA	Madam, here comes my lord.
+2328	
+2329	CASSIO	Madam, I'll take my leave.
+2330	
+2331	DESDEMONA	Why, stay, and hear me speak.
+2332	
+2333	CASSIO	Madam, not now: I am very ill at ease,
+2334	Unfit for mine own purposes.
+2335	
+2336	DESDEMONA	Well, do your discretion.
+2337	
+2338	[Exit CASSIO]
+2339	
+2340	[Enter OTHELLO and IAGO]
+2341	
+2342	IAGO	Ha! I like not that.
+2343	
+2344	OTHELLO	What dost thou say?
+2345	
+2346	IAGO	Nothing, my lord: or if--I know not what.
+2347	
+2348	OTHELLO	Was not that Cassio parted from my wife?
+2349	
+2350	IAGO	Cassio, my lord! No, sure, I cannot think it,
+2351	That he would steal away so guilty-like,
+2352	Seeing you coming.
+2353	
+2354	OTHELLO	                  I do believe 'twas he.
+2355	
+2356	DESDEMONA	How now, my lord!
+2357	I have been talking with a suitor here,
+2358	A man that languishes in your displeasure.
+2359	
+2360	OTHELLO	Who is't you mean?
+2361	
+2362	DESDEMONA	Why, your lieutenant, Cassio. Good my lord,
+2363	If I have any grace or power to move you,
+2364	His present reconciliation take;
+2365	For if he be not one that truly loves you,
+2366	That errs in ignorance and not in cunning,
+2367	I have no judgment in an honest face:
+2368	I prithee, call him back.
+2369	
+2370	OTHELLO	Went he hence now?
+2371	
+2372	DESDEMONA	Ay, sooth; so humbled
+2373	That he hath left part of his grief with me,
+2374	To suffer with him. Good love, call him back.
+2375	
+2376	OTHELLO	Not now, sweet Desdemona; some other time.
+2377	
+2378	DESDEMONA	But shall't be shortly?
+2379	
+2380	OTHELLO	The sooner, sweet, for you.
+2381	
+2382	DESDEMONA	Shall't be to-night at supper?
+2383	
+2384	OTHELLO	No, not to-night.
+2385	
+2386	DESDEMONA	To-morrow dinner, then?
+2387	
+2388	OTHELLO	I shall not dine at home;
+2389	I meet the captains at the citadel.
+2390	
+2391	DESDEMONA	Why, then, to-morrow night; or Tuesday morn;
+2392	On Tuesday noon, or night; on Wednesday morn:
+2393	I prithee, name the time, but let it not
+2394	Exceed three days: in faith, he's penitent;
+2395	And yet his trespass, in our common reason--
+2396	Save that, they say, the wars must make examples
+2397	Out of their best--is not almost a fault
+2398	To incur a private cheque. When shall he come?
+2399	Tell me, Othello: I wonder in my soul,
+2400	What you would ask me, that I should deny,
+2401	Or stand so mammering on. What! Michael Cassio,
+2402	That came a-wooing with you, and so many a time,
+2403	When I have spoke of you dispraisingly,
+2404	Hath ta'en your part; to have so much to do
+2405	To bring him in! Trust me, I could do much,--
+2406	
+2407	OTHELLO	Prithee, no more: let him come when he will;
+2408	I will deny thee nothing.
+2409	
+2410	DESDEMONA	Why, this is not a boon;
+2411	'Tis as I should entreat you wear your gloves,
+2412	Or feed on nourishing dishes, or keep you warm,
+2413	Or sue to you to do a peculiar profit
+2414	To your own person: nay, when I have a suit
+2415	Wherein I mean to touch your love indeed,
+2416	It shall be full of poise and difficult weight
+2417	And fearful to be granted.
+2418	
+2419	OTHELLO	I will deny thee nothing:
+2420	Whereon, I do beseech thee, grant me this,
+2421	To leave me but a little to myself.
+2422	
+2423	DESDEMONA	Shall I deny you? no: farewell, my lord.
+2424	
+2425	OTHELLO	Farewell, my Desdemona: I'll come to thee straight.
+2426	
+2427	DESDEMONA	Emilia, come. Be as your fancies teach you;
+2428	Whate'er you be, I am obedient.
+2429	
+2430	[Exeunt DESDEMONA and EMILIA]
+2431	
+2432	OTHELLO	Excellent wretch! Perdition catch my soul,
+2433	But I do love thee! and when I love thee not,
+2434	Chaos is come again.
+2435	
+2436	IAGO	My noble lord--
+2437	
+2438	OTHELLO	                  What dost thou say, Iago?
+2439	
+2440	IAGO	Did Michael Cassio, when you woo'd my lady,
+2441	Know of your love?
+2442	
+2443	OTHELLO	He did, from first to last: why dost thou ask?
+2444	
+2445	IAGO	But for a satisfaction of my thought;
+2446	No further harm.
+2447	
+2448	OTHELLO	                  Why of thy thought, Iago?
+2449	
+2450	IAGO	I did not think he had been acquainted with her.
+2451	
+2452	OTHELLO	O, yes; and went between us very oft.
+2453	
+2454	IAGO	Indeed!
+2455	
+2456	OTHELLO	Indeed! ay, indeed: discern'st thou aught in that?
+2457	Is he not honest?
+2458	
+2459	IAGO	Honest, my lord!
+2460	
+2461	OTHELLO	                  Honest! ay, honest.
+2462	
+2463	IAGO	My lord, for aught I know.
+2464	
+2465	OTHELLO	What dost thou think?
+2466	
+2467	IAGO	Think, my lord!
+2468	
+2469	OTHELLO	Think, my lord!
+2470	By heaven, he echoes me,
+2471	As if there were some monster in his thought
+2472	Too hideous to be shown. Thou dost mean something:
+2473	I heard thee say even now, thou likedst not that,
+2474	When Cassio left my wife: what didst not like?
+2475	And when I told thee he was of my counsel
+2476	In my whole course of wooing, thou criedst 'Indeed!'
+2477	And didst contract and purse thy brow together,
+2478	As if thou then hadst shut up in thy brain
+2479	Some horrible conceit: if thou dost love me,
+2480	Show me thy thought.
+2481	
+2482	IAGO	My lord, you know I love you.
+2483	
+2484	OTHELLO	I think thou dost;
+2485	And, for I know thou'rt full of love and honesty,
+2486	And weigh'st thy words before thou givest them breath,
+2487	Therefore these stops of thine fright me the more:
+2488	For such things in a false disloyal knave
+2489	Are tricks of custom, but in a man that's just
+2490	They are close delations, working from the heart
+2491	That passion cannot rule.
+2492	
+2493	IAGO	For Michael Cassio,
+2494	I dare be sworn I think that he is honest.
+2495	
+2496	OTHELLO	I think so too.
+2497	
+2498	IAGO	                  Men should be what they seem;
+2499	Or those that be not, would they might seem none!
+2500	
+2501	OTHELLO	Certain, men should be what they seem.
+2502	
+2503	IAGO	Why, then, I think Cassio's an honest man.
+2504	
+2505	OTHELLO	Nay, yet there's more in this:
+2506	I prithee, speak to me as to thy thinkings,
+2507	As thou dost ruminate, and give thy worst of thoughts
+2508	The worst of words.
+2509	
+2510	IAGO	Good my lord, pardon me:
+2511	Though I am bound to every act of duty,
+2512	I am not bound to that all slaves are free to.
+2513	Utter my thoughts? Why, say they are vile and false;
+2514	As where's that palace whereinto foul things
+2515	Sometimes intrude not? who has a breast so pure,
+2516	But some uncleanly apprehensions
+2517	Keep leets and law-days and in session sit
+2518	With meditations lawful?
+2519	
+2520	OTHELLO	Thou dost conspire against thy friend, Iago,
+2521	If thou but think'st him wrong'd and makest his ear
+2522	A stranger to thy thoughts.
+2523	
+2524	IAGO	I do beseech you--
+2525	Though I perchance am vicious in my guess,
+2526	As, I confess, it is my nature's plague
+2527	To spy into abuses, and oft my jealousy
+2528	Shapes faults that are not--that your wisdom yet,
+2529	From one that so imperfectly conceits,
+2530	Would take no notice, nor build yourself a trouble
+2531	Out of his scattering and unsure observance.
+2532	It were not for your quiet nor your good,
+2533	Nor for my manhood, honesty, or wisdom,
+2534	To let you know my thoughts.
+2535	
+2536	OTHELLO	What dost thou mean?
+2537	
+2538	IAGO	Good name in man and woman, dear my lord,
+2539	Is the immediate jewel of their souls:
+2540	Who steals my purse steals trash; 'tis something, nothing;
+2541	'Twas mine, 'tis his, and has been slave to thousands:
+2542	But he that filches from me my good name
+2543	Robs me of that which not enriches him
+2544	And makes me poor indeed.
+2545	
+2546	OTHELLO	By heaven, I'll know thy thoughts.
+2547	
+2548	IAGO	You cannot, if my heart were in your hand;
+2549	Nor shall not, whilst 'tis in my custody.
+2550	
+2551	OTHELLO	Ha!
+2552	
+2553	IAGO	O, beware, my lord, of jealousy;
+2554	It is the green-eyed monster which doth mock
+2555	The meat it feeds on; that cuckold lives in bliss
+2556	Who, certain of his fate, loves not his wronger;
+2557	But, O, what damned minutes tells he o'er
+2558	Who dotes, yet doubts, suspects, yet strongly loves!
+2559	
+2560	OTHELLO	O misery!
+2561	
+2562	IAGO	Poor and content is rich and rich enough,
+2563	But riches fineless is as poor as winter
+2564	To him that ever fears he shall be poor.
+2565	Good heaven, the souls of all my tribe defend
+2566	From jealousy!
+2567	
+2568	OTHELLO	                  Why, why is this?
+2569	Think'st thou I'ld make a lie of jealousy,
+2570	To follow still the changes of the moon
+2571	With fresh suspicions? No; to be once in doubt
+2572	Is once to be resolved: exchange me for a goat,
+2573	When I shall turn the business of my soul
+2574	To such exsufflicate and blown surmises,
+2575	Matching thy inference. 'Tis not to make me jealous
+2576	To say my wife is fair, feeds well, loves company,
+2577	Is free of speech, sings, plays and dances well;
+2578	Where virtue is, these are more virtuous:
+2579	Nor from mine own weak merits will I draw
+2580	The smallest fear or doubt of her revolt;
+2581	For she had eyes, and chose me. No, Iago;
+2582	I'll see before I doubt; when I doubt, prove;
+2583	And on the proof, there is no more but this,--
+2584	Away at once with love or jealousy!
+2585	
+2586	IAGO	I am glad of it; for now I shall have reason
+2587	To show the love and duty that I bear you
+2588	With franker spirit: therefore, as I am bound,
+2589	Receive it from me. I speak not yet of proof.
+2590	Look to your wife; observe her well with Cassio;
+2591	Wear your eye thus, not jealous nor secure:
+2592	I would not have your free and noble nature,
+2593	Out of self-bounty, be abused; look to't:
+2594	I know our country disposition well;
+2595	In Venice they do let heaven see the pranks
+2596	They dare not show their husbands; their best conscience
+2597	Is not to leave't undone, but keep't unknown.
+2598	
+2599	OTHELLO	Dost thou say so?
+2600	
+2601	IAGO	She did deceive her father, marrying you;
+2602	And when she seem'd to shake and fear your looks,
+2603	She loved them most.
+2604	
+2605	OTHELLO	And so she did.
+2606	
+2607	IAGO	Why, go to then;
+2608	She that, so young, could give out such a seeming,
+2609	To seal her father's eyes up close as oak-
+2610	He thought 'twas witchcraft--but I am much to blame;
+2611	I humbly do beseech you of your pardon
+2612	For too much loving you.
+2613	
+2614	OTHELLO	I am bound to thee for ever.
+2615	
+2616	IAGO	I see this hath a little dash'd your spirits.
+2617	
+2618	OTHELLO	Not a jot, not a jot.
+2619	
+2620	IAGO	I' faith, I fear it has.
+2621	I hope you will consider what is spoke
+2622	Comes from my love. But I do see you're moved:
+2623	I am to pray you not to strain my speech
+2624	To grosser issues nor to larger reach
+2625	Than to suspicion.
+2626	
+2627	OTHELLO	I will not.
+2628	
+2629	IAGO	          Should you do so, my lord,
+2630	My speech should fall into such vile success
+2631	As my thoughts aim not at. Cassio's my worthy friend--
+2632	My lord, I see you're moved.
+2633	
+2634	OTHELLO	No, not much moved:
+2635	I do not think but Desdemona's honest.
+2636	
+2637	IAGO	Long live she so! and long live you to think so!
+2638	
+2639	OTHELLO	And yet, how nature erring from itself,--
+2640	
+2641	IAGO	Ay, there's the point: as--to be bold with you--
+2642	Not to affect many proposed matches
+2643	Of her own clime, complexion, and degree,
+2644	Whereto we see in all things nature tends--
+2645	Foh! one may smell in such a will most rank,
+2646	Foul disproportion thoughts unnatural.
+2647	But pardon me; I do not in position
+2648	Distinctly speak of her; though I may fear
+2649	Her will, recoiling to her better judgment,
+2650	May fall to match you with her country forms
+2651	And happily repent.
+2652	
+2653	OTHELLO	Farewell, farewell:
+2654	If more thou dost perceive, let me know more;
+2655	Set on thy wife to observe: leave me, Iago:
+2656	
+2657	IAGO	[Going]  My lord, I take my leave.
+2658	
+2659	OTHELLO	Why did I marry? This honest creature doubtless
+2660	Sees and knows more, much more, than he unfolds.
+2661	
+2662	IAGO	[Returning]  My lord, I would I might entreat
+2663	your honour
+2664	To scan this thing no further; leave it to time:
+2665	Though it be fit that Cassio have his place,
+2666	For sure, he fills it up with great ability,
+2667	Yet, if you please to hold him off awhile,
+2668	You shall by that perceive him and his means:
+2669	Note, if your lady strain his entertainment
+2670	With any strong or vehement importunity;
+2671	Much will be seen in that. In the mean time,
+2672	Let me be thought too busy in my fears--
+2673	As worthy cause I have to fear I am--
+2674	And hold her free, I do beseech your honour.
+2675	
+2676	OTHELLO	Fear not my government.
+2677	
+2678	IAGO	I once more take my leave.
+2679	
+2680	[Exit]
+2681	
+2682	OTHELLO	This fellow's of exceeding honesty,
+2683	And knows all qualities, with a learned spirit,
+2684	Of human dealings. If I do prove her haggard,
+2685	Though that her jesses were my dear heartstrings,
+2686	I'ld whistle her off and let her down the wind,
+2687	To pray at fortune. Haply, for I am black
+2688	And have not those soft parts of conversation
+2689	That chamberers have, or for I am declined
+2690	Into the vale of years,--yet that's not much--
+2691	She's gone. I am abused; and my relief
+2692	Must be to loathe her. O curse of marriage,
+2693	That we can call these delicate creatures ours,
+2694	And not their appetites! I had rather be a toad,
+2695	And live upon the vapour of a dungeon,
+2696	Than keep a corner in the thing I love
+2697	For others' uses. Yet, 'tis the plague of great ones;
+2698	Prerogatived are they less than the base;
+2699	'Tis destiny unshunnable, like death:
+2700	Even then this forked plague is fated to us
+2701	When we do quicken. Desdemona comes:
+2702	
+2703	[Re-enter DESDEMONA and EMILIA]
+2704	
+2705	If she be false, O, then heaven mocks itself!
+2706	I'll not believe't.
+2707	
+2708	DESDEMONA	How now, my dear Othello!
+2709	Your dinner, and the generous islanders
+2710	By you invited, do attend your presence.
+2711	
+2712	OTHELLO	I am to blame.
+2713	
+2714	DESDEMONA	                  Why do you speak so faintly?
+2715	Are you not well?
+2716	
+2717	OTHELLO	I have a pain upon my forehead here.
+2718	
+2719	DESDEMONA	'Faith, that's with watching; 'twill away again:
+2720	Let me but bind it hard, within this hour
+2721	It will be well.
+2722	
+2723	OTHELLO	                  Your napkin is too little:
+2724	
+2725	[He puts the handkerchief from him; and it drops]
+2726	
+2727	Let it alone. Come, I'll go in with you.
+2728	
+2729	DESDEMONA	I am very sorry that you are not well.
+2730	
+2731	[Exeunt OTHELLO and DESDEMONA]
+2732	
+2733	EMILIA	I am glad I have found this napkin:
+2734	This was her first remembrance from the Moor:
+2735	My wayward husband hath a hundred times
+2736	Woo'd me to steal it; but she so loves the token,
+2737	For he conjured her she should ever keep it,
+2738	That she reserves it evermore about her
+2739	To kiss and talk to. I'll have the work ta'en out,
+2740	And give't Iago: what he will do with it
+2741	Heaven knows, not I;
+2742	I nothing but to please his fantasy.
+2743	
+2744	[Re-enter Iago]
+2745	
+2746	IAGO	How now! what do you here alone?
+2747	
+2748	EMILIA	Do not you chide; I have a thing for you.
+2749	
+2750	IAGO	A thing for me? it is a common thing--
+2751	
+2752	EMILIA	Ha!
+2753	
+2754	IAGO	To have a foolish wife.
+2755	
+2756	EMILIA	O, is that all? What will you give me now
+2757	For the same handkerchief?
+2758	
+2759	IAGO	What handkerchief?
+2760	
+2761	EMILIA	What handkerchief?
+2762	Why, that the Moor first gave to Desdemona;
+2763	That which so often you did bid me steal.
+2764	
+2765	IAGO	Hast stol'n it from her?
+2766	
+2767	EMILIA	No, 'faith; she let it drop by negligence.
+2768	And, to the advantage, I, being here, took't up.
+2769	Look, here it is.
+2770	
+2771	IAGO	                  A good wench; give it me.
+2772	
+2773	EMILIA	What will you do with 't, that you have been
+2774	so earnest
+2775	To have me filch it?
+2776	
+2777	IAGO	[Snatching it]  Why, what's that to you?
+2778	
+2779	EMILIA	If it be not for some purpose of import,
+2780	Give't me again: poor lady, she'll run mad
+2781	When she shall lack it.
+2782	
+2783	IAGO	Be not acknown on 't; I have use for it.
+2784	Go, leave me.
+2785	
+2786	[Exit EMILIA]
+2787	
+2788	I will in Cassio's lodging lose this napkin,
+2789	And let him find it. Trifles light as air
+2790	Are to the jealous confirmations strong
+2791	As proofs of holy writ: this may do something.
+2792	The Moor already changes with my poison:
+2793	Dangerous conceits are, in their natures, poisons.
+2794	Which at the first are scarce found to distaste,
+2795	But with a little act upon the blood.
+2796	Burn like the mines of Sulphur. I did say so:
+2797	Look, where he comes!
+2798	
+2799	[Re-enter OTHELLO]
+2800	
+2801	Not poppy, nor mandragora,
+2802	Nor all the drowsy syrups of the world,
+2803	Shall ever medicine thee to that sweet sleep
+2804	Which thou owedst yesterday.
+2805	
+2806	OTHELLO	Ha! ha! false to me?
+2807	
+2808	IAGO	Why, how now, general! no more of that.
+2809	
+2810	OTHELLO	Avaunt! be gone! thou hast set me on the rack:
+2811	I swear 'tis better to be much abused
+2812	Than but to know't a little.
+2813	
+2814	IAGO	How now, my lord!
+2815	
+2816	OTHELLO	What sense had I of her stol'n hours of lust?
+2817	I saw't not, thought it not, it harm'd not me:
+2818	I slept the next night well, was free and merry;
+2819	I found not Cassio's kisses on her lips:
+2820	He that is robb'd, not wanting what is stol'n,
+2821	Let him not know't, and he's not robb'd at all.
+2822	
+2823	IAGO	I am sorry to hear this.
+2824	
+2825	OTHELLO	I had been happy, if the general camp,
+2826	Pioners and all, had tasted her sweet body,
+2827	So I had nothing known. O, now, for ever
+2828	Farewell the tranquil mind! farewell content!
+2829	Farewell the plumed troop, and the big wars,
+2830	That make ambition virtue! O, farewell!
+2831	Farewell the neighing steed, and the shrill trump,
+2832	The spirit-stirring drum, the ear-piercing fife,
+2833	The royal banner, and all quality,
+2834	Pride, pomp and circumstance of glorious war!
+2835	And, O you mortal engines, whose rude throats
+2836	The immortal Jove's dead clamours counterfeit,
+2837	Farewell! Othello's occupation's gone!
+2838	
+2839	IAGO	Is't possible, my lord?
+2840	
+2841	OTHELLO	Villain, be sure thou prove my love a whore,
+2842	Be sure of it; give me the ocular proof:
+2843	Or by the worth of man's eternal soul,
+2844	Thou hadst been better have been born a dog
+2845	Than answer my waked wrath!
+2846	
+2847	IAGO	Is't come to this?
+2848	
+2849	OTHELLO	Make me to see't; or, at the least, so prove it,
+2850	That the probation bear no hinge nor loop
+2851	To hang a doubt on; or woe upon thy life!
+2852	
+2853	IAGO	My noble lord,--
+2854	
+2855	OTHELLO	If thou dost slander her and torture me,
+2856	Never pray more; abandon all remorse;
+2857	On horror's head horrors accumulate;
+2858	Do deeds to make heaven weep, all earth amazed;
+2859	For nothing canst thou to damnation add
+2860	Greater than that.
+2861	
+2862	IAGO	                  O grace! O heaven forgive me!
+2863	Are you a man? have you a soul or sense?
+2864	God be wi' you; take mine office. O wretched fool.
+2865	That livest to make thine honesty a vice!
+2866	O monstrous world! Take note, take note, O world,
+2867	To be direct and honest is not safe.
+2868	I thank you for this profit; and from hence
+2869	I'll love no friend, sith love breeds such offence.
+2870	
+2871	OTHELLO	Nay, stay: thou shouldst be honest.
+2872	
+2873	IAGO	I should be wise, for honesty's a fool
+2874	And loses that it works for.
+2875	
+2876	OTHELLO	By the world,
+2877	I think my wife be honest and think she is not;
+2878	I think that thou art just and think thou art not.
+2879	I'll have some proof. Her name, that was as fresh
+2880	As Dian's visage, is now begrimed and black
+2881	As mine own face. If there be cords, or knives,
+2882	Poison, or fire, or suffocating streams,
+2883	I'll not endure it. Would I were satisfied!
+2884	
+2885	IAGO	I see, sir, you are eaten up with passion:
+2886	I do repent me that I put it to you.
+2887	You would be satisfied?
+2888	
+2889	OTHELLO	Would! nay, I will.
+2890	
+2891	IAGO	And may: but, how? how satisfied, my lord?
+2892	Would you, the supervisor, grossly gape on--
+2893	Behold her topp'd?
+2894	
+2895	OTHELLO	                  Death and damnation! O!
+2896	
+2897	IAGO	It were a tedious difficulty, I think,
+2898	To bring them to that prospect: damn them then,
+2899	If ever mortal eyes do see them bolster
+2900	More than their own! What then? how then?
+2901	What shall I say? Where's satisfaction?
+2902	It is impossible you should see this,
+2903	Were they as prime as goats, as hot as monkeys,
+2904	As salt as wolves in pride, and fools as gross
+2905	As ignorance made drunk. But yet, I say,
+2906	If imputation and strong circumstances,
+2907	Which lead directly to the door of truth,
+2908	Will give you satisfaction, you may have't.
+2909	
+2910	OTHELLO	Give me a living reason she's disloyal.
+2911	
+2912	IAGO	I do not like the office:
+2913	But, sith I am enter'd in this cause so far,
+2914	Prick'd to't by foolish honesty and love,
+2915	I will go on. I lay with Cassio lately;
+2916	And, being troubled with a raging tooth,
+2917	I could not sleep.
+2918	There are a kind of men so loose of soul,
+2919	That in their sleeps will mutter their affairs:
+2920	One of this kind is Cassio:
+2921	In sleep I heard him say 'Sweet Desdemona,
+2922	Let us be wary, let us hide our loves;'
+2923	And then, sir, would he gripe and wring my hand,
+2924	Cry 'O sweet creature!' and then kiss me hard,
+2925	As if he pluck'd up kisses by the roots
+2926	That grew upon my lips: then laid his leg
+2927	Over my thigh, and sigh'd, and kiss'd; and then
+2928	Cried 'Cursed fate that gave thee to the Moor!'
+2929	
+2930	OTHELLO	O monstrous! monstrous!
+2931	
+2932	IAGO	Nay, this was but his dream.
+2933	
+2934	OTHELLO	But this denoted a foregone conclusion:
+2935	'Tis a shrewd doubt, though it be but a dream.
+2936	
+2937	IAGO	And this may help to thicken other proofs
+2938	That do demonstrate thinly.
+2939	
+2940	OTHELLO	I'll tear her all to pieces.
+2941	
+2942	IAGO	Nay, but be wise: yet we see nothing done;
+2943	She may be honest yet. Tell me but this,
+2944	Have you not sometimes seen a handkerchief
+2945	Spotted with strawberries in your wife's hand?
+2946	
+2947	OTHELLO	I gave her such a one; 'twas my first gift.
+2948	
+2949	IAGO	I know not that; but such a handkerchief--
+2950	I am sure it was your wife's--did I to-day
+2951	See Cassio wipe his beard with.
+2952	
+2953	OTHELLO	If it be that--
+2954	
+2955	IAGO	If it be that, or any that was hers,
+2956	It speaks against her with the other proofs.
+2957	
+2958	OTHELLO	O, that the slave had forty thousand lives!
+2959	One is too poor, too weak for my revenge.
+2960	Now do I see 'tis true. Look here, Iago;
+2961	All my fond love thus do I blow to heaven.
+2962	'Tis gone.
+2963	Arise, black vengeance, from thy hollow cell!
+2964	Yield up, O love, thy crown and hearted throne
+2965	To tyrannous hate! Swell, bosom, with thy fraught,
+2966	For 'tis of aspics' tongues!
+2967	
+2968	IAGO	Yet be content.
+2969	
+2970	OTHELLO	O, blood, blood, blood!
+2971	
+2972	IAGO	Patience, I say; your mind perhaps may change.
+2973	
+2974	OTHELLO	Never, Iago: Like to the Pontic sea,
+2975	Whose icy current and compulsive course
+2976	Ne'er feels retiring ebb, but keeps due on
+2977	To the Propontic and the Hellespont,
+2978	Even so my bloody thoughts, with violent pace,
+2979	Shall ne'er look back, ne'er ebb to humble love,
+2980	Till that a capable and wide revenge
+2981	Swallow them up. Now, by yond marble heaven,
+2982	
+2983	[Kneels]
+2984	
+2985	In the due reverence of a sacred vow
+2986	I here engage my words.
+2987	
+2988	IAGO	Do not rise yet.
+2989	
+2990	[Kneels]
+2991	
+2992	Witness, you ever-burning lights above,
+2993	You elements that clip us round about,
+2994	Witness that here Iago doth give up
+2995	The execution of his wit, hands, heart,
+2996	To wrong'd Othello's service! Let him command,
+2997	And to obey shall be in me remorse,
+2998	What bloody business ever.
+2999	
+3000	[They rise]
+3001	
+3002	OTHELLO	I greet thy love,
+3003	Not with vain thanks, but with acceptance bounteous,
+3004	And will upon the instant put thee to't:
+3005	Within these three days let me hear thee say
+3006	That Cassio's not alive.
+3007	
+3008	IAGO	My friend is dead; 'tis done at your request:
+3009	But let her live.
+3010	
+3011	OTHELLO	Damn her, lewd minx! O, damn her!
+3012	Come, go with me apart; I will withdraw,
+3013	To furnish me with some swift means of death
+3014	For the fair devil. Now art thou my lieutenant.
+3015	
+3016	IAGO	I am your own for ever.
+3017	
+3018	[Exeunt]
+3019	
+3020	
+3021	
+3022	OTHELLO
+3023	
+3024	
+3025	ACT III
+3026	
+3027	
+3028	
+3029	SCENE IV	Before the castle.
+3030	
+3031	
+3032	[Enter DESDEMONA, EMILIA, and Clown]
+3033	
+3034	DESDEMONA	Do you know, sirrah, where Lieutenant Cassio lies?
+3035	
+3036	Clown	I dare not say he lies any where.
+3037	
+3038	DESDEMONA	Why, man?
+3039	
+3040	Clown	He's a soldier, and for one to say a soldier lies,
+3041	is stabbing.
+3042	
+3043	DESDEMONA	Go to: where lodges he?
+3044	
+3045	Clown	To tell you where he lodges, is to tell you where I lie.
+3046	
+3047	DESDEMONA	Can any thing be made of this?
+3048	
+3049	Clown	I know not where he lodges, and for me to devise a
+3050	lodging and say he lies here or he lies there, were
+3051	to lie in mine own throat.
+3052	
+3053	DESDEMONA	Can you inquire him out, and be edified by report?
+3054	
+3055	Clown	I will catechise the world for him; that is, make
+3056	questions, and by them answer.
+3057	
+3058	DESDEMONA	Seek him, bid him come hither: tell him I have
+3059	moved my lord on his behalf, and hope all will be well.
+3060	
+3061	Clown	To do this is within the compass of man's wit: and
+3062	therefore I will attempt the doing it.
+3063	
+3064	[Exit]
+3065	
+3066	DESDEMONA	Where should I lose that handkerchief, Emilia?
+3067	
+3068	EMILIA	I know not, madam.
+3069	
+3070	DESDEMONA	Believe me, I had rather have lost my purse
+3071	Full of crusadoes: and, but my noble Moor
+3072	Is true of mind and made of no such baseness
+3073	As jealous creatures are, it were enough
+3074	To put him to ill thinking.
+3075	
+3076	EMILIA	Is he not jealous?
+3077	
+3078	DESDEMONA	Who, he? I think the sun where he was born
+3079	Drew all such humours from him.
+3080	
+3081	EMILIA	Look, where he comes.
+3082	
+3083	DESDEMONA	I will not leave him now till Cassio
+3084	Be call'd to him.
+3085	
+3086	[Enter OTHELLO]
+3087	
+3088	How is't with you, my lord
+3089	
+3090	OTHELLO	Well, my good lady.
+3091	
+3092	[Aside]
+3093	
+3094	O, hardness to dissemble!--
+3095	How do you, Desdemona?
+3096	
+3097	DESDEMONA	Well, my good lord.
+3098	
+3099	OTHELLO	Give me your hand: this hand is moist, my lady.
+3100	
+3101	DESDEMONA	It yet hath felt no age nor known no sorrow.
+3102	
+3103	OTHELLO	This argues fruitfulness and liberal heart:
+3104	Hot, hot, and moist: this hand of yours requires
+3105	A sequester from liberty, fasting and prayer,
+3106	Much castigation, exercise devout;
+3107	For here's a young and sweating devil here,
+3108	That commonly rebels. 'Tis a good hand,
+3109	A frank one.
+3110	
+3111	DESDEMONA	                  You may, indeed, say so;
+3112	For 'twas that hand that gave away my heart.
+3113	
+3114	OTHELLO	A liberal hand: the hearts of old gave hands;
+3115	But our new heraldry is hands, not hearts.
+3116	
+3117	DESDEMONA	I cannot speak of this. Come now, your promise.
+3118	
+3119	OTHELLO	What promise, chuck?
+3120	
+3121	DESDEMONA	I have sent to bid Cassio come speak with you.
+3122	
+3123	OTHELLO	I have a salt and sorry rheum offends me;
+3124	Lend me thy handkerchief.
+3125	
+3126	DESDEMONA	Here, my lord.
+3127	
+3128	OTHELLO	That which I gave you.
+3129	
+3130	DESDEMONA	I have it not about me.
+3131	
+3132	OTHELLO	Not?
+3133	
+3134	DESDEMONA	   No, indeed, my lord.
+3135	
+3136	OTHELLO	That is a fault.
+3137	
+3138	That handkerchief
+3139	Did an Egyptian to my mother give;
+3140	She was a charmer, and could almost read
+3141	The thoughts of people: she told her, while
+3142	she kept it,
+3143	'Twould make her amiable and subdue my father
+3144	Entirely to her love, but if she lost it
+3145	Or made gift of it, my father's eye
+3146	Should hold her loathed and his spirits should hunt
+3147	After new fancies: she, dying, gave it me;
+3148	And bid me, when my fate would have me wive,
+3149	To give it her. I did so: and take heed on't;
+3150	Make it a darling like your precious eye;
+3151	To lose't or give't away were such perdition
+3152	As nothing else could match.
+3153	
+3154	DESDEMONA	Is't possible?
+3155	
+3156	OTHELLO	'Tis true: there's magic in the web of it:
+3157	A sibyl, that had number'd in the world
+3158	The sun to course two hundred compasses,
+3159	In her prophetic fury sew'd the work;
+3160	The worms were hallow'd that did breed the silk;
+3161	And it was dyed in mummy which the skilful
+3162	Conserved of maidens' hearts.
+3163	
+3164	DESDEMONA	Indeed! is't true?
+3165	
+3166	OTHELLO	Most veritable; therefore look to't well.
+3167	
+3168	DESDEMONA	Then would to God that I had never seen't!
+3169	
+3170	OTHELLO	Ha! wherefore?
+3171	
+3172	DESDEMONA	Why do you speak so startingly and rash?
+3173	
+3174	OTHELLO	Is't lost? is't gone? speak, is it out
+3175	o' the way?
+3176	
+3177	DESDEMONA	Heaven bless us!
+3178	
+3179	OTHELLO	Say you?
+3180	
+3181	DESDEMONA	It is not lost; but what an if it were?
+3182	
+3183	OTHELLO	How!
+3184	
+3185	DESDEMONA	I say, it is not lost.
+3186	
+3187	OTHELLO	Fetch't, let me see't.
+3188	
+3189	DESDEMONA	Why, so I can, sir, but I will not now.
+3190	This is a trick to put me from my suit:
+3191	Pray you, let Cassio be received again.
+3192	
+3193	OTHELLO	Fetch me the handkerchief: my mind misgives.
+3194	
+3195	DESDEMONA	Come, come;
+3196	You'll never meet a more sufficient man.
+3197	
+3198	OTHELLO	The handkerchief!
+3199	
+3200	DESDEMONA	                  I pray, talk me of Cassio.
+3201	
+3202	OTHELLO	The handkerchief!
+3203	
+3204	DESDEMONA	                  A man that all his time
+3205	Hath founded his good fortunes on your love,
+3206	Shared dangers with you,--
+3207	
+3208	OTHELLO	The handkerchief!
+3209	
+3210	DESDEMONA	In sooth, you are to blame.
+3211	
+3212	OTHELLO	Away!
+3213	
+3214	[Exit]
+3215	
+3216	EMILIA	Is not this man jealous?
+3217	
+3218	DESDEMONA	I ne'er saw this before.
+3219	Sure, there's some wonder in this handkerchief:
+3220	I am most unhappy in the loss of it.
+3221	
+3222	EMILIA	'Tis not a year or two shows us a man:
+3223	They are all but stomachs, and we all but food;
+3224	To eat us hungerly, and when they are full,
+3225	They belch us. Look you, Cassio and my husband!
+3226	
+3227	[Enter CASSIO and IAGO]
+3228	
+3229	IAGO	There is no other way; 'tis she must do't:
+3230	And, lo, the happiness! go, and importune her.
+3231	
+3232	DESDEMONA	How now, good Cassio! what's the news with you?
+3233	
+3234	CASSIO	Madam, my former suit: I do beseech you
+3235	That by your virtuous means I may again
+3236	Exist, and be a member of his love
+3237	Whom I with all the office of my heart
+3238	Entirely honour: I would not be delay'd.
+3239	If my offence be of such mortal kind
+3240	That nor my service past, nor present sorrows,
+3241	Nor purposed merit in futurity,
+3242	Can ransom me into his love again,
+3243	But to know so must be my benefit;
+3244	So shall I clothe me in a forced content,
+3245	And shut myself up in some other course,
+3246	To fortune's alms.
+3247	
+3248	DESDEMONA	                  Alas, thrice-gentle Cassio!
+3249	My advocation is not now in tune;
+3250	My lord is not my lord; nor should I know him,
+3251	Were he in favour as in humour alter'd.
+3252	So help me every spirit sanctified,
+3253	As I have spoken for you all my best
+3254	And stood within the blank of his displeasure
+3255	For my free speech! you must awhile be patient:
+3256	What I can do I will; and more I will
+3257	Than for myself I dare: let that suffice you.
+3258	
+3259	IAGO	Is my lord angry?
+3260	
+3261	EMILIA	                  He went hence but now,
+3262	And certainly in strange unquietness.
+3263	
+3264	IAGO	Can he be angry? I have seen the cannon,
+3265	When it hath blown his ranks into the air,
+3266	And, like the devil, from his very arm
+3267	Puff'd his own brother:--and can he be angry?
+3268	Something of moment then: I will go meet him:
+3269	There's matter in't indeed, if he be angry.
+3270	
+3271	DESDEMONA	I prithee, do so.
+3272	
+3273	[Exit IAGO]
+3274	
+3275	Something, sure, of state,
+3276	Either from Venice, or some unhatch'd practise
+3277	Made demonstrable here in Cyprus to him,
+3278	Hath puddled his clear spirit: and in such cases
+3279	Men's natures wrangle with inferior things,
+3280	Though great ones are their object. 'Tis even so;
+3281	For let our finger ache, and it indues
+3282	Our other healthful members even to that sense
+3283	Of pain: nay, we must think men are not gods,
+3284	Nor of them look for such observances
+3285	As fit the bridal. Beshrew me much, Emilia,
+3286	I was, unhandsome warrior as I am,
+3287	Arraigning his unkindness with my soul;
+3288	But now I find I had suborn'd the witness,
+3289	And he's indicted falsely.
+3290	
+3291	EMILIA	Pray heaven it be state-matters, as you think,
+3292	And no conception nor no jealous toy
+3293	Concerning you.
+3294	
+3295	DESDEMONA	Alas the day! I never gave him cause.
+3296	
+3297	EMILIA	But jealous souls will not be answer'd so;
+3298	They are not ever jealous for the cause,
+3299	But jealous for they are jealous: 'tis a monster
+3300	Begot upon itself, born on itself.
+3301	
+3302	DESDEMONA	Heaven keep that monster from Othello's mind!
+3303	
+3304	EMILIA	Lady, amen.
+3305	
+3306	DESDEMONA	I will go seek him. Cassio, walk hereabout:
+3307	If I do find him fit, I'll move your suit
+3308	And seek to effect it to my uttermost.
+3309	
+3310	CASSIO	I humbly thank your ladyship.
+3311	
+3312	[Exeunt DESDEMONA and EMILIA]
+3313	
+3314	[Enter BIANCA]
+3315	
+3316	BIANCA	Save you, friend Cassio!
+3317	
+3318	CASSIO	What make you from home?
+3319	How is it with you, my most fair Bianca?
+3320	I' faith, sweet love, I was coming to your house.
+3321	
+3322	BIANCA	And I was going to your lodging, Cassio.
+3323	What, keep a week away? seven days and nights?
+3324	Eight score eight hours? and lovers' absent hours,
+3325	More tedious than the dial eight score times?
+3326	O weary reckoning!
+3327	
+3328	CASSIO	                  Pardon me, Bianca:
+3329	I have this while with leaden thoughts been press'd:
+3330	But I shall, in a more continuate time,
+3331	Strike off this score of absence. Sweet Bianca,
+3332	
+3333	[Giving her DESDEMONA's handkerchief]
+3334	
+3335	Take me this work out.
+3336	
+3337	BIANCA	O Cassio, whence came this?
+3338	This is some token from a newer friend:
+3339	To the felt absence now I feel a cause:
+3340	Is't come to this? Well, well.
+3341	
+3342	CASSIO	Go to, woman!
+3343	Throw your vile guesses in the devil's teeth,
+3344	From whence you have them. You are jealous now
+3345	That this is from some mistress, some remembrance:
+3346	No, in good troth, Bianca.
+3347	
+3348	BIANCA	Why, whose is it?
+3349	
+3350	CASSIO	I know not, sweet: I found it in my chamber.
+3351	I like the work well: ere it be demanded--
+3352	As like enough it will--I'ld have it copied:
+3353	Take it, and do't; and leave me for this time.
+3354	
+3355	BIANCA	Leave you! wherefore?
+3356	
+3357	CASSIO	I do attend here on the general;
+3358	And think it no addition, nor my wish,
+3359	To have him see me woman'd.
+3360	
+3361	BIANCA	Why, I pray you?
+3362	
+3363	CASSIO	Not that I love you not.
+3364	
+3365	BIANCA	But that you do not love me.
+3366	I pray you, bring me on the way a little,
+3367	And say if I shall see you soon at night.
+3368	
+3369	CASSIO	'Tis but a little way that I can bring you;
+3370	For I attend here: but I'll see you soon.
+3371	
+3372	BIANCA	'Tis very good; I must be circumstanced.
+3373	
+3374	[Exeunt]
+3375	
+3376	
+3377	
+3378	
+3379	OTHELLO
+3380	
+3381	
+3382	ACT IV
+3383	
+3384	
+3385	
+3386	SCENE I	Cyprus. Before the castle.
+3387	
+3388	
+3389	[Enter OTHELLO and IAGO]
+3390	
+3391	IAGO	Will you think so?
+3392	
+3393	OTHELLO	                  Think so, Iago!
+3394	
+3395	IAGO	What,
+3396	To kiss in private?
+3397	
+3398	OTHELLO	An unauthorized kiss.
+3399	
+3400	IAGO	Or to be naked with her friend in bed
+3401	An hour or more, not meaning any harm?
+3402	
+3403	OTHELLO	Naked in bed, Iago, and not mean harm!
+3404	It is hypocrisy against the devil:
+3405	They that mean virtuously, and yet do so,
+3406	The devil their virtue tempts, and they tempt heaven.
+3407	
+3408	IAGO	So they do nothing, 'tis a venial slip:
+3409	But if I give my wife a handkerchief,--
+3410	
+3411	OTHELLO	What then?
+3412	
+3413	IAGO	Why, then, 'tis hers, my lord; and, being hers,
+3414	She may, I think, bestow't on any man.
+3415	
+3416	OTHELLO	She is protectress of her honour too:
+3417	May she give that?
+3418	
+3419	IAGO	Her honour is an essence that's not seen;
+3420	They have it very oft that have it not:
+3421	But, for the handkerchief,--
+3422	
+3423	OTHELLO	By heaven, I would most gladly have forgot it.
+3424	Thou said'st, it comes o'er my memory,
+3425	As doth the raven o'er the infected house,
+3426	Boding to all--he had my handkerchief.
+3427	
+3428	IAGO	Ay, what of that?
+3429	
+3430	OTHELLO	                  That's not so good now.
+3431	
+3432	IAGO	What,
+3433	If I had said I had seen him do you wrong?
+3434	Or heard him say,--as knaves be such abroad,
+3435	Who having, by their own importunate suit,
+3436	Or voluntary dotage of some mistress,
+3437	Convinced or supplied them, cannot choose
+3438	But they must blab--
+3439	
+3440	OTHELLO	Hath he said any thing?
+3441	
+3442	IAGO	He hath, my lord; but be you well assured,
+3443	No more than he'll unswear.
+3444	
+3445	OTHELLO	What hath he said?
+3446	
+3447	IAGO	'Faith, that he did--I know not what he did.
+3448	
+3449	OTHELLO	What? what?
+3450	
+3451	IAGO	Lie--
+3452	
+3453	OTHELLO	    With her?
+3454	
+3455	IAGO	With her, on her; what you will.
+3456	
+3457	OTHELLO	Lie with her! lie on her! We say lie on her, when
+3458	they belie her. Lie with her! that's fulsome.
+3459	--Handkerchief--confessions--handkerchief!--To
+3460	confess, and be hanged for his labour;--first, to be
+3461	hanged, and then to confess.--I tremble at it.
+3462	Nature would not invest herself in such shadowing
+3463	passion without some instruction. It is not words
+3464	that shake me thus. Pish! Noses, ears, and lips.
+3465	--Is't possible?--Confess--handkerchief!--O devil!--
+3466	
+3467	[Falls in a trance]
+3468	
+3469	IAGO	Work on,
+3470	My medicine, work! Thus credulous fools are caught;
+3471	And many worthy and chaste dames even thus,
+3472	All guiltless, meet reproach. What, ho! my lord!
+3473	My lord, I say! Othello!
+3474	
+3475	[Enter CASSIO]
+3476	
+3477	How now, Cassio!
+3478	
+3479	CASSIO	What's the matter?
+3480	
+3481	IAGO	My lord is fall'n into an epilepsy:
+3482	This is his second fit; he had one yesterday.
+3483	
+3484	CASSIO	Rub him about the temples.
+3485	
+3486	IAGO	No, forbear;
+3487	The lethargy must have his quiet course:
+3488	If not, he foams at mouth and by and by
+3489	Breaks out to savage madness. Look he stirs:
+3490	Do you withdraw yourself a little while,
+3491	He will recover straight: when he is gone,
+3492	I would on great occasion speak with you.
+3493	
+3494	[Exit CASSIO]
+3495	
+3496	How is it, general? have you not hurt your head?
+3497	
+3498	OTHELLO	Dost thou mock me?
+3499	
+3500	IAGO	                  I mock you! no, by heaven.
+3501	Would you would bear your fortune like a man!
+3502	
+3503	OTHELLO	A horned man's a monster and a beast.
+3504	
+3505	IAGO	There's many a beast then in a populous city,
+3506	And many a civil monster.
+3507	
+3508	OTHELLO	Did he confess it?
+3509	
+3510	IAGO	                  Good sir, be a man;
+3511	Think every bearded fellow that's but yoked
+3512	May draw with you: there's millions now alive
+3513	That nightly lie in those unproper beds
+3514	Which they dare swear peculiar: your case is better.
+3515	O, 'tis the spite of hell, the fiend's arch-mock,
+3516	To lip a wanton in a secure couch,
+3517	And to suppose her chaste! No, let me know;
+3518	And knowing what I am, I know what she shall be.
+3519	
+3520	OTHELLO	O, thou art wise; 'tis certain.
+3521	
+3522	IAGO	Stand you awhile apart;
+3523	Confine yourself but in a patient list.
+3524	Whilst you were here o'erwhelmed with your grief--
+3525	A passion most unsuiting such a man--
+3526	Cassio came hither: I shifted him away,
+3527	And laid good 'scuse upon your ecstasy,
+3528	Bade him anon return and here speak with me;
+3529	The which he promised. Do but encave yourself,
+3530	And mark the fleers, the gibes, and notable scorns,
+3531	That dwell in every region of his face;
+3532	For I will make him tell the tale anew,
+3533	Where, how, how oft, how long ago, and when
+3534	He hath, and is again to cope your wife:
+3535	I say, but mark his gesture. Marry, patience;
+3536	Or I shall say you are all in all in spleen,
+3537	And nothing of a man.
+3538	
+3539	OTHELLO	Dost thou hear, Iago?
+3540	I will be found most cunning in my patience;
+3541	But--dost thou hear?--most bloody.
+3542	
+3543	IAGO	That's not amiss;
+3544	But yet keep time in all. Will you withdraw?
+3545	
+3546	[OTHELLO retires]
+3547	
+3548	Now will I question Cassio of Bianca,
+3549	A housewife that by selling her desires
+3550	Buys herself bread and clothes: it is a creature
+3551	That dotes on Cassio; as 'tis the strumpet's plague
+3552	To beguile many and be beguiled by one:
+3553	He, when he hears of her, cannot refrain
+3554	From the excess of laughter. Here he comes:
+3555	
+3556	[Re-enter CASSIO]
+3557	
+3558	As he shall smile, Othello shall go mad;
+3559	And his unbookish jealousy must construe
+3560	Poor Cassio's smiles, gestures and light behavior,
+3561	Quite in the wrong. How do you now, lieutenant?
+3562	
+3563	CASSIO	The worser that you give me the addition
+3564	Whose want even kills me.
+3565	
+3566	IAGO	Ply Desdemona well, and you are sure on't.
+3567	
+3568	[Speaking lower]
+3569	
+3570	Now, if this suit lay in Bianco's power,
+3571	How quickly should you speed!
+3572	
+3573	CASSIO	Alas, poor caitiff!
+3574	
+3575	OTHELLO	Look, how he laughs already!
+3576	
+3577	IAGO	I never knew woman love man so.
+3578	
+3579	CASSIO	Alas, poor rogue! I think, i' faith, she loves me.
+3580	
+3581	OTHELLO	Now he denies it faintly, and laughs it out.
+3582	
+3583	IAGO	Do you hear, Cassio?
+3584	
+3585	OTHELLO	Now he importunes him
+3586	To tell it o'er: go to; well said, well said.
+3587	
+3588	IAGO	She gives it out that you shall marry hey:
+3589	Do you intend it?
+3590	
+3591	CASSIO	Ha, ha, ha!
+3592	
+3593	OTHELLO	Do you triumph, Roman? do you triumph?
+3594	
+3595	CASSIO	I marry her! what? a customer! Prithee, bear some
+3596	charity to my wit: do not think it so unwholesome.
+3597	Ha, ha, ha!
+3598	
+3599	OTHELLO	So, so, so, so: they laugh that win.
+3600	
+3601	IAGO	'Faith, the cry goes that you shall marry her.
+3602	
+3603	CASSIO	Prithee, say true.
+3604	
+3605	IAGO	I am a very villain else.
+3606	
+3607	OTHELLO	Have you scored me? Well.
+3608	
+3609	CASSIO	This is the monkey's own giving out: she is
+3610	persuaded I will marry her, out of her own love and
+3611	flattery, not out of my promise.
+3612	
+3613	OTHELLO	Iago beckons me; now he begins the story.
+3614	
+3615	CASSIO	She was here even now; she haunts me in every place.
+3616	I was the other day talking on the sea-bank with
+3617	certain Venetians; and thither comes the bauble,
+3618	and, by this hand, she falls me thus about my neck--
+3619	
+3620	OTHELLO	Crying 'O dear Cassio!' as it were: his gesture
+3621	imports it.
+3622	
+3623	CASSIO	So hangs, and lolls, and weeps upon me; so hales,
+3624	and pulls me: ha, ha, ha!
+3625	
+3626	OTHELLO	Now he tells how she plucked him to my chamber. O,
+3627	I see that nose of yours, but not that dog I shall
+3628	throw it to.
+3629	
+3630	CASSIO	Well, I must leave her company.
+3631	
+3632	IAGO	Before me! look, where she comes.
+3633	
+3634	CASSIO	'Tis such another fitchew! marry a perfumed one.
+3635	
+3636	[Enter BIANCA]
+3637	
+3638	What do you mean by this haunting of me?
+3639	
+3640	BIANCA	Let the devil and his dam haunt you! What did you
+3641	mean by that same handkerchief you gave me even now?
+3642	I was a fine fool to take it. I must take out the
+3643	work?--A likely piece of work, that you should find
+3644	it in your chamber, and not know who left it there!
+3645	This is some minx's token, and I must take out the
+3646	work? There; give it your hobby-horse: wheresoever
+3647	you had it, I'll take out no work on't.
+3648	
+3649	CASSIO	How now, my sweet Bianca! how now! how now!
+3650	
+3651	OTHELLO	By heaven, that should be my handkerchief!
+3652	
+3653	BIANCA	An you'll come to supper to-night, you may; an you
+3654	will not, come when you are next prepared for.
+3655	
+3656	[Exit]
+3657	
+3658	IAGO	After her, after her.
+3659	
+3660	CASSIO	'Faith, I must; she'll rail in the street else.
+3661	
+3662	IAGO	Will you sup there?
+3663	
+3664	CASSIO	'Faith, I intend so.
+3665	
+3666	IAGO	Well, I may chance to see you; for I would very fain
+3667	speak with you.
+3668	
+3669	CASSIO	Prithee, come; will you?
+3670	
+3671	IAGO	Go to; say no more.
+3672	
+3673	[Exit CASSIO]
+3674	
+3675	OTHELLO	[Advancing]  How shall I murder him, Iago?
+3676	
+3677	IAGO	Did you perceive how he laughed at his vice?
+3678	
+3679	OTHELLO	O Iago!
+3680	
+3681	IAGO	And did you see the handkerchief?
+3682	
+3683	OTHELLO	Was that mine?
+3684	
+3685	IAGO	Yours by this hand: and to see how he prizes the
+3686	foolish woman your wife! she gave it him, and he
+3687	hath given it his whore.
+3688	
+3689	OTHELLO	I would have him nine years a-killing.
+3690	A fine woman! a fair woman! a sweet woman!
+3691	
+3692	IAGO	Nay, you must forget that.
+3693	
+3694	OTHELLO	Ay, let her rot, and perish, and be damned to-night;
+3695	for she shall not live: no, my heart is turned to
+3696	stone; I strike it, and it hurts my hand. O, the
+3697	world hath not a sweeter creature: she might lie by
+3698	an emperor's side and command him tasks.
+3699	
+3700	IAGO	Nay, that's not your way.
+3701	
+3702	OTHELLO	Hang her! I do but say what she is: so delicate
+3703	with her needle: an admirable musician: O! she
+3704	will sing the savageness out of a bear: of so high
+3705	and plenteous wit and invention:--
+3706	
+3707	IAGO	She's the worse for all this.
+3708	
+3709	OTHELLO	O, a thousand thousand times: and then, of so
+3710	gentle a condition!
+3711	
+3712	IAGO	Ay, too gentle.
+3713	
+3714	OTHELLO	Nay, that's certain: but yet the pity of it, Iago!
+3715	O Iago, the pity of it, Iago!
+3716	
+3717	IAGO	If you are so fond over her iniquity, give her
+3718	patent to offend; for, if it touch not you, it comes
+3719	near nobody.
+3720	
+3721	OTHELLO	I will chop her into messes: cuckold me!
+3722	
+3723	IAGO	O, 'tis foul in her.
+3724	
+3725	OTHELLO	With mine officer!
+3726	
+3727	IAGO	That's fouler.
+3728	
+3729	OTHELLO	Get me some poison, Iago; this night: I'll not
+3730	expostulate with her, lest her body and beauty
+3731	unprovide my mind again: this night, Iago.
+3732	
+3733	IAGO	Do it not with poison, strangle her in her bed, even
+3734	the bed she hath contaminated.
+3735	
+3736	OTHELLO	Good, good: the justice of it pleases: very good.
+3737	
+3738	IAGO	And for Cassio, let me be his undertaker: you
+3739	shall hear more by midnight.
+3740	
+3741	OTHELLO	Excellent good.
+3742	
+3743	[A trumpet within]
+3744	
+3745	What trumpet is that same?
+3746	
+3747	IAGO	Something from Venice, sure. 'Tis Lodovico
+3748	Come from the duke: and, see, your wife is with him.
+3749	
+3750	[Enter LODOVICO, DESDEMONA, and Attendants]
+3751	
+3752	LODOVICO	Save you, worthy general!
+3753	
+3754	OTHELLO	With all my heart, sir.
+3755	
+3756	LODOVICO	The duke and senators of Venice greet you.
+3757	
+3758	[Gives him a letter]
+3759	
+3760	OTHELLO	I kiss the instrument of their pleasures.
+3761	
+3762	[Opens the letter, and reads]
+3763	
+3764	DESDEMONA	And what's the news, good cousin Lodovico?
+3765	
+3766	IAGO	I am very glad to see you, signior
+3767	Welcome to Cyprus.
+3768	
+3769	LODOVICO	I thank you. How does Lieutenant Cassio?
+3770	
+3771	IAGO	Lives, sir.
+3772	
+3773	DESDEMONA	Cousin, there's fall'n between him and my lord
+3774	An unkind breach: but you shall make all well.
+3775	
+3776	OTHELLO	Are you sure of that?
+3777	
+3778	DESDEMONA	My lord?
+3779	
+3780	OTHELLO	[Reads]  'This fail you not to do, as you will--'
+3781	
+3782	LODOVICO	He did not call; he's busy in the paper.
+3783	Is there division 'twixt my lord and Cassio?
+3784	
+3785	DESDEMONA	A most unhappy one: I would do much
+3786	To atone them, for the love I bear to Cassio.
+3787	
+3788	OTHELLO	Fire and brimstone!
+3789	
+3790	DESDEMONA	My lord?
+3791	
+3792	OTHELLO	       Are you wise?
+3793	
+3794	DESDEMONA	What, is he angry?
+3795	
+3796	LODOVICO	                  May be the letter moved him;
+3797	For, as I think, they do command him home,
+3798	Deputing Cassio in his government.
+3799	
+3800	DESDEMONA	Trust me, I am glad on't.
+3801	
+3802	OTHELLO	Indeed!
+3803	
+3804	DESDEMONA	My lord?
+3805	
+3806	OTHELLO	I am glad to see you mad.
+3807	
+3808	DESDEMONA	Why, sweet Othello,--
+3809	
+3810	OTHELLO	[Striking her]  Devil!
+3811	
+3812	DESDEMONA	I have not deserved this.
+3813	
+3814	LODOVICO	My lord, this would not be believed in Venice,
+3815	Though I should swear I saw't: 'tis very much:
+3816	Make her amends; she weeps.
+3817	
+3818	OTHELLO	O devil, devil!
+3819	If that the earth could teem with woman's tears,
+3820	Each drop she falls would prove a crocodile.
+3821	Out of my sight!
+3822	
+3823	DESDEMONA	I will not stay to offend you.
+3824	
+3825	[Going]
+3826	
+3827	LODOVICO	Truly, an obedient lady:
+3828	I do beseech your lordship, call her back.
+3829	
+3830	OTHELLO	Mistress!
+3831	
+3832	DESDEMONA	        My lord?
+3833	
+3834	OTHELLO	What would you with her, sir?
+3835	
+3836	LODOVICO	Who, I, my lord?
+3837	
+3838	OTHELLO	Ay; you did wish that I would make her turn:
+3839	Sir, she can turn, and turn, and yet go on,
+3840	And turn again; and she can weep, sir, weep;
+3841	And she's obedient, as you say, obedient,
+3842	Very obedient. Proceed you in your tears.
+3843	Concerning this, sir,--O  well-painted passion!--
+3844	I am commanded home. Get you away;
+3845	I'll send for you anon. Sir, I obey the mandate,
+3846	And will return to Venice. Hence, avaunt!
+3847	
+3848	[Exit DESDEMONA]
+3849	
+3850	Cassio shall have my place. And, sir, tonight,
+3851	I do entreat that we may sup together:
+3852	You are welcome, sir, to Cyprus.--Goats and monkeys!
+3853	
+3854	[Exit]
+3855	
+3856	LODOVICO	Is this the noble Moor whom our full senate
+3857	Call all in all sufficient? Is this the nature
+3858	Whom passion could not shake? whose solid virtue
+3859	The shot of accident, nor dart of chance,
+3860	Could neither graze nor pierce?
+3861	
+3862	IAGO	He is much changed.
+3863	
+3864	LODOVICO	Are his wits safe? is he not light of brain?
+3865	
+3866	IAGO	He's that he is: I may not breathe my censure
+3867	What he might be: if what he might he is not,
+3868	I would to heaven he were!
+3869	
+3870	LODOVICO	What, strike his wife!
+3871	
+3872	IAGO	'Faith, that was not so well; yet would I knew
+3873	That stroke would prove the worst!
+3874	
+3875	LODOVICO	Is it his use?
+3876	Or did the letters work upon his blood,
+3877	And new-create this fault?
+3878	
+3879	IAGO	Alas, alas!
+3880	It is not honesty in me to speak
+3881	What I have seen and known. You shall observe him,
+3882	And his own courses will denote him so
+3883	That I may save my speech: do but go after,
+3884	And mark how he continues.
+3885	
+3886	LODOVICO	I am sorry that I am deceived in him.
+3887	
+3888	[Exeunt]
+3889	
+3890	
+3891	
+3892	
+3893	OTHELLO
+3894	
+3895	
+3896	ACT IV
+3897	
+3898	
+3899	SCENE II	A room in the castle.
+3900	
+3901	
+3902	[Enter OTHELLO and EMILIA]
+3903	
+3904	OTHELLO	You have seen nothing then?
+3905	
+3906	EMILIA	Nor ever heard, nor ever did suspect.
+3907	
+3908	OTHELLO	Yes, you have seen Cassio and she together.
+3909	
+3910	EMILIA	But then I saw no harm, and then I heard
+3911	Each syllable that breath made up between them.
+3912	
+3913	OTHELLO	What, did they never whisper?
+3914	
+3915	EMILIA	Never, my lord.
+3916	
+3917	OTHELLO	Nor send you out o' the way?
+3918	
+3919	EMILIA	Never.
+3920	
+3921	OTHELLO	To fetch her fan, her gloves, her mask, nor nothing?
+3922	
+3923	EMILIA	Never, my lord.
+3924	
+3925	OTHELLO	That's strange.
+3926	
+3927	EMILIA	I durst, my lord, to wager she is honest,
+3928	Lay down my soul at stake: if you think other,
+3929	Remove your thought; it doth abuse your bosom.
+3930	If any wretch have put this in your head,
+3931	Let heaven requite it with the serpent's curse!
+3932	For, if she be not honest, chaste, and true,
+3933	There's no man happy; the purest of their wives
+3934	Is foul as slander.
+3935	
+3936	OTHELLO	Bid her come hither: go.
+3937	
+3938	[Exit EMILIA]
+3939	
+3940	She says enough; yet she's a simple bawd
+3941	That cannot say as much. This is a subtle whore,
+3942	A closet lock and key of villanous secrets
+3943	And yet she'll kneel and pray; I have seen her do't.
+3944	
+3945	[Enter DESDEMONA with EMILIA]
+3946	
+3947	DESDEMONA	My lord, what is your will?
+3948	
+3949	OTHELLO	Pray, chuck, come hither.
+3950	
+3951	DESDEMONA	What is your pleasure?
+3952	
+3953	OTHELLO	Let me see your eyes;
+3954	Look in my face.
+3955	
+3956	DESDEMONA	                  What horrible fancy's this?
+3957	
+3958	OTHELLO	[To EMILIA]  Some of your function, mistress;
+3959	Leave procreants alone and shut the door;
+3960	Cough, or cry 'hem,' if any body come:
+3961	Your mystery, your mystery: nay, dispatch.
+3962	
+3963	[Exit EMILIA]
+3964	
+3965	DESDEMONA	Upon my knees, what doth your speech import?
+3966	I understand a fury in your words.
+3967	But not the words.
+3968	
+3969	OTHELLO	Why, what art thou?
+3970	
+3971	DESDEMONA	Your wife, my lord; your true
+3972	And loyal wife.
+3973	
+3974	OTHELLO	                  Come, swear it, damn thyself
+3975	Lest, being like one of heaven, the devils themselves
+3976	Should fear to seize thee: therefore be double damn'd:
+3977	Swear thou art honest.
+3978	
+3979	DESDEMONA	Heaven doth truly know it.
+3980	
+3981	OTHELLO	Heaven truly knows that thou art false as hell.
+3982	
+3983	DESDEMONA	To whom, my lord? with whom? how am I false?
+3984	
+3985	OTHELLO	O Desdemona! away! away! away!
+3986	
+3987	DESDEMONA	Alas the heavy day! Why do you weep?
+3988	Am I the motive of these tears, my lord?
+3989	If haply you my father do suspect
+3990	An instrument of this your calling back,
+3991	Lay not your blame on me: If you have lost him,
+3992	Why, I have lost him too.
+3993	
+3994	OTHELLO	Had it pleased heaven
+3995	To try me with affliction; had they rain'd
+3996	All kinds of sores and shames on my bare head.
+3997	Steep'd me in poverty to the very lips,
+3998	Given to captivity me and my utmost hopes,
+3999	I should have found in some place of my soul
+4000	A drop of patience: but, alas, to make me
+4001	A fixed figure for the time of scorn
+4002	To point his slow unmoving finger at!
+4003	Yet could I bear that too; well, very well:
+4004	But there, where I have garner'd up my heart,
+4005	Where either I must live, or bear no life;
+4006	The fountain from the which my current runs,
+4007	Or else dries up; to be discarded thence!
+4008	Or keep it as a cistern for foul toads
+4009	To knot and gender in! Turn thy complexion there,
+4010	Patience, thou young and rose-lipp'd cherubin,--
+4011	Ay, there, look grim as hell!
+4012	
+4013	DESDEMONA	I hope my noble lord esteems me honest.
+4014	
+4015	OTHELLO	O, ay; as summer flies are in the shambles,
+4016	That quicken even with blowing. O thou weed,
+4017	Who art so lovely fair and smell'st so sweet
+4018	That the sense aches at thee, would thou hadst
+4019	ne'er been born!
+4020	
+4021	DESDEMONA	Alas, what ignorant sin have I committed?
+4022	
+4023	OTHELLO	Was this fair paper, this most goodly book,
+4024	Made to write 'whore' upon? What committed!
+4025	Committed! O thou public commoner!
+4026	I should make very forges of my cheeks,
+4027	That would to cinders burn up modesty,
+4028	Did I but speak thy deeds. What committed!
+4029	Heaven stops the nose at it and the moon winks,
+4030	The bawdy wind that kisses all it meets
+4031	Is hush'd within the hollow mine of earth,
+4032	And will not hear it. What committed!
+4033	Impudent strumpet!
+4034	
+4035	DESDEMONA	                  By heaven, you do me wrong.
+4036	
+4037	OTHELLO	Are you not a strumpet?
+4038	
+4039	DESDEMONA	No, as I am a Christian:
+4040	If to preserve this vessel for my lord
+4041	From any other foul unlawful touch
+4042	Be not to be a strumpet, I am none.
+4043	
+4044	OTHELLO	What, not a whore?
+4045	
+4046	DESDEMONA	                  No, as I shall be saved.
+4047	
+4048	OTHELLO	Is't possible?
+4049	
+4050	DESDEMONA	                  O, heaven forgive us!
+4051	
+4052	OTHELLO	I cry you mercy, then:
+4053	I took you for that cunning whore of Venice
+4054	That married with Othello.
+4055	
+4056	[Raising his voice]
+4057	
+4058	You, mistress,
+4059	That have the office opposite to Saint Peter,
+4060	And keep the gate of hell!
+4061	
+4062	[Re-enter EMILIA]
+4063	
+4064	You, you, ay, you!
+4065	We have done our course; there's money for your pains:
+4066	I pray you, turn the key and keep our counsel.
+4067	
+4068	[Exit]
+4069	
+4070	EMILIA	Alas, what does this gentleman conceive?
+4071	How do you, madam? how do you, my good lady?
+4072	
+4073	DESDEMONA	'Faith, half asleep.
+4074	
+4075	EMILIA	Good madam, what's the matter with my lord?
+4076	
+4077	DESDEMONA	With who?
+4078	
+4079	EMILIA	Why, with my lord, madam.
+4080	
+4081	DESDEMONA	Who is thy lord?
+4082	
+4083	EMILIA	                  He that is yours, sweet lady.
+4084	
+4085	DESDEMONA	I have none: do not talk to me, Emilia;
+4086	I cannot weep; nor answer have I none,
+4087	But what should go by water. Prithee, tonight
+4088	Lay on my bed my wedding sheets: remember;
+4089	And call thy husband hither.
+4090	
+4091	EMILIA	Here's a change indeed!
+4092	
+4093	[Exit]
+4094	
+4095	DESDEMONA	'Tis meet I should be used so, very meet.
+4096	How have I been behaved, that he might stick
+4097	The small'st opinion on my least misuse?
+4098	
+4099	[Re-enter EMILIA with IAGO]
+4100	
+4101	IAGO	What is your pleasure, madam?
+4102	How is't with you?
+4103	
+4104	DESDEMONA	I cannot tell. Those that do teach young babes
+4105	Do it with gentle means and easy tasks:
+4106	He might have chid me so; for, in good faith,
+4107	I am a child to chiding.
+4108	
+4109	IAGO	What's the matter, lady?
+4110	
+4111	EMILIA	Alas, Iago, my lord hath so bewhored her.
+4112	Thrown such despite and heavy terms upon her,
+4113	As true hearts cannot bear.
+4114	
+4115	DESDEMONA	Am I that name, Iago?
+4116	
+4117	IAGO	What name, fair lady?
+4118	
+4119	DESDEMONA	Such as she says my lord did say I was.
+4120	
+4121	EMILIA	He call'd her whore: a beggar in his drink
+4122	Could not have laid such terms upon his callat.
+4123	
+4124	IAGO	Why did he so?
+4125	
+4126	DESDEMONA	I do not know; I am sure I am none such.
+4127	
+4128	IAGO	Do not weep, do not weep. Alas the day!
+4129	
+4130	EMILIA	Hath she forsook so many noble matches,
+4131	Her father and her country and her friends,
+4132	To be call'd whore? would it not make one weep?
+4133	
+4134	DESDEMONA	It is my wretched fortune.
+4135	
+4136	IAGO	Beshrew him for't!
+4137	How comes this trick upon him?
+4138	
+4139	DESDEMONA	Nay, heaven doth know.
+4140	
+4141	EMILIA	I will be hang'd, if some eternal villain,
+4142	Some busy and insinuating rogue,
+4143	Some cogging, cozening slave, to get some office,
+4144	Have not devised this slander; I'll be hang'd else.
+4145	
+4146	IAGO	Fie, there is no such man; it is impossible.
+4147	
+4148	DESDEMONA	If any such there be, heaven pardon him!
+4149	
+4150	EMILIA	A halter pardon him! and hell gnaw his bones!
+4151	Why should he call her whore? who keeps her company?
+4152	What place? what time? what form? what likelihood?
+4153	The Moor's abused by some most villanous knave,
+4154	Some base notorious knave, some scurvy fellow.
+4155	O heaven, that such companions thou'ldst unfold,
+4156	And put in every honest hand a whip
+4157	To lash the rascals naked through the world
+4158	Even from the east to the west!
+4159	
+4160	IAGO	Speak within door.
+4161	
+4162	EMILIA	O, fie upon them! Some such squire he was
+4163	That turn'd your wit the seamy side without,
+4164	And made you to suspect me with the Moor.
+4165	
+4166	IAGO	You are a fool; go to.
+4167	
+4168	DESDEMONA	O good Iago,
+4169	What shall I do to win my lord again?
+4170	Good friend, go to him; for, by this light of heaven,
+4171	I know not how I lost him. Here I kneel:
+4172	If e'er my will did trespass 'gainst his love,
+4173	Either in discourse of thought or actual deed,
+4174	Or that mine eyes, mine ears, or any sense,
+4175	Delighted them in any other form;
+4176	Or that I do not yet, and ever did.
+4177	And ever will--though he do shake me off
+4178	To beggarly divorcement--love him dearly,
+4179	Comfort forswear me! Unkindness may do much;
+4180	And his unkindness may defeat my life,
+4181	But never taint my love. I cannot say 'whore:'
+4182	It does abhor me now I speak the word;
+4183	To do the act that might the addition earn
+4184	Not the world's mass of vanity could make me.
+4185	
+4186	IAGO	I pray you, be content; 'tis but his humour:
+4187	The business of the state does him offence,
+4188	And he does chide with you.
+4189	
+4190	DESDEMONA	If 'twere no other--
+4191	
+4192	IAGO	'Tis but so, I warrant.
+4193	
+4194	[Trumpets within]
+4195	
+4196	Hark, how these instruments summon to supper!
+4197	The messengers of Venice stay the meat;
+4198	Go in, and weep not; all things shall be well.
+4199	
+4200	[Exeunt DESDEMONA and EMILIA]
+4201	
+4202	[Enter RODERIGO]
+4203	
+4204	How now, Roderigo!
+4205	
+4206	RODERIGO	I do not find that thou dealest justly with me.
+4207	
+4208	IAGO	What in the contrary?
+4209	
+4210	RODERIGO	Every day thou daffest me with some device, Iago;
+4211	and rather, as it seems to me now, keepest from me
+4212	all conveniency than suppliest me with the least
+4213	advantage of hope. I will indeed no longer endure
+4214	it, nor am I yet persuaded to put up in peace what
+4215	already I have foolishly suffered.
+4216	
+4217	IAGO	Will you hear me, Roderigo?
+4218	
+4219	RODERIGO	'Faith, I have heard too much, for your words and
+4220	performances are no kin together.
+4221	
+4222	IAGO	You charge me most unjustly.
+4223	
+4224	RODERIGO	With nought but truth. I have wasted myself out of
+4225	my means. The jewels you have had from me to
+4226	deliver to Desdemona would half have corrupted a
+4227	votarist: you have told me she hath received them
+4228	and returned me expectations and comforts of sudden
+4229	respect and acquaintance, but I find none.
+4230	
+4231	IAGO	Well; go to; very well.
+4232	
+4233	RODERIGO	Very well! go to! I cannot go to, man; nor 'tis
+4234	not very well: nay, I think it is scurvy, and begin
+4235	to find myself fobbed in it.
+4236	
+4237	IAGO	Very well.
+4238	
+4239	RODERIGO	I tell you 'tis not very well. I will make myself
+4240	known to Desdemona: if she will return me my
+4241	jewels, I will give over my suit and repent my
+4242	unlawful solicitation; if not, assure yourself I
+4243	will seek satisfaction of you.
+4244	
+4245	IAGO	You have said now.
+4246	
+4247	RODERIGO	Ay, and said nothing but what I protest intendment of doing.
+4248	
+4249	IAGO	Why, now I see there's mettle in thee, and even from
+4250	this instant to build on thee a better opinion than
+4251	ever before. Give me thy hand, Roderigo: thou hast
+4252	taken against me a most just exception; but yet, I
+4253	protest, I have dealt most directly in thy affair.
+4254	
+4255	RODERIGO	It hath not appeared.
+4256	
+4257	IAGO	I grant indeed it hath not appeared, and your
+4258	suspicion is not without wit and judgment. But,
+4259	Roderigo, if thou hast that in thee indeed, which I
+4260	have greater reason to believe now than ever, I mean
+4261	purpose, courage and valour, this night show it: if
+4262	thou the next night following enjoy not Desdemona,
+4263	take me from this world with treachery and devise
+4264	engines for my life.
+4265	
+4266	RODERIGO	Well, what is it? is it within reason and compass?
+4267	
+4268	IAGO	Sir, there is especial commission come from Venice
+4269	to depute Cassio in Othello's place.
+4270	
+4271	RODERIGO	Is that true? why, then Othello and Desdemona
+4272	return again to Venice.
+4273	
+4274	IAGO	O, no; he goes into Mauritania and takes away with
+4275	him the fair Desdemona, unless his abode be
+4276	lingered here by some accident: wherein none can be
+4277	so determinate as the removing of Cassio.
+4278	
+4279	RODERIGO	How do you mean, removing of him?
+4280	
+4281	IAGO	Why, by making him uncapable of Othello's place;
+4282	knocking out his brains.
+4283	
+4284	RODERIGO	And that you would have me to do?
+4285	
+4286	IAGO	Ay, if you dare do yourself a profit and a right.
+4287	He sups to-night with a harlotry, and thither will I
+4288	go to him: he knows not yet of his horrorable
+4289	fortune. If you will watch his going thence, which
+4290	I will fashion to fall out between twelve and one,
+4291	you may take him at your pleasure: I will be near
+4292	to second your attempt, and he shall fall between
+4293	us. Come, stand not amazed at it, but go along with
+4294	me; I will show you such a necessity in his death
+4295	that you shall think yourself bound to put it on
+4296	him. It is now high suppertime, and the night grows
+4297	to waste: about it.
+4298	
+4299	RODERIGO	I will hear further reason for this.
+4300	
+4301	IAGO	And you shall be satisfied.
+4302	
+4303	[Exeunt]
+4304	
+4305	
+4306	
+4307	
+4308	OTHELLO
+4309	
+4310	
+4311	ACT IV
+4312	
+4313	
+4314	
+4315	SCENE III	Another room in the castle.
+4316	
+4317	
+4318	[Enter OTHELLO, LODOVICO, DESDEMONA, EMILIA and
+4319	Attendants]
+4320	
+4321	LODOVICO	I do beseech you, sir, trouble yourself no further.
+4322	
+4323	OTHELLO	O, pardon me: 'twill do me good to walk.
+4324	
+4325	LODOVICO	Madam, good night; I humbly thank your ladyship.
+4326	
+4327	DESDEMONA	Your honour is most welcome.
+4328	
+4329	OTHELLO	Will you walk, sir?
+4330	O,--Desdemona,--
+4331	
+4332	DESDEMONA	My lord?
+4333	
+4334	OTHELLO	Get you to bed on the instant; I will be returned
+4335	forthwith: dismiss your attendant there: look it be done.
+4336	
+4337	DESDEMONA	I will, my lord.
+4338	
+4339	[Exeunt OTHELLO, LODOVICO, and Attendants]
+4340	
+4341	EMILIA	How goes it now? he looks gentler than he did.
+4342	
+4343	DESDEMONA	He says he will return incontinent:
+4344	He hath commanded me to go to bed,
+4345	And bade me to dismiss you.
+4346	
+4347	EMILIA	Dismiss me!
+4348	
+4349	DESDEMONA	It was his bidding: therefore, good Emilia,.
+4350	Give me my nightly wearing, and adieu:
+4351	We must not now displease him.
+4352	
+4353	EMILIA	I would you had never seen him!
+4354	
+4355	DESDEMONA	So would not I	my love doth so approve him,
+4356	That even his stubbornness, his cheques, his frowns--
+4357	Prithee, unpin me,--have grace and favour in them.
+4358	
+4359	EMILIA	I have laid those sheets you bade me on the bed.
+4360	
+4361	DESDEMONA	All's one. Good faith, how foolish are our minds!
+4362	If I do die before thee prithee, shroud me
+4363	In one of those same sheets.
+4364	
+4365	EMILIA	Come, come you talk.
+4366	
+4367	DESDEMONA	My mother had a maid call'd Barbara:
+4368	She was in love, and he she loved proved mad
+4369	And did forsake her: she had a song of 'willow;'
+4370	An old thing 'twas, but it express'd her fortune,
+4371	And she died singing it: that song to-night
+4372	Will not go from my mind; I have much to do,
+4373	But to go hang my head all at one side,
+4374	And sing it like poor Barbara. Prithee, dispatch.
+4375	
+4376	EMILIA	Shall I go fetch your night-gown?
+4377	
+4378	DESDEMONA	No, unpin me here.
+4379	This Lodovico is a proper man.
+4380	
+4381	EMILIA	A very handsome man.
+4382	
+4383	DESDEMONA	He speaks well.
+4384	
+4385	EMILIA	I know a lady in Venice would have walked barefoot
+4386	to Palestine for a touch of his nether lip.
+4387	
+4388	DESDEMONA	[Singing]  The poor soul sat sighing by a sycamore tree,
+4389	Sing all a green willow:
+4390	Her hand on her bosom, her head on her knee,
+4391	Sing willow, willow, willow:
+4392	The fresh streams ran by her, and murmur'd her moans;
+4393	Sing willow, willow, willow;
+4394	Her salt tears fell from her, and soften'd the stones;
+4395	Lay by these:--
+4396	
+4397	[Singing]
+4398	
+4399	Sing willow, willow, willow;
+4400	Prithee, hie thee; he'll come anon:--
+4401	
+4402	[Singing]
+4403	
+4404	Sing all a green willow must be my garland.
+4405	Let nobody blame him; his scorn I approve,-
+4406	Nay, that's not next.--Hark! who is't that knocks?
+4407	
+4408	EMILIA	It's the wind.
+4409	
+4410	DESDEMONA	[Singing]  I call'd my love false love; but what
+4411	said he then?
+4412	Sing willow, willow, willow:
+4413	If I court moe women, you'll couch with moe men!
+4414	So, get thee gone; good night Ate eyes do itch;
+4415	Doth that bode weeping?
+4416	
+4417	EMILIA	'Tis neither here nor there.
+4418	
+4419	DESDEMONA	I have heard it said so. O, these men, these men!
+4420	Dost thou in conscience think,--tell me, Emilia,--
+4421	That there be women do abuse their husbands
+4422	In such gross kind?
+4423	
+4424	EMILIA	There be some such, no question.
+4425	
+4426	DESDEMONA	Wouldst thou do such a deed for all the world?
+4427	
+4428	EMILIA	Why, would not you?
+4429	
+4430	DESDEMONA	No, by this heavenly light!
+4431	
+4432	EMILIA	Nor I neither by this heavenly light;
+4433	I might do't as well i' the dark.
+4434	
+4435	DESDEMONA	Wouldst thou do such a deed for all the world?
+4436	
+4437	EMILIA	The world's a huge thing: it is a great price.
+4438	For a small vice.
+4439	
+4440	DESDEMONA	In troth, I think thou wouldst not.
+4441	
+4442	EMILIA	In troth, I think I should; and undo't when I had
+4443	done. Marry, I would not do such a thing for a
+4444	joint-ring, nor for measures of lawn, nor for
+4445	gowns, petticoats, nor caps, nor any petty
+4446	exhibition; but for the whole world,--why, who would
+4447	not make her husband a cuckold to make him a
+4448	monarch? I should venture purgatory for't.
+4449	
+4450	DESDEMONA	Beshrew me, if I would do such a wrong
+4451	For the whole world.
+4452	
+4453	EMILIA	Why the wrong is but a wrong i' the world: and
+4454	having the world for your labour, tis a wrong in your
+4455	own world, and you might quickly make it right.
+4456	
+4457	DESDEMONA	I do not think there is any such woman.
+4458	
+4459	EMILIA	Yes, a dozen; and as many to the vantage as would
+4460	store the world they played for.
+4461	But I do think it is their husbands' faults
+4462	If wives do fall: say that they slack their duties,
+4463	And pour our treasures into foreign laps,
+4464	Or else break out in peevish jealousies,
+4465	Throwing restraint upon us; or say they strike us,
+4466	Or scant our former having in despite;
+4467	Why, we have galls, and though we have some grace,
+4468	Yet have we some revenge. Let husbands know
+4469	Their wives have sense like them: they see and smell
+4470	And have their palates both for sweet and sour,
+4471	As husbands have. What is it that they do
+4472	When they change us for others? Is it sport?
+4473	I think it is: and doth affection breed it?
+4474	I think it doth: is't frailty that thus errs?
+4475	It is so too: and have not we affections,
+4476	Desires for sport, and frailty, as men have?
+4477	Then let them use us well: else let them know,
+4478	The ills we do, their ills instruct us so.
+4479	
+4480	DESDEMONA	Good night, good night: heaven me such uses send,
+4481	Not to pick bad from bad, but by bad mend!
+4482	
+4483	[Exeunt]
+4484	
+4485	
+4486	
+4487	
+4488	OTHELLO
+4489	
+4490	
+4491	ACT V
+4492	
+4493	
+4494	
+4495	SCENE I	Cyprus. A street.
+4496	
+4497	
+4498	[Enter IAGO and RODERIGO]
+4499	
+4500	IAGO	Here, stand behind this bulk; straight will he come:
+4501	Wear thy good rapier bare, and put it home:
+4502	Quick, quick; fear nothing; I'll be at thy elbow:
+4503	It makes us, or it mars us; think on that,
+4504	And fix most firm thy resolution.
+4505	
+4506	RODERIGO	Be near at hand; I may miscarry in't.
+4507	
+4508	IAGO	Here, at thy hand: be bold, and take thy stand.
+4509	
+4510	[Retires]
+4511	
+4512	RODERIGO	I have no great devotion to the deed;
+4513	And yet he hath given me satisfying reasons:
+4514	'Tis but a man gone. Forth, my sword: he dies.
+4515	
+4516	IAGO	I have rubb'd this young quat almost to the sense,
+4517	And he grows angry. Now, whether he kill Cassio,
+4518	Or Cassio him, or each do kill the other,
+4519	Every way makes my gain: live Roderigo,
+4520	He calls me to a restitution large
+4521	Of gold and jewels that I bobb'd from him,
+4522	As gifts to Desdemona;
+4523	It must not be: if Cassio do remain,
+4524	He hath a daily beauty in his life
+4525	That makes me ugly; and, besides, the Moor
+4526	May unfold me to him; there stand I in much peril:
+4527	No, he must die. But so: I hear him coming.
+4528	
+4529	[Enter CASSIO]
+4530	
+4531	RODERIGO	I know his gait, 'tis he.--Villain, thou diest!
+4532	
+4533	[Makes a pass at CASSIO]
+4534	
+4535	CASSIO	That thrust had been mine enemy indeed,
+4536	But that my coat is better than thou know'st
+4537	I will make proof of thine.
+4538	
+4539	[Draws, and wounds RODERIGO]
+4540	
+4541	RODERIGO	O, I am slain!
+4542	
+4543	[IAGO from behind wounds CASSIO in the leg, and exit]
+4544	
+4545	CASSIO	I am maim'd for ever. Help, ho! murder! murder!
+4546	
+4547	[Falls]
+4548	
+4549	[Enter OTHELLO]
+4550	
+4551	OTHELLO	The voice of Cassio: Iago keeps his word.
+4552	
+4553	RODERIGO	O, villain that I am!
+4554	
+4555	OTHELLO	It is even so.
+4556	
+4557	CASSIO	O, help, ho! light! a surgeon!
+4558	
+4559	OTHELLO	'Tis he:--O brave Iago, honest and just,
+4560	That hast such noble sense of thy friend's wrong!
+4561	Thou teachest me. Minion, your dear lies dead,
+4562	And your unblest fate hies: strumpet, I come.
+4563	Forth of my heart those charms, thine eyes, are blotted;
+4564	Thy bed, lust-stain'd, shall with lust's blood be spotted.
+4565	
+4566	[Exit]
+4567	
+4568	[Enter LODOVICO and GRATIANO]
+4569	
+4570	CASSIO	What, ho! no watch? no passage? murder! murder!
+4571	
+4572	GRATIANO	'Tis some mischance; the cry is very direful.
+4573	
+4574	CASSIO	O, help!
+4575	
+4576	LODOVICO	Hark!
+4577	
+4578	RODERIGO	O wretched villain!
+4579	
+4580	LODOVICO	Two or three groan: it is a heavy night:
+4581	These may be counterfeits: let's think't unsafe
+4582	To come in to the cry without more help.
+4583	
+4584	RODERIGO	Nobody come? then shall I bleed to death.
+4585	
+4586	LODOVICO	Hark!
+4587	
+4588	[Re-enter IAGO, with a light]
+4589	
+4590	GRATIANO	Here's one comes in his shirt, with light and weapons.
+4591	
+4592	IAGO	Who's there? whose noise is this that ones on murder?
+4593	
+4594	LODOVICO	We do not know.
+4595	
+4596	IAGO	                  Did not you hear a cry?
+4597	
+4598	CASSIO	Here, here! for heaven's sake, help me!
+4599	
+4600	IAGO	What's the matter?
+4601	
+4602	GRATIANO	This is Othello's ancient, as I take it.
+4603	
+4604	LODOVICO	The same indeed; a very valiant fellow.
+4605	
+4606	IAGO	What are you here that cry so grievously?
+4607	
+4608	CASSIO	Iago? O, I am spoil'd, undone by villains!
+4609	Give me some help.
+4610	
+4611	IAGO	O me, lieutenant! what villains have done this?
+4612	
+4613	CASSIO	I think that one of them is hereabout,
+4614	And cannot make away.
+4615	
+4616	IAGO	O treacherous villains!
+4617	What are you there? come in, and give some help.
+4618	
+4619	[To LODOVICO and GRATIANO]
+4620	
+4621	RODERIGO	O, help me here!
+4622	
+4623	CASSIO	That's one of them.
+4624	
+4625	IAGO	O murderous slave! O villain!
+4626	
+4627	[Stabs RODERIGO]
+4628	
+4629	RODERIGO	O damn'd Iago! O inhuman dog!
+4630	
+4631	IAGO	Kill men i' the dark!--Where be these bloody thieves?--
+4632	How silent is this town!--Ho! murder! murder!--
+4633	What may you be? are you of good or evil?
+4634	
+4635	LODOVICO	As you shall prove us, praise us.
+4636	
+4637	IAGO	Signior Lodovico?
+4638	
+4639	LODOVICO	He, sir.
+4640	
+4641	IAGO	I cry you mercy. Here's Cassio hurt by villains.
+4642	
+4643	GRATIANO	Cassio!
+4644	
+4645	IAGO	How is't, brother!
+4646	
+4647	CASSIO	My leg is cut in two.
+4648	
+4649	IAGO	Marry, heaven forbid!
+4650	Light, gentlemen; I'll bind it with my shirt.
+4651	
+4652	[Enter BIANCA]
+4653	
+4654	BIANCA	What is the matter, ho? who is't that cried?
+4655	
+4656	IAGO	Who is't that cried!
+4657	
+4658	BIANCA	O my dear Cassio! my sweet Cassio! O Cassio,
+4659	Cassio, Cassio!
+4660	
+4661	IAGO	O notable strumpet! Cassio, may you suspect
+4662	Who they should be that have thus many led you?
+4663	
+4664	CASSIO	No.
+4665	
+4666	GRATIANO	I am to find you thus: I have been to seek you.
+4667	
+4668	IAGO	Lend me a garter. So. O, for a chair,
+4669	To bear him easily hence!
+4670	
+4671	BIANCA	Alas, he faints! O Cassio, Cassio, Cassio!
+4672	
+4673	IAGO	Gentlemen all, I do suspect this trash
+4674	To be a party in this injury.
+4675	Patience awhile, good Cassio. Come, come;
+4676	Lend me a light. Know we this face or no?
+4677	Alas my friend and my dear countryman
+4678	Roderigo! no:--yes, sure: O heaven! Roderigo.
+4679	
+4680	GRATIANO	What, of Venice?
+4681	
+4682	IAGO	Even he, sir; did you know him?
+4683	
+4684	GRATIANO	Know him! ay.
+4685	
+4686	IAGO	Signior Gratiano? I cry you gentle pardon;
+4687	These bloody accidents must excuse my manners,
+4688	That so neglected you.
+4689	
+4690	GRATIANO	I am glad to see you.
+4691	
+4692	IAGO	How do you, Cassio? O, a chair, a chair!
+4693	
+4694	GRATIANO	Roderigo!
+4695	
+4696	IAGO	He, he 'tis he.
+4697	
+4698	[A chair brought in]
+4699	
+4700	O, that's well said; the chair!
+4701	
+4702	GRATIANO	Some good man bear him carefully from hence;
+4703	I'll fetch the general's surgeon.
+4704	
+4705	[To BIANCA]
+4706	
+4707	For you, mistress,
+4708	Save you your labour. He that lies slain
+4709	here, Cassio,
+4710	Was my dear friend: what malice was between you?
+4711	
+4712	CASSIO	None in the world; nor do I know the man.
+4713	
+4714	IAGO	[To BIANCA]  What, look you pale? O, bear him out
+4715	o' the air.
+4716	
+4717	[CASSIO and RODERIGO are borne off]
+4718	
+4719	Stay you, good gentlemen. Look you pale, mistress?
+4720	Do you perceive the gastness of her eye?
+4721	Nay, if you stare, we shall hear more anon.
+4722	Behold her well; I pray you, look upon her:
+4723	Do you see, gentlemen? nay, guiltiness will speak,
+4724	Though tongues were out of use.
+4725	
+4726	[Enter EMILIA]
+4727	
+4728	EMILIA	'Las, what's the matter? what's the matter, husband?
+4729	
+4730	IAGO	Cassio hath here been set on in the dark
+4731	By Roderigo and fellows that are scaped:
+4732	He's almost slain, and Roderigo dead.
+4733	
+4734	EMILIA	Alas, good gentleman! alas, good Cassio!
+4735	
+4736	IAGO	This is the fruit of whoring. Prithee, Emilia,
+4737	Go know of Cassio where he supp'd to-night.
+4738	
+4739	[To BIANCA]
+4740	
+4741	What, do you shake at that?
+4742	
+4743	BIANCA	He supp'd at my house; but I therefore shake not.
+4744	
+4745	IAGO	O, did he so? I charge you, go with me.
+4746	
+4747	EMILIA	Fie, fie upon thee, strumpet!
+4748	
+4749	BIANCA	I am no strumpet; but of life as honest
+4750	As you that thus abuse me.
+4751	
+4752	EMILIA	As I! foh! fie upon thee!
+4753	
+4754	IAGO	Kind gentlemen, let's go see poor Cassio dress'd.
+4755	Come, mistress, you must tell's another tale.
+4756	Emilia run you to the citadel,
+4757	And tell my lord and lady what hath happ'd.
+4758	Will you go on? I pray.
+4759	
+4760	[Aside]
+4761	
+4762	This is the night
+4763	That either makes me or fordoes me quite.
+4764	
+4765	[Exeunt]
+4766	
+4767	
+4768	
+4769	
+4770	OTHELLO
+4771	
+4772	
+4773	ACT V
+4774	
+4775	
+4776	
+4777	SCENE II	A bedchamber in the castle: DESDEMONA in bed asleep;
+4778	a light burning.
+4779	
+4780	
+4781	[Enter OTHELLO]
+4782	
+4783	OTHELLO	It is the cause, it is the cause, my soul,--
+4784	Let me not name it to you, you chaste stars!--
+4785	It is the cause. Yet I'll not shed her blood;
+4786	Nor scar that whiter skin of hers than snow,
+4787	And smooth as monumental alabaster.
+4788	Yet she must die, else she'll betray more men.
+4789	Put out the light, and then put out the light:
+4790	If I quench thee, thou flaming minister,
+4791	I can again thy former light restore,
+4792	Should I repent me: but once put out thy light,
+4793	Thou cunning'st pattern of excelling nature,
+4794	I know not where is that Promethean heat
+4795	That can thy light relume. When I have pluck'd the rose,
+4796	I cannot give it vital growth again.
+4797	It must needs wither: I'll smell it on the tree.
+4798	
+4799	[Kissing her]
+4800	
+4801	Ah balmy breath, that dost almost persuade
+4802	Justice to break her sword! One more, one more.
+4803	Be thus when thou art dead, and I will kill thee,
+4804	And love thee after. One more, and this the last:
+4805	So sweet was ne'er so fatal. I must weep,
+4806	But they are cruel tears: this sorrow's heavenly;
+4807	It strikes where it doth love. She wakes.
+4808	
+4809	DESDEMONA	Who's there? Othello?
+4810	
+4811	OTHELLO	Ay. Desdemona.
+4812	
+4813	DESDEMONA	Will you come to bed, my lord?
+4814	
+4815	OTHELLO	Have you pray'd to-night, Desdemona?
+4816	
+4817	DESDEMONA	Ay, my lord.
+4818	
+4819	OTHELLO	If you bethink yourself of any crime
+4820	Unreconciled as yet to heaven and grace,
+4821	Solicit for it straight.
+4822	
+4823	DESDEMONA	Alas, my lord, what do you mean by that?
+4824	
+4825	OTHELLO	Well, do it, and be brief; I will walk by:
+4826	I would not kill thy unprepared spirit;
+4827	No; heaven forfend! I would not kill thy soul.
+4828	
+4829	DESDEMONA	Talk you of killing?
+4830	
+4831	OTHELLO	Ay, I do.
+4832	
+4833	DESDEMONA	Then heaven
+4834	Have mercy on me!
+4835	
+4836	OTHELLO	                  Amen, with all my heart!
+4837	
+4838	DESDEMONA	If you say so, I hope you will not kill me.
+4839	
+4840	OTHELLO	Hum!
+4841	
+4842	DESDEMONA	And yet I fear you; for you are fatal then
+4843	When your eyes roll so: why I should fear I know not,
+4844	Since guiltiness I know not; but yet I feel I fear.
+4845	
+4846	OTHELLO	Think on thy sins.
+4847	
+4848	DESDEMONA	                  They are loves I bear to you.
+4849	
+4850	OTHELLO	Ay, and for that thou diest.
+4851	
+4852	DESDEMONA	That death's unnatural that kills for loving.
+4853	Alas, why gnaw you so your nether lip?
+4854	Some bloody passion shakes your very frame:
+4855	These are portents; but yet I hope, I hope,
+4856	They do not point on me.
+4857	
+4858	OTHELLO	Peace, and be still!
+4859	
+4860	DESDEMONA	I will so. What's the matter?
+4861	
+4862	OTHELLO	That handkerchief which I so loved and gave thee
+4863	Thou gavest to Cassio.
+4864	
+4865	DESDEMONA	No, by my life and soul!
+4866	Send for the man, and ask him.
+4867	
+4868	OTHELLO	Sweet soul, take heed,
+4869	Take heed of perjury; thou art on thy deathbed.
+4870	
+4871	DESDEMONA	Ay, but not yet to die.
+4872	
+4873	OTHELLO	Yes, presently:
+4874	Therefore confess thee freely of thy sin;
+4875	For to deny each article with oath
+4876	Cannot remove nor choke the strong conception
+4877	That I do groan withal. Thou art to die.
+4878	
+4879	DESDEMONA	Then Lord have mercy on me!
+4880	
+4881	OTHELLO	I say, amen.
+4882	
+4883	DESDEMONA	And have you mercy too! I never did
+4884	Offend you in my life; never loved Cassio
+4885	But with such general warranty of heaven
+4886	As I might love: I never gave him token.
+4887	
+4888	OTHELLO	By heaven, I saw my handkerchief in's hand.
+4889	O perjured woman! thou dost stone my heart,
+4890	And makest me call what I intend to do
+4891	A murder, which I thought a sacrifice:
+4892	I saw the handkerchief.
+4893	
+4894	DESDEMONA	He found it then;
+4895	I never gave it him: send for him hither;
+4896	Let him confess a truth.
+4897	
+4898	OTHELLO	He hath confess'd.
+4899	
+4900	DESDEMONA	What, my lord?
+4901	
+4902	OTHELLO	That he hath used thee.
+4903	
+4904	DESDEMONA	How? unlawfully?
+4905	
+4906	OTHELLO	Ay.
+4907	
+4908	DESDEMONA	He will not say so.
+4909	
+4910	OTHELLO	No, his mouth is stopp'd;
+4911	Honest Iago hath ta'en order for't.
+4912	
+4913	DESDEMONA	O! my fear interprets: what, is he dead?
+4914	
+4915	OTHELLO	Had all his hairs been lives, my great revenge
+4916	Had stomach for them all.
+4917	
+4918	DESDEMONA	Alas! he is betray'd and I undone.
+4919	
+4920	OTHELLO	Out, strumpet! weep'st thou for him to my face?
+4921	
+4922	DESDEMONA	O, banish me, my lord, but kill me not!
+4923	
+4924	OTHELLO	Down, strumpet!
+4925	
+4926	DESDEMONA	Kill me to-morrow: let me live to-night!
+4927	
+4928	OTHELLO	Nay, if you strive--
+4929	
+4930	DESDEMONA	But half an hour!
+4931	
+4932	OTHELLO	                  Being done, there is no pause.
+4933	
+4934	DESDEMONA	But while I say one prayer!
+4935	
+4936	OTHELLO	It is too late.
+4937	
+4938	[He stifles her]
+4939	
+4940	EMILIA	[Within]  My lord, my lord! what, ho! my lord, my lord!
+4941	
+4942	OTHELLO	What noise is this? Not dead? not yet quite dead?
+4943	I that am cruel am yet merciful;
+4944	I would not have thee linger in thy pain: So, so.
+4945	
+4946	EMILIA	[Within]  What, ho! my lord, my lord!
+4947	
+4948	OTHELLO	Who's there?
+4949	
+4950	EMILIA	[Within]  O, good my lord, I would speak a word with you!
+4951	
+4952	OTHELLO	Yes: 'tis Emilia. By and by. She's dead.
+4953	'Tis like she comes to speak of Cassio's death.--
+4954	The noise was here. Ha! no more moving?
+4955	Still as the grave. Shall she come in? were't good?--
+4956	I think she stirs again:--no. What's best to do?
+4957	If she come in, she'll sure speak to my wife:
+4958	My wife! my wife! what wife? I have no wife.
+4959	O insupportable! O heavy hour!
+4960	Methinks it should be now a huge eclipse
+4961	Of sun and moon, and that the affrighted globe
+4962	Should yawn at alteration.
+4963	
+4964	EMILIA	[Within]  I do beseech you
+4965	That I may speak with you, O, good my lord!
+4966	
+4967	OTHELLO	I had forgot thee: O, come in, Emilia;
+4968	Soft; by and by. Let me the curtains draw.
+4969	Where art thou?
+4970	
+4971	[Unlocks the door]
+4972	
+4973	[Enter EMILIA]
+4974	
+4975	What's the matter with thee now?
+4976	
+4977	EMILIA	O, my good lord, yonder's foul murders done!
+4978	
+4979	OTHELLO	What, now?
+4980	
+4981	EMILIA	But now, my lord.
+4982	
+4983	OTHELLO	It is the very error of the moon;
+4984	She comes more nearer earth than she was wont,
+4985	And makes men mad.
+4986	
+4987	EMILIA	Cassio, my lord, hath kill'd a young Venetian
+4988	Call'd Roderigo.
+4989	
+4990	OTHELLO	                  Roderigo kill'd!
+4991	And Cassio kill'd!
+4992	
+4993	EMILIA	No, Cassio is not kill'd.
+4994	
+4995	OTHELLO	Not Cassio kill'd! then murder's out of tune,
+4996	And sweet revenge grows harsh.
+4997	
+4998	DESDEMONA	O, falsely, falsely murder'd!
+4999	
+5000	EMILIA	Alas, what cry is that?
+5001	
+5002	OTHELLO	That! what?
+5003	
+5004	EMILIA	Out, and alas! that was my lady's voice.
+5005	Help! help, ho! help! O lady, speak again!
+5006	Sweet Desdemona! O sweet mistress, speak!
+5007	
+5008	DESDEMONA	A guiltless death I die.
+5009	
+5010	EMILIA	O, who hath done this deed?
+5011	
+5012	DESDEMONA	Nobody; I myself. Farewell
+5013	Commend me to my kind lord: O, farewell!
+5014	
+5015	[Dies]
+5016	
+5017	OTHELLO	Why, how should she be murder'd?
+5018	
+5019	EMILIA	Alas, who knows?
+5020	
+5021	OTHELLO	You heard her say herself, it was not I.
+5022	
+5023	EMILIA	She said so: I must needs report the truth.
+5024	
+5025	OTHELLO	She's, like a liar, gone to burning hell:
+5026	'Twas I that kill'd her.
+5027	
+5028	EMILIA	O, the more angel she,
+5029	And you the blacker devil!
+5030	
+5031	OTHELLO	She turn'd to folly, and she was a whore.
+5032	
+5033	EMILIA	Thou dost belie her, and thou art a devil.
+5034	
+5035	OTHELLO	She was false as water.
+5036	
+5037	EMILIA	Thou art rash as fire, to say
+5038	That she was false: O, she was heavenly true!
+5039	
+5040	OTHELLO	Cassio did top her; ask thy husband else.
+5041	O, I were damn'd beneath all depth in hell,
+5042	But that I did proceed upon just grounds
+5043	To this extremity. Thy husband knew it all.
+5044	
+5045	EMILIA	My husband!
+5046	
+5047	OTHELLO	Thy husband.
+5048	
+5049	EMILIA	That she was false to wedlock?
+5050	
+5051	OTHELLO	Ay, with Cassio. Nay, had she been true,
+5052	If heaven would make me such another world
+5053	Of one entire and Perfect chrysolite,
+5054	I'ld not have sold her for it.
+5055	
+5056	EMILIA	My husband!
+5057	
+5058	OTHELLO	          Ay, 'twas he that told me first:
+5059	An honest man he is, and hates the slime
+5060	That sticks on filthy deeds.
+5061	
+5062	EMILIA	My husband!
+5063	
+5064	OTHELLO	What needs this iteration, woman? I say thy husband.
+5065	
+5066	EMILIA	O mistress, villany hath made mocks with love,
+5067	My husband say that she was false!
+5068	
+5069	OTHELLO	He, woman;
+5070	I say thy husband: dost understand the word?
+5071	My friend, thy husband, honest, honest Iago.
+5072	
+5073	EMILIA	If he say so, may his pernicious soul
+5074	Rot half a grain a day! he lies to the heart:
+5075	She was too fond of her most filthy bargain.
+5076	
+5077	OTHELLO	Ha!
+5078	
+5079	EMILIA	Do thy worst:
+5080	This deed of thine is no more worthy heaven
+5081	Than thou wast worthy her.
+5082	
+5083	OTHELLO	Peace, you were best.
+5084	
+5085	EMILIA	Thou hast not half that power to do me harm
+5086	As I have to be hurt. O gull! O dolt!
+5087	As ignorant as dirt! thou hast done a deed--
+5088	I care not for thy sword; I'll make thee known,
+5089	Though I lost twenty lives.--Help! help, ho! help!
+5090	The Moor hath kill'd my mistress! Murder! murder!
+5091	
+5092	[Enter MONTANO, GRATIANO, IAGO, and others]
+5093	
+5094	MONTANO	What is the matter? How now, general!
+5095	
+5096	EMILIA	O, are you come, Iago? you have done well,
+5097	That men must lay their murders on your neck.
+5098	
+5099	GRATIANO	What is the matter?
+5100	
+5101	EMILIA	Disprove this villain, if thou be'st a man:
+5102	He says thou told'st him that his wife was false:
+5103	I know thou didst not, thou'rt not such a villain:
+5104	Speak, for my heart is full.
+5105	
+5106	IAGO	I told him what I thought, and told no more
+5107	Than what he found himself was apt and true.
+5108	
+5109	EMILIA	But did you ever tell him she was false?
+5110	
+5111	IAGO	I did.
+5112	
+5113	EMILIA	You told a lie, an odious, damned lie;
+5114	Upon my soul, a lie, a wicked lie.
+5115	She false with Cassio!--did you say with Cassio?
+5116	
+5117	IAGO	With Cassio, mistress. Go to, charm your tongue.
+5118	
+5119	EMILIA	I will not charm my tongue; I am bound to speak:
+5120	My mistress here lies murder'd in her bed,--
+5121	
+5122	All	O heavens forfend!
+5123	
+5124	EMILIA	And your reports have set the murder on.
+5125	
+5126	OTHELLO	Nay, stare not, masters: it is true, indeed.
+5127	
+5128	GRATIANO	'Tis a strange truth.
+5129	
+5130	MONTANO	O monstrous act!
+5131	
+5132	EMILIA	                  Villany, villany, villany!
+5133	I think upon't, I think: I smell't: O villany!--
+5134	I thought so then:--I'll kill myself for grief:--
+5135	O villany, villany!
+5136	
+5137	IAGO	What, are you mad? I charge you, get you home.
+5138	
+5139	EMILIA	Good gentlemen, let me have leave to speak:
+5140	
+5141	'Tis proper I obey him, but not now.
+5142	Perchance, Iago, I will ne'er go home.
+5143	
+5144	OTHELLO	O! O! O!
+5145	
+5146	[He falls on the bed]
+5147	
+5148	EMILIA	       Nay, lay thee down and roar;
+5149	For thou hast kill'd the sweetest innocent
+5150	That e'er did lift up eye.
+5151	
+5152	OTHELLO	[Rising]  O, she was foul!
+5153	I scarce did know you, uncle: there lies your niece,
+5154	Whose breath, indeed, these hands have newly stopp'd:
+5155	I know this act shows horrible and grim.
+5156	
+5157	GRATIANO	Poor Desdemona! I am glad thy father's dead:
+5158	Thy match was mortal to him, and pure grief
+5159	Shore his old thread in twain: did he live now,
+5160	This sight would make him do a desperate turn,
+5161	Yea, curse his better angel from his side,
+5162	And fall to reprobation.
+5163	
+5164	OTHELLO	'Tis pitiful; but yet Iago knows
+5165	That she with Cassio hath the act of shame
+5166	A thousand times committed; Cassio confess'd it:
+5167	And she did gratify his amorous works
+5168	With that recognizance and pledge of love
+5169	Which I first gave her; I saw it in his hand:
+5170	It was a handkerchief, an antique token
+5171	My father gave my mother.
+5172	
+5173	EMILIA	O heaven! O heavenly powers!
+5174	
+5175	IAGO	Come, hold your peace.
+5176	
+5177	EMILIA	'Twill out, 'twill out: I peace!
+5178	No, I will speak as liberal as the north:
+5179	Let heaven and men and devils, let them all,
+5180	All, all, cry shame against me, yet I'll speak.
+5181	
+5182	IAGO	Be wise, and get you home.
+5183	
+5184	EMILIA	I will not.
+5185	
+5186	[IAGO offers to stab EMILIA]
+5187	
+5188	GRATIANO	Fie!
+5189	Your sword upon a woman?
+5190	
+5191	EMILIA	O thou dull Moor! that handkerchief thou speak'st of
+5192	I found by fortune and did give my husband;
+5193	For often, with a solemn earnestness,
+5194	More than indeed belong'd to such a trifle,
+5195	He begg'd of me to steal it.
+5196	
+5197	IAGO	Villanous whore!
+5198	
+5199	EMILIA	She give it Cassio! no, alas! I found it,
+5200	And I did give't my husband.
+5201	
+5202	IAGO	Filth, thou liest!
+5203	
+5204	EMILIA	By heaven, I do not, I do not, gentlemen.
+5205	O murderous coxcomb! what should such a fool
+5206	Do with so good a woman?
+5207	
+5208	OTHELLO	Are there no stones in heaven
+5209	But what serve for the thunder?--Precious villain!
+5210	
+5211	[He runs at IAGO  IAGO, from behind, stabs EMILIA, and exit]
+5212	
+5213	GRATIANO	The woman falls; sure, he hath kill'd his wife.
+5214	
+5215	EMILIA	Ay, ay: O, lay me by my mistress' side.
+5216	
+5217	GRATIANO	He's gone, but his wife's kill'd.
+5218	
+5219	MONTANO	'Tis a notorious villain. Take you this weapon,
+5220	Which I have here recover'd from the Moor:
+5221	Come, guard the door without; let him not pass,
+5222	But kill him rather. I'll after that same villain,
+5223	For 'tis a damned slave.
+5224	
+5225	[Exeunt MONTANO and GRATIANO]
+5226	
+5227	OTHELLO	I am not valiant neither,
+5228	But ever puny whipster gets my sword:
+5229	But why should honour outlive honesty?
+5230	Let it go all.
+5231	
+5232	EMILIA	What did thy song bode, lady?
+5233	Hark, canst thou hear me? I will play the swan.
+5234	And die in music.
+5235	
+5236	[Singing]
+5237	
+5238	Willow, willow, willow,--
+5239	Moor, she was chaste; she loved thee, cruel Moor;
+5240	So come my soul to bliss, as I speak true;
+5241	So speaking as I think, I die, I die.
+5242	
+5243	[Dies]
+5244	
+5245	OTHELLO	I have another weapon in this chamber;
+5246	It is a sword of Spain, the ice-brook's temper:--
+5247	O, here it is. Uncle, I must come forth.
+5248	
+5249	GRATIANO	[Within]  If thou attempt it, it will cost thee dear:
+5250	Thou hast no weapon, and perforce must suffer.
+5251	
+5252	OTHELLO	Look in upon me then and speak with me,
+5253	Or, naked as I am, I will assault thee.
+5254	
+5255	[Re-enter GRATIANO]
+5256	
+5257	GRATIANO	What is the matter?
+5258	
+5259	OTHELLO	Behold, I have a weapon;
+5260	A better never did itself sustain
+5261	Upon a soldier's thigh: I have seen the day,
+5262	That, with this little arm and this good sword,
+5263	I have made my way through more impediments
+5264	Than twenty times your stop: but, O vain boast!
+5265	Who can control his fate? 'tis not so now.
+5266	Be not afraid, though you do see me weapon'd;
+5267	Here is my journey's end, here is my butt,
+5268	And very sea-mark of my utmost sail.
+5269	Do you go back dismay'd? 'tis a lost fear;
+5270	Man but a rush against Othello's breast,
+5271	And he retires. Where should Othello go?
+5272	Now, how dost thou look now? O ill-starr'd wench!
+5273	Pale as thy smock! when we shall meet at compt,
+5274	This look of thine will hurl my soul from heaven,
+5275	And fiends will snatch at it. Cold, cold, my girl!
+5276	Even like thy chastity. O cursed slave!
+5277	Whip me, ye devils,
+5278	From the possession of this heavenly sight!
+5279	Blow me about in winds! roast me in sulphur!
+5280	Wash me in steep-down gulfs of liquid fire!
+5281	O Desdemona! Desdemona! dead!
+5282	Oh! Oh! Oh!
+5283	
+5284	[Enter LODOVICO. MONTANO, CASSIO carried in a chair,
+5285	and Officers with IAGO, prisoner]
+5286	
+5287	LODOVICO	Where is this rash and most unfortunate man?
+5288	
+5289	OTHELLO	That's he that was Othello: here I am.
+5290	
+5291	LODOVICO	Where is that viper? bring the villain forth.
+5292	
+5293	OTHELLO	I look down towards his feet; but that's a fable.
+5294	If that thou best a devil, I cannot kill thee.
+5295	
+5296	[Wounds IAGO]
+5297	
+5298	LODOVICO	Wrench his sword from him.
+5299	
+5300	IAGO	I bleed, sir; but not kill'd.
+5301	
+5302	OTHELLO	I am not sorry neither: I'ld have thee live;
+5303	For, in my sense, 'tis happiness to die.
+5304	
+5305	LODOVICO	O thou Othello, thou wert once so good,
+5306	Fall'n in the practise of a damned slave,
+5307	What shall be said to thee?
+5308	
+5309	OTHELLO	Why, any thing:
+5310	An honourable murderer, if you will;
+5311	For nought I did in hate, but all in honour.
+5312	
+5313	LODOVICO	This wretch hath part confess'd his villany:
+5314	Did you and he consent in Cassio's death?
+5315	
+5316	OTHELLO	Ay.
+5317	
+5318	CASSIO	Dear general, I never gave you cause.
+5319	
+5320	OTHELLO	I do believe it, and I ask your pardon.
+5321	Will you, I pray, demand that demi-devil
+5322	Why he hath thus ensnared my soul and body?
+5323	
+5324	IAGO	Demand me nothing: what you know, you know:
+5325	From this time forth I never will speak word.
+5326	
+5327	LODOVICO	What, not to pray?
+5328	
+5329	GRATIANO	                  Torments will ope your lips.
+5330	
+5331	OTHELLO	Well, thou dost best.
+5332	
+5333	LODOVICO	Sir, you shall understand what hath befall'n,
+5334	Which, as I think, you know not. Here is a letter
+5335	Found in the pocket of the slain Roderigo;
+5336	And here another: the one of them imports
+5337	The death of Cassio to be undertook
+5338	By Roderigo.
+5339	
+5340	OTHELLO	O villain!
+5341	
+5342	CASSIO	Most heathenish and most gross!
+5343	
+5344	LODOVICO	Now here's another discontented paper,
+5345	Found in his pocket too; and this, it seems,
+5346	Roderigo meant to have sent this damned villain;
+5347	But that belike Iago in the interim
+5348	Came in and satisfied him.
+5349	
+5350	OTHELLO	O the pernicious caitiff!
+5351	How came you, Cassio, by that handkerchief
+5352	That was my wife's?
+5353	
+5354	CASSIO	I found it in my chamber:
+5355	And he himself confess'd but even now
+5356	That there he dropp'd it for a special purpose
+5357	Which wrought to his desire.
+5358	
+5359	OTHELLO	O fool! fool! fool!
+5360	
+5361	CASSIO	There is besides in Roderigo's letter,
+5362	How he upbraids Iago, that he made him
+5363	Brave me upon the watch; whereon it came
+5364	That I was cast: and even but now he spake,
+5365	After long seeming dead, Iago hurt him,
+5366	Iago set him on.
+5367	
+5368	LODOVICO	You must forsake this room, and go with us:
+5369	Your power and your command is taken off,
+5370	And Cassio rules in Cyprus. For this slave,
+5371	If there be any cunning cruelty
+5372	That can torment him much and hold him long,
+5373	It shall be his. You shall close prisoner rest,
+5374	Till that the nature of your fault be known
+5375	To the Venetian state. Come, bring him away.
+5376	
+5377	OTHELLO	Soft you; a word or two before you go.
+5378	I have done the state some service, and they know't.
+5379	No more of that. I pray you, in your letters,
+5380	When you shall these unlucky deeds relate,
+5381	Speak of me as I am; nothing extenuate,
+5382	Nor set down aught in malice: then must you speak
+5383	Of one that loved not wisely but too well;
+5384	Of one not easily jealous, but being wrought
+5385	Perplex'd in the extreme; of one whose hand,
+5386	Like the base Indian, threw a pearl away
+5387	Richer than all his tribe; of one whose subdued eyes,
+5388	Albeit unused to the melting mood,
+5389	Drop tears as fast as the Arabian trees
+5390	Their medicinal gum. Set you down this;
+5391	And say besides, that in Aleppo once,
+5392	Where a malignant and a turban'd Turk
+5393	Beat a Venetian and traduced the state,
+5394	I took by the throat the circumcised dog,
+5395	And smote him, thus.
+5396	
+5397	[Stabs himself]
+5398	
+5399	LODOVICO	O bloody period!
+5400	
+5401	GRATIANO	                  All that's spoke is marr'd.
+5402	
+5403	OTHELLO	I kiss'd thee ere I kill'd thee: no way but this;
+5404	Killing myself, to die upon a kiss.
+5405	
+5406	[Falls on the bed, and dies]
+5407	
+5408	CASSIO	This did I fear, but thought he had no weapon;
+5409	For he was great of heart.
+5410	
+5411	LODOVICO	[To IAGO]  O Spartan dog,
+5412	More fell than anguish, hunger, or the sea!
+5413	Look on the tragic loading of this bed;
+5414	This is thy work: the object poisons sight;
+5415	Let it be hid. Gratiano, keep the house,
+5416	And seize upon the fortunes of the Moor,
+5417	For they succeed on you. To you, lord governor,
+5418	Remains the censure of this hellish villain;
+5419	The time, the place, the torture: O, enforce it!
+5420	Myself will straight aboard: and to the state
+5421	This heavy act with heavy heart relate.
+5422	
+5423	[Exeunt]

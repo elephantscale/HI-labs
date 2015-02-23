@@ -24,6 +24,7 @@ chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
 (For CDH5, set swappiness to 0 on every node, like this:
+# This is not required if you are using hadoop-clean-V16
 sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf" - then reboot
 for immediate change do 'sudo sysctl vm.swappiness=0'
 - because CDH5 checks it).
@@ -105,12 +106,14 @@ Create a home directory in HDFS
 (On ubuntu $USER = ubuntu,  On CentOS $USER = ec2-user)
 
 for cluster health, set ntp
+# This is not required if you are using hadoop-clean-V16
 sudo yum -y install ntp
 sudo chkconfig ntpd on
 sudo ntpdate 0.centos.pool.ntp.org
 sudo service ntpd start
 
 set swappiness to 0
+# This is not required if you are using hadoop-clean-V16
 sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
 sudo sysctl vm.swappiness=0
 

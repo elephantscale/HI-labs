@@ -70,7 +70,7 @@ You can execute this query directly from hive shell, or place this in a file (e.
 Question : how many mapreduce jobs are being kicked off?  Why?
 
 
-== STEP 8)  creating invoice table
+== STEP 9)  creating invoice table
 printing to screen is great for developing / debugging.
 we want to save the calculated invoices into a table.
 
@@ -80,7 +80,7 @@ Execute the script to create table
     $  hive  -f  invoices_ext.q
 
 
-== STEP 9)  Save results into invoice table
+== STEP 10)  Save results into invoice table
 Edit file : inv.q
 Fix TODOs
 Execute the scripts
