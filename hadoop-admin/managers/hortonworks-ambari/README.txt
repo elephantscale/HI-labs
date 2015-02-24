@@ -7,7 +7,7 @@ Instructor:
 
 
 == STEP 1) 
-login to an machine instance to install ambari
+login to one machine instance to install Ambari
 
 
 == STEP 2)
