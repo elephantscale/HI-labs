@@ -13,15 +13,16 @@ Answer : src/hi/hdfs/HdfsClientWriteAnswer.java
 
 == STEP 3) compile the code:
   $ cd hdfs-client
-  $ ../compile2.sh
+  $ ../compile.sh
 this should create a jar file called 'a.jar'
 
 
 == STEP 4)
 we will run this jar file
 note that the first argument is the local file path, while the second one is the HDFS path
+The local data should be available from ../../data/billing-data/sample.txt -- confirm the path.
 
-    $ hadoop jar a.jar   hi.hdfs.HdfsClientWrite   ../data/hdfs-data/sample.txt   <user-name>/sample-out.txt
+    $ hadoop jar a.jar   hi.hdfs.HdfsClientWrite   ../../data/billing-data/sample.txt   <user-name>/sample-out.txt
 
 
 == STEP 5)
