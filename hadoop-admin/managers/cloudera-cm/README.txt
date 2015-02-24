@@ -24,7 +24,7 @@ chmod +x cloudera-manager-installer.bin
 sudo ./cloudera-manager-installer.bin
 
 (For CDH5, set swappiness to 0 on every node, like this:
-# This is not required if you are using hadoop-clean-V16
+# Note that this is not required if you are using hadoop-clean-V16
 sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf" - then reboot
 for immediate change do 'sudo sysctl vm.swappiness=0'
 - because CDH5 checks it).
@@ -43,49 +43,9 @@ Note : be sure to use the public IP address, rather than the private ip
 - Welcome Page
       Select Standard License
 
-- Page 1 :
-    Click Continue
+- Select the internal IPs of the servers that will go into the cluster
 
-- Page 2 : Instance Specifics
-    Choose 'custom image'
-      Image ID : ami-e855b580  (verify with instructor)
-      user : ec2-user
-
-   instance type : m3.xlarge  or bigger
-   instances : 4
-   name of cluster : <your name>-cdh
-
-
-- Page 3 : Credentials
-    Instructor will provide security keys
-    Be sure to 'Test Credentials' to verify
-
-    ** Important ** Choose 'Upload my own key'
-    Instructor will provide SSH key (*.pem)
-
-
-- Page 5 : Review to make sure every thing is right
-    Click 'Start Installation'
-
-
-- Page 6 : Provisioning
-    nothing to do here
-    Click next once done
-
-
-- Page 7 : install on nodes
-    click next when done
-
-
-- Page 8: inspecting hosts
-    click next when done
-
-- Page 9 : starting services
-    click next when done
-
-- Install Done:
-    congrats.. cluster is up and running
-
+- Continue with the wizard
 
 - Exploring:
     HDFS:
@@ -106,14 +66,14 @@ Create a home directory in HDFS
 (On ubuntu $USER = ubuntu,  On CentOS $USER = ec2-user)
 
 for cluster health, set ntp
-# This is not required if you are using hadoop-clean-V16
+# Note that this is not required if you are using hadoop-clean-V16
 sudo yum -y install ntp
 sudo chkconfig ntpd on
 sudo ntpdate 0.centos.pool.ntp.org
 sudo service ntpd start
 
 set swappiness to 0
-# This is not required if you are using hadoop-clean-V16
+# Note that this is not required if you are using hadoop-clean-V16
 sudo bash -c "echo 'vm.swappiness = 0' >> /etc/sysctl.conf"
 sudo sysctl vm.swappiness=0
 
