@@ -1,1 +1,0 @@
-../compile2.sh
