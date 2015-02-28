@@ -10,7 +10,7 @@ SET job.name 'MY_NAME filter.pig';
 billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (timestamp:long,custid:chararray,resourceid:chararray,qty:int,cost:int);
 DUMP billing_data;
 
--- ## TODO : filter only resource_id = 1
+-- ## TODO : filter only resourceid = 1
 -- A = FILTER billing_data BY ..... ;
 -- DESCRIBE A;
 -- DUMP A;
