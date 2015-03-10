@@ -48,7 +48,7 @@ Q : How many jobs are running for grep?
 
 == STEP 5)  look for multiple words
     grep for two strings 'dfs' and 'xml'
-    hint : the regular expression is :  '(dfs|xml)'
+    hint : the regular expression is :  'dfs\|xml'
 
 
 == BONUS LAB )
