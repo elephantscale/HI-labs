@@ -27,7 +27,9 @@ If not, you may also need to add the Cloudera or another repository from which t
   this will give you a number of log files: 0.log, 1.log, 2.log, and so on. You will be able to append data to you main log files, such as cat 1.log >> <your-log-file>
   
 == STEP 5) start collector in second terminal window
-  Use flume-ng command
+  Use flume-ng command, such as
+
+flume-ng agent -n $agent_name -c conf -f conf/flume-conf.properties
 
 == STEP 6) imitate the source adding data
   Use >> to append some data to your log file
