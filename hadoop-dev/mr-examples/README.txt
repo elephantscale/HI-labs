@@ -60,6 +60,21 @@ Q : How many jobs are running for grep?
     do they agree?  if not why not?
 
 
+== BONUS LAb ) grep on large files:
+    $  cd <my name>  # go to your workspace
+    $  cd HI-labs/data/twinkle
+    $  ./create-data-files.sh
+
+This will produce files of various sizes... copy 1G.data files into HDFS
+
+    $   hdfs   dfs -mkdir  -p    MY_NAME/twinkle/in
+    $   hdfs   dfs -put   1G.data  MY_NAME/twinkle/in
+
+Now re-run the mr-grep example on the large file  'MY_NAME/twinkle/in' .
+Look for the word 'diamond'
+How many Maps are launched ?
+Can you figure out why?
+
 == BONUS LAB)
 More examples are in 'hadoop-examples-*.jar'
 This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
