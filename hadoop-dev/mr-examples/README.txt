@@ -77,16 +77,16 @@ Can you figure out why?
 
 == BONUS LAB)
 More examples are in 'hadoop-examples-*.jar'
-This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
-(might be located under /opt  for some distributions
-use the following command to locate the file
-    $   find /opt   | grep hadoop-mapreduce-examples.jar
-)
+This jar file can be  found in: 
+    - Hortonworks :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
+    - Cloudera : /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar
 
-Find what mapreduce examples are available
-
-$ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
-e.g.
-$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
-
+To find what mapreduce examples are available
+> $ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
+> e.g.
+> $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar  
+> 
 This will print out sample programs available
+
+And run a sample program like 'wordcount'
+    $   hadoop jar /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar  wordcount <intput dir>  <output dir>
