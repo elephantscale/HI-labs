@@ -1,4 +1,4 @@
--- pig-billing.pig
+-- top-spenders.pig
 
 -- ## TODO : set the name of job
 SET job.name 'MY_NAME top.pig';
@@ -22,3 +22,5 @@ total_by_cid = foreach grp_by_cid generate group, SUM(cid_cost.cost) as total;
 
 -- DUMP top10  ;
 
+-- ## TODO : how many map reduce jobs did this script run?
+-- ## can you account for all MR jobs?

@@ -19,14 +19,18 @@ DESCRIBE billing_data;
 billing_data2 = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',');
 DESCRIBE billing_data2;
 
+-- ## Save and run the script : 
+-- ##      $    pig intro.pig
+-- ## Inspect the YARN UI, can you see your job running
 -- ## BREAK : Wait for Instructor
+
 -- ## TODO : explain
 -- ## uncomment the following line, run the script, inspect the output
 -- EXPLAIN billing_data;
 
 -- ## TODO : DUMP
 -- ## uncomment the following line, run the script, inspect the output
--- ## check YARN UI, what do you see?
+-- ## check YARN UI, what do you see now?
 -- DUMP billing_data;
 
 -- # now lets store the records in hdfs

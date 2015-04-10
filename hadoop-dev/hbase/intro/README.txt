@@ -56,6 +56,8 @@ Use the list command to verify the table exists
     TABLE
     sujee_test
 
+Q : Think about why we are using short names for family (e.g.  'd'  or 'f1') instead of 'my first family' ?
+(answer on slide HBASE03-InDepth ,   page 10)
 
 == STEP 7) Find out more about the table
 Hint : 'describe'

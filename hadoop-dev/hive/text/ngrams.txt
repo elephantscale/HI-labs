@@ -1,12 +1,19 @@
 NGram Analysis of text documents
 ----------
 
-We will use the 'books' table (MY_NAME_books) for the analysis.
+We will use the 'text' table (MY_NAME_text) for the analysis.
 TODO : adjust  'MY_NAME'
+
+You can choose 'moby-dick'  or 'state of the union' (sotu-2014-obama.txt) text for analysis
+
+(To replace moby-dick.txt with state of the union text
+      $  hdfs  dfs  -rm   MY_NAME/hive/text/*
+      $  hdfs  dfs  -put  sotu-2014-obama.txt   MY_NAME/hive/text/
+)
 
 == STEP 1)
 Find the most occuring bigrams (two) in text
-    $  hive -e 'SELECT ngrams(sentences(lower(line)), 2, 20 ) FROM MY_NAME_books'
+    $  hive -e 'SELECT ngrams(sentences(lower(line)), 2, 20 ) FROM MY_NAME_text'
 
 Note : The output will be a json structure, it is hard to read
 Use http://jsoneditor.appspot.com/  to pretty-up the output
@@ -20,10 +27,18 @@ Hint : these are called stop words (or filler words)
 == STEP 2)
 Find context n-grams occurring around word(s)
 
-What words follow the word 'whale'
-    $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array("whale", null), 30) FROM MY_NAME_books'
+For Moby-dick:
+    What words follow the word 'whale'
+        $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array("whale", null), 30) FROM MY_NAME_text'
+
+For State of the union text
+    what words follow the word 'american'
 
 
 == STEP 3)
-what are the top adjectives used to describe 'whale'
-    $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array(null, "whale"), 30) FROM MY_NAME_books'
+For moby-dick:
+    what are the top adjectives used to describe 'whale'
+        $  hive -e 'SELECT context_ngrams(sentences(lower(line)), array(null, "whale"), 30) FROM MY_NAME_text'
+
+For State of The Union:
+    what are the adjectives used for 'american'

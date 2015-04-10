@@ -3,6 +3,9 @@ project dir : HI-labs/hadoop-dev/hive/billing
 
 Replace MY_NAME throughout the lab.
 
+Hint : To see column names set the following property in hive shell
+    hive>   set hive.cli.print.header=true;
+
 == STEP 1)
 Lets create an external table for our billing data.
 Edit file billing_ext.q
@@ -38,6 +41,8 @@ Launch hive shell
     hive >  select count(*) from MY_NAME_billing;
 
 This will actually kick off a mapreduce job, and at the end you will get the count
+Q : how many mappers and how many reducers? 
+Can you explain how to do count(*) in MR?
 
 
 == STEP 6) see a sample of data
