@@ -1,5 +1,5 @@
 Pig Intro Lab : learning pig concepts
-project dir : pig-intro
+project dir : pig/intro
 
 === STEP 1) start up the GRUNT shell using pig
         $ pig
