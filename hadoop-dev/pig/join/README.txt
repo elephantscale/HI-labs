@@ -13,7 +13,7 @@ STEP 3) Run the pig file using pig:
   $ pig ./join.pig
 
 STEP 4)
-Browse HDFS file system.  Navigate to '/user/<your user name>/billing/out' dir
+Browse HDFS file system.  Navigate to 'MYNAME/billing/out' dir
 (see ../getting-started.txt for detailed instructions)
 
 

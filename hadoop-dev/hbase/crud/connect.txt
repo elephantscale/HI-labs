@@ -5,7 +5,6 @@ project working dir : HI-labs/hadoop-dev/hbase/crud
 you can also open the project in eclipse
 
 == STEP 1)
-    $   cd crud
 edit the file : src/main/hi/hbase/Connect.java
 
 

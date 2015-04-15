@@ -52,6 +52,10 @@ public class BillingTotal extends Configured implements Tool {
   }
 
   static class MyMapper extends Mapper<Object, Text, Text, IntWritable> {
+        // declared for re-use
+        Text keyOutCustomer = new Text();
+        IntWritable valueOutCost = new IntWritable();
+
 
     @Override
     public void map(Object key, Text record, Context context)
@@ -73,9 +77,16 @@ public class BillingTotal extends Configured implements Tool {
         // String costStr = ....
         // int cost = .... // convert to actual int
 
+        // don't do this...
+        // we will be creating a lot of temp. objects (think millions or billions)
+        // and increasing Java GC pressure
+        // Text keyOutCustomer = new Text(customerIdStr);
+        // IntWritable valueOutCost = new IntWritable(cost);
+
         /// TODO : create output key / value pair
-        // Text keyOutCustomer = new Text (?);
-        // IntWritable valueOutCost = new IntWritable(?);
+        // do this : re-use k,v pairs --> very efficient
+        // keyOutCustomer.set(?);
+        // valueOutCost.set(?);
         // context.write(keyOutCustomer, valueOutCost);
 
       } catch (Exception e) {
@@ -88,14 +99,14 @@ public class BillingTotal extends Configured implements Tool {
   public static class MyReducer extends
       Reducer<Text, IntWritable, Text, IntWritable> {
 
-    public void reduce(Text key, Iterable<IntWritable> results, Context context)
+    public void reduce(Text custId, Iterable<IntWritable> allCosts, Context context)
         throws IOException, InterruptedException {
       int total = 0;
-      for (IntWritable cost : results) {
+      for (IntWritable cost : allCosts) {
         // TODO
         // add up all the costs
       }
-      context.write(key, new IntWritable(total));
+      context.write(custId, new IntWritable(total));
     }
   }
 }

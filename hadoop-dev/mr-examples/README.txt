@@ -60,18 +60,33 @@ Q : How many jobs are running for grep?
     do they agree?  if not why not?
 
 
+== BONUS LAb ) grep on large files:
+    $  cd <my name>  # go to your workspace
+    $  cd HI-labs/data/twinkle
+    $  ./create-data-files.sh
+
+This will produce files of various sizes... copy 1G.data files into HDFS
+
+    $   hdfs   dfs -mkdir  -p    MY_NAME/twinkle/in
+    $   hdfs   dfs -put   1G.data  MY_NAME/twinkle/in
+
+Now re-run the mr-grep example on the large file  'MY_NAME/twinkle/in' .
+Look for the word 'diamond'
+How many Maps are launched ?
+Can you figure out why?
+
 == BONUS LAB)
 More examples are in 'hadoop-examples-*.jar'
-This jar file usually found in :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
-(might be located under /opt  for some distributions
-use the following command to locate the file
-    $   find /opt   | grep hadoop-mapreduce-examples.jar
-)
+This jar file can be  found in: 
+    - Hortonworks :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
+    - Cloudera : /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar
 
-Find what mapreduce examples are available
-
-$ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
-e.g.
-$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
-
+To find what mapreduce examples are available
+> $ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
+> e.g.
+> $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar  
+> 
 This will print out sample programs available
+
+And run a sample program like 'wordcount'
+    $   hadoop jar /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar  wordcount <intput dir>  <output dir>

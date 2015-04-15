@@ -23,9 +23,7 @@ public class Insert
     public static void main(String[] args) throws Exception
     {
         Configuration config = HBaseConfiguration.create();
-
-        // TODO : create new HTable instance
-        HTable htable = null;
+        HTable htable = new HTable(config, tableName);
 
         int total = 100;
         long t1 = System.currentTimeMillis();
