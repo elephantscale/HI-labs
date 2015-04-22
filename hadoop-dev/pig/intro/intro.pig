@@ -21,7 +21,7 @@ DESCRIBE billing_data2;
 
 -- ## Save and run the script : 
 -- ##      $    pig intro.pig
--- ## Inspect the YARN UI, can you see your job running
+-- ## Inspect the YARN UI, can you see your job running?
 -- ## BREAK : Wait for Instructor
 
 -- ## TODO : explain
