@@ -60,6 +60,19 @@ Q : How many jobs are running for grep?
     do they agree?  if not why not?
 
 
+== BONUS LAB) Running Wordcount
+Try 'word count' (the 'hello world' program in Hadoop :-)
+    $  hadoop org.apache.hadoop.examples.WordCount
+Will print out usage
+
+e.g
+
+    $  hadoop org.apache.hadoop.examples.WordCount   MY_NAME/grep/in   MY_NAME/wordcount
+
+Inspect the result in output dir  'MYNAME/wordcount'
+    $ hdfs dfs -cat   MY_NAME/wordcount/*
+
+
 == BONUS LAb ) grep on large files:
     $  cd <my name>  # go to your workspace
     $  cd HI-labs/data/twinkle
@@ -88,10 +101,3 @@ To find what mapreduce examples are available
 > 
 This will print out sample programs available
 
-Try 'word count' (the 'hello world')
-    $  hadoop org.apache.hadoop.examples.WordCount
-Will print out usage
-
-e.g
-
-    $  hadoop org.apache.hadoop.examples.WordCount   MY_NAME/twinkle/in   MY_NAME/twinkle/out
