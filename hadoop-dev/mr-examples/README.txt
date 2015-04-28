@@ -91,3 +91,7 @@ This will print out sample programs available
 Try 'word count' (the 'hello world')
     $  hadoop org.apache.hadoop.examples.WordCount
 Will print out usage
+
+e.g
+
+    $  hadoop org.apache.hadoop.examples.WordCount   MY_NAME/twinkle/in   MY_NAME/twinkle/out
