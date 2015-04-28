@@ -88,5 +88,6 @@ To find what mapreduce examples are available
 > 
 This will print out sample programs available
 
-And run a sample program like 'wordcount'
-    $   hadoop jar /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar  wordcount <intput dir>  <output dir>
+Try 'word count' (the 'hello world')
+    $  hadoop org.apache.hadoop.examples.WordCount
+Will print out usage
