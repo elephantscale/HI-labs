@@ -48,3 +48,17 @@ setup user hdfs directory
     $  sudo -u hdfs  hdfs  dfs -mkdir /user/$USER
     $  sudo -u hdfs  hdfs  dfs -chown $USER  /user/$USER
 
+
+====  
+Troubleshooting
+====
+Problem:
+During mapreduce we get this Error : File does not exist: hdfs://...../hdp/apps/2.2.4.2-2/mapreduce/mapreduce.tar.gz
+
+cause: missing file
+
+Fix: (adjust the version strings)
+    $  sudo -u hdfs hdfs dfs -mkdir -p /hdp/apps/2.2.4.2-2/mapreduce
+
+    $  sudo -u hdfs  hdfs dfs -put  /usr/hdp/current/hadoop-client/mapreduce.tar.gz   /hdp/apps/2.2.4.2-2/mapreduce/mapreduce.tar.gz
+--------------
