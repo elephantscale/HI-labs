@@ -42,3 +42,11 @@ For moby-dick:
 
 For State of The Union:
     what are the adjectives used for 'american'
+
+== STEP 4) 'Visualizing' text
+'Word Clouds' are very interesting way of visualizing text.
+Try these word cloud generators
+    https://www.jasondavies.com/wordcloud/
+
+Copy paste text from 'sotu-2014-obama.txt'  or if the wordcloud generator accepts URL, use the following url
+https://raw.githubusercontent.com/elephantscale/HI-labs/master/hadoop-dev/hive/text/sotu-2014-obama.txt

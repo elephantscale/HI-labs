@@ -48,4 +48,4 @@ Note the count results.
 
 === BONUS LAB )
     Verify that Hive indeed only using data in partition directories.
-    Hint : look at counters for Hive jobs at JobTracker UI.
+    Hint : look at counters for Hive jobs in YARN UI

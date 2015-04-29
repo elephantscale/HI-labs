@@ -13,6 +13,7 @@ DUMP billing_data;
 -- ## WARN : do not place resources.txt file into 'billing/in'
 --           directory  (don't mix billing logs & resources.txt)
 -- ## try the following command (update MYNAME accordingly)
+-- ## execute this command in terminal (not within Pig script)
 --      $   hdfs dfs -put ../../../data/billing-data/resources.txt      MYNAME/billing/
 
 -- ## TODO : update MY_NAME
