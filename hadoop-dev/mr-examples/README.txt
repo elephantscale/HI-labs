@@ -60,17 +60,6 @@ Q : How many jobs are running for grep?
     do they agree?  if not why not?
 
 
-== BONUS LAB) Running Wordcount
-Try 'word count' (the 'hello world' program in Hadoop :-)
-    $  hadoop org.apache.hadoop.examples.WordCount
-Will print out usage
-
-e.g
-
-    $  hadoop org.apache.hadoop.examples.WordCount   MY_NAME/grep/in   MY_NAME/wordcount
-
-Inspect the result in output dir  'MYNAME/wordcount'
-    $ hdfs dfs -cat   MY_NAME/wordcount/*
 
 
 == BONUS LAb ) grep on large files:
