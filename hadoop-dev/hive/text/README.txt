@@ -1,5 +1,7 @@
 Lab: Analyzing Text Data
 
+working dir :   <your workspace>/HI-labs/hadoop-dev/hive/text
+
 == STEP 1)
 Make a directory in HDFS to store books data.
     $  hdfs  dfs  -mkdir  -p MY_NAME/hive/text

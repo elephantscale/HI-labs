@@ -24,8 +24,8 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 
 -- ## group by customer
 -- grp_by_cid = .....
--- DESCRIBE grp_by_cid;
 -- DUMP grp_by_cid;
+-- DESCRIBE grp_by_cid;
 
 -- ## then sum cost
 -- ## hint : sum(cost) won't work, b/c cost is nested
