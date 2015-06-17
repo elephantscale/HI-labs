@@ -9,7 +9,7 @@ So far we have dealt with CSV (comma seperated values) files.  Now we are going 
 == STEP 1) generate json records
 script location : <project root dir>/data/billing-data
 edit the file : <project root dir>/data/billing-data/gen-billing-data.py
-un comment the json generation part around line 35
+un comment the json generation part around line 14
 
   def generate_log(timestamp)
     ...
