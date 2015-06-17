@@ -1,0 +1,4115 @@
+September 16, 2008                                                                     1 of 108
+
+
+
+                     Meeting of the Federal Open Market Committee on
+                                     September 16, 2008
+
+       A meeting of the Federal Open Market Committee was held in the offices of the Board of
+Governors of the Federal Reserve System in Washington, D.C., on Tuesday, September 16,
+2008, at 8:30 a.m. Those present were the following:
+
+       Mr. Bernanke, Chairman
+       Ms. Duke
+       Mr. Fisher
+       Mr. Kohn
+       Mr. Kroszner
+       Ms. Pianalto
+       Mr. Plosser
+       Mr. Stern
+       Mr. Warsh
+
+       Ms. Cumming, Messrs. Evans, Lacker, and Lockhart, and Ms. Yellen, Alternate
+       Members of the Federal Open Market Committee
+
+       Messrs. Bullard, Hoenig, and Rosengren, Presidents of the Federal Reserve Banks of St.
+       Louis, Kansas City, and Boston, respectively
+
+       Mr. Madigan, Secretary and Economist
+       Ms. Danker, Deputy Secretary
+       Mr. Skidmore, Assistant Secretary
+       Ms. Smith, Assistant Secretary
+       Mr. Alvarez, General Counsel
+       Mr. Sheets, Economist
+       Mr. Stockton, Economist
+
+       Messrs. Connors, English, Kamin, Rolnick, Rosenblum, Slifman, Tracy, and Wilcox,
+       Associate Economists
+
+       Mr. Dudley, Manager, System Open Market Account
+
+       Mr. Cole, Director, Division of Banking Supervision and Regulation, Board of Governors
+
+       Mr. Clouse, Deputy Director, Division of Monetary Affairs, Board of Governors
+
+       Mr. Parkinson, Deputy Director, Division of Research and Statistics, Board of Governors
+
+       Mr. Blanchard, Assistant to the Board, Office of Board Members, Board of Governors
+
+       Mr. Struckmeyer, Deputy Staff Director, Office of Staff Director for Management, Board
+       of Governors
+September 16, 2008                                                                      2 of 108
+
+
+
+
+      Mr. Gagnon, Visiting Associate Director, Division of Monetary Affairs, Board of
+      Governors
+
+      Messrs. Reifschneider and Wascher, Associate Directors, Division of Research and
+      Statistics, Board of Governors
+
+      Mr. Oliner, Senior Adviser, Division of Research and Statistics, Board of Governors
+
+      Mr. Small, Project Manager, Division of Monetary Affairs, Board of Governors
+
+      Mr. Luecke, Section Chief, Division of Monetary Affairs, Board of Governors
+
+      Mr. Carlson, Economist, Division of Monetary Affairs, Board of Governors
+
+      Ms. Low, Open Market Secretariat Specialist, Division of Monetary Affairs, Board of
+      Governors
+
+      Mr. Moore, First Vice President, Federal Reserve Bank of San Francisco
+
+      Mr. Judd, Executive Vice President, Federal Reserve Bank of San Francisco
+
+      Mr. Altig, Ms. Baum, Messrs. Rasche, Schweitzer, Sellon, and Tootell, Senior Vice
+      Presidents, Federal Reserve Banks of Atlanta, New York, St. Louis, Cleveland, Kansas
+      City, and Boston, respectively
+
+      Mr. Krane, Vice President, Federal Reserve Bank of Chicago
+
+      Mr. Chatterjee, Senior Economic Adviser, Federal Reserve Bank of Philadelphia
+
+      Mr. Wolman, Senior Economist, Federal Reserve Bank of Richmond
+September 16, 2008                                                                             3 of 108
+
+
+
+                    Transcript of the Federal Open Market Committee Meeting on
+                                         September 16, 2008
+
+           CHAIRMAN BERNANKE. Good morning, everybody. Sorry for the late beginning.
+
+The markets are continuing to experience very significant stresses this morning, and there are
+
+increasing concerns about the insurance company AIG. That is the reason that Vice Chairman
+
+Geithner is not attending, and Chris Cumming will sit in his place.
+
+           I want to turn in a minute to Bill Dudley for his usual report, and he will be able to give
+
+you more information about the situation. There is another action item I would like to add, given
+
+what is happening, which is that there are very significant problems with dollar funding in other
+
+jurisdictions--in Europe and elsewhere. After Bill makes his presentation and we have our
+
+discussion, I would like to put on the table a request for authorization for swap lines. I prefer not
+
+to put a limit on it, so I know I've got my own bazooka here. [Laughter] There is a Foreign
+
+Currency Subcommittee that consists of myself, the Vice Chairman of the FOMC, and the Vice
+
+Chairman of the Board. Again, after Bill's discussion, I would like to discuss the possibility of
+
+giving us a temporary authority to use swap lines as needed.
+
+           Before I turn to Bill, let me say one other thing. Obviously, we started late. We have a
+
+lot to talk about. I would like--just for today, if you would indulge me--to condense our
+
+discussion to one round. In your discussion, please include your tentative views on the policy
+
+decision. Obviously, that is not ideal because you will not have heard everyone else's views, but
+
+we will have an opportunity afterward for people to amend, revise, and give additional thoughts.
+
+But in the interest of time, I think it would be more efficient at this time just to do it that way.
+
+Without further ado, let me turn to Bill and ask for a report.
+
+           MR. DUDLEY. Thank you, Mr. Chairman. I am not going to go through this in
+       great detail. You can look at these charts at your leisure. 1 I am going to focus on
+1
+    The materials to which Mr. Dudley refers are appended to this transcript (appendix 1).
+September 16, 2008                                                                           4 of 108
+
+
+
+   what is going on right now, how we have responded to it, and what I think the issues
+   are. Just to give you a snapshot of what has happened since Sunday evening, stocks
+   are down worldwide--4 percent plus everywhere. Yesterday, the U.S. stock market
+   was down about 4½ percent, and S&P futures indicate a lower opening today. As you
+   might expect, there has been a big flight to quality, especially into the Treasury bill
+   market. Ten-year Treasury note yields fell about 30 basis points yesterday, and there
+   has been a big rally throughout the Treasury curve. The big thing, where there has
+   probably been the most severe stress in the market, is in dollar liquidity for foreign
+   banks. As you remember, foreign banks, especially in Europe, have a structural
+   dollar funding shortfall, and they look to execute foreign exchange swaps or borrow
+   in the dollar LIBOR market to fund that. There was significant upward pressure in
+   that market--overnight LIBOR rates today were 6.44 percent--and that pressure in
+   Europe is leaking over into our market. Yesterday the federal funds rate opened at
+   3 to 3½ percent. Despite our doing a $20 billion repo at our normal 9:30 a.m. time,
+   the upward pressure on the funds rate yesterday continued. It rose to as high as
+   6 percent in the late morning, and that is why we came in with a second operation of
+   $50 billion around noon yesterday.
+
+        To try to have more effect on this issue, this morning we came in much earlier
+   than we normally do--around 8:00 a.m. We did a $50 billion overnight repo. The
+   funds rate at the time was trading at 3¼ percent. I think this means that we are
+   obviously adding way too many reserves for the current maintenance period; but the
+   good news is that, when this maintenance period is over a week from tomorrow, we
+   get a fresh start. So at the current time I think we will see essentially a lot of firmness
+   in the funds rate in the morning and then the funds rate trading down to zero late in
+   the day. Where the funds rate averages relative to the target is going to be somewhat
+   difficult to say. Yesterday, despite the collapse in the funds rate to essentially zero at
+   the end of the day, the funds rate was quite firm relative to the target. I don't
+   remember the numbers, but it was in the 2½ percent range. We are going to try to hit
+   the target on average, but it is going to be very difficult. In the current circumstances,
+   it probably is more sensible--at least my advice would be--to err on the side of
+   providing enough liquidity to the market rather than trying to be cute and worrying
+   just about the target federal funds rate.
+
+       Now, the Lehman filing has also intensified the pressure on Morgan Stanley and
+   Goldman Sachs in a number of respects. The Lehman failure means that investors
+   now view the debt of Morgan Stanley and Goldman Sachs as having much more risk
+   than it did on Sunday. This means that these firms need bigger liquidity buffers than
+   they had before, and it does have implications for long-term profitability. As a
+   consequence, their share prices fell very sharply yesterday. Morgan Stanley was
+   down about $5 a share, to $32, and Goldman Sachs's stock was off 18 points, to
+   $135. Morgan Stanley experienced a modest, but not insignificant, pulling back of
+   their counterparties and ate into their liquidity buffer by a measurable degree. The
+   Lehman problems also were evident in some other areas. This is very incomplete, but
+   the ones that came to my attention were money market funds--especially, the
+   Reserve Fund that had large withdrawals, and they encountered a significant liquidity
+September 16, 2008                                                                               5 of 108
+
+
+
+   problem. I am actually not sure how that was resolved, but I think that State Street
+   was in the situation of having to cover a very large shortfall of the Reserve Fund last
+   night. The risk here, of course, is that, if AIG were to fail, money funds have even a
+   broader exposure to them than to Lehman, and so breaking the buck on the money
+   market funds is a real risk. The capital resources of the entities that are associated
+   with the money market funds often are quite modest, so their ability to top up the
+   money funds and keep them whole is quite limited. Thus the money market funds are
+   definitely one important issue in how this contagion could be broader.
+
+       The second issue is the people who are dealing with Lehman and who have
+   positions with Lehman as their counterparty and how they wind up those positions.
+   As you know, the parent filed for bankruptcy, but the U.S. broker-dealer is still in
+   operation. But being in operation doesn't mean that they are necessarily conducting
+   business in a normal way. One issue that has received a lot of attention is from some
+   of the asset managers on their mortgage TBA positions with Lehman. Apparently,
+   the sell side can net these up pretty easily through the FICC (Fixed Income Clearing
+   Corporation), but the asset managers have positions with Lehman to either take on
+   mortgage-backed securities or to sell mortgage-backed securities on a forward basis,
+   and they are not really sure what those positions are going to be when we get to that
+   date. Lehman was not executing those trades yesterday, and so these asset managers
+   are in the very unfortunate position of not knowing what to do. Do they offset their
+   Lehman position with a trade elsewhere or not? So that has been another very open-
+   ended issue for the market. In terms of market function yesterday, it was manageable
+   in the sense that markets did trade. But I think it is much too soon to think that we
+   are going to make it through just based on yesterday's move because that move, even
+   though it wasn't particularly severe in terms of, for example, the share price
+   movement, did cause quite a bit of damage, and people are still pulling away.
+
+        Of course, we also have the issue of AIG. The AIG problem is at least starting as
+   a liquidity crisis. The problem with AIG is that the parent company doesn't have a
+   lot of liquidity resources and doesn't have easy ability to funnel liquidity up from
+   their subsidiaries because most of the subsidiaries are regulated entities. So AIG is
+   running into two problems: One, they are unable to roll their commercial paper and,
+   two, as their ratings are downgraded--they were downgraded by Moody's yesterday,
+   I think from AA minus to A minus, but don't quote me on that--they have to post a
+   lot more collateral against their derivatives exposures and also with respect to their
+   GIC (guaranteed investment contract) business. So AIG is in a situation in which the
+   parent is basically going to run out of money--today, tomorrow, Thursday, or very,
+   very soon. Now we say it's a liquidity thing, but a lot of times when people look
+   closer at the books they find out that the liquidity crisis may also be a solvency issue.
+   I think it is still a little unclear whether AIG's problems are confined just to liquidity.
+   It also may be an issue of how much this company is really worth.
+
+      Finally, let me talk a bit about the facilities that we introduced over the weekend.
+   Basically, we did two things. We broadened the Primary Dealer Credit Facility
+   (PDCF) significantly in terms of collateral eligibility. Whereas, before, the PDCF
+September 16, 2008                                                                         6 of 108
+
+
+
+   took investment-grade securities only, we broadened it to include basically everything
+   that is in the tri-party repo system. We felt that, by backstopping the tri-party repo
+   system completely, we would reassure tri-party investors that they didn't face rollover
+   risk, and so we would keep tri-party investors investing with the banks. That seems
+   to be mostly what happened, at least yesterday. We did get quite a bit of PDCF
+   borrowing yesterday evening, but it was predominantly Lehman. It was about $28
+   billion of Lehman borrowing. I think the total borrowing was something on the order
+   of $42 billion. That is telling you that most of the borrowing we had was associated
+   with Lehman's not being able to roll over their tri-party repo positions with their
+   investors. We don't really know the reasons for the other borrowing, but it probably
+   was mostly to test the facility as opposed to actual need. So broadening the PDCF
+   collateral eligibility does seem to be working, so far at least, in keeping tri-party
+   investors in the game and continuing to provide funds to the other primary dealers.
+
+        The second thing we did was to the Term Securities Lending Facility (TSLF). In
+   terms of the collateral requirements, that had been AAA-rated RMBS, CMBS, and
+   asset-backed securities. We broadened that collateral, so the terms are now the same
+   as the old Primary Dealer Credit Facility. We think that there is quite a bit of
+   collateral that the primary dealers have in those AA, A, and BBB classes of asset-
+   backed securities, CMBS, and RMBS. So we think that is going to provide more
+   support to the primary dealers in terms of funding their liquid collateral in this
+   environment. We also increased the size. The original authorization was for $200
+   billion. Our auction schedule had been $175 billion, and we put that $25 billion
+   increase into schedule 2. Remember, there are schedules 1 and 2. Schedule 1 is
+   Treasuries and agencies. Schedule 2 is Treasuries, agencies, and this other stuff. So
+   the schedule 2 auctions are going to go up in size, and we frontloaded that increase
+   because the TSLF has not been fully subscribed. We are actually going to be able to
+   do two TSLF schedule 2 auctions this week of $35 billion, so we are going to get
+   quite a bit of TSLF liquidity into the market this week, which we think will also be
+   helpful.
+
+       So that is where things stand. Otherwise, I think things in the market are doing
+   what you would expect. There is a flight to quality. The Japanese yen and the Swiss
+   franc are outperforming. The dollar is sort of in the middle, and the high-yielding
+   currencies continue to be under pressure. But that is just what we have seen for the
+   last year underlying these risk trades. I have a lot more material, so if you ask
+   questions I can get into that. But I think I will just leave it there.
+
+       CHAIRMAN BERNANKE. Questions for Bill? President Rosengren.
+
+       MR. ROSENGREN. Just an amplification on the State Street situation. My
+
+understanding is that no money actually went out. There was $20 billion in withdrawals that
+
+came in late in the day. They had a $7½ billion credit line. State Street had enough collateral to
+September 16, 2008                                                                          7 of 108
+
+
+
+do $7½ billion. They were unwilling to do $20 billion. They asked us what our position was,
+
+and we told them that they needed to make their own business decision in this case. I haven't
+
+heard what has happened this morning. I assume that they are scrambling for funds. But I would
+
+emphasize that a real concern is that there will be a run this week on money market funds
+
+because they may have to freeze the funds. It is possible that they will break the buck, and this
+
+will be at organizations that don't have sufficient capital to make people whole. So I think that is
+
+a real concern.
+
+       CHAIRMAN BERNANKE. President Plosser.
+
+       MR. PLOSSER. Just a question on the PDCF, about the expansion of the collateral base.
+
+You said there was $42 billion, $28 billion of it was Lehman. Do we know what kind of
+
+collateral Lehman posted? Did they actually make use of the expanded options or not? What
+
+was the nature of it, do you know?
+
+       MR. DUDLEY. That was not actually even known until late yesterday evening. It takes
+
+a while for us to get the reports from the clearing bank to be able to go through and tell you what
+
+the collateral is. In terms of the Lehman collateral, they are not allowed to broaden the PDCF--
+
+they are basically bringing us the stuff they had on Friday. It is also important to recognize that
+
+for Lehman we are demanding a lot higher collateral requirements on the non-Treasury and non-
+
+agency securities. Their collateral haircut for those is 20 percent. So the Fed is taking some
+
+credit exposure there, but we put in place on Friday--and we are continuing that--a 20 percent
+
+collateral haircut on the non-Treasury and non-agency stuff that is in the PDCF for that exposure
+
+to Lehman. We think that's about roughly three times the market level that investors had been
+
+charging previously, so I think that gives us a fair degree of protection.
+
+       CHAIRMAN BERNANKE. President Lacker.
+September 16, 2008                                                                          8 of 108
+
+
+
+       MR. LACKER. Thank you, Mr. Chairman. The higher collateral requirement, is that
+
+just Lehman?
+
+       MR. DUDLEY. At this time, I believe that is right.
+
+       MR. LACKER. Okay. I know there was a lot of concern going in yesterday about the
+
+tri-party repo market, and I envisioned two scenarios and anything in between them. One is tri-
+
+party lenders pulling away from particular names and moving their funds to other names.
+
+Another, at the other extreme, would be tri-party repo lenders pulling away from the market as a
+
+whole. If you look at the tri-party repo market from the point of view of the borrowers, that is a
+
+frightening scenario. Then the lenders are going to do something with that money. I have been
+
+curious about what they would do. My understanding is that cash balances, in essentially deposit
+
+accounts, piled up at State Street and BONY yesterday and that they were able to do tri-party
+
+repos with some institutions that had been pulled away from. Is that a valid observation? What
+
+are the prospects for that providing some kind of resilience for the tri-party market?
+
+       MR. DUDLEY. Well, I guess the first thing I would say is that you are absolutely right.
+
+If investors pull away, they have to take their money somewhere. It doesn't disappear. I think
+
+that the Primary Dealer Credit Facility has been shown to be pretty significant in providing
+
+support to this market. If you look at what happened to Lehman, for example, even though
+
+Lehman was under extreme pressure on Friday, the tri-party repo investors stayed with Lehman
+
+on Friday night, which actually surprised me. I think the reason that they stayed is that they
+
+knew they didn't really have a lot of rollover risk. As long as the broker-dealer didn't file for
+
+bankruptcy over the weekend--and that was the risk they really were taking--the Federal
+
+Reserve and the PDCF would be there as the tri-party repo investor of last resort. Lehman's
+
+experience suggests to me that, if we can contain the broad parameters of this crisis so that it
+September 16, 2008                                                                             9 of 108
+
+
+
+doesn't spread much further, then we can keep the tri-party repo investors from bolting because
+
+they don't really have a huge amount of risk as long as we are there behind them to take them out
+
+when their overnight obligation comes due the next day.
+
+        MR. LACKER. So, if I can just follow up, my understanding is that tri-party repos are
+
+exempt from the automatic stay, so it is not filing per se that is the risk. It's the risk that they
+
+don't have the cash, right?
+
+        MR. DUDLEY. Well, I'm not sure about that. I thought that there was an issue about
+
+broker-dealer filing. I know that the clearing banks are certainly quite nervous about that
+
+eventuality, but I'm not a lawyer.
+
+        MR. PARKINSON. The repos are exempt from the automatic stay provisions of the
+
+bankruptcy code. But if Lehman had gone into SIPA liquidation, they could have been subject to
+
+a SIPA stay.
+
+        MR. LACKER. All right. Then a question about the TSLF. Is it this program in which
+
+we provide Treasuries?
+
+        MR. DUDLEY. We give them Treasuries, and they give us other stuff. You know, this
+
+will also probably be helpful this week in providing more Treasuries to the market. There was a
+
+tremendous amount of Treasury fails yesterday. So this mechanism does two things. It takes
+
+illiquid collateral from the dealers, and it also supplies a lot of Treasuries to the market, which
+
+should help improve the market function in Treasuries.
+
+        CHAIRMAN BERNANKE. Other questions? Bill, would you be able to talk a bit about
+
+the need for swaps?
+
+        MR. DUDLEY. I have just sketchy details based on a phone call, so this may not be
+
+quite right. But my understanding is that this morning Norway put in place a facility by which
+September 16, 2008                                                                         10 of 108
+
+
+
+they are going to offer their banks dollars, up to $5 billion, on a one-week term--sort of an open
+
+facility. The fact that Norway is doing this suggests that the situation has broadened quite a bit
+
+further because this is the first time that we have heard about Norway in this story, except for
+
+maybe some exposures to the Icelandic banks.
+
+       I have had some conversations with my counterparts at the ECB this morning--this is at
+
+a staff level, so I can't really say what would happen if you were to take this up the chain of
+
+command. But certainly, at least on a preliminary basis, there is quite a bit of interest in having a
+
+similar facility for the ECB, which would not be a TAF loan type of facility but more of an open
+
+facility where European banks could come and get dollars. This would reassure people that
+
+dollar liquidity was available in Europe throughout the European day. My advice to you is that
+
+this is probably a good idea in this environment because we are seeing that the lack of dollar
+
+liquidity in Europe is really having a feedback effect on people's willingness to do business with
+
+one other in the broader markets. I think we should be open to doing this with the ECB and
+
+perhaps with the Bank of England and the Bank of Japan as well--at least have the ability to do
+
+it should it prove necessary.
+
+       CHAIRMAN BERNANKE. You had a two-hander, Governor Kohn?
+
+       MR. KOHN. Just to note that we did have a discussion of foreign exchange swaps in the
+
+Committee on the Global Financial System a week and a half ago, and the general consensus was
+
+that these had been very handy in damping pressures in money markets--dollar funding markets
+
+in particular--when the foreign exchange swap market isn't working very well in Europe and in
+
+Switzerland. The central banks around the table, which are all the major central banks, are quite
+
+supportive of expanding the facility. We were talking about putting something on a standby
+September 16, 2008                                                                           11 of 108
+
+
+
+basis for use in situations just like this. So the other central banks view this as very helpful to
+
+them in containing pressures in their own markets.
+
+          MR. DUDLEY. The Bank of Japan has requested at the staff level to set up a facility that
+
+would be on the shelf for year-end because the Japanese are quite worried that their banks are
+
+going to face a dollar funding problem at year-end. Now, this preceded the recent crisis, so even
+
+before this last week they were concerned that the Japanese banks could potentially have
+
+problems, and they were interested in exploring with us having a facility in place. We were
+
+actually going to pursue this, and I hope we will have more at the October FOMC meeting if not
+
+sooner.
+
+          CHAIRMAN BERNANKE. Bill, if we were going to take action today, what would you
+
+recommend in terms of counterparties? Should we say an unlimited amount? Should we specify
+
+an amount? Can we leave the time open? What are your recommendations on all those
+
+dimensions?
+
+          MR. DUDLEY. Certainly you want to make it pretty broad. You want to make it to the
+
+Bank of England, Switzerland, the ECB, the Bank of Japan, potentially Canada. I would leave it
+
+to their discretion if they would like to participate. I would make the offer to them; and if they
+
+want to participate, then we should be willing to do that. In terms of size, I think it is really
+
+important that you don't create notions of capacity limits because the market then can always try
+
+to test those. Either the numbers have to be very, very large, or it should be open ended. I would
+
+suggest that open ended is better because then you really do provide a backstop for the entire
+
+market. As we've seen with the PDCF, if you provide a suitably broad backstop, oftentimes you
+
+don't even actually need to use it to any great degree. So I think that should be the strategy here.
+
+          CHAIRMAN BERNANKE. President Lacker.
+September 16, 2008                                                                        12 of 108
+
+
+
+       MR. LACKER. Remind me again how big the European system of central banks' own
+
+outright holdings of dollar balances are.
+
+       MR. DUDLEY. European banks?
+
+       MR. LACKER. Yes.
+
+       MR. DUDLEY. I don't know.
+
+       MR. LACKER. Central banks.
+
+       MR. DUDLEY. Do you mean in terms of their dollar foreign exchange reserves?
+
+       MR. LACKER. Right. The ECB--they all have their own dollar reserves.
+
+       MR. DUDLEY. I don't have the numbers.
+
+       MR. SHEETS. I believe that number is about $180 billion of dollar reserves in the euro
+
+system. The ECB itself has control of only a fraction of that.
+
+       MR. LACKER. These are held at individual national central banks, so our swap lines to
+
+them aren't approaching that level yet, right?
+
+       MR. DUDLEY. No.
+
+       MR. LACKER. Note here a sense of discomfort with our lending them dollars that they
+
+already have and so our serving as a substitute for their mobilizing their own dollar reserves for
+
+this purpose. Obviously, the demand could swamp their own reserves, and at that point I would
+
+feel differently about this. But my understanding is that the distribution within the European
+
+system of central banks is uneven, and in some sense this just provides them with a way to
+
+circumvent negotiating how those dollars would be distributed from different central banks to
+
+different private-sector banks within their own system. Broadly, I'm uncomfortable with our
+
+playing that role.
+September 16, 2008                                                                          13 of 108
+
+
+
+       CHAIRMAN BERNANKE. Whether it's sensible or not, the ECB has made a pretty
+
+strong distinction with us between their foreign exchange reserves and their dollars that they use
+
+in these operations. They really want to keep those segregated. They want, to some extent, to
+
+represent this as being a collaborative effort with the United States as opposed to something they
+
+are taking on their own behalf. From their perspective--actually President Poole raised the same
+
+issue earlier on, and we had this discussion--they seem to put a lot of value on having a distinct
+
+swap line, which symbolizes the cooperation and coordination of the two central banks as
+
+opposed simply to using their own reserves. President Fisher.
+
+       MR. FISHER. Mr. Chairman, I was going to say that we had this discussion before. We
+
+did approve the swap lines. I wonder if you could just summarize for us what you view as the
+
+downside risk to our doing this.
+
+       CHAIRMAN BERNANKE. Well, I don't think there are any significant downside risks.
+
+There are operational issues that Bill Dudley and his team have to worry about. If we extend
+
+funds to the Europeans, which they then relay to their banks, it affects our reserve positions and
+
+affects the management of the federal funds rate and requires sterilization. That's an operational
+
+issue. I suppose, if there were really very large draws, it would begin to affect some of these
+
+balance sheet constraint concerns that we have. I think that is not an entirely separate issue, but
+
+it is certainly one that we are looking at in terms of trying to get interest on reserves and those
+
+other kinds of measures.
+
+       Again, my expectation is that having the facility would in part provide some confidence
+
+over and above how much we actually extend. So I guess the operational issues and the further
+
+draw on the balance sheet would be the downside, but to me, it seems to be a relatively
+September 16, 2008                                                                         14 of 108
+
+
+
+straightforward step--one we've done in the past and one that has the additional benefit of
+
+indicating global cooperation on these issues.
+
+       MR. DUDLEY. In principle, we could talk to the ECB and other central banks about
+
+having the rate on these swap lines be at a slight penalty relative to normal times to try to
+
+mitigate the potential reserve impact. I mean, it doesn't have to be at 2 percent or 2¼ percent for
+
+overnight funds--it could be somewhat north of that. But if we have a credible backstop, then it
+
+should calm the markets, and then the backstop should not be used. If we have a backstop and it
+
+actually is used, that is presumably because market conditions are horrific. So in that
+
+environment, you could argue that the reserve-management things are very second order
+
+concerns in some sense.
+
+       CHAIRMAN BERNANKE. Other comments? All right. Then I'd like to propose that
+
+the FOMC delegate to the Foreign Currency Subcommittee an unspecified authority, in terms of
+
+amount, to offer swaps to foreign central banks as needed to address liquidity pressures in those
+
+other jurisdictions. Those decisions will be made, again, by the Foreign Currency Subcommittee
+
+in consultation with the Open Market Desk. We would keep the FOMC closely informed, and
+
+we would revisit and discuss this issue again in October. Is that an acceptable resolution? Any
+
+amendments to that? Further discussion, comments, or concerns? President Stern.
+
+       MR. STERN. Yes. I am in favor of this. I just wonder how the marketplace will look at
+
+the open-ended nature of this because typically we have dollar magnitudes associated with
+
+swaps. It may all go relatively smoothly; on the other hand, it may raise questions about exactly
+
+what we think the issues are here.
+September 16, 2008                                                                          15 of 108
+
+
+
+         MR. DUDLEY. Well, I think we are going to have discussions with our foreign
+
+counterparts to decide what the right strategy is. I think right now it is better to have it open
+
+ended.
+
+         MR. STERN. That's fine.
+
+         CHAIRMAN BERNANKE. Why don't we have discussions with our counterparties--
+
+we won't announce anything today, I would assume?
+
+         MR. DUDLEY. No, I think they have to take it up the chain of command, just as we do
+
+here. So it's going to take probably a day.
+
+         MR. KOHN. This would come out in the minutes for this meeting.
+
+         CHAIRMAN BERNANKE. Right. We'll announce something.
+
+         MR. STERN. But I assume there will be an announcement at some point.
+
+         CHAIRMAN BERNANKE. Of course. When would we announce this measure?
+
+         MR. DUDLEY. I think it would be after we've had a chance--I mean, I think we have a
+
+lot of work to do with our foreign counterparties. This was basically raised to me this morning.
+
+         CHAIRMAN BERNANKE. All right. So this is all conditional on agreements and
+
+discussions with other counterparties. We will come up with a joint communication
+
+announcement strategy. President Plosser.
+
+         MR. PLOSSER. I just have one clarification. I have no basic objection to this. I wonder
+
+whether or not, if the FOMC is going to delegate the decision to this group, it is sort of an open-
+
+ended delegation to do this on an ongoing basis. Does it make sense to define a period of time
+
+for which this open-ended delegation is appropriate--that it would expire and would have to be
+
+renewed?
+September 16, 2008                                                                        16 of 108
+
+
+
+       MR. DUDLEY. Yes. We have authorities extending right now to January 30 for a lot of
+
+these facilities, so that would certainly be a reasonable time frame, I think.
+
+       CHAIRMAN BERNANKE. Existing facilities go to January 31, is that right?
+
+       MR. MADIGAN. January 30.
+
+       CHAIRMAN BERNANKE. January 30. Would that be acceptable?
+
+       MR. PLOSSER. Yes. I think it ought to have a termination point so that, if we wanted to
+
+renew it, we would be free to do so, but it wouldn't last forever.
+
+       CHAIRMAN BERNANKE. Of course.
+
+       MR. KOHN. One more clarification, Mr. Chairman--this is intended for G-10 central
+
+banks, to include the ECB. Just to be clear, if somebody asks, this is not to give to central banks
+
+of emerging-market economies.
+
+       MR. DUDLEY. I presume so.
+
+       MR. KOHN. I think we should presume so. If the other were to happen, we would come
+
+back to the Committee.
+
+       MR. DUDLEY. Yes, this is about the major financial centers and the ability of large
+
+banks that operate globally to obtain dollar funding.
+
+       CHAIRMAN BERNANKE. Okay. So I amend the proposal to terminate on January 30.
+
+President Lacker.
+
+       MR. LACKER. Could I hear a little more about the benefits of an open-ended
+
+commitment? All of our programs have been capped at a certain size. You said something about
+
+"test the limits," and it makes me think of foreign exchange regimes. What kind of scenario do you
+
+have in mind?
+September 16, 2008                                                                             17 of 108
+
+
+
+        MR. DUDLEY. I think a lot of the programs that we have are actually open ended. The
+
+discount window is open ended in the sense that it's limited only by the amount of collateral that the
+
+banks post there. The Primary Dealer Credit Facility is open ended in that it is limited only by the
+
+size of the tri-party repo system. My point here is that, if foreign banks worry about capacity limits,
+
+even having a large program could in principle not be sufficient in extremis. But if the program is
+
+open ended, the rollover risk problem goes away. If I lend you more dollars today, I don't have to
+
+worry about getting those dollars back because I always know that the facility is there. So it's really
+
+the elimination of the ability to flatten out your position if you need to in terms of your dollar
+
+exposures.
+
+        CHAIRMAN BERNANKE. It's not open ended in the sense that it is not an open window
+
+that anybody can come to and take. It just gives us the authority to adjust the amount.
+
+        MR. LACKER. So you will set a definite amount?
+
+        CHAIRMAN BERNANKE. We will certainly negotiate with the other central banks and
+
+tell them what we're doing now. But we want to have the flexibility in case of an emergency to
+
+respond, and we also don't want to communicate to the markets somehow that we have a hard limit
+
+that is not going to be changed. That would be potentially bad for confidence.
+
+        MR. LACKER. But we will communicate a program size?
+
+        MR. DUDLEY. I think that remains to be discussed with our counterparties. I think we
+
+need to have discussions about what would be most effective. Would a big size that's fixed in
+
+quantity be most effective? Would an open limit be most effective? I think we have to have those
+
+discussions. I think the important thing here--and what we're going for--is credibility. In a crisis
+
+you need enough force--more force than the market thinks is necessary to solve the problem--and
+
+we're going to have to have discussions to determine how much is enough force.
+September 16, 2008                                                                         18 of 108
+
+
+
+       CHAIRMAN BERNANKE. I think it is mostly a communication issue. Anything else?
+
+All right. Do you want to call the roll on this one?
+
+       MR. KOHN. So move.
+
+       CHAIRMAN BERNANKE. We need a second.
+
+       MR. FISHER. Second.
+
+       CHAIRMAN BERNANKE. All right. Thank you.
+
+       MR. PLOSSER. Can we read the resolution?
+
+       CHAIRMAN BERNANKE. The resolution is to provide to the Foreign Currency
+
+Subcommittee the authority to enter into swap agreements with the foreign central banks as needed
+
+to address strains in money markets in other jurisdictions. This will be done in cooperation with the
+
+Open Market Desk and in consultation with those other central banks. The amounts are unlimited
+
+in principle, but the decisions will be made by the Foreign Currency Subcommittee as needed and
+
+as appropriate for the particular circumstances. The FOMC is providing this authority through
+
+January 30. It will, of course, be open to discussion at any meeting.
+
+       MR. PLOSSER. As actions are taken, presumably you'll circulate the outcomes of these
+
+decisions to this Committee in advance of any announcements?.
+
+       CHAIRMAN BERNANKE. Of course. All right. Let's take a vote.
+
+       MS. DANKER.
+
+               Chairman Bernanke                        Yes
+               First Vice President Cumming             Yes
+               Governor Duke                            Yes
+               President Fisher                         Yes
+               Governor Kohn                            Yes
+               Governor Kroszner                        Yes
+               President Pianalto                       Yes
+               President Plosser                        Yes
+               President Stern                          Yes
+               Governor Warsh                           Yes
+September 16, 2008                                                                            19 of 108
+
+
+
+       CHAIRMAN BERNANKE. Thank you. Brian, have you circulated the statement?
+
+       MR. MADIGAN. Yes, Mr. Chairman. Everybody should have it.
+
+       CHAIRMAN BERNANKE. Has everyone a copy of that? Good. Before we get started on
+
+that, I just want to comment that we may want to say something in the statement about financial
+
+conditions, but we'll come back to that later. We need also now a vote to ratify the domestic open
+
+market operations.
+
+       MR. KOHN. So move.
+
+       CHAIRMAN BERNANKE. Any objections? Okay. Thank you. Let's turn now to the
+
+economic situation. Dave Stockton and Nathan Sheets.
+
+       MR. STOCKTON. Thank you, Mr. Chairman. In response to your request for
+   some economy in our remarks this morning, I'm going to set aside my prepared remarks
+   and just hit some of the highlights here. We did receive a great deal of macroeconomic
+   data since we closed the Greenbook last Wednesday. We didn't seem to get any of it
+   right, but it all netted out to just about nothing. [Laughter] Retail sales came in
+   considerably weaker than we had anticipated, enough by themselves to have knocked
+   about ½ percentage point off third-quarter GDP growth. But some of that was offset in
+   higher retail inventories, and the rest was offset by a stronger-than-expected
+   merchandise trade report for July. It all left us still feeling very comfortable with our
+   forecast because it looks to us as though economic growth is going to drop below
+   1 percent on average in the second half of the year.
+
+        In terms of the things that really have stood out over the intermeeting period, at least
+   to my mind, one has been the weakness in consumption. As I indicated, the retail sales
+   report was weak; and now with that report in hand, we'd probably mark down our
+   current-quarter consumption forecast to a decline of 1½ percent at an annual rate. What
+   I think is really remarkable about that is that this weakness is occurring even though we
+   still think spending is probably receiving some boost from the rebates. So excluding
+   that effect, we'd be looking at something even weaker. Now, as you know, we've been
+   head-faked a number of times by the retail sales data, which are subject to some pretty
+   substantial revisions. So I wouldn't necessarily take that report at face value. But the
+   drop we've seen in motor vehicle purchases pretty much mirrors in size and timing the
+   kind of falloff that we've seen in overall consumption spending. So it looks like a very
+   weak picture for consumption.
+
+       The other notable development over the intermeeting period has been the weakness
+   in the labor markets--now not principally in the payroll employment figures. Private
+   payroll employment has been falling pretty sharply but not any faster than we would
+September 16, 2008                                                                           20 of 108
+
+
+
+   have thought. But the rise in the unemployment rate is remarkable. Now, some of the
+   0.4 percentage point increase in the unemployment rate last month could be statistical
+   noise. It wouldn't be entirely surprising to see it fall back some. But the more than 1
+   percentage point rise that we've had since April is not going to be statistical noise.
+   Some of that increase probably reflects a bigger response to the emergency
+   unemployment compensation program than we previously thought, and we've upped
+   our estimates for that to a little less than 0.3 percentage point on the level of the
+   unemployment rate. But even putting that aside, we have experienced a more significant
+   rise in the unemployment rate, and I think that's consistent with other things that we're
+   seeing in terms of the labor market data. We've seen another appreciable jump in initial
+   claims. Announced job cuts are up. Job openings are down. Survey hiring plans have
+   softened.
+
+        Now, this sharp rise in the unemployment rate is a bit difficult to square with a GDP
+   figure that looks as though it was running above 3 percent in the second quarter and
+   even 2 percent if you want to average the first and second quarters together. There are
+   occasionally large errors in Okun's law, as I think I've noted in the past. It seems as
+   though Okun's law gets obeyed about as frequently as the 55 mile an hour speed limit
+   on I-95. [Laughter] But still, one of the things that we should probably be considering
+   is that perhaps the economy has not been as strong as suggested by the real GDP figures.
+   Real gross domestic income, which is output measured on the income side of the
+   accounts, has risen about 2 percentage points less than GDP over the past year. And if
+   we look at industrial production and compare that with the components of GDP that are,
+   in essence, goods production, there's about a 1 percentage point discrepancy there, with
+   industrial production suggesting weaker figures than GDP.
+
+       We see no reason to discount the rise in the unemployment rate as suggesting that
+   we're entering the second half with more labor market slack than we had previously
+   thought. Furthermore, on net, we've revised down our projected growth in GDP over
+   the next two years--admittedly just a bit--and that was in response to two pretty strong
+   crosscurrents. One was the significantly lower oil prices that we have in this forecast.
+   We do think they're going to provide some support to underlying disposable income and
+   spending. But the positive effect of that on our forecast going forward was more than
+   offset by a significant marking down in our forecast for net exports--which Nathan will
+   be discussing--in response to an appreciation of the dollar and a further downward
+   revision to our outlook for foreign activity. On net, that left us with a little lower growth
+   rate and carrying forward a noticeably higher unemployment rate over the forecast
+   period. Now, those were pretty small adjustments. I don't think we've seen a
+   significant change in the basic outlook, and certainly the story behind our forecast is
+   very similar to the one that we had last time, which is that we're still expecting a very
+   gradual pickup in GDP growth over the next year and a little more rapid pickup in 2010.
+
+       The three things that are absolutely central to producing that outcome are our
+   projection that we're going to get a stabilization in housing in 2009--and early in 2009;
+   that there will be some diminishment of the drag on growth from the financial
+   turbulence; and that oil prices flatten out. Of those three, to my mind, the component
+September 16, 2008                                                                           21 of 108
+
+
+
+   that probably is most central and most important would be seeing some stabilization in
+   the housing market, not only because this has been a big drag on growth and will also
+   have consequences for household wealth but also because if there's going to be some
+   clarity and reassurance to financial market participants, it seems as though some end to
+   the housing debacle has to be in sight. We think we are seeing a few glimmers of hope
+   there--however, we thought that on occasion in the past and have been proven wrong.
+   But sales of existing homes have been flat since the turn of the year. Sales of new
+   homes have been flat for several months now. We've had a drop in mortgage interest
+   rates that followed the takeover of Fannie and Freddie. Starts have fallen so much now
+   that, in fact, builders are making significant progress in working down the inventory of
+   unsold new homes and even months' supply has tipped down of late. So we think that
+   some things are looking a little better for us there. As a consequence, we're expecting to
+   see some bottoming-out near the end of this year or the beginning of next year--but not
+   a sharp recovery. Overall residential investment actually is still a negative for 2009 but
+   less of a negative than it has been this year. As you know from the Greenbook, our
+   estimates suggest that the financial restraints on overall activity--actually on the level of
+   GDP--will increase between 2008 and 2009, but their effects on the growth rate of GDP
+   are diminishing somewhat. Finally, with regard to oil prices, by our assessment the rise
+   in crude oil prices since the beginning of 2006 is probably knocking about ½ percentage
+   point off growth in 2008; and with a flattening out of oil prices, we expect that to be
+   more of a neutral factor over the next two years. That's providing some impetus. A lot
+   of what's going on in our forecast is bad things not worsening any more quickly next
+   year than they did this year, rather than things actually getting better. I guess it's a sad
+   comment that we're relying on second derivatives turning positive to be the main force
+   generating some upward impetus to economic growth. But we are projecting a gradual
+   pickup.
+
+        Now, on the inflation side, this morning's CPI report for August actually came in a
+   little better than we were expecting. The CPI in August fell 0.1 percent. We had been
+   expecting an increase of 0.1 percent. That surprise was all in the energy component, but
+   we at least did see some moderation in the retail food price side that we were looking
+   for, and the change in core CPI fell back to 0.2 percent after a string of 0.3 percent
+   increases. I don't think these data will do much to change our basic forecast, which is
+   for total PCE prices to be up somewhere in the neighborhood of a 5 percent rate in the
+   third quarter, and core prices up 3 percent. Still, if one looks back at the last few CPIs
+   and PCEs, things have come in a little higher on the core side. The projected 3 percent
+   increase is up about ¼ percentage point from where we were in our August forecast, and
+   our interpretation of this is that we're probably seeing more upward impetus and pass-
+   through from the higher energy prices, other commodity prices, and imports than we had
+   previously expected. That certainly squares with what we're hearing from our business
+   contacts. It also squares with what we saw last week in the PPI, which was another very
+   sharp increase in prices of intermediate materials. At least going forward, for the first
+   time since this process got under way, we are seeing more than just a futures price
+   forecast flattening out. Some easing in the prices of both oil and other commodities and
+   the appreciation of the dollar are giving us at least a little more confidence that some of
+   these cost pressures are going to abate going forward and that we will get the disinflation
+September 16, 2008                                                                           22 of 108
+
+
+
+   that we have been forecasting. We continue to see reasonably encouraging signs on
+   inflation expectations. The medium-term and long-term inflation expectations in the
+   preliminary Michigan report last week dropped 0.3 percentage point, to 2.9 percent.
+   TIPS haven't really done very much, and hourly labor compensation continues to come
+   in below our expectations. So based on our assessment, once these cost pressures work
+   their way through the system--and we still think that the process will take place over the
+   second half--we think that we'll get some receding of core inflation from the 2.4
+   percent that we're projecting for this year to 2.1 percent next year and 1.9 percent in
+   2010.
+
+       Just a couple of final remarks on current events. Hurricanes Gustav and Ike
+   obviously created an enormous amount of devastation for a whole lot of people, but they
+   don't really appear to us to have significant macroeconomic consequences. There will
+   be some temporary disruption to oil and gas extraction and refining, but it looks as
+   though the basic infrastructure has largely been spared. I'll be interested to hear
+   President Fisher's report. Retail gasoline prices have jumped in the last few days, but
+   wholesale prices for delivery in October are actually lower than they were before the
+   storms were on the horizon. I think that suggests that this is not going to be a major
+   negative event. Undoubtedly, industrial production is going to fall like a stone in
+   September, reflecting these two hurricanes as well as the Boeing strike, but we're
+   expecting that to bounce right back again. I don't really have anything useful to say
+   about the economic consequences of the financial developments of the past few days. I
+   must say I'm not feeling very well about it at the present, but I'm not sure whether that
+   reflects rational economic analysis or the fact that I've had too many meals out of the
+   vending machines downstairs in the last few days. [Laughter] But in any event, we're
+   obviously going to need to wait a bit to see how the dust settles here, but I think the sign
+   would be obviously in a bad direction. I'll turn over the floor to Nathan.
+
+       MR. SHEETS. I also will be very brief in summarizing economic developments
+   abroad. Indeed, I would just like to make six very brief points. The first one is that the
+   incoming data we've received since the last Greenbook for the foreign economies have
+   been extraordinarily soft. Indeed, we've marked down our forecast or projection of the
+   second quarter by a full percentage point. The data also suggest that we should carry
+   forward a fair amount of that softness at least through the next year. So our foreign
+   outlook is much softer than it was before.
+
+       The second point is that this softening outlook in our view has been a key factor that
+   has contributed to further sizable declines in oil and commodity prices. This morning,
+   oil prices were trading around $92 a barrel, which was down another $25 a barrel from
+   where we were at the time of the last meeting.
+
+       The third point is that this deteriorating foreign outlook also seems to have triggered
+   something of a reassessment in currency markets. Since your last meeting, the dollar
+   has strengthened nearly 5 percent in broad nominal terms. In our view, what happened
+   in currency markets was that the markets had priced in the expectation that the foreign
+   economies would remain quite resilient in the face of a slowing in the United States.
+September 16, 2008                                                                          23 of 108
+
+
+
+   Now with the incoming data over the past couple of months, it is becoming clearer and
+   clearer that the U.S. slowing is going to have a marked effect on these foreign
+   economies, and this has shifted the relative attractiveness of the dollar and supported the
+   appreciation that we've seen over the last couple of months.
+
+        The fourth point is that, in a number of emerging market economies, we've seen a
+   resurgence of certain sorts of financial vulnerabilities. We've seen across really a broad
+   array of these economies rising external debt spreads and rising CDS spreads. We've
+   seen falling equity prices and, for a number of these economies, downward pressures on
+   their currencies. On that last point, a number of the Asians have been intervening in the
+   foreign exchange market over the intermeeting period but have actually been intervening
+   to try to prevent their currencies from depreciating, which is a marked change from what
+   we've seen in the last couple of years.
+
+       The fifth point is that the surprisingly strong performance of U.S. exports that we've
+   seen appears to have continued through July. After the Greenbook went to bed, we got
+   the July trade data, and they continue to point to a fair amount of strength in the export
+   sector. It was particularly strong in the auto sector, but it was a broad-based strength
+   through July. Nevertheless, our view is that, given the rise in the dollar and the
+   softening outlook for foreign growth, we're very likely to see some slowing in export
+   growth going forward.
+
+       The final point I'd like to mention is that, also late last week after the Greenbook
+   went to bed, we received data on import prices. These data, really for the first time in a
+   long time, showed a marked deceleration in both material-intensive goods import prices
+   and finished goods import prices. Our forecast for a long time has called for a
+   deceleration in import prices in line with the projected flattening out of commodity
+   prices and a projected flattening out of the dollar.
+
+        Now it seems that we're at a point at which all those things that have been
+   incorporated into our forecast but we haven't had a lot of evidence for are starting to
+   materialize. We have the dollar flattened out and, indeed, somewhat stronger than in the
+   last Greenbook. We have lower paths for commodity prices, and then the data that we
+   recently received showed an actual deceleration in core import prices, which gives us
+   some confidence that perhaps the rise in those import prices has peaked. I'll stop there.
+
+      CHAIRMAN BERNANKE. Thank you. Are there questions for Dave and Nathan?
+
+      MR. FISHER. Could I ask just one question, Mr. Chairman?
+
+      CHAIRMAN BERNANKE. President Fisher.
+
+      MR. FISHER. Could you interpret for us the Bank of China's cut in the bank lending rate?
+September 16, 2008                                                                           24 of 108
+
+
+
+       MR. SHEETS. Yes. Yesterday the PBOC cut its main policy rate 27 basis points. I guess
+
+they felt that 26 would not have been enough and 28 would have been too much. [Laughter] And
+
+27 was just the right number. I'd say a couple of thoughts were there. One important point is that
+
+inflation in China has decelerated significantly. In the spring they were looking at twelve-month
+
+inflation rates of around 8.3 percent. The latest reading for August was 4.9 percent. So it's clearly
+
+on a decelerating trajectory. That has been driven by a marked decline in food prices. Earlier this
+
+year, food prices were moving up at over a 20 percent rate, and now it is about 10 percent. So the
+
+deceleration in prices; some concerns about where activity is going, particularly in the aftermath of
+
+the Olympics; and signs of slowing external demand have given them the scope they need to cut
+
+policy rates. Besides the cut in monetary policy, we're also hearing reports that the authorities are
+
+poised to implement fiscal stimulus if that's necessary.
+
+       MR. FISHER. Thank you.
+
+       CHAIRMAN BERNANKE. Three is a lucky number in China. Don was going to tell you
+
+that 3 cubed is 27. [Laughter].
+
+       MR. KOHN. He was also going to wonder, Mr. Chairman, whether we needed to harness
+
+the mystical powers. [Laughter]
+
+       CHAIRMAN BERNANKE. I think we have good feng shui here.
+
+       MR. SHEETS. The science of monetary policy.
+
+       CHAIRMAN BERNANKE. Any other deep questions for our colleagues? I'm a little
+
+surprised.
+
+       MR. PLOSSER. We're all trying to be brief, Mr. Chairman.
+
+       CHAIRMAN BERNANKE. Everyone has been very brief. I'm shocked. [Laughter] My
+
+proposal, which I can be argued out of, is to do one round, if that's acceptable. Please indicate your
+September 16, 2008                                                                             25 of 108
+
+
+
+preliminary view on policy, and you will have another opportunity to refine and extend your views.
+
+Is that acceptable with everybody?
+
+           MR. KROSZNER. Should we have Brian's presentation?
+
+           CHAIRMAN BERNANKE. Yes, of course. I was about to turn to that. If that's
+
+acceptable, let's turn to Brian and have your discussion.
+
+            MR. MADIGAN. 2 I will be referring to the package labeled "Material for
+       FOMC Briefing on Monetary Policy Alternatives and Trial Run Survey Results."
+       The results of the survey are shown in exhibit 2. In the interest of time, I will not
+       cover them this morning. The Subcommittee on Communications plans to be in
+       touch with the Committee on this issue over the upcoming intermeeting period.
+
+           The first page of the package reproduces the version of table 1 that you received
+       yesterday afternoon. This version includes three policy alternatives. As in the
+       Bluebook, alternative B would leave the stance of policy unchanged at this meeting,
+       and alternative C would involve a 25 basis point firming today. However, alternative
+       A now entails a 25 basis point policy easing rather than the unchanged funds rate that
+       was specified in the Bluebook version of this alternative.
+
+           I will begin by discussing alternative C. The discussion at your last meeting
+       suggested that you generally saw the next move in policy as likely to be a firming, a
+       point that was explicit in the minutes of the meeting. Even though market volatility
+       and financial strains have increased notably in recent weeks, you might view those
+       developments as having only limited implications for the economic outlook and
+       hence see economic fundamentals as continuing to suggest that policy should soon be
+       firmed. Inflation has been well above the rates that Committee members judge as
+       appropriate for the longer run, and despite lower oil prices and greater slack in labor
+       markets, there remains considerable uncertainty about how soon and how much core
+       inflation will slow. In these circumstances, you may believe that a firming of policy
+       is appropriate.
+
+           Under the version of alternative B distributed yesterday evening, the Committee
+       would hold the target funds rate constant at this meeting, and the statement would
+       suggest that the Committee sees the risks to growth and inflation as roughly balanced.
+       You may believe that this combination is appropriate for this meeting if your modal
+       outlook for the economy has not changed much since the last meeting and if you
+       judge that the upside risks to inflation have diminished, given the sharp drop in
+       energy prices, the decline in indicators of inflation expectations, and the greater
+       economic slack implied by the recent unexpectedly sharp jump in the unemployment
+       rate. You might also believe that the downside risks to growth have increased as a
+       result of the recent increase in financial strains. But at the same time, you may want
+2
+    The materials used by Mr. Madigan are appended to this transcript (appendix 2).
+September 16, 2008                                                                          26 of 108
+
+
+
+   to let the dust settle a bit before concluding that these developments warrant an
+   adjustment in your policy stance. In particular, you may think there is a good chance
+   that the latest enhancements to the Federal Reserve's special liquidity facilities will
+   help keep markets functioning and mitigate the risks to growth.
+
+       Relative to the Bluebook version, the language of alternative B has been revised
+   in three material ways. First, B2 now notes that "strains in financial markets have
+   intensified." Second, the clause "some indicators of inflation expectations have been
+   elevated" has been dropped from B3 in view of the recent declines in inflation
+   compensation and survey measures of inflation expectations. Finally, the first
+   sentence of B4 has been revised to suggest that the Committee now sees the
+   significant risks to growth and inflation as roughly balanced. Given market
+   participants' expectation that the funds rate could trade soft to the target for a time in
+   light of recent developments, gauging exactly what is built into markets for the
+   outcome of today's meeting is difficult. But earlier this morning, market prices
+   appeared to incorporate high odds of at least a 25 basis point easing today or possibly
+   more. Thus markets might well see a decision to keep the funds rate constant and to
+   make no appreciable change to the language of the statement as signaling less
+   concern about financial developments than they anticipated.
+
+       If you saw recent developments as significantly boosting the downside risks to
+   growth or noticeably lowering the modal outlook, you might consider easing the
+   federal funds rate 25 basis points at this meeting, as in alternative A. The rationale
+   language for this action would begin by noting that strains in financial markets have
+   increased significantly and would go on to indicate that the policy action should help
+   to promote moderate growth over time. The Committee would cite the recent decline
+   in energy and other commodity prices and the increased slack in resource utilization
+   as factors that are expected to foster a moderation of inflation. The risk assessment
+   would indicate that "the downside risks to growth have intensified, but the upside
+   risks to inflation remain a concern to the Committee." With a policy easing largely
+   built into markets, shorter-term interest rates would likely decline modestly in
+   response to such an action, depending on how much is built in, or they might be little
+   changed. As the Chairman indicated earlier in the meeting, adjustments to the
+   statement could be considered in light of the further volatility in markets over the past
+   day. Thank you, Mr. Chairman.
+
+       MR. DUDLEY. If I could add a few thoughts on market expectations about this meeting--I
+
+think it looks as though easing is priced in for two reasons. One, dealers do expect the federal funds
+
+rate to trade soft as we add excess reserves, so I would not take the softness in the September federal
+
+funds futures contract as indicative of necessarily expecting an easing. Two, I think it is important
+
+to recognize that the rates embodied in those fed fund futures contracts are means not modes. So I
+September 16, 2008                                                                            27 of 108
+
+
+
+would characterize the market expectation as either that things get very, very bad and the FOMC
+
+cuts rates significantly or that the FOMC does nothing.
+
+        I think that actually a 25 basis point cut is probably the least likely outcome that the market
+
+anticipates. As evidence of this, a couple of dealers yesterday did change their forecast to a 50 basis
+
+point rate cut. I'm not aware of anybody who has changed to 25. Probably people like that are out
+
+there. I know that my colleagues at Goldman Sachs, where I used to work, are saying that they
+
+think the FOMC is going to keep rates unchanged today but, if they were to move, it would be 50.
+
+That gives you a sense that it's really a bimodal kind of view and that putting different probabilities
+
+on 50 and zero gives you some easing priced into the federal funds rate futures market. So I think
+
+the consensus view still in the marketplace is that the Fed probably will not cut rates today. That
+
+would be a disappointment to a degree because there's some probability placed on the idea that the
+
+Fed might do 50, but that's how I would interpret what's priced into the markets today.
+
+        CHAIRMAN BERNANKE. President Fisher.
+
+        MR. FISHER. Could I ask for a little clarification here? The indication of sentiment is
+
+important, is it not, in terms of expectations from the population that you're talking about? The
+
+signaling of our direction would be important here?
+
+        MR. DUDLEY. Well, I think the market participants would gain some comfort to the
+
+extent that the Federal Reserve as an institution indicates concern about what's going on in the
+
+financial markets. But in some ways the Desk has already signaled that concern by its intervention,
+
+so I'm not sure that additional indications are needed. But in the language you might want to
+
+indicate to market participants that, if things were to materially worsen in the financial markets, the
+
+Committee might revisit the issue of where the federal funds rate should be.
+September 16, 2008                                                                            28 of 108
+
+
+
+        CHAIRMAN BERNANKE. Just on the issue of trading soft, though, the October-
+
+December has also come down, and there is certainly some shift in the actual policy expectation.
+
+        MR. DUDLEY. That is true. I think on Friday the mood was basically that the funds rate
+
+was going to be flat for a long time. Probabilities placed on either easing or tightening were quite
+
+low, and since then the probability of easing has gone up fairly significantly. But I think it's hard to
+
+interpret because it's really not about 25 versus zero. It's really about zero versus 50 or maybe even
+
+100 as you look out longer term. Either the financial system is going to implode in a major way,
+
+which will lead to a significant further easing, or it is not.
+
+        CHAIRMAN BERNANKE. Other questions? All right. If not, let's begin with President
+
+Lockhart.
+
+        MR. LOCKHART. Thank you, Mr. Chairman. I finalized the thinking that went into my
+
+prepared remarks late last week, which seemed like a good idea at the time. But I should follow
+
+the philosophy of Charlie Brown, who I think said, "Never do today what you can put off until
+
+tomorrow." [Laughter] Obviously, we can't ignore the events of the weekend and yesterday's
+
+financial markets. So late yesterday I reviewed the views that I shaped last week and tried to
+
+ground them in an assessment of whether the outlook for the real economy has changed
+
+materially, whether the balance of risks has been altered, and whether, in my opinion, we must
+
+reintroduce a risk-management approach and consider taking out more insurance.
+
+        With that as prologue, let me make just a couple of comments on regional soundings
+
+from the last couple of weeks. Anecdotal reports from the Sixth District support the view that
+
+the economy is quite weak but not deteriorating markedly. The CFO of a large retailer of
+
+housing-related goods said that they think they see a bottom forming. I am also starting to hear
+
+some reports that housing markets feel as though they are beginning to stabilize; but, really, it is
+September 16, 2008                                                                          29 of 108
+
+
+
+a little too early to say that a bottom has formed in any of our housing markets. My overall sense
+
+from District contacts and our surveys is of an economy that is quite weak, with no clear trend
+
+evident.
+
+       Turning to the national outlook, like most forecasts, my view on the likely path for the
+
+economy has not changed materially since our August meeting. I see nothing in the data and
+
+hear nothing from District reports that alters my views that the second half will be very weak. I
+
+expect this weak period to be followed by a slow recovery gathering in 2009, but the foundation
+
+of a recovery starting around year-end or early 2009 may be far from solid. The contraction of
+
+credit availability that is confirmed by both surveys and anecdotal evidence could deepen as
+
+financial institutions face tight liquidity and difficulty recapitalizing. A protracted credit crunch
+
+would likely operate as a substantial drag on the economy.
+
+       Consistent with the Greenbook, I expect some near-term improvement in headline
+
+inflation, as we saw this morning, some near-term deterioration of core inflation measures, and
+
+inflation moving in the right direction later this year and into next year. That said, one director
+
+said that he and his particular industry had seen no moderation of price increases up to this date.
+
+I am comforted somewhat that the upward drift in some inflation expectation measures appears
+
+to have been reversed. In addition, my staff has been monitoring revisions to inflation forecasts
+
+of professional forecasters, which also seem to suggest that concerns about accelerating inflation
+
+have abated somewhat.
+
+       Regarding the balance of risks in the economy, I am concerned that the downside risks to
+
+growth may be gathering force, as evidenced by the weakening personal consumption and retail
+
+sales data, the weakening economies of export partners, and the delicate state of the financial
+
+markets. At the same time, I perceive that there is significant risk that the current disinflationary
+September 16, 2008                                                                          30 of 108
+
+
+
+environment may fail to bring core inflation down to anything resembling acceptable levels for
+
+the longer term. Adding up all of this, I perceive a very rough balance of risks that could break
+
+either way in coming months.
+
+       My view of the appropriate policy path is consistent with the Greenbook--that the fed
+
+funds rate target will remain stable at or close to the current level for several months going into
+
+2009. My preference is to hold the fed funds rate at the current level of 2 percent. Among the
+
+reasons is that a ¼ percentage point drop, as suggested by alternative A, is really not clearly
+
+called for by a changed outlook for the real economy. Inflation risks are still in play, and I think
+
+we should give credit markets more time to digest events and sort out rate relationships.
+
+       As regards the statement, my preference is alternative B. However, I am concerned that
+
+the reference to the recent financial turbulence is not quite strong enough, so I took a shot at
+
+rephrasing just the beginning of the rationale section to read as such: "Economic growth appears
+
+to have slowed recently, and labor markets have weakened further. In addition, strains in
+
+financial markets have increased significantly"--basically taking the slightly stronger expression
+
+in the alternative A rationale and putting it in alternative B. So my position, Mr. Chairman, is to
+
+hold at this meeting. Thank you very much.
+
+       CHAIRMAN BERNANKE. Thank you. President Rosengren.
+
+       MR. ROSENGREN. Thank you, Mr. Chairman. I will be brief. This is already a
+
+historic week, and the week has just begun. The labor market is weak and getting weaker. The
+
+unemployment rate has risen 1.1 percentage points since April and is likely to rise further. I am
+
+not convinced that the unemployment rate will level off where the Greenbook is assuming
+
+currently. The failure of a major investment bank, the forced merger of another, the largest thrift
+
+and insurer teetering, and the failure of Freddie and Fannie are likely to have a significant impact
+September 16, 2008                                                                         31 of 108
+
+
+
+on the real economy. Individuals and firms will become risk averse, with reluctance to consume
+
+or to invest. Even if firms were inclined to invest, credit spreads are rising, and the cost and
+
+availability of financing is becoming more difficult. Many securitization vehicles are frozen.
+
+The degree of financial distress has risen markedly. Deleveraging is likely to occur with a
+
+vengeance as firms seek to survive this period of significant upheaval. Given that many
+
+borrowers will face higher interest rates as a result of financial problems, we can help offset this
+
+additional drag by reducing the federal funds rate. I support alternative A to reduce the fed funds
+
+rate 25 basis points. Thank you.
+
+       CHAIRMAN BERNANKE. President Hoenig.
+
+       MR. HOENIG. Mr. Chairman, I see no reason to focus on the details of the forecast.
+
+Clearly, the economy is under stress, both as we look at the economic growth forecast and as we
+
+look at the inflation forecast. So I recognize the amount of stress we are under here. I would say
+
+to you, in dealing with that stress, I am fully supportive of the actions that we take in terms of
+
+liquidity--the TAF and the other efforts to provide liquidity into the market. These are tools that
+
+we can and should use for these kinds of shocks in a short-term context. On the other hand, I
+
+would encourage the Committee to resist the impulse to ease policy in a sense of doing
+
+something. The issue is not the level of our policy rate at this time. It is the dysfunctioning of
+
+the markets that we hope our liquidity efforts will help address. To begin to talk about easing or
+
+even to put language in there that suggests easing is to cause people, on the expectation that we
+
+might ease at some point even if we hold off now, to delay decisions that they would otherwise
+
+make that would benefit the economy.
+
+       I also encourage us to look beyond the immediate crisis, which I recognize is serious.
+
+But as pointed out here, we also have an inflation issue. Our core inflation is still above where it
+September 16, 2008                                                                           32 of 108
+
+
+
+should be. Headline inflation has been up, even though there are some signs that commodities
+
+and energy are backing off. But the businesses themselves are saying, "How do I recover my
+
+margin?" So there is no impulse to pass along those reductions. We talk about wages and labor
+
+backing off. But they are holding off, they are not backing off, and in negotiations they are
+
+much more antagonistic. Those kinds of pressures will emerge at some point. Those are the
+
+longer-run issues that I think we need to keep in mind as we deal with this immediate crisis. So I
+
+would strongly encourage us to leave rates where they are, to be very careful with our language,
+
+not to encourage the expectation of further rate decreases, and to continue to be aggressive in our
+
+liquidity provisions as we have been the last several weeks and months. Thank you.
+
+       CHAIRMAN BERNANKE. Thank you. President Yellen.
+
+       MS. YELLEN. Thank you, Mr. Chairman. During the past several weeks, my head
+
+office and Branch directors have become decidedly more pessimistic about the economic
+
+outlook. My own assessment of incoming data coincides with theirs. My contacts also report
+
+that their businesses are still raising prices in response to past increases in commodity and import
+
+prices that boosted their costs. I expect as a consequence that core inflation will remain
+
+uncomfortably high for a while longer, but the marked decline in commodity prices since June
+
+reinforces my conviction that there is light at the end of this inflation tunnel.
+
+       With respect to growth, our forecast is similar to the Greenbook's, with a little more
+
+weakness in the second half of this year and a little more strength in 2009. I think the risks to
+
+this forecast are decidedly skewed to the downside. I agree with the Greenbook's assessment
+
+that the strength we saw in the upwardly revised real GDP growth in the second quarter will not
+
+hold up. Despite the tax rebates, real personal consumption expenditures declined in both June
+
+and July, and retail sales were down in August. My contacts report that cutbacks in spending are
+September 16, 2008                                                                       33 of 108
+
+
+
+widespread, especially for discretionary items. For example, East Bay plastic surgeons and
+
+dentists note that patients are deferring elective procedures. [Laughter] Reservations are no
+
+longer necessary at many high-end restaurants. And the Silicon Valley Country Club, with a
+
+$250,000 entrance fee and seven-to-eight-year waiting list, has seen the number of would-be new
+
+members shrink to a mere thirteen. [Laughter]
+
+       Exports were a huge source of strength in the second quarter, but I am concerned that we
+
+cannot count on very large contributions to growth from exports going forward, now that the
+
+dollar has begun to rise and economic growth abroad has slowed, even turning negative in some
+
+important trade partners. Indeed, the growing weakness of the global outlook appears to be an
+
+important explanation for the reversion in commodity prices, and this adds a dimension of gloom
+
+to what would otherwise be a decided plus for both inflation and demand.
+
+       Recent data also suggest that labor markets are weakening across the board--a
+
+development that will cast a pall on household income and spending. The interaction of higher
+
+unemployment with the housing and financial markets raises the potential for even worse
+
+news--namely, an intensification of the adverse feedback loop we have long worried about and
+
+are now experiencing. Indeed, delinquencies have risen substantially across the spectrum of
+
+consumer loans, and credit availability continues to decline. One ray of hope is that the changes
+
+at Fannie and Freddie have caused a notable drop in mortgage rates. Another is that the decline
+
+in home prices has become somewhat less steep, and we have seen an outright improvement in
+
+home inventories relative to sales. But my contacts are very pessimistic about the prospects for
+
+nonresidential construction. They note that construction is continuing on projects in the pipeline
+
+with committed funding, but new projects are all but impossible to finance.
+September 16, 2008                                                                           34 of 108
+
+
+
+       Turning to inflation, I have long anticipated and still expect that inflation will fall to
+
+more-reasonable levels in 2009. However, developments since our August meeting diminish the
+
+upside risks to this projection. The drop in oil and other commodity prices, along with the
+
+appreciation of the dollar, should work to moderate the current inflation bulge and diminish the
+
+potential for a wage­price spiral to develop. Import inflation has already begun to ease.
+
+Furthermore, we have seen a remarkable decline in inflation compensation for the next five years
+
+in the TIPS market. I would not rely heavily on this decline to support my view, but I do have to
+
+say that the decline is a lot more reassuring than the alternative. I was also encouraged by the
+
+30 basis point drop in long-term inflation expectations in the most recent Michigan survey. I
+
+anticipate that the recent jump in the unemployment rate will place some additional downward
+
+pressure on growth in labor compensation, which has been quite low, and in core inflation.
+
+Although the jump in the unemployment rate probably partly reflects the extension of
+
+unemployment insurance coverage, a back-of-the-envelope calculation suggests that the upper
+
+bound on this effect is just a few tenths of a percent. I would agree with the Greenbook
+
+estimates. We have also examined the possibility that the increase in unemployment reflects a
+
+rise in the NAIRU due to sectoral employment shifts out of construction and finance and into
+
+other industries. Ned Phelps has argued that the sectoral shift story implies a sizable dispersion
+
+of employment growth across industries and states. But we looked at these data and found no
+
+significant increase, so I don't find this Phelps argument particularly convincing. Considering
+
+all of these factors, I expect both headline and core PCE price inflation to fall to about 2 percent
+
+for 2009 as a whole, and I see the risks to this projection as roughly balanced.
+
+       With respect to policy, I would be inclined to keep the funds rate target at 2 percent
+
+today. For now, it seems to me that the additional liquidity measures that have been put in place
+September 16, 2008                                                                        35 of 108
+
+
+
+are an appropriate response to the turmoil. I am fine with the wording of alternative B and
+
+would support President Lockhart's suggestion for change. That would seem fine to me, too. In
+
+view of the intensified financial stress and the potential for more turmoil, obviously I think we
+
+will need to be flexible in setting policy going forward, and I am very concerned about downside
+
+risks to the real economy and think that inflation risk is diminished.
+
+       CHAIRMAN BERNANKE. Thank you. President Bullard.
+
+       MR. BULLARD. Thank you, Mr. Chairman. I am going to start with the national
+
+economy in the interest of brevity here. Concerning the national outlook, it is difficult and
+
+probably unwise to try to assess growth and inflation prospects in the immediate aftermath of an
+
+event like the Lehman bankruptcy. I expect to see more failures among financial firms, and I
+
+expect those failures to continue to contribute to market volatility. This is part of an ongoing
+
+shakeout among financial market firms, following some of the worst risk management in a
+
+generation. I expect sluggish growth in the second half of 2008, in part due to labor markets that
+
+are somewhat weaker than expected. Financial market turmoil is certainly a key concern, but the
+
+U.S. economy still outperformed expectations in the first half of 2008, despite the demise of Bear
+
+Stearns--an event not too different in some respects from the current episode.
+
+       My sense is that three large uncertainties looming over the economy have now been
+
+resolved--the GSEs and the fates of Lehman and Merrill Lynch. Of these, the resolution of GSE
+
+uncertainty seems to be the most pivotal, even though it is not the one leading the news today.
+
+Normally, the elimination of key uncertainties is a plus for the economy. As is typical in this
+
+type of situation, safe interest rates have fallen dramatically across the board.
+
+       A second macroeconomic shock stemming from the dramatic rise in oil and other
+
+commodities prices has been an unwelcome development during the past six months. The retreat
+September 16, 2008                                                                        36 of 108
+
+
+
+of West Texas intermediate prices to $94 a barrel, and today down to $92 a barrel, should
+
+improve second-half growth prospects.
+
+       Meanwhile, an inflation problem is brewing. The headline CPI inflation rate, the one
+
+consumers actually face, is about 6¼ percent year-to-date. That does not include today's report.
+
+This is against the federal funds target of 2 percent. While it makes sense to focus on financial
+
+markets for the time being, it is essential that we keep in position to put downward pressure on
+
+inflation going forward. The financial crisis threatens to roll on for such a long time and to
+
+demand so much attention that the private sector may rationally conclude that we have lost all
+
+sight of our inflation objective. In such a case of unmoored expectations, outcomes could be far
+
+more severe than those envisioned in the Greenbook.
+
+       My policy preference is to maintain the federal funds rate target at the current level and to
+
+wait for some time to assess the impact of the Lehman bankruptcy filing, if any, on the national
+
+economy. In uncertain circumstances like these, I think it would be unwise to react too hastily to
+
+a fluid situation. Any immediate effects may not be the ones that are intended, and further down
+
+the line--that is, once more data have accumulated--a hasty action may leave the Committee out
+
+of position relative to the incoming data. By denying funding to Lehman suitors, the Fed has
+
+begun to reestablish the idea that markets should not expect help at each difficult juncture.
+
+Changing rates today would confuse that important signal and take out much of the positive part
+
+out of the previous decision. In addition, a rate move would be poorly targeted toward
+
+mitigation of difficulties at particular financial firms. The FOMC has already done a great deal
+
+to create a low interest rate environment in order to shepherd the economy through a substantial
+
+shock to the financial and housing sectors. The Committee now needs to allow the financial
+September 16, 2008                                                                          37 of 108
+
+
+
+sector shakeout to occur using liquidity facilities to the extent possible to help navigate the
+
+resulting turbulence. Thank you.
+
+        CHAIRMAN BERNANKE. Thank you. President Plosser.
+
+        MR. PLOSSER. Thank you, Mr. Chairman. New data and survey and anecdotal
+
+information in the Third District suggest that the economy in our District continues to be weak.
+
+There have been further declines in some industries and deceleration of growth in others, but
+
+generally data are coming in as expected. Employment growth was flat over the three-month
+
+period ending in July, and I expect that unemployment rates in our three states will tick up in
+
+August, when the regional data come out, much as it did in the national data.
+
+        Overall, the activity in our region, as I said, has remained weak since the last meeting.
+
+Housing construction continues to be weak. Sales of existing homes remain sluggish, and
+
+inventories remain high. One builder said, "Things don't feel very good. I feel as though I am in
+
+a tar pit. My feet are maybe now on the bottom; my nose is still above the level of the tar; and
+
+while I may feel the bottom, it still doesn't feel very good." On the commercial real estate side,
+
+we saw a slight uptick in the value of July contracts, but they are not very high. In fact, they
+
+really remained at the average level of the last seven years. Retailers remain pessimistic in the
+
+latest Beige Book. District banks saw loans rise slowly but steadily in August. The Beige Book
+
+reports from them see slight gains in consumer and real estate lending and C&I loans essentially
+
+flat.
+
+        The good news is from our business outlook survey for September, which will be
+
+released to the public on Thursday at 10:00 a.m., but the results are in. The survey is from the
+
+first two weeks of September. The general activity index has been negative, if you recall, for the
+
+last nine months--since December 2007. The last value was minus 12.7. The September
+September 16, 2008                                                                          38 of 108
+
+
+
+number, not to be released until Thursday, is a positive 3.4, so that's a swing of 15 points to the
+
+good. This is clearly somewhat encouraging, although we don't want to get too excited about
+
+one month--but it is good news. Furthermore, both the new orders and shipment indexes in the
+
+survey improved in September. Price pressures have abated somewhat with the fall in
+
+commodities and oil, but they remain. The six-month-ahead outlook indexes also improved
+
+substantially in the new survey. This is the best picture that the survey has painted in certainly
+
+quite a while--about the last six or eight months. In summary, the economic conditions of the
+
+Third District remain weak and sluggish but are not materially different from what we and our
+
+business contacts had been expecting over the near term.
+
+       While a lot of attention in the short run is being paid to financial markets' turmoil, our
+
+decision today must look beyond today's financial markets to the real economy and its prospects
+
+in the future. In this regard, things have not changed very much, at least not yet. Indeed, the
+
+Greenbook forecast has changed only modestly since the last Greenbook. The economy remains
+
+weak but not appreciably different from what I anticipated or even what the Greenbook
+
+anticipated at the last meeting. I agree that the recent financial turmoil may ultimately affect the
+
+outlook in a significant way, but that is far from obvious at this point. We also need to
+
+acknowledge the long lag times associated with the effect of monetary policy actions on the real
+
+economy. Actions today will not help us very much in the very, very near term where the real
+
+economy is concerned.
+
+       On the inflation front, there has been some good news. The decline in the retail price of
+
+gas has contributed to a decline in headline inflation in August. In my view, the price declines in
+
+commodities and oil have mitigated somewhat the upward pressure on expectations and have
+
+reduced the likelihood that inflation expectations will become unanchored, at least in the near
+September 16, 2008                                                                        39 of 108
+
+
+
+term. Nevertheless, I remain concerned about the inflation outlook going forward. In part, my
+
+concern stems from the fact that I do not see that the ongoing expected slowdown in economic
+
+activity is entirely demand driven. As I noted before, the impact of financial shocks and high
+
+commodity prices can plausibly lead to a decline in the growth rate of potential output. If so,
+
+there will be less offset to inflation going forward than incorporated in the baseline Greenbook
+
+forecast, which relies heavily on slack variables to control inflation. The Greenbook simulation
+
+entitled "costly reallocation" provides some welcome effort from the staff in this regard, and I
+
+appreciate that. Yet the details of that experiment were a bit sketchy for me, and at some point I
+
+would be interested in a little more detail as to how that actually plays out.
+
+       In my view, the main driver for the outlook of future inflation over the next two years is
+
+not, nor has it been, oil prices per se, but the path of monetary policy that the Committee will
+
+adopt over the next several months and quarters. I appreciate the memo that the staff produced
+
+regarding the stance of monetary policy. According to the memo, the current stance of policy is
+
+not unusually accommodative. However, I would like to note that that conclusion depends
+
+critically on the specific forecast and the nature of the FRB/US model. A different model, one
+
+that says that inflation expectations are more forward looking, may well lead to a very different
+
+conclusion. But I take the message of the memo to be that the assessment of the stance of
+
+monetary policy is dependent, at a point in time, on a model, and I very much agree with that
+
+assessment. Given that my model is somewhat different from the staff's model, I continue to
+
+believe that monetary policy at its current level is accommodative and that, if this current stance
+
+is sustained, the economy will experience faster inflation in the medium term. Clearly, we must
+
+pay attention to the adverse effects of the financial disruptions. But we also must recognize that
+
+our policy actions today and over the next several months will affect the outcomes of inflation
+September 16, 2008                                                                         40 of 108
+
+
+
+over the medium term. As I said, it is my view that the current stance of policy is inconsistent
+
+with price stability in the intermediate term and so rates ultimately will have to rise.
+
+       Now, I acknowledge that there are risks to economic growth going forward. The
+
+slowdown and the financial market turmoil could turn out to be worse than I expect. I also
+
+recognize that, given the events over the weekend, now is probably not the time to shock markets
+
+by raising rates. But neither is it a time to panic and lower rates. A cut today may be reassuring
+
+to some in the financial markets, but it also may serve to scare markets by sending a signal that
+
+we are much more worried than perhaps they are. There is just way too much volatility and dust
+
+blowing around to make such snap judgments on monetary policy. We have been aggressive
+
+with our liquidity provisions, and we will continue to be so, and I support that. Stability coming
+
+from monetary policy is an important attribute, and I think we have an opportunity to provide
+
+some stability here. However, I am uncomfortable with the current Greenbook baseline path that
+
+has the funds rate remaining unchanged well into the second half of next year. In my view, that
+
+will not deliver an acceptable path of inflation outcome over the medium term. At the same
+
+time, I do not perceive an immediate threat to the unanchoring of expectations, so I can accept
+
+keeping the funds rate at an unchanged level at this meeting. But at some point, before the
+
+unemployment rate begins to improve substantially, I believe this Committee will need to raise
+
+rates in order to deliver on our inflation objectives.
+
+       Regarding language, I can live with the language in alternative B. Thank you, Mr.
+
+Chairman.
+
+       CHAIRMAN BERNANKE. Thank you. President Stern.
+
+       MR. STERN. Thank you, Mr. Chairman. Well, even before the events of the last several
+
+days, I thought that this was the most severe financial crisis, certainly, that I have seen in my
+September 16, 2008                                                                            41 of 108
+
+
+
+career. And the last several days--as well as some of Bill's comments about possible contagion
+
+spreading from breaking the buck and so on and so forth--have only heightened that conviction
+
+and my concern about where we are. So I think it is fair to say that the headwinds confronting
+
+the economy have intensified even further. It is difficult to comment on the degree or the
+
+duration, but I think we know the direction. As far as the near-term economic outlook is
+
+concerned, I wasn't terribly optimistic about the next two or three quarters to begin with. If I
+
+were going to prepare a new forecast at this point--or even had I prepared one last week--I
+
+probably would mark it down a bit. But, of course, there is not much we can do about that at this
+
+stage.
+
+          As far as the inflation outlook is concerned, I have thought that, late in this year and into
+
+next year, inflation would start to abate, and recent developments perhaps heighten my
+
+conviction about that. But I will agree that it is still an open issue. So it seems to me that all of
+
+this suggests that the outlook, at least in terms of financial conditions and the economy in the
+
+near term, has clearly deteriorated. The inflation outlook, if anything, has perhaps improved a
+
+notch, or at least the outlook that I had earlier is a little more solid.
+
+          Given the lags in policy, it doesn't seem that there is a heck of a lot we can do about
+
+current circumstances, and we have already tried to address the financial turmoil. So I would
+
+favor alternative B as a policy matter. As far as language is concerned with regard to B, I would
+
+be inclined to give more prominence to financial issues. I think you could do that maybe by
+
+reversing the first two sentences in paragraph 2. You would have to change the transitions, of
+
+course.
+
+          I would say that if we wanted to change policy at this meeting--and that is not my
+
+preference--I would do it by ½ percentage point, and I would think that the rationale would be
+September 16, 2008                                                                           42 of 108
+
+
+
+psychological reasons. Again, I don't think we are going to have a big effect on the near-term
+
+performance of the economy. But if we think psychology in the marketplace is sufficiently bad
+
+or that there is sufficient concern that the Federal Reserve somehow doesn't quite get it--I
+
+would think that all our actions cumulatively, including the actions over the weekend, should not
+
+make that a grave concern--then I think we would want to do more than ¼ percentage point.
+
+Thank you.
+
+       CHAIRMAN BERNANKE. President Evans.
+
+       MR. EVANS. Thank you, Mr. Chairman. The unfolding financial situation is injecting
+
+enormous uncertainty into the economic outlook and policy picture. Although this analogy is
+
+imperfect, today's uncertainty reminds me of March 2003. Then, on the eve of the invasion of Iraq,
+
+the FOMC decided that geopolitical uncertainty was so great that the Committee could not
+
+characterize the balance of risks at all in the policy statement. Today, the downside risks to output
+
+are almost too dispersed to characterize. In one or two weeks, we may know better that either the
+
+economy will somehow muddle through or we're likely to be facing the mother of all credit
+
+crunches. I think that the first outcome would be quite an accomplishment under the circumstances,
+
+but at the moment it's very hard to say how this will turn out.
+
+       Nevertheless, we have to offer an opinion. With respect to the economic landscape before
+
+the developments of last weekend, one thing that I kept hearing was that uncertainty and caution in
+
+the business community had increased in recent weeks and that they were causing many firms to
+
+hold back on spending and committing to financial investments. But a number of my contacts
+
+indicated that the weakness was not out of line with their earlier expectations. On the plus side, I
+
+got the impression that, with the exception of housing, there are not many excesses on the real side
+
+of the economy that needed to be worked off. Notably, I did not hear of inventory overhangs or
+September 16, 2008                                                                            43 of 108
+
+
+
+unused capacity, and Manpower even indicated that their clients had been careful not to go
+
+overboard earlier in the hiring cycle, and so we're not left with bloated workforces. Still, this
+
+sentiment and the incoming data did not paint a pleasant picture with regard to the national outlook.
+
+As one of my directors said, turning the common phrase against me, the economic problems that we
+
+are facing appear to be remarkably resilient. Even before last weekend's events, the economic risks
+
+had increased somewhat. We had the large rise in the unemployment rate, the recent weak
+
+consumption data, and heightened caution by firms. Now, of course, the financial risks have
+
+increased substantially and further threaten the growth outlook. At a minimum, credit standards are
+
+likely to tighten further and crimp spending.
+
+        I'm not looking forward to putting a forecast together in October. Dave and the Board staff
+
+have my sympathy and respect for doing this each meeting. It's unfortunate, Dave, that we haven't
+
+had the time to spend talking about the excellent special memo that you and your staff put together
+
+on gauging the effective stance of policy. I thought that was very helpful. I had on previous
+
+occasions mentioned that it would be nice to have some markers that we could look at, and at least
+
+for me, that was quite helpful. Now, it's not a large stretch to expect that inflationary pressures will
+
+recede, given what we're facing. We could see enough weakening in the economic outlook that the
+
+projected slack in the economy will point inflation more clearly down and below 2 percent over the
+
+medium term. Just last week I was still a bit skeptical that these forces would be large enough to
+
+achieve this disinflation. But we need to be forward looking, and that would be how I would mark
+
+my inflation forecast down today.
+
+        So what does this mean for policy today? I favor alternative B. In my view, we've kept the
+
+policy rate low so that we would not be far from appropriate policies if and when the risks to growth
+
+intensified enough relative to the risks to inflation. So we are well positioned to act if we need to. I
+September 16, 2008                                                                            44 of 108
+
+
+
+agree with President Stern that, if we were to act, we should do something significant on the order
+
+of 50 basis points. But I think we should be seen as making well-calculated moves with the funds
+
+rate, and the current uncertainty is so large that I don't feel as though we have enough information
+
+to make such calculations today. We will know much more in a couple of weeks, I hope at least
+
+about the changes in underlying financial conditions, and will thus have a better sense of the risks to
+
+both elements of the dual mandate and the associated policy actions. Thank you, Mr. Chairman.
+
+        CHAIRMAN BERNANKE. Thank you. President Pianalto.
+
+        MS. PIANALTO. Thank you, Mr. Chairman. The recent financial market news is shaking
+
+people's confidence dramatically. But even before recent events, the evidence was already pointing
+
+to more effects of the financial crisis on the real economy than I had built into my projection at our
+
+last meeting. The reports from my District contacts and the incoming data caused me to revise
+
+down my near-term output projection even before the latest round of financial market troubles. The
+
+improvement in net exports that was reflected in the second-quarter GDP growth has not
+
+encouraged manufacturers in my District to revise up their export projections. They are still holding
+
+firmly to the opinion that the global economy is slowing and that export growth will slow with it for
+
+several quarters. Of course, manufacturers are concerned about weakness spreading further within
+
+their domestic customer base.
+
+        The ongoing turmoil in financial markets continues to affect businesses in my District.
+
+Some of the banks in my District are finding it very, very difficult to attract new capital and to
+
+manage their way out of trouble. I am hearing that credit is harder to come by for many borrowers
+
+who in the recent past would not have thought twice about their creditworthiness. Last week I met
+
+with a business contact with a very long and successful track record of buying and operating private
+
+companies. He reported that he had reached a deal with a bank to finance a project at a 7 percent
+September 16, 2008                                                                            45 of 108
+
+
+
+interest rate with the loan amortized over a fifteen-year term. On the morning of the close just three
+
+days later, the bank faxed him the paperwork, which reflected a 12 percent interest rate on a non-
+
+amortizing loan with a 10-year term. So the deal obviously is not going forward. One of my
+
+directors, who heads a very large regional banking organization, reported at our board meeting last
+
+week that many banks are shedding assets and that in some cases they are walking away from
+
+longstanding customer relationships in order to do so. He said that investors are very skeptical
+
+about putting new equity into banking deals and that those who have done so in the past vow not to
+
+be burned twice, let alone a third time.
+
+        Of course, inflation remains an important issue as well. My contacts, as Dave mentioned in
+
+his report, are not so confident that a broad array of intermediate and retail prices are actually going
+
+to move back down as a result of the recent decline in energy and other commodity prices. Several
+
+of my contacts report that major suppliers are trying to maintain their prices despite the decline in
+
+raw material costs just to make up for a long period of absorbing price increases. Nevertheless,
+
+most of my contacts agree that the commodity price environment has stabilized considerably,
+
+making me more confident that core inflation will gradually slow over the next couple of years.
+
+        At our last meeting, my forecast was broadly consistent with the Greenbook baseline.
+
+Today my forecasts for output and prices are broadly similar to the Greenbook's for 2009 and 2010,
+
+although I am expecting more weakness in economic activity in the second half of this year than the
+
+Greenbook is forecasting. My contacts in the manufacturing sector have persuaded me that exports
+
+are going to be weaker in the short term than I had previously thought, and I have also revised down
+
+my consumption path on the basis of the credit constraints on households. Although I am more
+
+encouraged about the recent decline in energy and commodity prices, I would like to see further
+
+evidence of price stability in these markets and also continued stability in inflation expectations for
+September 16, 2008                                                                           46 of 108
+
+
+
+a while longer before I reduce the upside risk that I place on my inflation outlook. However, a
+
+growing risk to my outlook is that the short-term weakness that I have now built into my outlook
+
+extends further out into the forecast period. I worry that my outlook doesn't fully capture all of the
+
+many ways in which financial forces at work in the economy are actually going to restrain spending.
+
+       On Friday, I was convinced that the best course of action was to keep an even keel in these
+
+rough seas--to be flexible, of course, but to look beyond the latest wave crashing over the bow.
+
+Only six weeks ago, inflation risks were on the verge of being unacceptable, and today the troubles
+
+of Wall Street are the focus. I was sure that we were going to be in for many more surprises; I just
+
+didn't know when and from where they would be coming. So I supported not only keeping our
+
+policy unchanged but also keeping our language changes to a minimum even if that language
+
+missed some nuances of the outlook. Given the events of the weekend, I still think it is appropriate
+
+for us to keep our policy rate unchanged. I would like more time to assess how the recent events are
+
+going to affect the real economy. I have a small preference for the assessment-of-risk language
+
+under alternative A. I think it captures my concern that the downside risks have intensified.
+
+However, I can support some of the comments and changes to highlight the financial market strains
+
+that were made by President Lockhart and President Stern. So I can support the language under
+
+alternative B with some additional comments about the financial strains that we are facing. Thank
+
+you, Mr. Chairman.
+
+       CHAIRMAN BERNANKE. Thank you. President Lacker.
+
+       MR. LACKER. Thank you, Mr. Chairman. I'll be brief. The Fifth District hasn't changed
+
+much; it pretty well aligns with the national outlook. On the national outlook, I find myself, all
+
+except for the policy path, aligned well with the staff. There have been a lot of economic reports
+
+since the last meeting about particular categories of spending or particular sectors of the economy,
+September 16, 2008                                                                             47 of 108
+
+
+
+but they net out to only a small change, if any, in the broad contour of the outlook for me for overall
+
+growth. I expect it to be sluggish for the remainder of the year with recovery beginning at some
+
+point in the first half of next year. I'll commit the sin of saying that uncertainty is especially high
+
+now. There seem to be reasonably plausible risks in the outlook in virtually every spending
+
+category and, in many cases, on both sides of the outlook.
+
+        About inflation, so far our credibility has helped to prevent a pickup in compensation
+
+growth. In fact, it's heartening that compensation growth is coming in a little below expected in
+
+response to the energy price shock this year. This has allowed us to accomplish the inevitable
+
+decline in real wages without setting off an inflationary acceleration in wage rates. But we're still in
+
+the midst of an upsurge in core inflation, which the Greenbook expects is going to tick up near
+
+3 percent this quarter. As I said before, I think it's critically important for us to emerge from this
+
+episode without trend inflation ratcheting upward, and I'm not sure we can take the forecasted
+
+moderation for granted. Inflation compensation has been well contained, and that has been
+
+heartening. But I have also said this before--I think the current level of five-year, five-year-
+
+forward inflation compensation seems more consistent with a trend above 2½ percent than it does
+
+with a 2 percent trend. So I'm not convinced that there's going to be much gravitational pull down
+
+from an elevated rate once core rises. At the very least, I think there's some uncertainty about that.
+
+        For financial markets, this is yet another historic week, as President Rosengren remarked. I
+
+think the questions facing financial market participants, the uncertainty they face, can be usefully
+
+partitioned into three broad categories. One is the aggregate magnitude of fundamental losses that
+
+the financial sector faces. Another is the location of those losses--where they are going to pop up
+
+within financial intermediary sectors. The third is the likelihood and the magnitude of fiscal
+
+transfers in the form of governmental support for particular firms. I think the weekend's events
+September 16, 2008                                                                               48 of 108
+
+
+
+have caused financial market participants to revise their assessments of the future. It seems to me at
+
+this early date in the process that the revision in the outlook has had more to do with the latter two
+
+categories than with the aggregate size of fundamental losses we have coming down the pipeline.
+
+That is to say, it's about where they're popping up, which firms are affected and are going to be hit,
+
+and about the likelihood of government support.
+
+        What we did with Lehman I obviously think is good. It has had an effect on market
+
+participants' assessment of the likelihood of other firms getting support, and I think you would have
+
+to attribute at least some of changes in equity prices to that. We're likely to see a lot more
+
+disruption this week and in the days going forward than we've seen so far. I don't want to be
+
+sanguine about it, but the silver lining to all the disruption that's ahead of us is that it will enhance
+
+the credibility of any commitment that we make in the future to be willing to let an institution fail
+
+and to risk such disruption again. On the other hand, if the disruption proves less severe than we
+
+expect, the silver lining is that that will strengthen our hand in the future as well. However, I would
+
+note that I don't think that what we did with Lehman has set a clear and firm boundary on the
+
+circumstances under which government support is likely to be forthcoming. All the language
+
+around not supporting Lehman was of a one-off nature. So I'm not sure about the extent to which
+
+we've diminished uncertainty about the likelihood of support going forward, and I think that such
+
+uncertainty is likely to exacerbate financial volatility in the months ahead until we can make more
+
+progress on articulating a reasonably principled policy on when we're going to intervene and when
+
+we're not, or at least enhancing clarity about that.
+
+        Overall, I don't take what's happened in the last few days as changing much. It's not
+
+obvious to me what the implications are for the outlook for inflation and growth, at least at this
+
+point. So I don't see a reason to deflect from our policy path at this point. I can support standing
+September 16, 2008                                                                            49 of 108
+
+
+
+pat with the funds rate today. I think that's a good idea. I think, looking forward, that we will want
+
+to raise rates sooner rather than later if core inflation doesn't moderate. I think we're more likely to
+
+require a path more like the August Greenbook than the current one. Thank you, Mr. Chairman.
+
+        CHAIRMAN BERNANKE. President Lacker, I have a question. I really would like your
+
+advice on this. Historically, if we look at situations like Japan and Scandinavia, ultimately there
+
+comes a point at which the banking system is decapitalized and dysfunctional and the government
+
+intervenes on a large scale. Those interventions have been very expensive, but in those cases I
+
+mentioned, they have generally restored the banking system to health and have helped the economy
+
+recover. What's your view on the right sequencing? Do you think that we should remain very
+
+tough until such time as it becomes inevitable that fiscal intervention is needed? Do you think that
+
+we should avoid fiscal intervention at all stages? I'm seriously interested in knowing what you, or
+
+anyone else who would like to comment, think is the appropriate stage, if any, at which fiscal
+
+intervention becomes necessary.
+
+        MR. LACKER. We have a legislated program of fiscal intervention--deposit insurance--
+
+and the boundaries around that are very clear. Which liabilities are insured and which ones are not
+
+are very clear. Around the edges there's some lack of clarity about what least-cost resolution means
+
+and the extent to which deviations from that can be verified, and that provides some room for the
+
+Federal Deposit Insurance Corporation to deviate from that and implicitly to forbear to some extent.
+
+But even that is sort of a well-contained and well-defined government support. That's what the
+
+Congress has enacted, and it's not clear to me whether we should go beyond that. Japan got down
+
+to deposit insurance. Scandinavia did, too. That seems like a natural benchmark.
+
+        CHAIRMAN BERNANKE. But I think this is a historical fact--that, once the banks
+
+became decapitalized, there were also capital injections into the banks in both of those cases.
+September 16, 2008                                                                            50 of 108
+
+
+
+        MR. LACKER. Sure. Those were fiscal actions.
+
+        CHAIRMAN BERNANKE. Right.
+
+        MR. LACKER. And the FDIC does exactly that when it resolves a failed institution.
+
+        CHAIRMAN BERNANKE. President Hoenig.
+
+        MR. HOENIG. Mr. Chairman, I have thought about this considerably because I think we
+
+have come to a time in our history when we have institutions that clearly ought to be and may in
+
+fact be too big to fail. I think we tend to react ad hoc during the crisis, and we have no choice at this
+
+point. But as you look at the situation, we ought, instead of having a decade of denying too big to
+
+fail, to acknowledge it and have a receivership and intervention program that extends some of the
+
+concepts of the FDIC but goes beyond that. That is, if you are insolvent, it is not a central bank
+
+issue--we are a liquidity provider--and therefore the government comes in. But unlike the GSEs,
+
+everyone has to take some hit--the equity holders, certainly the preferred stockholders, also the
+
+subordinated-debt holders, and perhaps the senior ones--by assuming a certain amount of loss.
+
+They would have immediate access to--pick a number--80 percent. The research would help us
+
+pick that number, and they can have access, but the rest becomes a subordinate-subordinate position
+
+after the liquidation so that you have still a sense of market discipline in play and you don't get the
+
+system gaming it in that, if you know there's a bailout coming, you buy the debt and sell the equity
+
+short to make a bundle. I think therein lie the distortions that are absolutely detrimental to the long-
+
+run health of the economy.
+
+        Regarding how we go forward, I think we are going to have many lessons from this. Part of
+
+the problem has been very lax lending and, obviously now, weaknesses in some of the oversight.
+
+Also a history of our reacting from a monetary policy point of view to ease quickly to try to take
+
+care of the problem and, therefore, to create a sense in the market of our support has raised some
+September 16, 2008                                                                           51 of 108
+
+
+
+real moral hazard issues that we now need to begin to remedy as we look forward in dealing with
+
+future receiverships. We are in a world of too big to fail, and as things have become more
+
+concentrated in this episode, it will become even more so.
+
+        CHAIRMAN BERNANKE. I certainly agree--and the Treasury Secretary and I have said
+
+publicly--that we need a strong, well-defined, ex ante, clear regime. But we have the problem now
+
+that we don't have such a regime, and we're dealing on a daily basis with these very severe
+
+consequences. So it is a difficult problem.
+
+        MR. HOENIG. I think what we did with Lehman was the right thing because we did have a
+
+market beginning to play the Treasury and us, and that has some pretty negative consequences as
+
+well, which we are now coming to grips with.
+
+        CHAIRMAN BERNANKE. President Rosengren.
+
+        MR. ROSENGREN. I think it's too soon to know whether what we did with Lehman is
+
+right. Given that the Treasury didn't want to put money in, what happened was that we had no
+
+choice. But we took a calculated bet. If we have a run on the money market funds or if the
+
+nongovernment tri-party repo market shuts down, that bet may not look nearly so good. I think we
+
+did the right thing given the constraints that we had. I hope we get through this week. But I think
+
+it's far from clear, and we were taking a bet, and I hope in the future we don't have to be in
+
+situations where we're taking bets. It does highlight the need to look at the tri-party repo market,
+
+look at the money market fund industry, and look at how they're financing. There are a lot of
+
+lessons learned, but we shouldn't be in a position where we're betting the economy on one or two
+
+institutions. That is the situation we were in last weekend. We had no choice. We did what we had
+
+to do, but I hope we will find a way to not get into this position again.
+
+        CHAIRMAN BERNANKE. Okay. President Fisher.
+September 16, 2008                                                                               52 of 108
+
+
+
+        MR. FISHER. Mr. Chairman, it may surprise you that President Yellen and I agree,
+
+[laughter] at least with the recommendation, as I do with the majority. I also agree firmly with
+
+President Hoenig. David wanted to know a little more about Houston, so I will start out with that,
+
+and then I'll quickly go to the policy matter.
+
+        The storm devastated Galveston and Beaumont. Their combined population is 650,000.
+
+The population of the greater Houston area is 6.5 million. The damage to Houston was moderate.
+
+The overall effect on the Texas economy should be relatively mild. We still expect employment
+
+growth this year of 1½ percent or so, plus or minus, even though the storm really hit hard an area
+
+that accounts for 26 percent of our employment and 30 percent of our output. In terms of the
+
+national impact, I think it's important to understand that the energy infrastructure took minor losses.
+
+The short-term functioning of that infrastructure is hampered by power losses and water problems.
+
+Gasoline prices have gone up because 3.9 million barrels a day, or roughly 22 percent of the U.S.
+
+refining capacity, has been shut down. By the way, that affects the spot market--I think that's some
+
+of the reason you've seen this weakness recently--and maybe the near-term futures market. If you
+
+look at the gasoline price market, the gasoline price went up another 13 cents yesterday, but the near
+
+futures market is down 19 cents. I think it reflects expectations that, once power is restored, the
+
+refineries will come back on line about a week later. So we will likely have a temporary bump-up
+
+in inflation due to the gas prices. But I think it is important to realize that this, unlike Katrina, didn't
+
+shut down the Mississippi, and the effect on other commodity prices is likely not to be significant,
+
+with one exception. If you look, you'll see that prices of soybeans and soybean oil have spiked
+
+recently. Clearly, the weather has an impact, but I think that's more supply­demand imbalance--
+
+something that I'm watching carefully.
+September 16, 2008                                                                             53 of 108
+
+
+
+        The silver lining, if there is a silver lining to human tragedy, is probably twofold. One is, if
+
+you notice, that lumber prices are actually up this year, which is kind of odd in terms of lumber
+
+trading. Of course, lumber producers are probably pretty happy with the devastation in our state.
+
+Second, Mexican laborers will be very happy if we let them into the country because the Hispanics
+
+build most of our buildings in the United States. But I would say that the storm should not have any
+
+effect on nor should it alter our preferred policy direction, and I would like to talk about that very
+
+quickly.
+
+        I have been affected in my thinking about economic growth and inflation by what I'm
+
+seeing overseas. I'm globally oriented. I do expect that we're going to have less impetus from
+
+exports, which were significant in carrying our growth. Our numbers show that, and your numbers,
+
+David, show that, and all of our conversations have revolved around that. We were surprised on the
+
+upside by it. Now I think weakening economic growth elsewhere is likely to subdue that effect.
+
+We have also had an appreciation of the dollar. Oil prices have declined. I dove deep in my
+
+anecdotal explorations with the majors and also with all supply companies. For whatever it's worth,
+
+they are convinced that OPEC now has $100 rather than $70 as their benchmark. Most of them
+
+expect prices to slide down to somewhere in the $80 range. But over the longer term, whatever that
+
+term may be, we're going to talk about $100-plus oil. Then, of course, many commodity prices are
+
+off their peaks. They have retraced significantly--some entirely.
+
+        That said, in my anecdotal interchanges, I am still hearing about the likelihood, as I think
+
+President Pianalto mentioned, that people are seeking to preserve their margins. They've been
+
+stung for many years, and I'll just give you one case because I think it tells us something. If you
+
+talk to the CEO of Wal-Mart USA, what they are pricing to be on their shelf six to eight months
+
+from now has an average price increase of 10 percent. Now, of course, you might have this
+September 16, 2008                                                                           54 of 108
+
+
+
+reversed as we go through time. My biggest disappointment, incidentally, was that the one bakery
+
+that I've gone to for thirty years, Stein's Bakery in Dallas, Texas, the best maker of not only bagels
+
+but also anything that has Crisco in it, [laughter] has just announced a price increase due to cost
+
+pressures. But I do think we have a mitigation of inflation, and we also have a mitigation of the
+
+impetus to economic growth.
+
+        As to the current financial predicament, I want to go back to a comment I made a long time
+
+ago. This is not the first for me. I like to tease President Stern about his maturity--I don't go back
+
+to the Panic of 1890, but to Herstatt, 1974; New York City's failure, 1975; 1987; and what
+
+happened in Japan. Incidentally, you see the same pictures repeated in every newspaper. It's
+
+always the trader holding his head or looking up at the board. Now it's in color; it used to be black
+
+and white. I think it comes from the same archive, and it is repeated throughout time. [Laughter]
+
+        All of that reminds me--forgive me for quoting Bob Dylan--but money doesn't talk; it
+
+swears. When you swear, you get emotional. If you blaspheme, you lose control. I think the main
+
+thing we must do in this policy decision today is not to lose control, to show a steady hand. I would
+
+recommend, Mr. Chairman, that we embrace unanimously--and I think it's important for us to be
+
+unanimous at this moment--alternative B. Thank you, Mr. Chairman.
+
+        CHAIRMAN BERNANKE. Thank you very much. Coffee is ready. Why don't we take
+
+about thirty minutes? I have a couple of calls to make. See you at about 11:20.
+
+                                            [Coffee break]
+
+        CHAIRMAN BERNANKE. Okay. If we're ready, we can reconvene. First Vice President
+
+Cumming.
+
+        MS. CUMMING. Thank you, Mr. Chairman. In our forecast, we do show a downgrade in
+
+real activity in the near term since the August meeting. Downside risks to the economy we see as
+September 16, 2008                                                                             55 of 108
+
+
+
+still very considerable, and I would probably say that they really have increased quite a bit. I'll say
+
+a few more words about that. I'll also talk about the inflation front. We have long thought that
+
+inflation in the medium term will moderate, and we've been taking some comfort from recent
+
+developments that have been cited already.
+
+        On the weaker economic outlook, we see the intensification of adverse growth coming from
+
+many things mentioned already: the unemployment rate increase and the likelihood that consumer
+
+spending is going to be negative. I would put great stress also on indications that world demand is
+
+slowing abruptly, as Nathan mentioned. I think that all three of these things are occurring in an
+
+environment in which we have massive correction, adjustment, structural change in autos, housing,
+
+and financial intermediation. That adjustment is really interconnected--one has effects on the
+
+others. As part of this--particularly in the financial sector, I would say--in our senior loan officer
+
+survey we've seen indications that, even as rates in, say, the mortgage markets start to ease a bit,
+
+nonprice terms may still be tightening. President Pianalto talked about other areas in which
+
+borrowers are facing much tougher terms. As financial institutions feel their capital is
+
+constrained--and there's plenty of evidence that balance sheets are constrained across much of the
+
+financial sector--those kinds of nonprice rationing measures probably will become more evident.
+
+Second, as we discussed earlier, we've seen that credit losses, which thus far have been largely
+
+confined to the financial sector and increasingly their shareholders, run some risk of spilling over to
+
+other kinds of investors, who to date really have not felt that impact, such as money market fund
+
+investors, as mentioned earlier. In addition, the three big corrections that we have seen in autos,
+
+housing, and financial intermediation are not limited to the United States. In particular, as you
+
+know, several G-10 countries are facing very difficult situations in their housing markets, not much
+
+different from us; and the financial intermediation adjustment is truly a global correction.
+September 16, 2008                                                                           56 of 108
+
+
+
+       On the inflation side, as I mentioned, we have acknowledged that we've seen elevated rates
+
+of inflation. But the recent developments--as we've seen in inflation expectations discussed earlier,
+
+in energy and other commodity prices, the unit labor cost developments that President Yellen
+
+discussed, and the year-over-year changes in import prices--are all pointing in the direction of some
+
+moderation of inflation and moderation of inflation expectations. In particular, we have looked at
+
+inflation expectations as measured by financial markets and feel that the decline that we see in those
+
+expectations cannot be explained simply by the drop in energy prices and technical factors but look
+
+larger than that. We would attribute that to indications, again, that global demand is slowing.
+
+       Coming into this meeting today, we favor alternative B. I would associate myself with the
+
+comments of President Stern and President Evans, that if we were, in fact, going to make a move
+
+today, it would be better to make a large move of 50 basis points. Thank you, Mr. Chairman.
+
+       CHAIRMAN BERNANKE. Thank you. Governor Kohn.
+
+       MR. KOHN. Thank you, Mr. Chairman. I think that, even before the recent intensification
+
+of financial market turmoil, there were trends becoming increasingly evident over the summer, since
+
+late June, that suggested that the economy was on a substantially slower path than it had been
+
+before. Resource utilization was falling appreciably, and the expected downward path of inflation
+
+in the future had much better odds of occurring. Indeed, I think that the expected weakness in the
+
+economy and the financial markets are interacting. We have one of these feedback loops in play.
+
+There has been a lot of concern not only in the United States but in other countries as well, as I
+
+heard in Basel last weekend, about a spillover--that the problems were not confined to the
+
+mortgage markets but were spilling into the loan books of the banks. That was related to the
+
+weakening in economic activity and was tightening up credit conditions, which would, in turn,
+September 16, 2008                                                                             57 of 108
+
+
+
+further weaken economic activity. So this feedback loop was at work certainly in the United States
+
+and was beginning to be felt a little more in other countries as well.
+
+        Since late June we have come to know a couple of things a little better. One is that
+
+consumption is not immune to soft labor markets, increases in energy prices, declining housing
+
+wealth, and tighter borrowing conditions. Even if we can't parse out the effects of each of these
+
+factors, consumption has weakened substantially. We have had three months in a row of declines in
+
+the retail control component and very weak auto sales. Although recent declines in oil prices will
+
+support disposable incomes and consumption, I think the other sources of restraint on households--
+
+declining house prices and tighter credit conditions--are more likely to intensify than to abate in
+
+coming quarters.
+
+        Another thing we know is that businesses have not gotten ahead of their need to shed labor,
+
+and they continue to trim staff in response to actual and expected weakness in demand. The decline
+
+in employment shows no signs of abating. Initial claims are running more than 50,000 higher than
+
+they were at the end of June, and they have remained elevated past the time that the introduction of
+
+the temporary extended benefits should have been felt. The unemployment rate is already
+
+¼ percentage point higher than anyone around this table predicted for the end of the year. The
+
+household survey, along with national income statistics, could be signaling greater softness in
+
+activity and higher output gaps than is evident in the GDP and spending data.
+
+        Another thing we have learned, as Nathan emphasized, is that foreign economies have not
+
+decoupled from the United States, and their prospects have been revised down substantially.
+
+They're absorbing the effects of weaker U.S. domestic demand on their exports, and growing risk
+
+aversion in financial markets is spreading abroad. The latter, the growing risk aversion, is
+
+beginning to have, as Chris Cumming was noting, effects on a number of emerging-market
+September 16, 2008                                                                              58 of 108
+
+
+
+economies, where capital inflows show signs of abating or even reversing; and indicators of
+
+financial stress have risen as a consequence of all this. Because of the stronger dollar, we will be
+
+able to rely less on exports going forward than we did before.
+
+        We never expected a rapid return to more normal financial market functioning, but the
+
+adjustment in the financial sector now looks to be more severe and to take longer than we thought
+
+before. Financial firms need to bolster profits to offset losses and track capital. They need to de-
+
+lever by reducing debt relative to equity. They need to consolidate, and above all, they need to
+
+protect themselves against the possibility of a run. All of this implies a prolonged period of very
+
+cautious lending and a high cost of capital for borrowers relative to benchmark interest rates. If the
+
+current severe financial situation persists, I think the flight to safety and liquidity could dry up credit
+
+to a broad array of all but the very safest borrowers and reduce asset prices with feedbacks on
+
+spending, and that feedback loop could intensify if these market conditions pertain. I think that's a
+
+substantial downside risk to the growth outlook.
+
+        Not all news affecting spending has been negative. Capital goods orders have held up. The
+
+decline in interest rates and commodity prices that respond to the markdown in global growth will
+
+help support domestic demand, and actions to stabilize the GSEs are helping the mortgage market.
+
+Activity is more likely to stagnate than to decline. But I think that we can be more certain than we
+
+were, say, at the end of June that the economy will move substantially away from our high
+
+employment objective over the next several quarters and that the downside risks to that are larger.
+
+        On the inflation side, incoming data have been disappointing, a little worse than anticipated,
+
+perhaps suggesting greater pass-through. The rise in import prices at the beginning of the third
+
+quarter was higher than anticipated. But we've also learned over the last couple of months that oil
+
+and other commodity prices can go down as well as up. The drop in retail energy prices helped to
+September 16, 2008                                                                                 59 of 108
+
+
+
+reverse much of the run-up in inflation expectations at the household level and reduced inflation
+
+compensation in financial markets at least over the next five years. Weaker economies, along with
+
+lower commodity prices, are expected to reduce inflation in our trading partners, and that along with
+
+the dollar should lower import price inflation. The broadest measures of labor compensation
+
+available through the second quarter continue to suggest no upward pressure on the pace of
+
+increases in nominal labor costs. Despite elevated headline inflation, surprisingly good growth of
+
+productivity is holding down unit labor costs. Taking all of this together, I think that, despite the
+
+incoming inflation data, we can have greater confidence in our forecast that inflation will decline
+
+late this year and run much lower in the next few years than in the past year or so, though the risks
+
+to that still lie on the upside until we actually see the decline in headline inflation persist.
+
+        On policy, Mr. Chairman, I support alternative B, keeping the funds rate at 2 percent. I
+
+think that, at least for now, is consistent with lower inflation and a slow return to full employment in
+
+the future over time. We need to assess the effects of the financial turmoil. If asset price declines
+
+accelerate and the tightening of financial conditions is large and likely to be sustained, I would be
+
+open at some point in the future to a lowering of interest rates. Thank you, Mr. Chairman.
+
+        CHAIRMAN BERNANKE. Thank you. Governor Warsh.
+
+        MR. WARSH. Thank you, Mr. Chairman. Let me do three things. I'll talk first about a
+
+modal forecast but probably give it short shrift; second, about financial market conditions; and third,
+
+about policy. Working under the assumption that our modal forecast doesn't look quaint a week
+
+from now, if the world were somehow to hew to a reasonably moderate view of how financial
+
+market conditions work going forward, personally I'd be a bit more optimistic than the Greenbook
+
+for the second half of '08. I think that the net export growth is likely to prove stickier than
+
+embedded in that forecast in spite of a stronger dollar and weaker global demand. But as we get to
+September 16, 2008                                                                              60 of 108
+
+
+
+2009 and 2010, I would actually be less rosy than the Greenbook. I don't see real catalysts for the
+
+economy to normalize and to approach trendlike growth. Key uncertainties around financial
+
+markets, labor markets, and housing and, I think, broader macroeconomic uncertainties that I've
+
+discussed before in terms of trade policy, tax policy, and regulatory policy, would make the creep-
+
+back to potential slower than embedded in those forecasts.
+
+        On the inflation front, I continue to be encouraged by the strength in the exchange value of
+
+the dollar and the work that is doing for us on import price inflation. I'm encouraged by the move
+
+down across a breadth of commodities--not just energy, metals, and food but really across the
+
+entire basket--but I'm still not ready to relinquish my concerns on the inflation front.
+
+        Let me turn now to financial market conditions. I have talked before about the financial
+
+architecture. I guess what we can say today with more confidence than I've been able to say before
+
+is that the dismemberment of the existing financial architecture has accelerated in the last few days
+
+and weeks, and we will very quickly look at business models, and industry will find new business
+
+models, we hope, to provide credit to the real economy. Financial markets have been testing
+
+financial institutions with weaker capital structures, uncertain management teams, and unsustainable
+
+business models. I think the question before us today that's hard to judge is whether financial
+
+markets are now to the point at which they are acting indiscriminately, testing all financial
+
+institutions regardless of capital structure or business model. I'd say that the evidence of the past
+
+twenty-four or forty-eight hours is still unclear. I think we'll have a greater clarity several days
+
+from now about whether markets are able to make the distinguishing judgments that we would
+
+count on.
+
+        Look at the CDS spreads for the two remaining independent broker-dealers, Goldman Sachs
+
+and Morgan Stanley, which Bill referenced. Goldman Sachs's CDS moved up another 190 or so
+September 16, 2008                                                                               61 of 108
+
+
+
+this morning. They are up 340 in the last two days. Morgan Stanley's are up 690. I wouldn't want
+
+to say whether those numbers are right or wrong. It may be that the business model is a failing
+
+one--that is, wholesale funding is no longer practicable in the world that we're now in. If the
+
+problems were confined to that part of the financial services industry, it would be tough and it
+
+would be ugly and, if you were a resident of New York, particularly painful. But I don't think it
+
+would rise to the level that would force us to recalibrate monetary policy. But if, in fact, those
+
+losses end up being endemic to all financial institutions, even those with strong deposit bases and
+
+higher capital ratios, then we certainly would have to take that into consideration. The few that are
+
+trying to swim against this tide are flailing; and without extraordinary actions either by a consortium
+
+of their competitors or by the official sector, they're likely to continue to fail. I think our efforts to
+
+date to protect the broader financial markets and the economy from knock-on effects in particular
+
+financial services sectors do seem to be helping to cushion the blow. But the prospect of some
+
+meaningful discontinuity and of some systemic risk remains real, and it's hard for me to judge today
+
+whether that prospect is as low as we might have thought even some weeks ago.
+
+        Ultimately, the question for the real economy is whether the emergence of this new financial
+
+architecture can come quickly enough to get credit markets to normalize. Is the suddenness of
+
+events in the last week going to accelerate the move toward a new financial architecture? Will the
+
+forces of creative destruction make that faster but ultimately bring credit back to these markets
+
+sooner? Are these forces so strong and overwhelming that all financial institutions will be
+
+hunkering down, clinging to an architecture that no longer works? That's a question to which I
+
+don't know the answer.
+
+        A couple of more points on markets. I think the work that was done over the past few days
+
+on Lehman Brothers should make us feel good in one respect. Market functioning seems to be
+September 16, 2008                                                                             62 of 108
+
+
+
+working okay--by which I mean that the plumbing around their role in the tri-party repo business,
+
+due in part to the Fed's actions, seems to be working. It's ugly. The backroom offices of these
+
+places are going crazy. There's a lot of manual work being done. So they wouldn't give it high
+
+marks. But it looks as though positions are being sorted out in a tough workmanlike way, and so
+
+that's encouraging.
+
+        Other than the CDS moves and the equity moves on the other broker-dealers, Goldman
+
+Sachs and Morgan Stanley, I don't think that that is the real specter that's casting some question
+
+over broader financial institutions. I think the Lehman situation, no matter what judgment we made
+
+this past weekend about whether or not to provide official-sector money, is not what is driving
+
+markets broadly outside of the investment banks. What's driving the broader uncertainty are
+
+questions about institutions like AIG that were rated AAA, that were so strong that counterparties
+
+didn't need collateral, and that were a certain bet to be a guarantor around stable value funds and all
+
+sorts of other products. If in a matter of weeks that AAA rating and that security could turn out to
+
+be worthless, then that would force institutions to evaluate two things. First, narrowly, how much
+
+AIG exposure do I have? Second, more broadly, if that's AIG, what about the rest of the insurance
+
+companies? What about the rest of the financial institutions, which aren't investment banks but are
+
+really representing the foundations of the U.S. financial system? So it is both those direct and
+
+indirect aspects that we have to try to understand as best we can. My own view is that the AIG
+
+question would be more financial devastation if these institutions turn out to be meaningfully
+
+insolvent but actually, in some ways, less market dislocation among intermediaries. That is,
+
+Lehman Brothers, Merrill Lynch, and Bear Stearns are touching and are in the middle of many more
+
+flows of data, and there are real losses being felt. But if an AAA company like AIG were really
+
+fundamentally insolvent, the direct losses to a range of institutions, particularly those that are not
+September 16, 2008                                                                             63 of 108
+
+
+
+just wholesale institutions but are retail institutions, could be very significant. I don't think we
+
+know the answer yet to the question of whether AIG speaks to a broader loss of confidence that
+
+could affect the foundations of the U.S. financial system.
+
+        Let me turn finally to policy, Mr. Chairman. I support alternative B and, based on some of
+
+the discussion from Presidents Lockhart and Stern, I'd make some simple suggestions that may
+
+strike a balance that acknowledges the concerns we have about financial markets but doesn't put us
+
+in the position where we are inclined to lurch in one direction, which as some people suggested
+
+could create more uncertainty than we intend. My suggestion, Mr. Chairman, would be to take the
+
+first sentence from alternative A, paragraph 2--"strains in financial markets have increased
+
+significantly and labor markets have weakened further"--and make that the first sentence of
+
+alternative B. Then strike the second sentence of alternative B, because I think we've largely
+
+covered that. That order gives proper attention, it strikes me, to the financial market developments.
+
+Finally, in the assessment of risk, Mr. Chairman, if you look at the last sentence, I would suggest
+
+modifying that ever so slightly by inserting the word "closely" and making one other modification.
+
+So that last sentence would read, "The Committee will continue to monitor economic and financial
+
+developments closely and will act as needed to promote sustainable economic growth and price
+
+stability." Also, if you think it's acceptable, rather than saying "financial developments" maybe
+
+there we would say, "The Committee will continue to monitor economic and financial market
+
+developments closely." Those would be my suggestions to try to strike that balance--that we are
+
+keenly focused on what's going on, but until we have a better view of its implications, we are not
+
+going to act. Thank you, Mr. Chairman.
+
+        CHAIRMAN BERNANKE. Thank you. Governor Kroszner.
+September 16, 2008                                                                             64 of 108
+
+
+
+        MR. KROSZNER. Thank you very much. Since the last meeting, there have obviously
+
+been a number of flare-ups in the fires that have been burning in the financial markets--the GSEs
+
+and then certainly what's come this past weekend and what's likely to come over this week and into
+
+the future. A number of people have mentioned things ranging from AIG to pressures on money
+
+market funds to some large financial institutions. There are some very large regional banks and a
+
+very large thrift that will be facing a lot of challenges as the uncertainties in the markets continue. I
+
+won't repeat what Governor Kohn said about the continuing pressures on the bank balance sheets. I
+
+think it is important to take into account that those pressures will be there going forward not only on
+
+U.S. institutions but also increasingly on international institutions. No one has mentioned UBS yet,
+
+but that's another institution about which there's a lot of concern, and if you look at CDS quotes
+
+there, they are skyrocketing also. Much as Governor Warsh said, I think that people are worried
+
+about what the next shoe to drop will be and whom we have to challenge. Whom do we have to get
+
+more information about to make us feel comfortable? If that suddenly becomes everyone, then of
+
+course the markets don't function.
+
+        I just want to focus quickly on consumption and consumer credit markets and then on
+
+inflation, and then I'll conclude. We have made some references to how consumers have acted in
+
+the past and whether they will continue to act this way. In some sense the consumer has been on a
+
+marathon since the early 2000s, facing an incredible amount of shocks--a lot of contraction in
+
+2001, significant declines in stock market wealth, September 11, corporate governance scandals,
+
+sustained job losses, and low real income growth. Nonetheless, the consumer continued to
+
+consume. But now the consumer seems to be flagging. We have perhaps a very modest effect of
+
+the stimulus, which obviously can lead to negative payback for the rest of the year--so a drag going
+
+forward as well as drags from housing and stock market wealth, continuing job losses, rising
+September 16, 2008                                                                             65 of 108
+
+
+
+unemployment, and pressures on income. Although many of these shocks were similar to ones that
+
+happened earlier in the decade, it seems that consumers do not have the same resilience now that
+
+they did at one point. It's not surprising that, after having run this marathon, they're going to be a
+
+bit tired.
+
+         Part of it could also be the credit conditions that are putting much more pressure on them.
+
+Just to give you an anecdotal report, but it's from one of the largest providers of consumer credit in
+
+the economy. After stabilization basically through our FOMC meeting in August, we've seen some
+
+significant deterioration in delinquencies and in the performance of those who get into
+
+delinquencies--they roll right to full chargeoff much more rapidly. So we have seen not exactly a
+
+qualitative change but a significant deterioration. Also, the ability to securitize credit cards has
+
+changed dramatically. After our having opened the window and the markets having opened up in
+
+the second quarter, they basically haven't been able to do anything in the third quarter, and that's
+
+before this weekend. Obviously that's not going to be helping them.
+
+         Of course, there are some offsetting factors that can help the consumer. The very significant
+
+decline in mortgage rates has led to quite a response, according to this very large provider of
+
+consumer credit in the United States. The number of applications for mortgages, particularly for
+
+refis, has doubled over the last couple of weeks. So people do respond to prices, and that can help
+
+to ease some of their income burdens. Obviously, the reduction in energy prices and many food
+
+prices is helpful on that.
+
+         But of course, what has been good news for U.S. consumers may not be good news for
+
+international consumers. As a lot of people have mentioned, the rest of the world is seeing a very
+
+significant slowdown. I think the elevated commodity prices had helped to mask a lot of the
+
+underlying fiscal and structural problems in these economies, actually much like rising housing
+September 16, 2008                                                                           66 of 108
+
+
+
+prices in the United States had masked the problems in underwriting standards and what was going
+
+on in the mortgage market. So I think there are going to be significant challenges in a lot of
+
+countries around the world. The boost that we had earlier this year from the international sector is
+
+something we can't rely on.
+
+        On inflation, we're heartened by some of the lower energy prices. But I want to relate one
+
+anecdote. In a meeting at the OECD, the CEO of one of the largest private oil producers in the
+
+world was asked what reference price he used because obviously he has to make tens of billions of
+
+dollars of decisions on investment and so they thought here's someone who would really have a
+
+good notion of what the price of oil would be going forward. Without hesitation the person
+
+responded, "$100, plus or minus $50." [Laughter] That kind of uncertainty from someone who is
+
+really in the markets and making those kinds of decisions shows us that we have a reasonable
+
+degree of uncertainty in inflation pressures going forward. That said, I think the Greenbook forecast
+
+is where I would be also, although we're at uncomfortably elevated levels now. There are a lot of
+
+reasons to believe that, although they may be even a bit more elevated in the coming quarter, there
+
+are likely forces to bring things back down. This is particularly credible in the context of both
+
+survey-based and market-based expectations being quite contained, the market-based expectations
+
+being at the low of the year or even over the last couple of years.
+
+        So this brings me to support alternative B for no change today. On the statement, I do
+
+believe that some greater recognition of the stress would be valuable. I think it would be valuable to
+
+have something in the first sentence of paragraph 2 that focuses on the strains--perhaps just a single
+
+sentence about the strains--and then we can put the other pieces on consumption and housing into
+
+the next sentence. It is important in the final paragraph to leave our options open if we do see
+
+significant negative feedback effects so that we can make a move that wouldn't be a shock to the
+September 16, 2008                                                                            67 of 108
+
+
+
+markets but it also wouldn't be something that the markets could bank on. Thank you, Mr.
+
+Chairman.
+
+        CHAIRMAN BERNANKE. Thank you. Governor Duke.
+
+        MS. DUKE. Thank you, Mr. Chairman. I continue to focus on the traditional commercial
+
+bank structure. I looked at two large retail banks, three regional banks, and three community banks,
+
+and two things came out of this. First, capital is driving everything, and the amount of capital that
+
+the banks need is now being driven more by the analysts and the rating agencies than it is anything
+
+that the regulators are doing. The banks feel as though they have done everything they can do in
+
+terms of capital management. They've quit buying back stock. They've cut their dividends.
+
+They've reduced expenses. There is no more capital available in external markets--not common
+
+stock, not preferred, not anything. One bank did issue some preferred stock through its own
+
+networks and a common stock issue--interestingly sort of snuck it into the market. They dribbled it
+
+out in small amounts because they found that, as soon as the markets determined that they were
+
+going to need to issue capital, they started to short the stock, figuring they could buy it back. So
+
+they did almost a reverse stock buyback.
+
+        The markets are fragile to dead. So what are they going to do? The only thing they can do
+
+is contract the balance sheet and not lend. Before I get to that, there was again discussion in several
+
+of the conversations about naked short selling. One bank reportedly had 103 percent of total
+
+outstandings in short interest, and that seemed odd to me. So I went and checked it this morning,
+
+and it turns out that it was not 103 percent. It was only 93 percent. But if you subtract out the stock
+
+that was owned by the officers and the directors, then it was over 100 percent. Another bank said
+
+that the rules in the disclosure that surround long positions have to be replicated somehow in short
+September 16, 2008                                                                                68 of 108
+
+
+
+positions because they're having just as much control over what happens in the fate and the
+
+management of the firm.
+
+        So what are they doing in terms of credit? Any heavy uses of credit or predominant uses of
+
+credit are just not being done. This eliminates all commercial real estate. They're actively trying to
+
+move that off their books. Participation loans, in which the participants get only the credit piece, are
+
+drying up. Those aren't available. No bank has any interest in going back into residential
+
+construction lending. One large bank said they were approving only one-third of the consumer
+
+credit that they would have approved a year ago. The secondary market for jumbos for takeouts on
+
+commercial are nonexistent, and one bank told me that, with the current cost of capital and cost of
+
+funding, the breakeven spread for a loan was 400 basis points over LIBOR. That's the new lending
+
+market, and I don't see it getting any better until some capital is available.
+
+        The credit quality side is actually a better story. First, except for residential real estate, it's
+
+really still pretty good. C&I lending is holding up extremely well. In commercial real estate, again,
+
+outside of residential development, things are really looking pretty good. Some small retail centers
+
+are showing softness with the small storefronts; and in areas like Michigan, they're worried about
+
+losing the anchor tenants. Other than that, everything is okay. The other consumer credit feels like
+
+a mild recession but, again, is normally cyclical. Home equity is awful. The bank-originated loans
+
+range from good--one institution had 39,000 loans with 44 past due--to performing similar to
+
+unsecured credit. The broker-originated loans, especially the later vintages, are 100 percent loss.
+
+Within the mortgages, the rate of acceleration in new past-dues has slowed down. About rejections,
+
+I asked them to project when the new delinquencies would be offset by the resolution of existing
+
+delinquencies, and they said somewhere between year-end 2008 and mid-2009. So we are moving
+
+through that process. The severity, however, continues to grow as housing prices decline. It does
+September 16, 2008                                                                            69 of 108
+
+
+
+appear that the portfolio lenders are getting their arms around the collection and the loss-mitigation
+
+effort. They're assigning resources, accountability, and priority. It looks as though they are finally
+
+set up to do a pretty good job on that, managing it on several fronts--the analysis of the issue, the
+
+early stage collection, contact, and loss mitigation--and actually assigning a permitted spend, if you
+
+will, to resolve the loan. Foreclosures are going to take a lot longer and are particularly affected by
+
+state law. Apparently in Florida it takes a year to get a property in foreclosure. So those
+
+foreclosures are going to happen over a fairly long period of time.
+
+        I asked about a bottom, and they said they do feel as though they're seeing bottoms in some
+
+markets--Ohio and coastal areas in California, although not inland. Las Vegas and Atlanta are
+
+overbuilding, but the in-migration will absorb it. Florida is a bottomless hole--speculation
+
+combined with insurance problems. In Arizona so much land was available that they can't find a
+
+bottom there. Regarding lot inventory, a community banker in Omaha said they had seven years of
+
+inventory in terms of lots, which I thought was pretty startling until I read in the American Banker
+
+the same story in Atlanta and the same story in Orlando. So I think when residential development
+
+does resume, it will be to work out the lot inventory. Also, the phantom inventory is at least as large
+
+as the current inventory--phantom inventory being defined as people who want to sell but don't
+
+want to sell in the current market. Asked to compare current credit metrics with those in the 1980s
+
+and 1990s, one contact said they peaked in 1988 at 5.8 percent nonperforming. Now they are at
+
+1.66. I found a chart, and for the entire industry, nonperformers were 4 percent in 1991. They're
+
+1.2 percent right now. So the credit metrics are just nowhere near what they were in the S&L crisis
+
+for the industry.
+
+        I came out of that really believing that, if we are going to do something, we need to address
+
+the availability of capital to commercial banks but we should leave the bad loans in the banks
+September 16, 2008                                                                           70 of 108
+
+
+
+because they're getting to the point where the portfolio lenders are doing a good job of working
+
+through these loans. To try to take them out and put them into another structure, we would just have
+
+to replicate that whole gearing-up process. I don't necessarily think that's the case with the
+
+servicers, particularly the servicers of private-label mortgages. That's something on which I know
+
+we've done some research here, and I want to investigate that a bit more to see if there's something
+
+to be known there.
+
+       In terms of the policy, I, too, would favor alternative B with some change in the language to
+
+paragraph 2. Thank you, Mr. Chairman.
+
+       CHAIRMAN BERNANKE. Thank you very much, and thanks, everyone, for very
+
+helpful comments. Let me try to summarize, and I will just make some comments, and then we
+
+can turn to the statement and policy.
+
+       The group indicated, of course, that economic growth has slowed and looks to be quite
+
+sluggish in the second half. I didn't hear a great deal of change in the general profile, with most
+
+people still viewing growth as being slow in the near term but perhaps recovering somewhat in
+
+2009. But obviously there is a lot of uncertainty surrounding that judgment. The ongoing
+
+problems in housing and the financial system are, of course, the downside risks to growth.
+
+Another factor, which is becoming more relevant, is the slowing global economy, which together
+
+with the stronger dollar may mean that U.S. export growth will be somewhat less. Despite the
+
+tax rebate, consumer spending seems likely to be weak in the near term, reflecting a variety of
+
+factors that we noted before, including housing and equity wealth, credit conditions, and
+
+particularly perhaps the ongoing weakness in the labor market. The labor market is
+
+deteriorating, with unemployment up, although UI programs may play some role in the
+
+unemployment rate. It is somewhat difficult to predict the peak of the unemployment rate, given
+September 16, 2008                                                                               71 of 108
+
+
+
+the upward momentum we are seeing. Declines in energy prices, however, will improve real
+
+incomes and help consumer sentiment--so that is a potentially positive factor.
+
+        The housing sector continues to be the central concern in the economy, in both the real
+
+and the financial sides. There are no clear signs of stabilization, although obviously regional
+
+conditions vary considerably. The government action regarding the GSEs has lowered mortgage
+
+rates and may be of some assistance. Credit conditions have tightened, though, in other areas as
+
+well, including nonresidential construction.
+
+        Firms are continuing to struggle with weaker demand, higher uncertainty, and high costs.
+
+Manufacturing has been relatively stable to weaker, but we had at least one report of a survey
+
+that in the medium term the outlook is looking a little better. Inventories appear to be relatively
+
+well managed. Credit conditions for business vary, but there are indications that some firms are
+
+finding it very difficult to attract capital.
+
+        Financial markets received a lot of attention around the table. Conditions clearly have
+
+worsened recently, despite the rescue of the GSEs, the latest stressor being the bankruptcy of
+
+Lehman Brothers and other factors such as AIG. Almost all major financial institutions are
+
+facing significant stress, particularly difficulties in raising capital, and credit quality is
+
+problematic, particularly in residential-related areas. One member noted that it is not evident
+
+that markets are clearly differentiating between weaker and stronger firms at this point.
+
+Deleveraging is continuing, and securitization markets are moribund. Credit terms and
+
+conditions are quite tight and may be a significant drag on the economy. However, the medium-
+
+term implications of the recent increases in financial stress for the economy are difficult to
+
+assess. We may have to wait for some time to get greater clarity on the implications of the last
+
+week or so.
+September 16, 2008                                                                          72 of 108
+
+
+
+       On the inflation front, recent core and headline numbers have been high, reflecting earlier
+
+increases in the prices of energy and raw materials. There are positive factors, including the
+
+significant intermeeting declines in the prices of oil and other commodities, which, if maintained,
+
+would bring headline inflation down rather notably by the end of the year or next year. The
+
+dollar has also strengthened. Generally speaking, inflation expectations, though noisy, have
+
+improved. We have seen a decline in TIPS breakevens and some decline in survey expectations
+
+as well. But it was noted that the five-by-five TIPS breakeven remains above a level consistent
+
+with long-term price stability. Nominal wage growth has remained subdued so far, slack is
+
+increasing, productivity has been strong, and therefore, unit labor costs are well controlled.
+
+Again, all of these factors are positive in terms of a better inflation picture going forward. On
+
+the other hand, recent declines notwithstanding, the cumulative increases in commodity prices
+
+over the past year or so do remain large, and there is some evidence that these cost increases are
+
+being passed through into core prices. Commodity prices are extremely volatile, which makes
+
+inflation very difficult to forecast and makes the inflation outlook, therefore, quite uncertain.
+
+Wages could also begin to rise more quickly as the economy strengthens. For all these reasons,
+
+inflation risks are still in play and remain a concern for the Committee. Some participants
+
+reiterated their concern that maintaining rates too low for too long risks compromising our
+
+credibility and stimulating inflation over the medium run. That is a very quick survey of the
+
+comments. Are there any comments or questions?
+
+       If not, let me just make a few comments. Personally, I see the prospects for economic
+
+growth in the foreseeable future as quite weak, notwithstanding the second quarter's strength. I
+
+think what we saw in the recent labor reports removes any real doubt that we are in a period that
+
+will be designated as an official NBER recession. Unemployment rose 1.1 percentage points in
+September 16, 2008                                                                         73 of 108
+
+
+
+four months, which is a relatively rapid rate of increase. The significance of that for our
+
+deliberations is, again, that there does seem to be some evidence that, in recession regimes, the
+
+dynamics are somewhat more powerful and we tend to see more negative and correlated
+
+innovations in spending equations. So I think that we are in for a period of quite slow growth.
+
+That is confirmed by what we are seeing in consumption, which probably would be quite
+
+negative if it weren't for the remainder of the fiscal stimulus package. Other components of
+
+demand are, likewise, quite weak. We are all familiar with the housing situation. Some other
+
+factors that were supportive in Q2 are weakening--a number of people have noted the export
+
+growth. Actually, it is net exports--which is important--not just exports, and we are seeing both
+
+slowing growth in exports and some forecast of increased growth in imports.
+
+       A factor that we haven't talked about much is the fiscal side. That has been supportive
+
+and may be less supportive going forward. Generally speaking, though, I do think--and I have
+
+said this for a long time--that the credit effects will be important. They operate with a lag. It is
+
+very difficult to judge the lag. But my strong sense is that they are still some distance from their
+
+peak; that they will begin to be felt outside of housing, in nonresidential construction, for
+
+example, in consumer spending, and in investment; and that this is going to be independent of
+
+last week's financial developments. I think that is going to be a major drag, probably well into
+
+next year.
+
+       There are a few positives, which give some hope of some improvement next year. We
+
+have talked about energy and commodity prices as they relate to inflation, but of course, the
+
+decline in energy and commodity prices is also a plus for consumers and raises real incomes and
+
+would be supportive of sentiment, as we have already seen. There are a few positive indications
+
+here and there on the housing market, a few glimmers of stability, particularly in some regions. I
+September 16, 2008                                                                          74 of 108
+
+
+
+think that the GSE stabilization is going to be very important. It has already lowered mortgage
+
+rates. It suggests that there will be a market for securitized mortgages, and I think that is
+
+positive. So if I wanted to outline an optimistic scenario, it would involve stronger indications of
+
+stabilization in housing, which in turn would feed into more confidence in the financial sector
+
+and would lead over time to improvement in the broader economy.
+
+       I do think that financial conditions are a major concern. The situation right now is very
+
+uncertain, and we are not by any means away from significant systemic risk. Even if we avoid a
+
+major systemic event, the increase in risk aversion, the pullback from all counterparties, the
+
+deleveraging, the sale of assets--all of these things are going to continue for some time and are
+
+going to make the financial sector very stressed, which obviously will have effects on the
+
+economy.
+
+       I have been grappling with the question I raised for President Lacker, and I would be very
+
+interested in hearing other views either now or some other time. The ideal way to deal with
+
+moral hazard is to have in place before the crisis begins a well-developed structure that gives
+
+clear indications in what circumstances and on what terms the government will intervene with
+
+respect to a systemically important institution. We have found ourselves, though, in this episode
+
+in a situation in which events are happening quickly, and we don't have those things in place.
+
+We don't have a set of criteria, we don't have fiscal backstops, and we don't have clear
+
+congressional intent. So in each event, in each instance, even though there is this sort of
+
+unavoidable ad hoc character to it, we are trying to make a judgment about the costs--from a
+
+fiscal perspective, from a moral hazard perspective, and so on--of taking action versus the real
+
+possibility in some cases that you might have very severe consequences for the financial system
+
+and, therefore, for the economy of not taking action. Frankly, I am decidedly confused and very
+September 16, 2008                                                                           75 of 108
+
+
+
+muddled about this. I think it is very difficult to make strong, bright lines given that we don't
+
+have a structure that has been well communicated and well established for how to deal with these
+
+conditions. I do think there is some chance--it is not yet large, but still some chance--that we
+
+will in fact see a much bigger intervention at the fiscal level. One is tempted to argue that by
+
+doing more earlier you can avoid even more later, but of course that is all contingent and
+
+uncertain. So we will collectively do our best to deal with these very stressful financial
+
+conditions, which I don't think will be calm for some time.
+
+        With respect to inflation, I accept the many caveats around the table. I have to say that I
+
+think, on net, inflation pressures are less worrisome now. The last two meetings have been very
+
+positive in that respect. The declines in energy and commodity prices are quite substantial.
+
+Natural gas, for example, has reversed all of its gains of the year. Steel scrap is down 40 percent
+
+in two months. We are seeing many other indications that commodity prices really have come
+
+down quite a bit. The dollar's increase is also quite striking, and we have talked about wages,
+
+TIPS, and other factors. So I think overall I see at least the near-term inflation risk as
+
+considerably reduced. I do agree, though, with the points that were made that we may well see
+
+pressure on core inflation for a while longer, despite this morning's reasonably benign number.
+
+The increases in commodity costs, although they have been partially reversed, have not been
+
+entirely reversed. Certainly over the last year to year and a half there is still a net substantial
+
+increase, which will show up as firms begin to pass through those costs.
+
+        It is also the case, of course, that we have seen a very, very sharp movement in
+
+commodity prices and the dollar. Therefore, there is no logical reason why that couldn't be
+
+reversed. Clearly, one problem we face is that the uncertainty about forecasting commodity
+
+prices is so large that it makes our forecasting exercises extraordinarily uncertain and means that
+September 16, 2008                                                                           76 of 108
+
+
+
+we need to be somewhat more careful than we otherwise would be if we were back in the days of
+
+the Texas Railroad Commission, when we knew the price of oil six months in advance. We
+
+don't have that privilege anymore. So I think core inflation may be elevated for a while. It may
+
+take a while for inflation to moderate. Everything I say is contingent on the dollar and
+
+commodity trends not being strongly reversed. But if those things are not reversed, I think we
+
+will see some improvement in inflation in the near term.
+
+           I also agree with those who say that, when the time comes, we do need to be prompt at
+
+removing accommodation. It is just as much a mistake to move too late and allow inflation, and
+
+perhaps even financial imbalances, to grow as it is to move too early and be premature in terms
+
+of assuming a recovery. I think that is a very difficult challenge for us going forward, and I
+
+acknowledge the importance of that, which a number of people have noted.
+
+           So that is a quick summary of my views. Let me just turn briefly, then, to policy. Do we
+
+have the statement? Let me just preview. I talked with Governor Warsh, and he gave me now
+
+during the break some of those suggestions he made. As they fit closely with other things that
+
+people said around the table, we have made a version here that incorporates them. I'll discuss
+
+that in just a minute. 3
+
+           First, as a number of people have said, let me just say that I thought the memo that the
+
+staff prepared over the intermeeting period was extraordinarily helpful. We have been debating
+
+around the table for quite a while what the right indicator of monetary policy is. Is it the federal
+
+funds rate? Is it some measure of financial stress? Or what is it? I think the only answer is that
+
+the right measure is contingent on a model. As President Lacker and President Plosser pointed
+
+out, you have to have a model and a forecasting mechanism to think about where the interest rate
+
+is that best achieves your objectives. It was a very useful exercise to find out, at least to some
+3
+    The statement referred to here is appended to this transcript (appendix 3).
+September 16, 2008                                                                         77 of 108
+
+
+
+extent, how the decline in the funds rate that we have put into place is motivated. In particular,
+
+the financial conditions do appear to be important both directly and indirectly--directly via the
+
+spreads and other observables that were put into the model and indirectly in terms of negative
+
+residuals in spending equations and the like. The recession dynamics were also a big part of the
+
+story. I hope that what this memo does for us--again, I think it's extraordinarily helpful--is to
+
+focus our debate better. As President Plosser pointed out, we really shouldn't argue about the
+
+level of the funds rate or the level of the spreads. We should think about the forecast and
+
+whether our policy path is consistent with achieving our objectives over the forecast period. I
+
+am sympathetic to the general view taken by the staff, which argues that those recession
+
+dynamics and financial restraints are important, that we are looking at slow growth going
+
+forward, and that inflation is likely to moderate. Based on those assumptions, I think that our
+
+policy is looking actually pretty good. To my mind, our quick move early this year, which was
+
+obviously very controversial and uncertain, was appropriate. Their analysis also suggests that
+
+the amount of insurance that we have is perhaps limited, given that they take a risk-neutral kind
+
+of modeling approach. Having said that, I think they have also clearly set out the conditions and
+
+the framework in which we can debate going forward exactly where we should be going. To the
+
+extent that those around the table disagree with the model or with the projection, then that is the
+
+appropriate way, it seems to me, to address our policy situation. So, again, I do very much
+
+appreciate that. It helped me think about the policy situation. As I said, I think our aggressive
+
+approach earlier in the year is looking pretty good, particularly as inflation pressures have
+
+seemed to moderate.
+
+       Overall I believe that our current funds rate setting is appropriate, and I don't really see
+
+any reason to change. On the one hand, I think it would be inappropriate to increase rates at this
+September 16, 2008                                                                          78 of 108
+
+
+
+point. It is simply premature. We don't have enough information. There is not enough pressure
+
+on inflation at this juncture to do that. On the other hand, cutting rates would be a very big step
+
+that would send a very strong signal about our views on the economy and about our intentions
+
+going forward, and I think we should view that step as a very discrete thing rather than as a 25
+
+basis point kind of thing. We should be very certain about that change before we undertake it
+
+because I would be concerned, for example, about the implications for the dollar, commodity
+
+prices, and the like. So it is a step we should take only if we are very confident that that is the
+
+direction in which we want to go.
+
+       Therefore my recommendation to the Committee--and I will open it up for comment in a
+
+moment--is to keep the funds rate at its current level. I listened very carefully to the
+
+conversation around the table in terms of the statement. I think it was President Lockhart,
+
+President Stern, and Governor Warsh, among others, who talked about strengthening the
+
+language on financial markets. So the draft statement that you have in front of you is an attempt
+
+to make that change. It has two changes relative to existing alternative B. First, as Governor
+
+Warsh suggested, it reverses the first two sentences and so focuses in the first sentence on
+
+"Strains in financial markets have increased significantly and labor markets have weakened
+
+further," and then the rest of it is basically the same as it was. The other change, which is in the
+
+last paragraph in the risk assessment, is pretty small, but it is probably worth considering. The
+
+word "closely" has been added to suggest, obviously, that we understand that the situation is
+
+changing rapidly and that we are carefully following conditions as they evolve. Kevin, we took
+
+your word "market" there--what was the rationale for it?
+
+       MR. WARSH. My sense is--and this is certainly open for discussion--that we want the
+
+focus to be that we are really watching market developments closely. We are not trying to
+September 16, 2008                                                                       79 of 108
+
+
+
+monitor the broader economy, which we might not be able to measure too much. I will admit
+
+that we have "economic and financial markets," with "closely" modifying both of them, but the
+
+idea was to put the focus on the market side to a slightly greater extent than we normally do.
+
+       CHAIRMAN BERNANKE. Okay. So I think that's useful, although I do note that, all
+
+else being equal, there's a slight barrier for making any change, and that one word is a change.
+
+President Fisher.
+
+       MR. FISHER. I am sort of indifferent about this, but I don't want to forget what
+
+Governor Duke was talking about. It's not just financial markets; it's financial developments.
+
+We are also talking about the internal dynamics of what is happening in the banking system and
+
+the credit contraction you spoke of. So we lead off with financial markets. I don't want people
+
+to think we are focusing only on markets--Governor Warsh, I would disagree on that point. It's
+
+a minor disagreement, but I think it is overkill.
+
+       CHAIRMAN BERNANKE. All right. Let me open it up for any other comments on the
+
+statement or the policy action. President Evans.
+
+       MR. EVANS. Thank you, Mr. Chairman. It is really just a question. What type of
+
+reaction do we think will be engendered by inserting "closely"? Everybody understands that we
+
+monitor financial developments very carefully. So we are bringing attention to this. Will there
+
+be a presumption that we are likely to do something intermeeting or something like that? I am
+
+not saying that is wrong, but it is a question.
+
+       MR. DUDLEY. I would say that the markets will take it as a statement that is
+
+conditional on what happens in markets. If markets get sufficiently bad, if there is some
+
+threshold of deterioration, that can potentially provoke an intermeeting move is the way I think
+
+they would take it. Brian, would you agree with that?
+September 16, 2008                                                                        80 of 108
+
+
+
+        MR. MADIGAN. I agree. The fact that the first sentence of the risk assessment has a
+
+parallel treatment of the upside and downside risks may communicate a bit the sense that you are
+
+not ready to ease immediately.
+
+        CHAIRMAN BERNANKE. Okay. We will decide. We will take a vote on it, if
+
+necessary. President Lacker.
+
+        MR. LACKER. Yes. I echo President Evans's concern. My recollection is--and I
+
+haven't consulted the record recently--under your predecessor there was some phrasing like
+
+"watch market developments closely" that came to be widely understood as a signal of an
+
+intermeeting move.
+
+        CHAIRMAN BERNANKE. I think it was "monitor closely." Is that what it was?
+
+        MR. LACKER. "Monitor closely" or some language like that.
+
+        CHAIRMAN BERNANKE. Yes, "monitor closely." Maybe you're right.
+
+        MR. LACKER. Yes, and that gives me pause. Then, about "market"--like a lot of
+
+economists, I am willing to construe the word "market" very broadly to include intermediation
+
+mechanisms of all types and the market for commercial credit in, you know, Dillon, South
+
+Carolina. [Laughter] But I am not sure that market participants are going to take it that broadly.
+
+They are going to take it in the sense of markets in traded financial instruments and organized
+
+exchanges and such. I just wonder if they are going to interpret it too closely as Wall Street.
+
+        CHAIRMAN BERNANKE. Okay. So the sentiment over here on this side is that
+
+nobody thinks "market" is important. Let's get rid of "market." We'll discuss "closely."
+
+President Plosser.
+
+        MR. PLOSSER. I think "market" may be construed too narrowly. We don't really mean
+
+it that way, I don't think.
+September 16, 2008                                                                           81 of 108
+
+
+
+       CHAIRMAN BERNANKE. "Market" is already gone. All right. Other comments,
+
+suggestions, or thoughts? Governor Kroszner.
+
+       MR. KROSZNER. But I do think it is the delta, so it is the change. By including
+
+"closely," I think the markets are going to look very closely at that change, and they are going to
+
+think that we are clearly trying to convey something with that. I just think we have to make sure
+
+that we feel comfortable in doing so. Certainly some people have suggested that they would be
+
+happy to move 50 basis points if they saw the markets moving, but I do think that that one
+
+particular word will get a lot of attention. Not that it should, but I think it is going to be focused
+
+on. Just as at one point we used the word "yet," and that got an enormous amount of attention.
+
+And this has two syllables. [Laughter]
+
+       MR. FISHER. Unless you are from the south. [Laughter]
+
+       CHAIRMAN BERNANKE. The sad thing is that Governor Kroszner is right. We have
+
+seventeen people debating over this word, and it actually does matter. Does anyone else want to
+
+weigh in? Okay. I think my sense is that there should be a barrier, a bit of a hurdle, to changing;
+
+so I am leaning toward sticking with what we have. Would that be okay, Governor Warsh, do
+
+you think?
+
+       MR. WARSH. On "closely"?
+
+       CHAIRMAN BERNANKE. Getting rid of "closely."
+
+       MR. WARSH. Let me ask Brian and Bill. Brian, without "closely," how do you think
+
+the markets will react to that?
+
+       MR. MADIGAN. That you are not particularly ready to change your stance of policy.
+September 16, 2008                                                                      82 of 108
+
+
+
+       MR. DUDLEY. I think the expectation going in is, for most people, that you are not
+
+prepared to ease today, but if things got really dark from here you would. So the question is,
+
+How do you convey that with the right word? You need something in between "closely" and--
+
+       MR. WARSH. I think the sentiment we are trying to suggest is watchful waiting. We are
+
+not indifferent, we are not clueless, we are paying attention, but we are not predisposed. Hence,
+
+Governor Kohn's suggestion.
+
+       MR. KOHN. My suggestion was to substitute "carefully" for "closely." I agree that
+
+"monitor closely" had this other connotation, but I think we should be seen as paying more
+
+attention than usual. There might be another alternative.
+
+       MR. DUDLEY. "The Committee will carefully evaluate economic and financial market
+
+developments." That means you are on the case.
+
+       CHAIRMAN BERNANKE. Well, it is not an analytical thing we are doing. We are just
+
+watching closely.
+
+       MR. WARSH. Keenly? Carefully?
+
+       MR. LACKER. Mr. Chairman?
+
+       CHAIRMAN BERNANKE. Yes. President Lacker.
+
+       MR. LACKER. Including "closely," what does that imply about the opposite? I mean,
+
+are we going to be able to take that out?
+
+       MR. WARSH. Well, we have done things like "in a timely manner" and other kinds of
+
+phraseology.
+
+       MR. LACKER. Yes, but this is an adjective.
+
+       CHAIRMAN BERNANKE. No, it's an adverb.
+September 16, 2008                                                                         83 of 108
+
+
+
+          MR. LACKER. There goes my credibility. [Laughter] If we take it out, can we use the
+
+phrase without it?
+
+          CHAIRMAN BERNANKE. What we have done in the past is basically just use a new
+
+phrase.
+
+          MR. LACKER. So that means we have to throw this phrase out.
+
+          MR. WARSH. Mr. Chairman, I would support "carefully."
+
+          CHAIRMAN BERNANKE. Is that better? President Evans.
+
+          MR. EVANS. Just to be clear, we have gone a long way just now from its being a
+
+semantic discussion to whether or not the Committee wants to hint at the possibility of a near-
+
+term action. I do not have a problem with that. In fact, in my comments I suggested that the
+
+resolution of uncertainty might improve in the next couple of weeks, but that seems to be the
+
+principal issue here, which I don't really recall us discussing in as much detail as we just have.
+
+          CHAIRMAN BERNANKE. No, you're right. But there is another issue, which I think is
+
+the thing we're concerned about and which motivates the change in alternative B, paragraph 2.
+
+We don't want the world to feel that we are not awake, that we are not paying attention. We
+
+know that very unusual things are going on in the financial markets; and we are prepared, maybe
+
+not through monetary policy but through whatever mechanism is necessary, to address that.
+
+          MR. EVANS. Right. So I fully support that sentiment, and if you find the right wording
+
+that captures it, that's fine with me.
+
+          CHAIRMAN BERNANKE. Other comments? President Plosser.
+
+          MR. PLOSSER. As long as we are throwing monkey wrenches into the language, I think
+
+we do signal our concern. In paragraph 2, we put the very first sentence, which says, "Strains in
+
+financial markets have increased significantly." So we have acknowledged that at the very top of
+September 16, 2008                                                                        84 of 108
+
+
+
+this statement. So there is no going back on that. I am a little concerned about what moving
+
+back "closely" means. Another alternative that I'll throw out would be, rather than use
+
+"closely," to say that "the Committee will continue to monitor economic and financial
+
+developments."
+
+       SEVERAL. That's what it said last time.
+
+       MR. PLOSSER. Well, that seems fine. We are monitoring these things. Is this the
+
+FOMC statement dictionary we are going to? Is this the code book? [Laughter]
+
+       CHAIRMAN BERNANKE. Any other comments? All right. Let me just ask for a straw
+
+vote: "closely," no "closely," or "carefully." Do we want "carefully"? All right. Is "carefully"
+
+more acceptable to those who are concerned?
+
+       MR.KOHN. It's less of a code word. The intention was to loosen it up a bit but not
+
+revert to those code words that nearly promise intermeeting action.
+
+       MR. PLOSSER. We make note of this in the lexicon of FOMC terminology.
+
+       CHAIRMAN BERNANKE. The semiotics class will begin as soon as the--[Laughter]
+
+All right. "Carefully"--is that okay? I'm seeing nodding. All right? Governor Warsh?
+
+       MR. WARSH. Yes, sir.
+
+       MR. KOHN. I'm closing the dictionary.
+
+       CHAIRMAN BERNANKE. All right. So we are changing the last part of that sentence.
+
+We are striking the word "market" and changing "closely" to "carefully." Any other comments
+
+or thoughts on the substance, sizzle, or marketing? Or as Rick would say, "moychandising"--
+
+but he's not here. [Laughter] All right. If not, Ms. Danker.
+
+       MS. DANKER. I will be reading the directive from the Bluebook and the statement that
+
+was just circulated. "The Federal Open Market Committee seeks monetary and financial
+September 16, 2008                                                                        85 of 108
+
+
+
+conditions that will foster price stability and promote sustainable growth in output. To further its
+
+long-run objectives, the Committee in the immediate future seeks conditions in reserve markets
+
+consistent with maintaining the federal funds rate at an average of around 2 percent."
+
+       Then the statement is as it was handed out, except the last sentence reads, "The
+
+Committee will monitor economic and financial developments carefully and will act as needed to
+
+promote sustainable economic growth and price stability."
+
+               Chairman Bernanke                       Yes
+               First Vice President Cumming            Yes
+               Governor Duke                           Yes
+               President Fisher                        Yes
+               Governor Kohn                           Yes
+               Governor Kroszner                       Yes
+               President Pianalto                      Yes
+               President Plosser                       Yes
+               President Stern                         Yes
+               Governor Warsh                          Yes
+
+       CHAIRMAN BERNANKE. Thank you. The next meeting is October 28 and 29. Lunch
+
+will be available in the anteroom. While we have lunch, Laricke Blanchard will provide us with
+
+an update on congressional developments. Thank you all very much. The meeting is adjourned.
+
+                                       END OF MEETING
+

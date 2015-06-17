@@ -48,7 +48,7 @@ Q : How many jobs are running for grep?
 
 == STEP 5)  look for multiple words
     grep for two strings 'dfs' and 'xml'
-    hint : the regular expression is :  'dfs\|xml'
+    hint : the regular expression is :  '(dfs|xml)'  (keep the single quotes)
 
 
 == BONUS LAB )
@@ -58,6 +58,8 @@ Q : How many jobs are running for grep?
     note the count
     what is the count from Hadoop grep
     do they agree?  if not why not?
+
+
 
 
 == BONUS LAb ) grep on large files:
@@ -88,5 +90,3 @@ To find what mapreduce examples are available
 > 
 This will print out sample programs available
 
-And run a sample program like 'wordcount'
-    $   hadoop jar /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar  wordcount <intput dir>  <output dir>
