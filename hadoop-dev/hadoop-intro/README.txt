@@ -16,7 +16,7 @@ Inspect the following:
     - various graphs for the cluster
 
 
-== STEP 2) View NameNode web interface.
+== STEP 2) View HDFS NameNode web interface.
     Open a browser and go to Namenode UI (Instructor will provide details)
 
     question : what is the version of HDFS?

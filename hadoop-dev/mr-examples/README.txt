@@ -84,9 +84,9 @@ This jar file can be  found in:
     - Cloudera : /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar
 
 To find what mapreduce examples are available
-> $ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
-> e.g.
-> $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar  
-> 
+    $ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
+    e.g.
+    $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar  
+ 
 This will print out sample programs available
 
