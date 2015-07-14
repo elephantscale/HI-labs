@@ -19,6 +19,9 @@ e.g :   $  pig intro.pig
 
 === TIPS
 
+To print/echo something from pig script
+    sh echo "hello there... "
+
 To change the name of pig script supply 'job.name' parameter
     $ pig -Djob.name="hello"  script.pig
 ---
