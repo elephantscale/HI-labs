@@ -17,8 +17,8 @@ HINT : help 'create'
 follow : connect.txt
 
 
-== STEP 3) Create
-follow : create.txt
+== STEP 3) Insert
+follow : insert.txt
 
 
 == STEP 4) Query

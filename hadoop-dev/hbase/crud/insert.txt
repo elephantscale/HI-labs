@@ -1,12 +1,11 @@
 Lab : Use HBase Java APIs for CRUD
 Create
 ----
-project dir : HI-labs/hadoop-dev/hbase/crud
+project dir : HI-labs/hadoop-dev/hbase/api
 you can also open the project in eclipse
 
 == STEP 1)
-    $   cd crud
-edit the file : src/main/hi/hbase/Insert.java
+edit the file : src/main/java/hi/hbase/Insert.java
 
 
 == STEP 2) complete the TODO items
@@ -15,8 +14,8 @@ Refer HBase javadocs for class methods
 
 == STEP 3) compile the code:
 From the project working dir...
-    $ ../compile.sh
-this should create a jar file called 'a.jar'
+    $   mvn clean package
+this should create jar files in target/ directory
 
 
 == STEP 5) insert data into hbase

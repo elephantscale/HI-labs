@@ -1,11 +1,11 @@
 Lab : Use HBase Java APIs for connecting
 Connect
 ----
-project working dir : HI-labs/hadoop-dev/hbase/crud
+project working dir : HI-labs/hadoop-dev/hbase/api
 you can also open the project in eclipse
 
 == STEP 1)
-edit the file : src/main/hi/hbase/Connect.java
+edit the file : src/main/java/hi/hbase/Connect.java
 
 
 == STEP 2) complete the TODO items
@@ -13,8 +13,8 @@ edit the file : src/main/hi/hbase/Connect.java
 
 == STEP 3) compile the code:
 From the project working dir...
-    $ ../compile.sh
-this should create a jar file called 'a.jar'
+    $    mvn clean package
+this should create jar files under target/ directory
 
 
 == STEP 5) Connect to HBase

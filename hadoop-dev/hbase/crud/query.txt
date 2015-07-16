@@ -2,12 +2,11 @@ Lab : Use HBase Java APIs for CRUD
 Query (R)
 ----
 
-project dir : HI-labs/hadoop-dev/hbase/crud
+project dir : HI-labs/hadoop-dev/hbase/api
 you can also open the project in eclipse
 
 == STEP 1)
-    $   cd crud
-edit the file : src/main/hi/hbase/Query.java
+edit the file : src/main/java/hi/hbase/Query.java
 
 
 == STEP 2) complete the TODO items
@@ -16,7 +15,7 @@ Refer HBase javadocs for class methods
 
 == STEP 3) compile the code:
 From the project working dir...
-    $ ../compile.sh
+    $   mvn clean package
 this should create a jar file called 'a.jar'
 
 
