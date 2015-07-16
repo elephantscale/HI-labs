@@ -1,5 +1,8 @@
 package hi.hbase;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.HTable;
@@ -23,21 +26,25 @@ public class Insert {
 		HTable htable = new HTable(config, tableName);
 
 		// write user 1
-		String user1 = "user1";
-		String email1 = "user1@gmail.com";
-		String phone1 = "555-1234";
-		byte[] key1 = Bytes.toBytes(user1);
-		Put put1 = new Put(key1);
-		put1.add(Bytes.toBytes("info"), Bytes.toBytes("email"),
-				Bytes.toBytes(email1));
-		/// TODO 2 : now add phone number as a coulumn
-		// put1.add(???, ???, ???);
+		{
+			String user1 = "user1";
+			String email1 = "user1@gmail.com";
+			String phone1 = "555-1234";
+			byte[] key1 = Bytes.toBytes(user1);
+			Put put1 = new Put(key1);
+			put1.add(Bytes.toBytes("info"), Bytes.toBytes("email"),
+					Bytes.toBytes(email1));
+			// / TODO 2 : now add phone number as a coulumn
+			// put1.add(???, ???, ???);
 
-		// finally put this into table
-		htable.put(put1);
+			// finally put this into table
+			htable.put(put1);
+			System.out.println("### Inserted " + user1);
+		}
 
-		/// TODO 3 : add another user
+		// / TODO 3 : add another user
 		/*
+		{
 		String user2 = "user2";
 		String email2 = "user2@gmail.com";
 		String phone2 = "555-1234";
@@ -45,37 +52,34 @@ public class Insert {
 		Put put2 = ....
 		put2.add(....)
 		put2.add(???, ???, ???);
+		}
 		  
 		 */
-		
-		/// BONUS LAB : add a few users
-		/*
 
+		/// BONUS LAB : add a few users
+		/// we are inserting them in batch
 		int total = 100;
-		long t1 = System.currentTimeMillis();
+		List<Put> puts = new ArrayList<>(); // list of puts
 		for (int i = 0; i < total; i++) {
 			String userid = "user-" + i;
-			String email = "user-" + i + "@foo.com";
+			String email = userid + "@foo.com";
 			String phone = "555-1234";
 
-			// TODO : create a key from userid
-			// byte [] key = Bytes.toBytes(???);
+			byte[] key = Bytes.toBytes(userid);
+			Put put = new Put(key);
+			put.add(Bytes.toBytes("info"), Bytes.toBytes("email"),
+					Bytes.toBytes(email));
+			put.add(Bytes.toBytes("info"), Bytes.toBytes("phone"),
+					Bytes.toBytes(phone));
 
-			// TODO : create a Put from key
-			// Put put = new Put (key);
-
-			// TODO : the following user attributes to table
-			// use put.add (family, column_qualifier, value) method
-			// don't forget use Bytes.toBytes() to covert every thing to bytes
-
-			// TODO : finally add it to htable
-			// htable.put(???);
-
+			puts.add(put);
+			System.out.println("### added " + userid);
 		}
+		long t1 = System.currentTimeMillis();
+		htable.put(puts);
 		long t2 = System.currentTimeMillis();
 		System.out.println("### inserted " + total + " users  in " + (t2 - t1)
 				+ " ms");
-		*/
 
 		htable.close();
 	}
