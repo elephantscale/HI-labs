@@ -14,20 +14,20 @@ HINT : help 'create'
 
 
 ## STEP 2) Connect
-follow : [connect.txt](connect.txt)
+follow : connect.txt : https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hbase/api/connect.txt
 
 
 ## STEP 3) Insert
-follow : [insert.txt](insert.txt)
+follow : insert.txt : https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hbase/api/insert.txt
 
 
 ## STEP 4) Query
-follow : [query.txt](query.txt)
+follow : query.txt : https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hbase/api/query.txt
 
 
 ## STEP 5) Update
-follow : [update.txt](update.txt)
+follow : update.txt : https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hbase/api/update.txt
 
 
 ## BONUS ) Delete
-follow : [delete.txt](delete.txt)
+follow : delete.txt : https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hbase/api/delete.txt
