@@ -38,8 +38,10 @@ public class Insert {
 			// put1.add(???, ???, ???);
 
 			// finally put this into table
+			long t1 = System.currentTimeMillis();
 			htable.put(put1);
-			System.out.println("### Inserted " + user1);
+			long t2 = System.currentTimeMillis();
+			System.out.println("### Inserted " + user1 + " in " + (t2 - t1) + " ms");
 		}
 
 		/// TODO 3 : add another user
@@ -59,7 +61,7 @@ public class Insert {
 		/// BONUS LAB : add a few users
 		/// we are inserting them in batch
 		int total = 100;
-		List<Put> puts = new ArrayList<>(); // list of puts
+		List<Put> puts = new ArrayList<Put>(); // list of puts
 		for (int i = 0; i < total; i++) {
 			String userid = "user-" + i;
 			String email = userid + "@foo.com";

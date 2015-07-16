@@ -14,20 +14,20 @@ HINT : help 'create'
 
 
 == STEP 2) Connect
-follow : connect.txt
+follow : (connect.txt)[connect.txt]
 
 
 == STEP 3) Insert
-follow : insert.txt
+follow : (insert.txt)[insert.txt]
 
 
 == STEP 4) Query
-follow : query.txt
+follow : (query.txt)[query.txt]
 
 
 == STEP 5) Update
-follow : update.txt
+follow : (update.txt)[update.txt]
 
 
 == BONUS ) Delete
-follow : delete.txt
+follow : (delete.txt)[delete.txt]
