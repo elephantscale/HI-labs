@@ -17,7 +17,7 @@ import org.apache.hadoop.hbase.util.Bytes;
  */
 public class Insert {
 
-	// TODO 1 : update the table name with your username
+	/// TODO 1 : update the table name with your username
 	static String tableName = "<your_name>_users";
 	static String familyName = "info";
 
@@ -34,7 +34,7 @@ public class Insert {
 			Put put1 = new Put(key1);
 			put1.add(Bytes.toBytes("info"), Bytes.toBytes("email"),
 					Bytes.toBytes(email1));
-			// / TODO 2 : now add phone number as a coulumn
+			/// TODO 2 : now add phone number as a coulumn
 			// put1.add(???, ???, ???);
 
 			// finally put this into table
@@ -42,7 +42,7 @@ public class Insert {
 			System.out.println("### Inserted " + user1);
 		}
 
-		// / TODO 3 : add another user
+		/// TODO 3 : add another user
 		/*
 		{
 		String user2 = "user2";
@@ -72,8 +72,10 @@ public class Insert {
 			put.add(Bytes.toBytes("info"), Bytes.toBytes("phone"),
 					Bytes.toBytes(phone));
 
-			puts.add(put);
 			System.out.println("### added " + userid);
+
+			/// TODO : add the new put into the list
+			// puts.add(???);
 		}
 		long t1 = System.currentTimeMillis();
 		htable.put(puts);
