@@ -12,6 +12,8 @@
 target/
 .classpath
 .project
+*.csv
+*.json
 
 # intellij
 .idea
