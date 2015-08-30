@@ -5,24 +5,26 @@ Instructor:
 * spin up our Hadoop image
 * m1.xlarge instances
 
-
-## STEP 1) 
+### STEP 1) 
 login to one machine instance to install Ambari
 
 
-## STEP 2)
-execute these steps in terminal
+### STEP 2)
+execute these steps in terminal (hint: always accept all defaults :)
 
-	wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.7.0/ambari.repo
+    wget -nv http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.1.0/ambari.repo -O /etc/yum.repos.d/ambari.repo    
+
+(older versions)
+
+	(older) wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.7.0/ambari.repo
 	(older) wget  http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.6.1/ambari.repo
 	(older) wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.4.3.38/ambari.repo
 	(older) wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/GA/ambari.repo
-
-
-
-
 	sudo cp ambari.repo /etc/yum.repos.d
 	sudo yum install epel-release
+	
+continue for all versions
+
 	sudo yum install -y ambari-server
 	sudo ambari-server setup
 	sudo ambari-server start
