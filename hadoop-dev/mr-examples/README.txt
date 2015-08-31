@@ -11,7 +11,7 @@ In the following steps replace MY_NAME with your name
         $ hdfs dfs -mkdir -p MY_NAME/grep/in
 
     copy hadoop config files from /etc/hadoop/conf  into HDFS
-        $ hdfs dfs -put /etc/hadoop/conf/*   MY_NAME/grep/in
+        $ hdfs dfs -put /etc/hadoop/conf/*.xml   MY_NAME/grep/in
 
 
 == STEP 2) running grep
