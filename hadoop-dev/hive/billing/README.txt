@@ -24,14 +24,10 @@ Fix the TODO items
 
 
 === STEP 4) Load data into billing table
-(if you have billing data already in your billing/in  directory, you can skip this step)
     $  hdfs  dfs -mkdir -p MY_NAME/billing/in
 
-generate data
-    $  python ../../../data/billing-data/gen-billing-data.py
-
-upload data into HDFS
-    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
+copy sample billing data
+    $ hdfs dfs -put ../../../data/billing-data/sample.txt   MY_NAME/billing/in/
 
 
 == STEP 5) lets count the number of rows in the table
@@ -75,7 +71,17 @@ You can execute this query directly from hive shell, or place this in a file (e.
 Question : how many mapreduce jobs are being kicked off?  Why?
 
 
-== STEP 9)  creating invoice table
+== STEP 9) Generating more data
+generate data
+    $  python ../../../data/billing-data/gen-billing-data.py
+
+upload data into HDFS
+    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
+
+Go ahead and find top-10 customers on this larger data set
+
+
+== STEP 10)  creating invoice table
 printing to screen is great for developing / debugging.
 we want to save the calculated invoices into a table.
 
@@ -85,7 +91,7 @@ Execute the script to create table
     $  hive  -f  invoices_ext.q
 
 
-== STEP 10)  Save results into invoice table
+== STEP 11)  Save results into invoice table
 Edit file : inv.q
 Fix TODOs
 Execute the scripts
