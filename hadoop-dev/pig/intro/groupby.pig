@@ -9,10 +9,10 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 
 -- ## TODO : group by resourceid
 -- grouped_by_resource = GROUP billing_data BY ???  ;
--- DESCRIBE grouped_by_resource;
 -- DUMP   grouped_by_resource;
+-- DESCRIBE grouped_by_resource;
 
 -- ## TODO : special groupby- ALL
 -- grpd = GROUP billing_data ___;
--- DESCRIBE grpd;
 -- DUMP grpd;
+-- DESCRIBE grpd;
