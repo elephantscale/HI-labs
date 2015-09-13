@@ -10,9 +10,9 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 
 -- ## TODO : lets extract custid and cost
 -- A = FOREACH billing_data GENERATE ??? , ???;
--- DESCRIBE A;
 -- EXPLAIN A;
 -- DUMP A;
+-- DESCRIBE A;
 
 -- ## TODO : generate custid, and cost_in_dollars
 -- ## Assume cost is in cents.  Convert it to dollars
@@ -20,5 +20,5 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 -- ## check the output, is the output correct?
 -- ## what do you have to do to fix it?
 -- B = FOREACH .....
--- DESCRIBE B;
 -- DUMP B;
+-- DESCRIBE B;
