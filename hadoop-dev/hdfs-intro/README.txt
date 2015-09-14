@@ -111,6 +111,8 @@ Q : How many blocks does file 'z' have?
 == BONUS LAB 2)
     List all the data nodes using hdfs command
     (Find the right 'sub command' for hdfs)
+   HINT: you may lack permissions.  Try the command with:
+    sudo -u hdfs hdfs ...
 
 
 == BONUS LAB 3)
@@ -118,3 +120,6 @@ Q : How many blocks does file 'z' have?
     hint the command is : fsck
         $  hdfs fsck   <full file name> [options]
     can you figure out the options?
+
+    HINT: again, you probably need to do this with the hdfs user.
+
