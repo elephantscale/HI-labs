@@ -13,7 +13,7 @@ login to one machine instance to install Ambari
 execute these steps in terminal (hint: always accept all defaults :)
 
     sudo wget -nv http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.1.0/ambari.repo \
--O /etc/yum.repos.d/ambari.repo    
+    -O /etc/yum.repos.d/ambari.repo    
 
 (older versions)
 
