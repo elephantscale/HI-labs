@@ -1,0 +1,102 @@
+# Running mapreduce examples that ship with Hadoop.
+
+## Grep : look for keywords in files
+
+**Note :**  
+In the following steps replace MY_NAME with your name
+
+## STEP 1)
+Lets copy some files into hdfs. We will use Hadoop config files.
+
+```bash
+        # prepare a input directory in HDFS
+        $   hdfs dfs -mkdir -p    MY_NAME/grep/in
+
+        #  copy hadoop config files from /etc/hadoop/conf  into HDFS
+        $   hdfs dfs -put /etc/hadoop/conf/*.xml   MY_NAME/grep/in
+```
+
+## STEP 2) Running grep
+To find grep usage
+```
+        $ hadoop   org.apache.hadoop.examples.Grep
+```
+
+It will print out the usage
+- first arg : input dir
+- second arg : output dir
+- third arg : pattern to look for
+
+Now lets run the command, look for string `dfs`
+```bash
+        $   hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
+```
+This command will kick off mapreduce jobs
+
+
+## STEP 3) Watch the mapreduce output on the console
+Also watch the job progress in YARN UI (Resource Manager UI)  or Hue UI
+**=> Q : How many jobs are running for grep? **  
+
+
+## STEP 4) verifying run output
+Grep output will be in the output dir `MY_NAME/grep/out`.   
+See files in the output dir.
+
+```bash
+        $   hdfs dfs -ls MY_NAME/grep/out
+
+        # use 'cat' command to see the file contents
+        $   hdfs dfs -cat   MY_NAME/grep/out/*
+```
+
+
+## STEP 5)  look for multiple words
+Grep for two strings `dfs` and `xml`.   
+Hint : the regular expression is :  `'(dfs|xml)'`  (keep the single quotes)
+
+
+## BONUS LAB )
+Lets do a unix grep on the files
+```bash
+        $   grep -c 'dfs'   /etc/hadoop/conf/*
+```
+
+Note the count.  
+What is the count from Hadoop grep?  
+Do they agree?  if not why not?  
+
+
+## BONUS Lab 1: grep on large files:
+```bash
+    $  cd   <my name>  # go to your workspace
+    $  cd   HI-labs/data/twinkle
+    $  ./create-data-files.sh
+```
+
+This will produce files of various sizes.  
+Copy 1G.data files into HDFS.
+```bash
+    $   hdfs   dfs -mkdir  -p    MY_NAME/twinkle/in
+    $   hdfs   dfs -put   1G.data  MY_NAME/twinkle/in
+```
+
+Now re-run the mr-grep example on the large file  `MY_NAME/twinkle/in`.    
+Look for the word `diamond`.  
+How many Maps are launched ?  
+Can you figure out why?  
+
+## BONUS LAB 2:
+More examples are in `hadoop-examples-*.jar`.   
+This jar file can be  found in: 
+- Hortonworks :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
+- Cloudera : /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar
+
+To find what mapreduce examples are available
+```bash
+        $ hadoop jar /path/to/hadoop-mapreduce-examples*.jar
+e.g.    $ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar  
+```
+ 
+This will print out sample programs available.
+
