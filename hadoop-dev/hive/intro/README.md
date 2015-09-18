@@ -1,7 +1,7 @@
 #Lab : Hive Internal vs external tables
 
 ## Working dir 
-`HI-labs/hadoop-dev/hive/internal-external`
+`HI-labs/hadoop-dev/hive/intro`
 
 ## STEP 1:  create an external table
 Edit the file : `ext.q`.  
