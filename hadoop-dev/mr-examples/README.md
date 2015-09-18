@@ -29,7 +29,8 @@ It will print out the usage
 
 Now lets run the command, look for string `dfs`
 ```bash
-        $   hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
+        #  we are using the time prefix  to measure the time taken
+        $   time  hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
 ```
 This command will kick off mapreduce jobs
 
@@ -37,6 +38,14 @@ This command will kick off mapreduce jobs
 ## STEP 3) Watch the mapreduce output on the console
 Also watch the job progress in YARN UI (Resource Manager UI)  or Hue UI
 **=> Q : How many jobs are running for grep? **  
+
+**=> Q : How long did the mapreduce job take?**  
+See the output by time command, look for `real` value
+```bash
+real    1m19.162s  <-- this is the actual time
+user    0m10.628s
+sys     0m0.998s
+```
 
 
 ## STEP 4) verifying run output
@@ -59,12 +68,30 @@ Hint : the regular expression is :  `'(dfs|xml)'`  (keep the single quotes)
 ## BONUS LAB )
 Lets do a unix grep on the files
 ```bash
-        $   grep -c 'dfs'   /etc/hadoop/conf/*
+        # prefixing time to measure time taken
+        $   time  grep -c 'dfs'   /etc/hadoop/conf/*
+```
+
+Console output may look like...
+```console
+/etc/hadoop/conf/core-site.xml:3
+/etc/hadoop/conf/hdfs-site.xml:16
+/etc/hadoop/conf/mapred-site.xml:0
+/etc/hadoop/conf/ssl-client.xml:0
+/etc/hadoop/conf/yarn-site.xml:0
+
+real    0m0.005s  <- time taken
+user    0m0.002s
+sys     0m0.002s
 ```
 
 Note the count.  
 What is the count from Hadoop grep?  
-Do they agree?  if not why not?  
+
+**=> Q :  Do they agree?  if not why not?**  
+
+**=> Discussion : Also note the time taken by unix grep command.  Why is it so much shorter than Hadoop?  **  
+
 
 
 ## BONUS Lab 1: grep on large files:
