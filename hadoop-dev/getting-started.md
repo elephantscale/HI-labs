@@ -5,7 +5,7 @@ Getting started guide for Hadoop Labs
 Login in to the cluster assigned to you using SSH.  Instructor will provide details.
 ```bash
     $  ssh <user name>@<hostname>
-    e.g $  ssh ec2-user@ec2.........
+e.g $  ssh ec2-user@ec2.........
 ```
 
 
@@ -37,14 +37,14 @@ This will create a dir called `HI-labs` under your workspace.
 This project root is `YOUR_NAME/HI-labs`
 
 
-## STEP 4) : Cluster inspection using We
+## STEP 4) : Cluster inspection using Web UIs
 Browse UIs for (Instructor will provide details)
 * Managers
 * NameNode
 * YARN
 
 
-## ==== For Instructor only =====
+## ==== For Instructor only ====
 Create a HDFS home dir for `<login user>  (hdfs:///user/<login_name>)`
 
 ```bash
