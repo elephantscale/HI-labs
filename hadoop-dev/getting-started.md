@@ -44,16 +44,16 @@ Browse UIs for (Instructor will provide details)
 * YARN
 
 
-## For Instructor only
+## ==== For Instructor only =====
 Create a HDFS home dir for `<login user>  (hdfs:///user/<login_name>)`
 
 ```bash
     $ sudo -u hdfs   hdfs dfs -mkdir   /user/$USER
     $ sudo -u hdfs  hdfs dfs -chown $USER /user/$USER
 
-verify permissions
+    # verify permissions
     $   hdfs  dfs -ls /user/
 ```
 
-make sure a directory named `/user/<login_user>` exists and is owned by `<login_user>`
+Make sure a directory named `/user/<login_user>` exists and is owned by `<login_user>`
 
