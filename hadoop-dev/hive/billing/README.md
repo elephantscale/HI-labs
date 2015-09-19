@@ -69,7 +69,7 @@ Output might look like:
 
 Another query:
 ```
-    hive > select * from MY_NAME_billing where customer_id = 61442 limit 5;
+    hive > select * from MY_NAME_billing where customer_id = 1 limit 5;
 ```
 
 ## STEP 6) Calculate customer totals
