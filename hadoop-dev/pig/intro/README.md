@@ -3,26 +3,70 @@
 ## project dir : 
     `HI-labs/hadoop-dev/pig/intro`
 
-## STEP 1: start up the GRUNT shell using pig
+## STEP 1: Verify Pig is installed and configured properly
+Invoke Pig in command line as follows:
 ```
         $   pig
 ```
-Make sure pig can connect to HDFS and MapReduce
+Read the console output.  
+Make sure pig can connect to HDFS and MapReduce.  
 Exit pig shell by typing    `quit;`
 
 
-## STEP 2)
-Edit and run the following files
-- intro.pig
-- filter.pig
-- foreach.pig
-- groupby.pig
+## STEP 2)  Lab setup
+
+### Go to the correct working directory:
+Update MY_NAME accordingly.
+```bash
+    $   cd  ~/MY_NAME/HI-labs/hadoop-dev/pig/intro
+```
+
+### Copy billing data files into HDFS
+Make sure you are in correct working dir
+```bash
+    $   cd  ~/MY_NAME/HI-labs/hadoop-dev/pig/intro
+```
+
+Create an HDFS directory
+```bash
+    $   hdfs   dfs   -mkdir  -p    MY_NAME/billing/in
+```
+
+Copy a sample file into HDFS
+```
+    $   hdfs dfs -put ../../../data/billing-data/sample.txt    MY_NAME/billing/in/
+```
+
+
+Generate some more data and copy into HDFS.   
+This will generate a few files
+```
+    $  python ../../../data/billing-data/gen-billing-data.py
+```
+
+
+Copy the files into HDFS as well
+```
+    $  hdfs   dfs   -put   billing*.log    MY_NAME/billing/in
+```
+
+Now we have all data files in HDFS.  Verify this by
+```
+    $   hdfs   dfs  -ls   MY_NAME/billing/in
+```
+
+## STEP 2 )  Edit the Pig script
+Edit file :    `intro.pig`.  
+You can use VI or NANO
+```
+    $   vi intro.pig
+    # or
+    $   nano  intro.pig
+```
+Fix TODO items and save the file.   
+And run the script as follows.
 
 ```bash
-    # edit using vi or nano
-    $  vi  intro.pig  # edit & save
-
-    # run the script
     $  pig intro.pig
 ```
 

@@ -25,7 +25,7 @@ http://www.dummies.com/how-to/content/hadoop-for-dummies-cheat-sheet.html
 **=> Q : What files do you see?**  
 **=> Q : How about all the personal workspace files we created in 'getting started' lab?** 
 
-**  Break : Instructor to explain the missing files **
+### Break : Instructor to explain the missing files ###
 
 
 ## STEP 2) Use command line utility view files in HDFS
@@ -58,7 +58,7 @@ Otherwise if you have no files you will see nothing.
 Output will be recursive listing of all files
 
 
-## STEP 4) create your home directory in HDFS
+## STEP 4) Create your home directory in HDFS
 Replace MY_NAME with your name
 ```
         $   hdfs dfs -mkdir MY_NAME
@@ -93,7 +93,7 @@ This should print out the file README.txt
 Go ahead and click  on a file in the UI.  What do you see?
 
 
-## STEP 7) over write files in HDFS
+## STEP 7) Over write files in HDFS
 Repeat the -put command again.  
 Replace MY_NAME with yours.
 ```bash
@@ -111,8 +111,7 @@ Once you deleted the README.txt file, copy it again.
 Hint : use the `-put` command
 
 
-## STEP 8)
-Create a zero sized file under your directory.  
+## STEP 8) Create a zero sized file 
 Replace MY_NAME with yours.
 ```bash
     $  hdfs dfs  -touchz  MY_NAME/z
@@ -126,7 +125,7 @@ Verify the file has zero length. Replace MY_NAME with yours.
 **=> Q : How many blocks does file `z` have? **  
 
 
-## BONUS LAB 1:
+## BONUS LAB 1: Get files out of HDFS
 Copy the files back to your local directory.  
 Replace MY_NAME with yours.
 ```
@@ -134,15 +133,14 @@ Replace MY_NAME with yours.
 ```
 
 
-## BONUS LAB 2:
-List all the data nodes using hdfs command.  
+## BONUS LAB 2: List all the data nodes using hdfs command.
 Hint 1:  Find the right 'sub command' for hdfs.  
 Hint 2 : you may lack permissions.  Try the command with:
 ```
     sudo -u hdfs   the-command
 ```
 
-## BONUS LAB 3:
+## BONUS LAB 3: Block locations
 Find out which machine has the blocks for a particular file.  
 Hint `fsck`  
 ```

@@ -5,7 +5,7 @@
 **Note :**  
 In the following steps replace MY_NAME with your name
 
-## STEP 1)
+## STEP 1) Stage files into HDFS
 Lets copy some files into hdfs. We will use Hadoop config files.
 
 ```bash
@@ -35,9 +35,12 @@ Now lets run the command, look for string `dfs`
 This command will kick off mapreduce jobs
 
 
-## STEP 3) Watch the mapreduce output on the console
-Also watch the job progress in YARN UI (Resource Manager UI)  or Hue UI
-**=> Q : How many jobs are running for grep? **  
+## STEP 3) Watch the mapreduce progress
+**=> Watch Mapreduce progress on console**  
+
+**=> Also watch the job progress in YARN UI (Resource Manager UI)  or Hue UI** 
+
+**=> Q : How many jobs are running for grep?**  
 
 **=> Q : How long did the mapreduce job take?**  
 See the output by time command, look for `real` value
@@ -48,7 +51,7 @@ sys     0m0.998s
 ```
 
 
-## STEP 4) verifying run output
+## STEP 4) Verifying run output
 Grep output will be in the output dir `MY_NAME/grep/out`.   
 See files in the output dir.
 
@@ -60,12 +63,12 @@ See files in the output dir.
 ```
 
 
-## STEP 5)  look for multiple words
+## STEP 5)  Look for multiple words
 Grep for two strings `dfs` and `xml`.   
 Hint : the regular expression is :  `'(dfs|xml)'`  (keep the single quotes)
 
 
-## BONUS LAB )
+## BONUS LAB ) Unix grep
 Lets do a unix grep on the files
 ```bash
         # prefixing time to measure time taken
@@ -94,7 +97,7 @@ What is the count from Hadoop grep?
 
 
 
-## BONUS Lab 1: grep on large files:
+## BONUS Lab 1: Grep on large files:
 ```bash
     $  cd   <my name>  # go to your workspace
     $  cd   HI-labs/data/twinkle
@@ -113,7 +116,7 @@ Look for the word `diamond`.
 How many Maps are launched ?  
 Can you figure out why?  
 
-## BONUS LAB 2:
+## BONUS LAB 2: More Hadoop Examples
 More examples are in `hadoop-examples-*.jar`.   
 This jar file can be  found in: 
 - Hortonworks :  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples*.jar
