@@ -3,7 +3,7 @@
 ## Working dir 
 `HI-labs/hadoop-dev/hive/intro`
 
-## STEP 1:  create an external table
+## STEP 1:  Create an external table
 Edit the file : `ext.q`.  
 Fix TODOs.  
 Execute the script.  
@@ -103,7 +103,7 @@ Using HDFS file browser, find out where the internal table `MY_NAME_int`  lives.
 Hint : Look into  `/user/hive` (or `/apps/hive`)  directory
 
 
-## STEP 9:  dropping tables
+## STEP 9:  Dropping tables
 In Hive shell drop the tables you just created.  
 Update MY_NAME appropriately.  
 ```

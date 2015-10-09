@@ -19,14 +19,15 @@ To replace  text content, just delete the existing file and copy a new file in. 
 ```
 
 ## STEP 1)
-Find the most occuring bigrams (two) in text
+Find the most occuring bigrams (two) in text.  
+We are using `explode` function in Hive so the output is formated.
+
 ```
     $  hive 
-    hive> SELECT ngrams(sentences(lower(line)), 2, 20 ) FROM MY_NAME_text
+    hive> SELECT explode(ngrams(sentences(lower(line)), 2, 20 )) FROM MY_NAME_text
 ```
 
-Note : The output will be a json structure, it is hard to read.  
-Use http://jsoneditoronline.org  to pretty-up the output.  
+To easily read  JSON data you can use http://jsoneditoronline.org  to pretty-up the output.
 Copy & paste the hive output into json editor and click 'format'.  
 
 **=> Q : What are the top bi-grams?**  
@@ -40,23 +41,35 @@ Hint : these are called [stop words](https://en.wikipedia.org/wiki/Stop_words) (
 What words follow the word `whale`
 ```
         $  hive 
-        hive> SELECT context_ngrams(sentences(lower(line)), array("whale", null), 30) FROM MY_NAME_text
+        hive> SELECT explode(context_ngrams(sentences(lower(line)), array("whale", null), 30)) 
+        FROM MY_NAME_text ; 
 ```
 
 - For State of the union text  
 Find the word the follows the word `american`
+```
+    hive> 
+    SELECT explode(context_ngrams(sentences(lower(line)), array("american", null), 30)) 
+    FROM MY_NAME_text ; 
+```
 
 
-## STEP 3)
+## STEP 3) Text Context 2
 - For moby-dick:
 What are the top adjectives used to describe 'whale'
 ```
-    $  hive 
-    hive> SELECT context_ngrams(sentences(lower(line)), array(null, "whale"), 30) FROM MY_NAME_text
+    hive> 
+    SELECT context_ngrams(sentences(lower(line)), array(null, "whale"), 30)
+     FROM MY_NAME_text ; 
 ```
 
 - For State of The Union:  
 What are the adjectives used for 'american'
+```
+    hive> 
+    SELECT context_ngrams(sentences(lower(line)), array(null, "american"), 30)
+     FROM MY_NAME_text ; 
+```
 
 
 ## STEP 4) 'Visualizing' text
