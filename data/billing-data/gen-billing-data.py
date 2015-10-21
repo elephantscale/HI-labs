@@ -20,6 +20,9 @@ import datetime as dt
 import random
 import json
 
+## set seed so every one gets same data
+random.seed(10)
+
 # overwrite this function to customize log generation
 def generate_log(timestamp):
   customer_id = random.randint(1,100000)

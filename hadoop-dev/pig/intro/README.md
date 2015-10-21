@@ -55,7 +55,10 @@ Now we have all data files in HDFS.  Verify this by
     $   hdfs   dfs  -ls   MY_NAME/billing/in
 ```
 
-## STEP 2 )  Edit the Pig script
+
+### Break : Wait for instructor to explain the next step.
+
+## STEP 3 )  Edit the Pig script
 Edit file :    `intro.pig`.  
 You can use VI or NANO
 ```

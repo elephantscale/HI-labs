@@ -97,7 +97,7 @@ Go ahead and click  on a file in the UI.  What do you see?
 Repeat the -put command again.  
 Replace MY_NAME with yours.
 ```bash
-        $  hdfs dfs -put README.txt  MY_NAME/README.txt
+        $  hdfs dfs -put   ~/README.txt   MY_NAME/README.txt
 ```
 What is the result?  why?
 

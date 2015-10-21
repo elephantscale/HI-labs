@@ -34,7 +34,7 @@ Edit file  : `customer-table.q`
 Fix TODOs.   
 Execute the script.  
 ```
-    $   hive -f  create_table_customer_ext.q
+    $   hive -f  customer-table.q
 ```
 
 
