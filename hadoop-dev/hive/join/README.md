@@ -5,6 +5,12 @@
 
 **Note : Replace MY_NAME appropriately throughout this lab**
 
+## STEP 0:  Go to working dir
+(Replace MYNAME accordingly)
+```
+    $   cd   ~/MYNAME/HI-labs/hadoop-dev/hive/join
+```
+
 ## STEP 1) Create a billing table
 If you already have a billing table created you can skip this step.  
 Edit file  : `billing-table.q`  

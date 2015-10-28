@@ -10,11 +10,16 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 
 -- ## TODO-3 : lets extract custid and cost
 -- A = FOREACH billing_data GENERATE ??? , ???;
--- EXPLAIN A;
 -- DUMP A;
 -- DESCRIBE A;
+-- ## To see the exeucution plan uncomment this
+-- EXPLAIN A;
 
--- ## TODO-4 : generate custid, and cost_in_dollars
+-- ## Save and run the script as follows
+-- ##    $   pig   foreach.pig
+
+
+-- ## TODO-4 : generate custid, cost and cost_in_dollars
 -- ## Assume cost is in cents.  Convert it to dollars
 -- ## hint : divide by 100
 -- ## check the output, is the output correct?

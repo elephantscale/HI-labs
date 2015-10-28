@@ -5,6 +5,12 @@
 
 **Note : substitute MY_NAME in the instructions accordingly**
 
+## STEP 0:  Go to working dir
+(Replace MYNAME accordingly)
+```
+    $   cd   ~/MYNAME/HI-labs/hadoop-dev/hive/partitions
+```
+
 ## STEP 1) Create a partitioned table
 Edit file  : `billing_p.q`  
 Fix TODOs.   

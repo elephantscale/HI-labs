@@ -5,6 +5,12 @@
 
 **Note : Replace MY_NAME appropriately throughout this lab**
 
+## STEP 0:  Go to working dir
+(Replace MYNAME accordingly)
+```
+    $   cd   ~/MYNAME/HI-labs/hadoop-dev/hive/text
+```
+
 ## STEP 1)
 Make a directory in HDFS to store books data.
 ```

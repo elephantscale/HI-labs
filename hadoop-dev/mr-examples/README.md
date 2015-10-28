@@ -93,7 +93,7 @@ What is the count from Hadoop grep?
 
 **=> Q :  Do they agree?  if not why not?**  
 
-**=> Discussion : Also note the time taken by unix grep command.  Why is it so much shorter than Hadoop?  **  
+**=> Discussion : Also note the time taken by unix grep command.  Why is it so much shorter than Hadoop?**  
 
 
 
