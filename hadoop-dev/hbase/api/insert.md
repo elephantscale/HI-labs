@@ -38,9 +38,18 @@ Run the executable `insert.sh`
     $ sh ./insert.sh
 ```
 
+To reduce screen clutter you can try this:
+```
+    # redirect logs into 'logs' file
+    $  ./insert.sh  2> logs
+```
+
 At the end of the run you should see something like:
 
     inserted 100 users  in 6 ms
+
+
+**=>  Q : Inspect the time taken to insert the FIRST user record and the later ones.  Can you explain the discrepancy ? **  
 
 
 ## STEP 4: Verify `users` Table Is Populated

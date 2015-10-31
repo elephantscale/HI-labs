@@ -37,6 +37,13 @@ Run the executable `update.sh`
     $ sh ./update.sh
 ```
 
+To reduce screen clutter you can try this:
+```
+    # redirect logs into 'logs' file
+    $  ./update.sh  2> logs
+```
+
+
 At the end of the run you should see something like:
 
     update took 8 ms

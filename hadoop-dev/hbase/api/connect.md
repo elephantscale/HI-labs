@@ -38,6 +38,12 @@ Run the executable `connect.sh` as follows
     $ sh ./connect.sh
 ```
 
+To reduce screen clutter you can try this:
+```
+    # redirect logs into 'logs' file
+    $  ./connect.sh  2> logs
+```
+
 Watch the output on console.
 At the end of the run you should see something like:
 ```

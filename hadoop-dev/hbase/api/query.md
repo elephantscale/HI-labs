@@ -37,6 +37,13 @@ Run the executable `query.sh`
     $ sh ./query.sh
 ```
 
+To reduce screen clutter you can try this:
+```
+    # redirect logs into 'logs' file
+    $  ./query.sh  2> logs
+```
+
+
 The output might look like:
 ```
     querying for userId : 39

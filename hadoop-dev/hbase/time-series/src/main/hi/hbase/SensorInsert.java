@@ -10,19 +10,21 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.util.Bytes;
 
 /**
- * before running this, create '<yourname>_sensors' table (replace <yourname> with
- * your username) in hbase shell: create '<yourname>_sensors', 'd'
+ * before running this, create 'MYNAME_sensors' table 
+ * (replace MYNAME with your username) 
+ * 
+ * in hbase shell: 
+ *    create 'MYNAME_sensors', 'd'
  */
 public class SensorInsert {
 
   // TODO : update the table name with your username
-  static String tableName = "<your name>_sensors";
+  static String tableName = "MYNAME_sensors";
   static String familyName = "d";
 
   public static void main(String[] args) throws Exception {
     Configuration config = HBaseConfiguration.create();
-    // TODO : Create an htable instance
-    HTable htable = null;
+    HTable htable = new HTable(config, tableName);
 
     int total = 1000;
     Random rand = new Random();

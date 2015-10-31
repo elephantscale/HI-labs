@@ -14,8 +14,11 @@ import org.apache.hadoop.hbase.util.Bytes;
  * HBase JavaDocs :
  * http://hbase.apache.org/0.94/apidocs/index.html?overview-summary.html
  *
- * before running this, create '<yourname>_users' table (replace <yourname> with
- * your username) in hbase shell: create '<yourname>_users', 'info'
+ * before running this, create 'MYNAME_users' table 
+ * (replace MYNAME with your username)
+ *
+ * in hbase shell: 
+ * 	> create 'MYNAME_users', 'info'
  */
 public class Query {
 	// / TODO 1 : update tablename
@@ -31,10 +34,13 @@ public class Query {
 			String userId = "???";
 			System.out.println("### querying for userId : " + userId);
 			byte[] key = Bytes.toBytes(userId);
+
 			Get get = new Get(key);
+
 			long t1 = System.currentTimeMillis();
 			Result result = htable.get(get);
 			long t2 = System.currentTimeMillis();
+			
 			System.out.println("query took  " + (t2 - t1) + " ms");
 			if (result != null) {
 				KeyValue kv = result.getColumnLatest(Bytes.toBytes("info"),
