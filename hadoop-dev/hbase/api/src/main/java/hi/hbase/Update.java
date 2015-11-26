@@ -12,13 +12,16 @@ import org.apache.hadoop.hbase.util.Bytes;
  * HBase JavaDocs :
  * http://hbase.apache.org/0.94/apidocs/index.html?overview-summary.html
  *
- * before running this, create '<yourname>_users' table (replace <yourname> with
- * your username) in hbase shell: create '<yourname>_users', 'info'
+ * before running this, create 'MYNAME_users' table 
+ * (replace MYNAME with your username)
+ *
+ * in hbase shell: 
+ *  > create 'MYNAME_users', 'info'
  */
 public class Update {
 
   // TODO : update the table name with your username
-  static String tableName = "<your name>_users";
+  static String tableName = "MYNAME_users";
   static String familyName = "info";
 
   public static void main(String[] args) throws Exception {
