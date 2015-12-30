@@ -97,9 +97,15 @@ Once finished, it is itme to create the files view.  Go to the the top, find
 user user name (likely "admin"), and then the dropdown has the second item as
 "Manage Ambari."   This takes you to the Administration View.
 
+
+![Deploy Views Button](pics/ambari-views-main-screen.png "It should look like this")
+
 From there, Click button Views under the "Deploy Views" section.
 
+
 Expand the "Files" section.  If one is not already present, click on "Create Instance"
+
+![Create Instance Screenshot](pics/ambari-views-create-instance.png "It should look like this")
 
 This brings up the Views / Create Instance page.  
 
@@ -113,11 +119,18 @@ Enter the following:
 
 For an Ambari Managed cluster, you should be able to select "Local Ambari Managed Cluster"
 
+
+![Create File Views Screenshot](pics/ambari-views-create-file-view.png "It should look like this")
+
 Click save.  After this, it will ask you to modify permissions. Add full permisisons for ec2-user.
+
+![File Views Screenshot](pics/ambari-views-file-view-permissions.png "Here is the permissions screen")
 
 The Files View should now be there. To view it, there is a matrix of 
 square (the apps section) on the top navigation bar, next to the 
 logged in user name ("admin"), from there, you can select the files view.
+
+![File Views Screenshot](pics/ambari-views-finished-file-views.png "Here is the finished file view")
 
 
 ### Installing the Pig View
@@ -148,6 +161,8 @@ First,  follow all the above steps for Files View before doing this one.
 
 Go back to Manage Ambari, then go to Views then "Deploy Views"
 
+![Create Instance Screenshot](pics/ambari-views-create-instance.png "It should look like this")
+
 As Before, locate the Hive Section.  If an instance is not already there,
 click on "Create View".
 
@@ -158,6 +173,8 @@ This brings up the Views / Create Instance page.
  * Description: This can be a long description but is optional.
 
 The defaults for everythign else should be fine.
+
+![Location Screenshot](pics/ambari-views-hive-create-instance.png "Hive Create View")
 
 ### Running Your Views
 
