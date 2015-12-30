@@ -21,7 +21,7 @@ case you log in as "admin" in ambari.
 ```bash
 sudo -u hdfs hadoop fs -mkdir /user/admin
 sudo -u hdfs hadoop fs -chown admin:hadoop /user/admin
-```bash
+```
 
 
 
@@ -31,11 +31,27 @@ To do this, you should go to Ambari, and log in (admin/admin) by default
 Then, Click on the HDFS on the left hand navigation bar.
 
 
-You need to set up an HDFS proxy user for the Ambari daemon account. For example, if ambari-server daemon is runnng as root, you set up a proxy user for root in core-site by adding and changing properties in HDFS > Configs > Custom core-site:
+You need to set up an HDFS proxy user for the Ambari daemon account. For example, 
+if ambari-server daemon is runnng as root, you set up a proxy user for root in 
+core-site by adding and changing properties in HDFS > Configs > Custom core-site:
+
 
 Go to The Configs tab.   Then, underneath you will see tabs for "Settings"
-and "Advanced."  Click on Advanced.  Then expand "Custom core-site."
-Then click on "Add Property..."
+and "Advanced."  Click on Advanced.  You should see the following as 
+per the screenshot.
+
+![Location Screenshot](pics/ambari1.png "Here is the location")
+
+Then expand "Custom core-site." You should see something like this:
+
+![Location Screenshot](pics/ambari-2-custom.png "Here is the location")
+
+Then click on "Add Property..." You should see something like this:
+
+![Location Screenshot](pics/ambari-add-property.png "Here is the location")
+
+
+Here you can add all of the following properties:
 
 ```
 hadoop.proxyuser.root.groups=*
@@ -45,6 +61,7 @@ hadoop.proxyuser.admin.hosts=*
 hadoop.proxyuser.ec2-user.groups=*
 hadoop.proxyuser.ec2-user.hosts=*
 ```
+
 
 If you are adding additional users (other than admin or ec2-user)
 You will need to add in similar configs for those users too.
@@ -66,7 +83,11 @@ Go to custom webhcat-site -> Add Property
 webhcat.proxyuser.root.groups=*
 webhcat.proxyuser.root.hosts=*
 
-Restart the required components as indicated by Ambari. If you want to add multiple views, you can restart services once, after making changes for all views.
+Restart the required components as indicated by Ambari. If you want to 
+add multiple views, you can restart services once, after making changes for all views.
+
+It is very imporatant to ensure no stale configs are left. Keep restarting
+all services (HDFS, Hive, etc) until all stale configs are gone.
 
 Create the Files View
 
