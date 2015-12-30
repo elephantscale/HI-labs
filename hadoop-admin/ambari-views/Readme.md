@@ -120,7 +120,7 @@ Enter the following:
 For an Ambari Managed cluster, you should be able to select "Local Ambari Managed Cluster"
 
 
-![Create File Views Screenshot](pics/ambari-views-create-file-view.png "It should look like this")
+![Create File Views Screenshot](pics/ambari-views-file-view-create.png "It should look like this")
 
 Click save.  After this, it will ask you to modify permissions. Add full permisisons for ec2-user.
 
@@ -130,7 +130,7 @@ The Files View should now be there. To view it, there is a matrix of
 square (the apps section) on the top navigation bar, next to the 
 logged in user name ("admin"), from there, you can select the files view.
 
-![File Views Screenshot](pics/ambari-views-finished-file-views.png "Here is the finished file view")
+![File Views Screenshot](pics/ambari-views-finished-file-view.png "Here is the finished file view")
 
 
 ### Installing the Pig View
