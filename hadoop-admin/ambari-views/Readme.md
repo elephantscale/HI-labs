@@ -1,5 +1,5 @@
 Installing Ambari Views
-=======================
+======================
 
 First, Install Ambari as shown in the lab
 
@@ -25,7 +25,7 @@ sudo -u hdfs hadoop fs -chown admin:hadoop /user/admin
 
 
 
-Configuring HDFS for  Views
+## Configuring HDFS for  Views
 
 To do this, you should go to Ambari, and log in (admin/admin) by default
 Then, Click on the HDFS on the left hand navigation bar.
@@ -70,8 +70,8 @@ Similarly the following will need to be added (or more likely) they
 already exist but need to be modified.
 
 ```
-hadoop.proxyuser.hcat.groups=*
-hadoop.proxyuser.hcat.hosts=*
+   hadoop.proxyuser.hcat.groups=*
+   hadoop.proxyuser.hcat.hosts=*
 ```
 
 Go to the left navigation bar and click on Hive, and proceed to the 
@@ -80,8 +80,10 @@ Files View.
 
 Go to custom webhcat-site -> Add Property
 
-webhcat.proxyuser.root.groups=*
-webhcat.proxyuser.root.hosts=*
+```
+   webhcat.proxyuser.root.groups=*
+   webhcat.proxyuser.root.hosts=*
+```
 
 Restart the required components as indicated by Ambari. If you want to 
 add multiple views, you can restart services once, after making changes for all views.
@@ -89,7 +91,7 @@ add multiple views, you can restart services once, after making changes for all 
 It is very imporatant to ensure no stale configs are left. Keep restarting
 all services (HDFS, Hive, etc) until all stale configs are gone.
 
-Create the Files View
+### Create the Files View
 
 Once finished, it is itme to create the files view.  Go to the the top, find
 user user name (likely "admin"), and then the dropdown has the second item as
@@ -118,7 +120,7 @@ square (the apps section) on the top navigation bar, next to the
 logged in user name ("admin"), from there, you can select the files view.
 
 
-==Installing the Pig View
+### Installing the Pig View
 
 First,  follow all the above steps for Files View before doing this one.
 
@@ -140,7 +142,7 @@ This brings up the Views / Create Instance page.
 Click save.  After this, it will ask you to modify permissions. Add full permisisons for ec2-user.
 
 
-==Installing the Hive View
+### Installing the Hive View
 
 First,  follow all the above steps for Files View before doing this one.
 
@@ -157,9 +159,9 @@ This brings up the Views / Create Instance page.
 
 The defaults for everythign else should be fine.
 
-==Running Your Views
+### Running Your Views
 
-
+This is left as an exercise to the reader.
 
 
 
