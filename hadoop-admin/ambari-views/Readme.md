@@ -6,7 +6,7 @@ First, Install Ambari as shown in the lab
 Create a new user in ambari for ec2-user.
 
 While the default login is admin/admin, create another admin-level user
-in Ambari for ec2-user password bingobob123.
+in Ambari for ec2-user password (please get from instructor).
 
 Ensure that you have run the following in at the linux command line:
 
