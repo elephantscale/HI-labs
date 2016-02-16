@@ -15,14 +15,14 @@ import org.apache.hadoop.hbase.util.Bytes;
  * http://hbase.apache.org/0.94/apidocs/index.html?overview-summary.html
  *
  * before running this, create 'MYNAME_users' table 
- * (replace MYNAME with your username)
+ * (replace MYNAME with your tablename)
  *
  * in hbase shell: 
  * 	> create 'MYNAME_users', 'info'
  */
 public class Query {
 	// / TODO 1 : update tablename
-	static String tableName = "<your name>_users";
+	static String tableName = "MYNAME_users";
 	static String familyName = "info";
 
 	public static void main(String[] args) throws Exception {
@@ -40,8 +40,8 @@ public class Query {
 			long t1 = System.currentTimeMillis();
 			Result result = htable.get(get);
 			long t2 = System.currentTimeMillis();
-			
 			System.out.println("query took  " + (t2 - t1) + " ms");
+			
 			if (result != null) {
 				KeyValue kv = result.getColumnLatest(Bytes.toBytes("info"),
 						Bytes.toBytes("email"));

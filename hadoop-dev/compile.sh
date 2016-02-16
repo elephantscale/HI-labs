@@ -10,7 +10,9 @@ mkdir -p $build_dir
 rm -rf $build_dir/*
 
 #classpath="$(hadoop classpath):$(hbase classpath)"
-export additional_classpath=/usr/hdp/$HADOOP_VERSION/hive/lib/*:/usr/hdp/$HADOOP_VERSION/pig/*:/usr/hdp/$HADOOP_VERSION/pig/lib/*:./lib/*:/opt/cloudera/parcels/CDH/jars/*
+#export additional_classpath=/usr/hdp/$HADOOP_VERSION/hive/lib/*:/usr/hdp/$HADOOP_VERSION/pig/*:/usr/hdp/$HADOOP_VERSION/pig/lib/*:./lib/*:/opt/cloudera/parcels/CDH/jars/*
+# Hortonworks or Cloudera, does not matter
+export additional_classpath=/usr/hdp/$HADOOP_VERSION/hive/lib/*:/usr/hdp/$HA    DOOP_VERSION/pig/*:/usr/hdp/$HADOOP_VERSION/pig/lib/*:./lib/*:/opt/cloudera/    parcels/CDH/jars/*:/usr/lib/pig/*:/usr/lib/pig/lib/*:/usr/lib/hive/lib/*
 classpath="$(hadoop classpath)":$additional_classpath
 echo $classpath
 
