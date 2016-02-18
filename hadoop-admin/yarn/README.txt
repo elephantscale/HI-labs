@@ -22,6 +22,9 @@ To instructor :
 == STEP 3) Java setup
 
   Install Java if you don't have it. Hadoop will work with many version, here is the list http://wiki.apache.org/hadoop/HadoopJavaVersions
+  If you have a local java install on the image, it is better to install in a standard way, like so
+sudo yum install java-1.7.0-openjdk
+
   Make sure your JAVA_HOME is set
   You may need it to work in all accounts, for example, using this command
   sudo -i
