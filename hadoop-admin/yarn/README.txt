@@ -114,7 +114,7 @@ sudo yum install java-1.7.0-openjdk
       <name>mapreduce.framework.name</name>
       <value>yarn</value>
     </property>
-  <configuration>
+  </configuration>
 
   Configure yarn site
 
