@@ -103,7 +103,7 @@ Generate more data for testing.
 
 Upload data into HDFS.
 ```
-    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
+    $  hdfs  dfs -put   billing*.csv     MY_NAME/billing/in/
 ```
 
 Go ahead and find top-10 customers on this larger data set
