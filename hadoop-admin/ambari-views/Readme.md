@@ -72,6 +72,8 @@ already exist but need to be modified.
 ```
    hadoop.proxyuser.hcat.groups=*
    hadoop.proxyuser.hcat.hosts=*
+   hadoop.proxyuser.hive.groups=*
+   hadoop.proxyuser.hive.hosts=*
 ```
 
 Go to the left navigation bar and click on Hive, and proceed to the 

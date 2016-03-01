@@ -37,9 +37,9 @@ In this step, we are going to load data directly from local computer  (not stagi
 
 ```
     $  hive
-    hive> load data local inpath './billing-2012-01-01.log' INTO TABLE MY_NAME_billing_p partition (dt='2012-01-01');
+    hive> load data local inpath './billing-2012-01-01.csv' INTO TABLE MY_NAME_billing_p partition (dt='2012-01-01');
 
-    hive> load data local inpath './billing-2012-01-02.log' INTO TABLE MY_NAME_billing_p partition (dt='2012-01-02');
+    hive> load data local inpath './billing-2012-01-02.csv' INTO TABLE MY_NAME_billing_p partition (dt='2012-01-02');
 ```
 
 Note :  We have to manually specify the partition.
