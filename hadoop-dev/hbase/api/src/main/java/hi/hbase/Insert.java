@@ -74,7 +74,7 @@ public class Insert {
 					Bytes.toBytes(phone));
 
 			/// TODO : add the new put into the list
-			batch.add(put)
+			batch.add(put);
 
 			System.out.println("### added " + userid);
 			numUsers++;
