@@ -66,7 +66,7 @@ This will generate a few files
 
 Copy the files into HDFS as well
 ```
-    $  hdfs   dfs   -put   billing*.csv    MY_NAME/billing/in
+    $  hdfs   dfs   -put   billing*.log    MY_NAME/billing/in
 ```
 
 Now we have all data files in HDFS.  Verify this by
