@@ -1,6 +1,6 @@
 <link rel='stylesheet' href='assets/main.css'/>
 
-Hadoop-admin Labs (private repo)
+Hadoop-admin Labs
 =================
 Welcome to Hadoop-admin labs bundle.
 
