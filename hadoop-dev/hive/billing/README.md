@@ -85,12 +85,12 @@ Launch hive shell and run the query.
     hive > select customer_id, SUM(cost) as total from MY_NAME_billing group by customer_id limit 5;
 ```
 
-## STEP 8) Find top 10 spending customers
+## STEP 7) Find top 10 spending customers
 What is the query?
 
-### 8.1: Execute the query in Hive shell (interactive mode)
+### 7.1: Execute the query in Hive shell (interactive mode)
 
-### 8.2: Run the query in 'script' mode
+### 7.2: Run the query in 'script' mode
 Create a file `top.q` and place the above query in the file.  
 Save the file and run the it using Hive as follows.
 
@@ -101,7 +101,7 @@ Save the file and run the it using Hive as follows.
 **=> Question : how many mapreduce jobs are being kicked off?  Why?** 
 
 
-## STEP 9) Generating more data
+## STEP 8) Generating more data
 Generate more data for testing.
 ```
     $  python ../../../data/billing-data/gen-billing-data.py
@@ -115,7 +115,7 @@ Upload data into HDFS.
 Go ahead and find top-10 customers on this larger data set
 
 
-## STEP 10)  Creating invoice table
+## STEP 9)  Creating invoice table
 Printing to screen is great for developing / debugging.  
 We want to save the calculated invoices into a table.
 
@@ -127,7 +127,7 @@ Execute the script to create table.
 ```
 
 
-## STEP 11)  Save results into invoice table
+## STEP 10)  Save results into invoice table
 Edit file : `inv.q` .   
 Fix TODOs.   
 Execute the script.   
