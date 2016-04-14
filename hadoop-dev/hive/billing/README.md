@@ -10,7 +10,13 @@
     hive>   set hive.cli.print.header=true;
 ```
 
+
 ## STEP 1) Create a Hive table
+Go to the working directory:
+```
+    $    cd  ~/MY_NAME/HI-labs/hadoop-dev/hive/billing
+```
+
 Lets create an external table for our billing data.  
 Edit file `billing_ext.q` .   
 Fix the TODO items.  

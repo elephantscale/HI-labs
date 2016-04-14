@@ -53,14 +53,15 @@ Hint : `help "status"`   (don't forget the quotes)
 
 
 ## STEP 6: Creating TABLE Using Hbase Shell
-We are going to create a table named `MY_NAME_test` with one family named 'd'
-Replace MY_NAME with your name :)
+We are going to create a table named `MY_NAME_test` with one family named 'd'.  
+This family will have 3 versions.  
+Replace MY_NAME with your name.
 
 ```
-    hbase> create 'MY_NAME_test', 'd'
+    hbase> create 'MY_NAME_test', {NAME => 'd',  VERSIONS => 3}
 
     # example
-    hbase> create 'sujee_test', 'd'
+    hbase> create 'sujee_test', {NAME => 'd',  VERSIONS => 3}
     0 row(s) in 1.1120 seconds
 ```
 
@@ -124,6 +125,9 @@ Scan the table.  What value do see for  `r1:d:c1` ?
 
 **=> Q : can you see the old value of `r1:d:c1` ? **  
 Hint : `help 'scan'`  (look at VERSIONS option)
+```
+    > scan 'table', {VERSIONS => 3}
+```
 
 
 ## STEP 12: Count Number Of Rows In A Table

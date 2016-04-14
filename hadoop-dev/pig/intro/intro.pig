@@ -12,7 +12,7 @@ DESCRIBE billing_data;
 billing_data2 = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',');
 DESCRIBE billing_data2;
 
--- ## Save and run the script : 
+-- ## TODO : Save and run the script : 
 -- ##      $    pig intro.pig
 -- ## Inspect the YARN UI, can you see your job running?
 -- ## BREAK : Wait for Instructor
@@ -27,8 +27,13 @@ DESCRIBE billing_data2;
 -- ## TODO-5 : Store billing_data in HDFS (change MY_NAME)
 -- STORE billing_data into 'MY_NAME/billing/pigout';
 -- # uncomment above line and run the script
--- # inspect the output in HDFS (use  HDFS UI or  'hdfs dfs -ls' & 'hdfs dfs -cat' commands)
+
+-- # inspect the output in HDFS, using following commands
+--      $   hdfs  dfs -ls    MY_NAME/billing/pigout
 -- # is that a file or directory?
+--
+-- # print the contents 
+--      $   hdfs  dfs -cat    MY_NAME/billing/pigout/*
 
 -- # what is the field separator in result file?
 -- # by default delimiter TAB
