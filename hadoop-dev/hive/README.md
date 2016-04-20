@@ -17,7 +17,12 @@ New client for Hive2 Server.
 ```bash
     $  beeline
 
-    beeline> !connect jdbc:hive2:server_ip:10000
+    -- connecting
+    beeline> !connect jdbc:hive2://
+
+    beeline> !connect jdbc:hive2://server_ip:10000
+
+
     ...
 
     beeline>  show tables;

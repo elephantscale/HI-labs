@@ -147,7 +147,7 @@ Do a `scan` after the delete.
 ## STEP 14: Examine The Tables In HBase UI
 Look at the user tables in HBase UI?  
 Click on them and explore.   
-**=> Q : How many regions do you see now?  Are they distributed evenly across the cluster? **   
+** => Q : How many regions do you see now?  Are they distributed evenly across the cluster? **   
 
 
 
@@ -169,7 +169,7 @@ HINT : `flush 'table_name'`.
 Now inspect  HDFS storage directory, do you see the data file?.
 
 
-## STEP 15:  Delete The Entire Table You Just Created
+## STEP 16:  Delete The Entire Table You Just Created
 Hint : `drop`
 
 

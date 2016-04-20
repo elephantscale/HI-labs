@@ -3,6 +3,9 @@
 ## Working dir 
 `HI-labs/hadoop-dev/hive/intro`
 
+## Note
+There two clients `hive` and `beeline`.  For detailed usage see [here](../README.md)
+
 ## STEP 0:  Go to working dir
 (Replace MYNAME accordingly)
 ```
@@ -108,14 +111,6 @@ Do you see any data?
 Using HDFS file browser, find out where the internal table `MY_NAME_int`  lives.   
 Hint : Look into  `/user/hive` (or `/apps/hive`)  directory
 
-## BONUS LAB 1:  distinguishing internal / external table.  
-(Do this before dropping tables :-)
-How can we find out if a table is internal or external?  
-Hint : refer to Hive manual for `describe`  
-- https://cwiki.apache.org/confluence/display/Hive/LanguageManual
-or
-- https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hive/Hortonworks-CheatSheet-SqlHive.pdf
-
 
 ## STEP 9:  Dropping tables
 In Hive shell drop the tables you just created.  
@@ -135,3 +130,11 @@ Browse HDFS directories
 
 Which data deleted?  which data is preserved?
 
+
+## BONUS LAB 1:  distinguishing internal / external table.  
+(Do this before dropping tables :-)
+How can we find out if a table is internal or external?  
+Hint : refer to Hive manual for `describe`  
+- https://cwiki.apache.org/confluence/display/Hive/LanguageManual
+or
+- https://github.com/elephantscale/HI-labs/blob/master/hadoop-dev/hive/Hortonworks-CheatSheet-SqlHive.pdf

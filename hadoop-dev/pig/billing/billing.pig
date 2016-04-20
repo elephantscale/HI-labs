@@ -28,9 +28,10 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 -- DESCRIBE grp_by_cid;
 
 -- ## TODO-5 : then sum cost
--- ## hint : sum(cost) won't work, b/c cost is nested
--- ##        inspect DESCRIBE grp_by_cid  output to determine structure
--- total_by_cid = FOREACH grp_by_cid GENERATE group, SUM(???) as total;
+-- ## hint : sum(cost) won't work, b/c cost is nested.
+-- ##        we have to say   X.cost  
+-- ##        inspect DESCRIBE grp_by_cid  output to determine what X is
+-- total_by_cid = FOREACH grp_by_cid GENERATE group, SUM(???.???) as total;
 -- DUMP total_by_cid;
 
 -- ## TODO-6 : now process all the files
