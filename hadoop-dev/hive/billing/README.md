@@ -35,6 +35,7 @@ Run the script as follows
 
 
 ## STEP 3) Load data into billing table
+#### If you have data setup already, you can skip this step.
 ```
     $  hdfs  dfs -mkdir -p MY_NAME/billing/in
 ```
@@ -102,6 +103,7 @@ Save the file and run the it using Hive as follows.
 
 
 ## STEP 8) Generating more data
+### If you have data setup already, you can skip this step.
 Generate more data for testing.
 ```
     $  python ../../../data/billing-data/gen-billing-data.py

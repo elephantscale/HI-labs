@@ -32,3 +32,11 @@ New client for Hive2 Server.
 
 
 ```
+
+### Executing beeline in script mode
+
+```
+    $   beeline -u jdbc:hive2://   -n username  -p  password   -f  file.q
+```
+
+`beeline --help`  for more options.
