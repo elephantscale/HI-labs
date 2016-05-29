@@ -40,4 +40,3 @@ billing_data = LOAD 'MY_NAME/billing/in/sample.txt' USING PigStorage(',') AS (ti
 
 -- ## TODO-7 : Save the result into HDFS - change MY_NAME
 -- STORE total_by_cid INTO 'MY_NAME/billing/pig-invoice';
-

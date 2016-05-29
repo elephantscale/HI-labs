@@ -59,7 +59,7 @@ if __name__ == '__main__':
   #epoch = dt.datetime.fromtimestamp(0)
   epoch = dt.datetime(1970,1,1)
 
-  year_start = dt.datetime(2012, 1, 1)
+  year_start = dt.datetime(2016, 1, 1)
   for day in range(0, days):
     day_delta = dt.timedelta(days=day)
     start_ts = year_start + day_delta
