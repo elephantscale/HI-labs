@@ -17,7 +17,12 @@ New client for Hive2 Server.
 ```bash
     $  beeline
 
-    beeline> !connect jdbc:hive2:server_ip:10000
+    -- connecting
+    beeline> !connect jdbc:hive2://
+
+    beeline> !connect jdbc:hive2://server_ip:10000
+
+
     ...
 
     beeline>  show tables;
@@ -27,3 +32,11 @@ New client for Hive2 Server.
 
 
 ```
+
+### Executing beeline in script mode
+
+```
+    $   beeline -u jdbc:hive2://   -n username  -p  password   -f  file.q
+```
+
+`beeline --help`  for more options.

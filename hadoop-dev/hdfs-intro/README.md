@@ -21,9 +21,9 @@ http://www.dummies.com/how-to/content/hadoop-for-dummies-cheat-sheet.html
 
 - option 2) Use Hue file browser
 
-**=> Navigate to    `/user/<login name>`  directory in HDFS** 
+**=> Navigate to    `/user/<login name>`  directory in HDFS**   
 **=> Q : What files do you see?**  
-**=> Q : How about all the personal workspace files we created in 'getting started' lab?** 
+**=> Q : How about all the personal workspace files we created in 'getting started' lab?**   
 
 ### Break : Instructor to explain the missing files ###
 
@@ -105,7 +105,8 @@ What is the result?  why?
     You have to delete it and re-create it
 
 **=> Delete the README.txt file in HDFS**  
-Hint : To find the delete command  type `hdfs dfs` command and see usage
+Hint : To find the delete command  type `hdfs dfs` command and see usage.  
+Hint : `rm`
 
 Once you deleted the README.txt file, copy it again.  
 Hint : use the `-put` command

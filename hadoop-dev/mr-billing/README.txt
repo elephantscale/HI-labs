@@ -49,15 +49,15 @@ Once the sample data is working, lets try this on more data.
 
 Generate more (random) sample data
     $  python ../../data/billing-data/gen-billing-data.py
-This would generate a bunch of *.log files
+This would generate a bunch of *.csv files
 
 Inspect a log file
-    $  head  billing-2012-01-01.log
+    $  head  billing-2012-01-01.csv
 
 Quiz : How many records have we generated?
 
 Now lets copy the newly generated log files into HDFS
-    $  hdfs  dfs -put   *.log    MY_NAME/billing/in/
+    $  hdfs  dfs -put   *.csv    MY_NAME/billing/in/
 
 Verify the files are there
     $  hdfs  dfs -ls MY_NAME/billing/in
