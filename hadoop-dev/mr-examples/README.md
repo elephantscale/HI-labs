@@ -29,8 +29,7 @@ It will print out the usage
 
 Now lets run the command, look for string `dfs`
 ```bash
-        #  we are using the time prefix  to measure the time taken
-        $   time  hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
+        $ hadoop org.apache.hadoop.examples.Grep   MY_NAME/grep/in   MY_NAME/grep/out   'dfs'
 ```
 This command will kick off mapreduce jobs
 
@@ -71,8 +70,7 @@ Hint : the regular expression is :  `'(dfs|xml)'`  (keep the single quotes)
 ## BONUS LAB ) Unix grep
 Lets do a unix grep on the files
 ```bash
-        # prefixing time to measure time taken
-        $   time  grep -c 'dfs'   /etc/hadoop/conf/*
+        $ grep -c 'dfs'   /etc/hadoop/conf/*
 ```
 
 Console output may look like...
@@ -83,7 +81,6 @@ Console output may look like...
 /etc/hadoop/conf/ssl-client.xml:0
 /etc/hadoop/conf/yarn-site.xml:0
 
-real    0m0.005s  <- time taken
 user    0m0.002s
 sys     0m0.002s
 ```
