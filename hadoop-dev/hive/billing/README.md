@@ -55,8 +55,8 @@ Launch hive shell
 
 This will actually kick off a mapreduce job, and at the end you will get the count.
 
-**Q : how many mappers and how many reducers? **   
-**Q : Can you explain how to do count(*) in MR?**  
+** Q : how many mappers and how many reducers? **   
+** Q : Can you explain how to do count(*) in MR? **  
 
 
 ## STEP 5) Query data
