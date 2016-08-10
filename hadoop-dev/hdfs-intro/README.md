@@ -72,7 +72,7 @@ This directory will be located in `/user/<login_name>/MY_NAME`
 Make sure to complete step 3 and create your work dir in HDFS.  
 Replace MY_NAME with yours
 ```bash
-    $   hdfs dfs -put ~/README.txt  MY_NAME/README.txt
+    $   hdfs dfs -put ~/HI-Labs/README.txt  MY_NAME/README.txt
     $   hdfs dfs -ls  MY_NAME
 ```
 
@@ -93,7 +93,7 @@ This should print out the file README.txt
 Go ahead and click  on a file in the UI.  What do you see?
 
 
-## STEP 7) Over write files in HDFS
+## STEP 7) Overwrite files in HDFS
 Repeat the -put command again.  
 Replace MY_NAME with yours.
 ```bash
