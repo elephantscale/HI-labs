@@ -16,9 +16,9 @@ There two clients `hive` and `beeline`.  For detailed usage see [here](../README
 
 ### STEP 1.1: Edit the file : `ext.q`.  
 Fix TODOs.  
-`nano ext.q` or `vi ext.q`
+Use `nano ext.q` or `vi ext.q`
 
-### STEP 1.2 Execute the script.  
+### STEP 1.2: Execute the script.  
 ```bash
     $   hive -f  ext.q
 ```
