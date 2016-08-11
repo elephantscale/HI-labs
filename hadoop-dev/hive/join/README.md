@@ -56,7 +56,7 @@ In this step, we are going to load data directly from local computer  (not stagi
 
 ```
     $  hive
-    hive> load data local inpath './customers.csv' INTO TABLE MY_NAME_customers;
+    hive> load data local inpath './customers.log' INTO TABLE MY_NAME_customers;
 ```
 
 
