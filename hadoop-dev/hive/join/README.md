@@ -31,7 +31,7 @@ If you have billing data already in your billing/in  directory, you can skip thi
     $  python ../../../data/billing-data/gen-billing-data.py
     
     # Upload data into HDFS
-    $  hdfs  dfs -put   billing*.log     MY_NAME/billing/in/
+    $  hdfs  dfs -put   billing*.csv     MY_NAME/billing/in/
 ```
 
 
@@ -56,7 +56,7 @@ In this step, we are going to load data directly from local computer  (not stagi
 
 ```
     $  hive
-    hive> load data local inpath './customers.log' INTO TABLE MY_NAME_customers;
+    hive> load data local inpath './customers.csv' INTO TABLE MY_NAME_customers;
 ```
 
 
